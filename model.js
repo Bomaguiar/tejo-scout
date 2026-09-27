@@ -14,8 +14,8 @@ const seed = [
 {"id": "33408663", "title": "Rua 13 de Maio", "city": "Lourinhã", "areaName": "Lourinhã · exact village unconfirmed", "price": 80000, "area": 140, "usefulArea": 60, "type": "T1", "floor": "Detached house · floor count unconfirmed", "condition": "Full restoration · no bathroom listed", "occupancy": "Not confirmed", "risk": "review", "risks": ["No bathroom listed; full restoration and permissions need assessment.", "Gross area 140 m² versus useful area 60 m²: verify residential usable area before modelling returns.", "Exact location withheld. Map pin is the municipality centre."], "lat": 39.241, "lon": -9.313, "researchedAt": "2026-09-27"}
 ].map(p=>({...p,sourceURL:'https://www.idealista.pt/imovel/'+p.id+'/',imageURL:p.image?'https://img4.idealista.pt/blur/WEB_DETAIL_TOP-L-L/0/id.pro.pt.image.master/'+p.image:'',imageLabel:p.image?'Advertiser image · marked AI-edited':'',researchedAt:p.researchedAt||'2026-09-26',firstSeen:null,history:[],notes:'',comps:[]}));
 const clone = x => JSON.parse(JSON.stringify(x));
-function initial(){return {version:1,properties:clone(seed),watch:[],scenarios:{},imports:[]};}
-function mergeSeed(s){const next=clone(s);for(const p of seed){if(!next.properties.some(x=>x.id===p.id||canonical(x.sourceURL)===canonical(p.sourceURL)))next.properties.push(clone(p));}return next;}
+function initial(){return {version:1,properties:clone(seed),watch:[],scenarios:{},imports:[],landWatch:[],landNotes:{}};}
+function mergeSeed(s){const next=clone(s);next.landWatch=next.landWatch||[];next.landNotes=next.landNotes||{};for(const p of seed){if(!next.properties.some(x=>x.id===p.id||canonical(x.sourceURL)===canonical(p.sourceURL)))next.properties.push(clone(p));}return next;}
 function number(v){return v!==''&&v!==null&&v!==undefined&&Number.isFinite(Number(v))?Number(v):null;}
 function calculate(s){
  const fields=['purchase','area','renovationRate','contingencyPct','taxes','fees','holding','resaleRate','sellingPct'];

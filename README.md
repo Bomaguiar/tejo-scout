@@ -40,3 +40,10 @@ Verified calculation: €100,000 purchase, 50 m², €500/m² renovation, 10% co
 
 Browser tests cover routes, watchlist/scenario reload persistence, notes, comparables, import validation, price drops, six map markers and mobile overflow. Test fixtures run in an isolated browser context and are not included in the delivered data. Progressive WebMCP hooks are feature-detected; native WebMCP is unavailable in the tested browser.
 
+
+## Ocean-view land
+The Land tab contains 55 candidate adverts researched on 27 September 2026 across the full Lisbon and Setúbal districts. It is a broad public-web search, not an exhaustive or live inventory. Each listing includes a source URL, paraphrased evidence of the advertised view, plot area, price and planning caveats. Sources may be cached; availability and permits are not verified. Known duplicate ads are consolidated; overlapping offerings and conflicting prices/areas are flagged. River-only, merely near-beach and projected-only view claims are excluded. No qualifying entry for a municipality does not prove none exists.
+
+Land filters include district, municipality, view type, advertised planning status, maximum asking price, minimum area, sort order and saved-only. Land watchlists and notes remain browser-local, are included in workspace backups, and appear in Watchlist. Export land listings downloads the filtered research catalogue. Land is separate from renovation calculations so plot area is never treated as house floor area.
+
+`land-data.js` holds the research catalogue; `land.js` renders and filters it. No automated land scan is connected.
