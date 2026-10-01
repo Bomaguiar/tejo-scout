@@ -1,5 +1,5 @@
 'use strict';
-// Advertiser claims researched 27 September 2026; no on-site verification.
+// Source snapshots, not live availability. See refresh-report.json for the review audit.
 const LandCatalog = [
   {
     "id": "land-kw55379",
@@ -13,7 +13,16 @@ const LandCatalog = [
     "evidence": "Advertiser describes a rural plot with a sea view in Lagoa.",
     "note": "Rural land; no residential approval established.",
     "sourceURL": "https://www.kwportugal.pt/pt/Imovel/Venda/Terreno/Lisboa/Mafra/Santo-Isidoro/55379",
-    "researchedAt": "2026-09-27"
+    "researchedAt": "2026-09-27",
+    "sourceCheck": {
+      "id": "land-kw55379",
+      "sourceURL": "https://www.kwportugal.pt/pt/Imovel/Venda/Terreno/Lisboa/Mafra/Santo-Isidoro/55379",
+      "checkedAt": "2026-10-01",
+      "status": "unavailable",
+      "sourceCrawlAge": null,
+      "publishedPrice": 135000,
+      "snapshotPrice": null
+    }
   },
   {
     "id": "land-cc1003083",
@@ -27,7 +36,16 @@ const LandCatalog = [
     "evidence": "Advertiser describes a sea view on the horizon.",
     "note": "Agricultural / leisure use advertised; dirt-road access.",
     "sourceURL": "https://casacerta.pt/imovel/1003083/terreno-para-venda-em-mafra",
-    "researchedAt": "2026-09-27"
+    "researchedAt": "2026-09-27",
+    "sourceCheck": {
+      "id": "land-cc1003083",
+      "sourceURL": "https://casacerta.pt/imovel/1003083/terreno-para-venda-em-mafra",
+      "checkedAt": "2026-10-01",
+      "status": "source-snapshot",
+      "sourceCrawlAge": "4 months ago",
+      "publishedPrice": 65000,
+      "snapshotPrice": 65000
+    }
   },
   {
     "id": "land-iv19182944",
@@ -41,7 +59,16 @@ const LandCatalog = [
     "evidence": "The listing title explicitly advertises a sea view.",
     "note": "Rural plot; construction rights not established. Title evidence only; confirm the view on site.",
     "sourceURL": "https://www.imovirtual.com/pt/anuncio/terreno-rustico-com-4-625-m-vista-mar-baleia-carvoeira-mafra-ID1iumk",
-    "researchedAt": "2026-09-27"
+    "researchedAt": "2026-09-27",
+    "sourceCheck": {
+      "id": "land-iv19182944",
+      "sourceURL": "https://www.imovirtual.com/pt/anuncio/terreno-rustico-com-4-625-m-vista-mar-baleia-carvoeira-mafra-ID1iumk",
+      "checkedAt": "2026-10-01",
+      "status": "source-snapshot",
+      "sourceCrawlAge": "last month",
+      "publishedPrice": 60000,
+      "snapshotPrice": 60000
+    }
   },
   {
     "id": "land-iad136815",
@@ -55,7 +82,16 @@ const LandCatalog = [
     "evidence": "Advertiser describes a sea view, 300 m from Praia do Sul.",
     "note": "Approved house project claimed; obtain the decision and valid licence.",
     "sourceURL": "https://www.iadportugal.pt/anuncio/terreno-venda-ericeira-183m2/r136815",
-    "researchedAt": "2026-09-27"
+    "researchedAt": "2026-09-27",
+    "sourceCheck": {
+      "id": "land-iad136815",
+      "sourceURL": "https://www.iadportugal.pt/anuncio/terreno-venda-ericeira-183m2/r136815",
+      "checkedAt": "2026-10-01",
+      "status": "source-snapshot",
+      "sourceCrawlAge": "3 weeks ago",
+      "publishedPrice": 299000,
+      "snapshotPrice": 299000
+    }
   },
   {
     "id": "land-34571797",
@@ -69,7 +105,16 @@ const LandCatalog = [
     "evidence": "Advertiser describes an open sea view from the plot.",
     "note": "353.7 m² house project; advertiser says paid licence valid until 18 November 2027. Verify documentation.",
     "sourceURL": "https://www.idealista.pt/imovel/34571797/",
-    "researchedAt": "2026-09-27"
+    "researchedAt": "2026-09-27",
+    "sourceCheck": {
+      "id": "land-34571797",
+      "sourceURL": "https://www.idealista.pt/imovel/34571797/",
+      "checkedAt": "2026-10-01",
+      "status": "source-snapshot",
+      "sourceCrawlAge": "today",
+      "publishedPrice": 350000,
+      "snapshotPrice": 350000
+    }
   },
   {
     "id": "land-35049927",
@@ -83,7 +128,16 @@ const LandCatalog = [
     "evidence": "Advertiser describes panoramic sea-facing views.",
     "note": "380 m² house and licence advertised. Project renders do not show completed buildings; construction excluded.",
     "sourceURL": "https://www.idealista.pt/imovel/35049927/",
-    "researchedAt": "2026-09-27"
+    "researchedAt": "2026-09-27",
+    "sourceCheck": {
+      "id": "land-35049927",
+      "sourceURL": "https://www.idealista.pt/imovel/35049927/",
+      "checkedAt": "2026-10-01",
+      "status": "unavailable",
+      "sourceCrawlAge": null,
+      "publishedPrice": 650000,
+      "snapshotPrice": null
+    }
   },
   {
     "id": "land-34851294",
@@ -97,7 +151,16 @@ const LandCatalog = [
     "evidence": "Advertiser explicitly states the land has a sea view.",
     "note": "Portal labels non-buildable but description refers to a 2004 PIP. No current approval established.",
     "sourceURL": "https://www.idealista.pt/imovel/34851294/",
-    "researchedAt": "2026-09-27"
+    "researchedAt": "2026-09-27",
+    "sourceCheck": {
+      "id": "land-34851294",
+      "sourceURL": "https://www.idealista.pt/imovel/34851294/",
+      "checkedAt": "2026-10-01",
+      "status": "source-snapshot",
+      "sourceCrawlAge": "today",
+      "publishedPrice": 1900000,
+      "snapshotPrice": 1900000
+    }
   },
   {
     "id": "land-rm121011438132",
@@ -111,7 +174,16 @@ const LandCatalog = [
     "evidence": "Advertiser describes sea views from the land.",
     "note": "Up to 750 m² development claimed; obtain current municipal confirmation.",
     "sourceURL": "https://remax.pt/pt/imoveis/venda-terreno-tmafra-igreja-nova-e-cheleiros/121011438-132",
-    "researchedAt": "2026-09-27"
+    "researchedAt": "2026-09-27",
+    "sourceCheck": {
+      "id": "land-rm121011438132",
+      "sourceURL": "https://remax.pt/pt/imoveis/venda-terreno-tmafra-igreja-nova-e-cheleiros/121011438-132",
+      "checkedAt": "2026-10-01",
+      "status": "source-snapshot",
+      "sourceCrawlAge": "today",
+      "publishedPrice": 482500,
+      "snapshotPrice": 482500
+    }
   },
   {
     "id": "land-35009406",
@@ -125,7 +197,16 @@ const LandCatalog = [
     "evidence": "Advertised as rural land with sea views over the Maceira valley.",
     "note": "Non-buildable listing. Water and electricity claimed. Matching duplicate advert counted once.",
     "sourceURL": "https://www.idealista.pt/imovel/35009406/",
-    "researchedAt": "2026-09-27"
+    "researchedAt": "2026-09-27",
+    "sourceCheck": {
+      "id": "land-35009406",
+      "sourceURL": "https://www.idealista.pt/imovel/35009406/",
+      "checkedAt": "2026-10-01",
+      "status": "unavailable",
+      "sourceCrawlAge": null,
+      "publishedPrice": 52500,
+      "snapshotPrice": null
+    }
   },
   {
     "id": "land-34647235",
@@ -139,7 +220,16 @@ const LandCatalog = [
     "evidence": "Agent reference MTL3265 explicitly advertises sea views.",
     "note": "Up to 175 m² / two floors claimed. May overlap the 1,400 m² offering MTL3265B; confirm parcel boundaries.",
     "sourceURL": "https://www.idealista.pt/imovel/34647235/",
-    "researchedAt": "2026-09-27"
+    "researchedAt": "2026-09-27",
+    "sourceCheck": {
+      "id": "land-34647235",
+      "sourceURL": "https://www.idealista.pt/imovel/34647235/",
+      "checkedAt": "2026-10-01",
+      "status": "source-snapshot",
+      "sourceCrawlAge": "today",
+      "publishedPrice": 118000,
+      "snapshotPrice": 118000
+    }
   },
   {
     "id": "land-34647256",
@@ -153,7 +243,16 @@ const LandCatalog = [
     "evidence": "Agent reference MTL3265B explicitly advertises sea views.",
     "note": "Up to two houses / 350 m² claimed. May combine the 700 m² offering; do not assume independent parcels.",
     "sourceURL": "https://www.idealista.pt/imovel/34647256/",
-    "researchedAt": "2026-09-27"
+    "researchedAt": "2026-09-27",
+    "sourceCheck": {
+      "id": "land-34647256",
+      "sourceURL": "https://www.idealista.pt/imovel/34647256/",
+      "checkedAt": "2026-10-01",
+      "status": "source-snapshot",
+      "sourceCrawlAge": "last week",
+      "publishedPrice": 185000,
+      "snapshotPrice": 185000
+    }
   },
   {
     "id": "land-35125364",
@@ -167,7 +266,16 @@ const LandCatalog = [
     "evidence": "Advertiser describes views of Santa Rita beach, Berlengas and Santa Cruz.",
     "note": "Portal says non-buildable; description claims 480 m² urbanisable and ruins. Resolve zoning before valuation.",
     "sourceURL": "https://www.idealista.pt/imovel/35125364/",
-    "researchedAt": "2026-09-27"
+    "researchedAt": "2026-09-27",
+    "sourceCheck": {
+      "id": "land-35125364",
+      "sourceURL": "https://www.idealista.pt/imovel/35125364/",
+      "checkedAt": "2026-10-01",
+      "status": "source-snapshot",
+      "sourceCrawlAge": "last month",
+      "publishedPrice": 160000,
+      "snapshotPrice": 160000
+    }
   },
   {
     "id": "land-34977116",
@@ -181,7 +289,16 @@ const LandCatalog = [
     "evidence": "Advertiser describes a sea view near Santa Cruz.",
     "note": "PIP submitted for nine houses; submission is not approval.",
     "sourceURL": "https://www.idealista.pt/imovel/34977116/",
-    "researchedAt": "2026-09-27"
+    "researchedAt": "2026-09-27",
+    "sourceCheck": {
+      "id": "land-34977116",
+      "sourceURL": "https://www.idealista.pt/imovel/34977116/",
+      "checkedAt": "2026-10-01",
+      "status": "source-snapshot",
+      "sourceCrawlAge": "last month",
+      "publishedPrice": 595000,
+      "snapshotPrice": 595000
+    }
   },
   {
     "id": "land-rm12587111524",
@@ -195,7 +312,16 @@ const LandCatalog = [
     "evidence": "RE/MAX describes sea views from this 2,840 m² plot.",
     "note": "PIP in preparation for five houses. Another matching portal advert asks €450,000; confirm the actual asking price.",
     "sourceURL": "https://remax.pt/pt/imoveis/venda-terreno-ttorres-vedras-sao-pedro-da-cadeira/125871115-24",
-    "researchedAt": "2026-09-27"
+    "researchedAt": "2026-09-27",
+    "sourceCheck": {
+      "id": "land-rm12587111524",
+      "sourceURL": "https://remax.pt/pt/imoveis/venda-terreno-ttorres-vedras-sao-pedro-da-cadeira/125871115-24",
+      "checkedAt": "2026-10-01",
+      "status": "source-snapshot",
+      "sourceCrawlAge": "last month",
+      "publishedPrice": 430000,
+      "snapshotPrice": 430000
+    }
   },
   {
     "id": "land-35138277",
@@ -209,7 +335,16 @@ const LandCatalog = [
     "evidence": "Advertised on the first line of the sea at Santa Cruz.",
     "note": "Approved house and paid licence awaiting collection claimed. Other matching ads differ on price/licence; verify.",
     "sourceURL": "https://www.idealista.pt/imovel/35138277/",
-    "researchedAt": "2026-09-27"
+    "researchedAt": "2026-09-27",
+    "sourceCheck": {
+      "id": "land-35138277",
+      "sourceURL": "https://www.idealista.pt/imovel/35138277/",
+      "checkedAt": "2026-10-01",
+      "status": "unavailable",
+      "sourceCrawlAge": null,
+      "publishedPrice": 480000,
+      "snapshotPrice": null
+    }
   },
   {
     "id": "land-34204824",
@@ -223,7 +358,16 @@ const LandCatalog = [
     "evidence": "Advertiser says the western coastline is visible on clear days.",
     "note": "Urban construction potential claimed. Weather-dependent distant view; indexed snapshot requires current-price confirmation.",
     "sourceURL": "https://www.idealista.pt/pro/mypropertygere-imobiliaria/imovel/34204824/",
-    "researchedAt": "2026-09-27"
+    "researchedAt": "2026-09-27",
+    "sourceCheck": {
+      "id": "land-34204824",
+      "sourceURL": "https://www.idealista.pt/pro/mypropertygere-imobiliaria/imovel/34204824/",
+      "checkedAt": "2026-10-01",
+      "status": "source-snapshot",
+      "sourceCrawlAge": "last month",
+      "publishedPrice": 89000,
+      "snapshotPrice": 89000
+    }
   },
   {
     "id": "land-33164220",
@@ -237,7 +381,16 @@ const LandCatalog = [
     "evidence": "Advertiser describes a four-house project with sea views.",
     "note": "Project approved and licence ready to collect claimed; confirm view from ground and future floors.",
     "sourceURL": "https://www.idealista.pt/imovel/33164220/",
-    "researchedAt": "2026-09-27"
+    "researchedAt": "2026-09-27",
+    "sourceCheck": {
+      "id": "land-33164220",
+      "sourceURL": "https://www.idealista.pt/imovel/33164220/",
+      "checkedAt": "2026-10-01",
+      "status": "source-snapshot",
+      "sourceCrawlAge": "last week",
+      "publishedPrice": 400000,
+      "snapshotPrice": 400000
+    }
   },
   {
     "id": "land-29411935",
@@ -251,7 +404,16 @@ const LandCatalog = [
     "evidence": "Advertised as construction land with sea views, 700 m from the beach.",
     "note": "Other snapshots quote €375,000 and project approval. Confirm current price and approval status.",
     "sourceURL": "https://www.idealista.pt/imovel/29411935/",
-    "researchedAt": "2026-09-27"
+    "researchedAt": "2026-09-27",
+    "sourceCheck": {
+      "id": "land-29411935",
+      "sourceURL": "https://www.idealista.pt/imovel/29411935/",
+      "checkedAt": "2026-10-01",
+      "status": "source-snapshot",
+      "sourceCrawlAge": "2 days ago",
+      "publishedPrice": 300000,
+      "snapshotPrice": 300000
+    }
   },
   {
     "id": "land-34885485",
@@ -265,7 +427,16 @@ const LandCatalog = [
     "evidence": "Advertiser explicitly states a sea view.",
     "note": "Approved T3 house project with 208 m² claimed; verify approved plans and licence.",
     "sourceURL": "https://www.idealista.pt/imovel/34885485/",
-    "researchedAt": "2026-09-27"
+    "researchedAt": "2026-09-27",
+    "sourceCheck": {
+      "id": "land-34885485",
+      "sourceURL": "https://www.idealista.pt/imovel/34885485/",
+      "checkedAt": "2026-10-01",
+      "status": "source-snapshot",
+      "sourceCrawlAge": "yesterday",
+      "publishedPrice": 129000,
+      "snapshotPrice": 129000
+    }
   },
   {
     "id": "land-32077224",
@@ -279,7 +450,16 @@ const LandCatalog = [
     "evidence": "Advertiser describes urban land with sea views.",
     "note": "Area conflict: heading 2,891 m², description 2,390 m². Two V4 houses with shared pool advertised; confirm survey.",
     "sourceURL": "https://www.idealista.pt/imovel/32077224/",
-    "researchedAt": "2026-09-27"
+    "researchedAt": "2026-09-27",
+    "sourceCheck": {
+      "id": "land-32077224",
+      "sourceURL": "https://www.idealista.pt/imovel/32077224/",
+      "checkedAt": "2026-10-01",
+      "status": "source-snapshot",
+      "sourceCrawlAge": "2 days ago",
+      "publishedPrice": 220000,
+      "snapshotPrice": 220000
+    }
   },
   {
     "id": "land-34891179",
@@ -293,7 +473,16 @@ const LandCatalog = [
     "evidence": "Advertiser describes an open sea view.",
     "note": "Heading 347 m² versus description 346 m². Building viability explicitly subject to municipal confirmation.",
     "sourceURL": "https://www.idealista.pt/imovel/34891179/",
-    "researchedAt": "2026-09-27"
+    "researchedAt": "2026-09-27",
+    "sourceCheck": {
+      "id": "land-34891179",
+      "sourceURL": "https://www.idealista.pt/imovel/34891179/",
+      "checkedAt": "2026-10-01",
+      "status": "source-snapshot",
+      "sourceCrawlAge": "today",
+      "publishedPrice": 120000,
+      "snapshotPrice": 120000
+    }
   },
   {
     "id": "land-33859005",
@@ -305,9 +494,18 @@ const LandCatalog = [
     "planning": "Potential advertised",
     "view": "Ocean view",
     "evidence": "Advertiser describes open sea and countryside views.",
-    "note": "Recent directory €350,000 versus older detail snapshot €370,000. Confirm current price and construction limits.",
+    "note": "Recent directory €350,000 versus older detail snapshot €370,000. Confirm current price and construction limits. Review 1 Oct 2026: older cached source shows EUR 370,000 (crawl age: last year). Retained existing price pending fresh confirmation.",
     "sourceURL": "https://www.idealista.pt/imovel/33859005/",
-    "researchedAt": "2026-09-27"
+    "researchedAt": "2026-09-27",
+    "sourceCheck": {
+      "id": "land-33859005",
+      "sourceURL": "https://www.idealista.pt/imovel/33859005/",
+      "checkedAt": "2026-10-01",
+      "status": "source-snapshot",
+      "sourceCrawlAge": "last year",
+      "publishedPrice": 350000,
+      "snapshotPrice": 370000
+    }
   },
   {
     "id": "land-34098930",
@@ -321,7 +519,16 @@ const LandCatalog = [
     "evidence": "Advertiser describes a sea view near Praia da Areia Branca.",
     "note": "Portal labels non-buildable despite residential surroundings; do not infer permission from neighbouring houses.",
     "sourceURL": "https://www.idealista.pt/imovel/34098930/",
-    "researchedAt": "2026-09-27"
+    "researchedAt": "2026-09-27",
+    "sourceCheck": {
+      "id": "land-34098930",
+      "sourceURL": "https://www.idealista.pt/imovel/34098930/",
+      "checkedAt": "2026-10-01",
+      "status": "source-snapshot",
+      "sourceCrawlAge": "last month",
+      "publishedPrice": 495000,
+      "snapshotPrice": 495000
+    }
   },
   {
     "id": "land-veigas642137",
@@ -333,9 +540,18 @@ const LandCatalog = [
     "planning": "Conflicting / unclear",
     "view": "Panoramic",
     "evidence": "Agent describes views of the ocean, Berlengas and countryside.",
-    "note": "Well and two road accesses advertised. Residential approval not established. Matching Nestenn listing counted once.",
+    "note": "Well and two road accesses advertised. Residential approval not established. Matching Nestenn listing counted once. Review 1 Oct 2026: older cached source shows EUR 350,000 (crawl age: 11 months ago). Retained existing price pending fresh confirmation.",
     "sourceURL": "https://www.veigas.eu/pt/detalhe-propriedade/terreno-vista-mar-lourinha-ribamar-agricultura/642137",
-    "researchedAt": "2026-09-27"
+    "researchedAt": "2026-09-27",
+    "sourceCheck": {
+      "id": "land-veigas642137",
+      "sourceURL": "https://www.veigas.eu/pt/detalhe-propriedade/terreno-vista-mar-lourinha-ribamar-agricultura/642137",
+      "checkedAt": "2026-10-01",
+      "status": "source-snapshot",
+      "sourceCrawlAge": "11 months ago",
+      "publishedPrice": 330000,
+      "snapshotPrice": 350000
+    }
   },
   {
     "id": "land-era130250026",
@@ -349,7 +565,16 @@ const LandCatalog = [
     "evidence": "Advertiser explicitly describes sea views from the land.",
     "note": "Only part of the parcel is described as allowing construction; confirm footprint and limits.",
     "sourceURL": "https://www.netanuncio.pt/Terreno/Lisboa%2CLourinha/tem-Vista-para-Campo%2CVista-para-Mar%2CEscola%2CTransportes-Publicos/?UID=5cbd58bb-dfcd-11ef-a463-060000000052",
-    "researchedAt": "2026-09-27"
+    "researchedAt": "2026-09-27",
+    "sourceCheck": {
+      "id": "land-era130250026",
+      "sourceURL": "https://www.netanuncio.pt/Terreno/Lisboa%2CLourinha/tem-Vista-para-Campo%2CVista-para-Mar%2CEscola%2CTransportes-Publicos/?UID=5cbd58bb-dfcd-11ef-a463-060000000052",
+      "checkedAt": "2026-10-01",
+      "status": "unavailable",
+      "sourceCrawlAge": null,
+      "publishedPrice": 320000,
+      "snapshotPrice": null
+    }
   },
   {
     "id": "land-35099207",
@@ -363,7 +588,16 @@ const LandCatalog = [
     "evidence": "Advertiser describes views over the ocean and Serra de Sintra.",
     "note": "Non-buildable land with a tiny house advertised; legality not verified. Description rounds area to about 1,200 m².",
     "sourceURL": "https://www.idealista.pt/imovel/35099207/",
-    "researchedAt": "2026-09-27"
+    "researchedAt": "2026-09-27",
+    "sourceCheck": {
+      "id": "land-35099207",
+      "sourceURL": "https://www.idealista.pt/imovel/35099207/",
+      "checkedAt": "2026-10-01",
+      "status": "source-snapshot",
+      "sourceCrawlAge": "last month",
+      "publishedPrice": 195000,
+      "snapshotPrice": 195000
+    }
   },
   {
     "id": "land-34737892",
@@ -377,7 +611,16 @@ const LandCatalog = [
     "evidence": "Advertiser describes panoramic views over the Atlantic.",
     "note": "Non-buildable rural land. Confirm access, boundaries and coastal restrictions.",
     "sourceURL": "https://www.idealista.pt/imovel/34737892/",
-    "researchedAt": "2026-09-27"
+    "researchedAt": "2026-09-27",
+    "sourceCheck": {
+      "id": "land-34737892",
+      "sourceURL": "https://www.idealista.pt/imovel/34737892/",
+      "checkedAt": "2026-10-01",
+      "status": "unavailable",
+      "sourceCrawlAge": null,
+      "publishedPrice": 14000,
+      "snapshotPrice": null
+    }
   },
   {
     "id": "land-34053072",
@@ -391,7 +634,16 @@ const LandCatalog = [
     "evidence": "Advertiser describes sea views over Praia do Magoito.",
     "note": "Older indexed snapshot. No permanent construction advertised; mobile-home permissions are not verified.",
     "sourceURL": "https://www.idealista.pt/imovel/34053072/",
-    "researchedAt": "2026-09-27"
+    "researchedAt": "2026-09-27",
+    "sourceCheck": {
+      "id": "land-34053072",
+      "sourceURL": "https://www.idealista.pt/imovel/34053072/",
+      "checkedAt": "2026-10-01",
+      "status": "unavailable",
+      "sourceCrawlAge": null,
+      "publishedPrice": 69000,
+      "snapshotPrice": null
+    }
   },
   {
     "id": "land-35335403",
@@ -405,7 +657,16 @@ const LandCatalog = [
     "evidence": "Advertiser explicitly describes a partial sea view.",
     "note": "470 m² house potential claimed. Two-house alternative requires municipal confirmation.",
     "sourceURL": "https://www.idealista.pt/imovel/35335403/",
-    "researchedAt": "2026-09-27"
+    "researchedAt": "2026-09-27",
+    "sourceCheck": {
+      "id": "land-35335403",
+      "sourceURL": "https://www.idealista.pt/imovel/35335403/",
+      "checkedAt": "2026-10-01",
+      "status": "source-snapshot",
+      "sourceCrawlAge": "2 weeks ago",
+      "publishedPrice": 1400000,
+      "snapshotPrice": 1400000
+    }
   },
   {
     "id": "land-35342696",
@@ -419,7 +680,16 @@ const LandCatalog = [
     "evidence": "Advertiser describes an open view over the sea.",
     "note": "Includes an existing T3 house and pool. Development limits require municipal information; not vacant land.",
     "sourceURL": "https://www.idealista.pt/imovel/35342696/",
-    "researchedAt": "2026-09-27"
+    "researchedAt": "2026-09-27",
+    "sourceCheck": {
+      "id": "land-35342696",
+      "sourceURL": "https://www.idealista.pt/imovel/35342696/",
+      "checkedAt": "2026-10-01",
+      "status": "source-snapshot",
+      "sourceCrawlAge": "3 days ago",
+      "publishedPrice": 1890000,
+      "snapshotPrice": 1890000
+    }
   },
   {
     "id": "land-31424804",
@@ -433,7 +703,16 @@ const LandCatalog = [
     "evidence": "Advertiser describes broad views over the Atlantic.",
     "note": "Portal says urban, description places land in a natural park. No approved project established.",
     "sourceURL": "https://www.idealista.pt/imovel/31424804/",
-    "researchedAt": "2026-09-27"
+    "researchedAt": "2026-09-27",
+    "sourceCheck": {
+      "id": "land-31424804",
+      "sourceURL": "https://www.idealista.pt/imovel/31424804/",
+      "checkedAt": "2026-10-01",
+      "status": "source-snapshot",
+      "sourceCrawlAge": "2 weeks ago",
+      "publishedPrice": 600000,
+      "snapshotPrice": 600000
+    }
   },
   {
     "id": "land-iv19046900",
@@ -447,7 +726,16 @@ const LandCatalog = [
     "evidence": "The listing title explicitly advertises a sea view.",
     "note": "Urban plot with an architect-designed project advertised; approval status and precise view need confirmation.",
     "sourceURL": "https://www.imovirtual.com/pt/anuncio/lote-de-998m2-com-projeto-de-autor-e-vista-mar-oeiras-ID1hUY4",
-    "researchedAt": "2026-09-27"
+    "researchedAt": "2026-09-27",
+    "sourceCheck": {
+      "id": "land-iv19046900",
+      "sourceURL": "https://www.imovirtual.com/pt/anuncio/lote-de-998m2-com-projeto-de-autor-e-vista-mar-oeiras-ID1hUY4",
+      "checkedAt": "2026-10-01",
+      "status": "source-snapshot",
+      "sourceCrawlAge": "3 weeks ago",
+      "publishedPrice": 2000000,
+      "snapshotPrice": 2000000
+    }
   },
   {
     "id": "land-rm1206119456",
@@ -461,21 +749,39 @@ const LandCatalog = [
     "evidence": "RE/MAX describes the rural parcel as having a sea view.",
     "note": "Urban / business surroundings do not establish building permission on the rural parcel.",
     "sourceURL": "https://remax.pt/pt/imoveis/venda-terreno-toeiras-porto-salvo/120611945-6",
-    "researchedAt": "2026-09-27"
+    "researchedAt": "2026-09-27",
+    "sourceCheck": {
+      "id": "land-rm1206119456",
+      "sourceURL": "https://remax.pt/pt/imoveis/venda-terreno-toeiras-porto-salvo/120611945-6",
+      "checkedAt": "2026-10-01",
+      "status": "unavailable",
+      "sourceCrawlAge": null,
+      "publishedPrice": 1550000,
+      "snapshotPrice": null
+    }
   },
   {
     "id": "land-34194709",
     "title": "Estrada do Robalo · Capuchos",
     "municipality": "Almada",
     "district": "Setúbal",
-    "price": 579000,
+    "price": 490000,
     "area": 630,
     "planning": "Potential advertised",
     "view": "Ocean view",
     "evidence": "Advertiser describes sea views and an open horizon over the fossil cliff.",
-    "note": "Urban corner lot; house viability claimed, approval documents not reviewed.",
+    "note": "Urban corner lot; house viability claimed, approval documents not reviewed. Review 1 Oct 2026: source snapshot shows EUR 490,000, with EUR 579,000 crossed out. Snapshot crawled last week; exact reduction date and availability unconfirmed.",
     "sourceURL": "https://www.idealista.pt/imovel/34194709/",
-    "researchedAt": "2026-09-27"
+    "researchedAt": "2026-10-01",
+    "sourceCheck": {
+      "id": "land-34194709",
+      "sourceURL": "https://www.idealista.pt/imovel/34194709/",
+      "checkedAt": "2026-10-01",
+      "status": "source-snapshot",
+      "sourceCrawlAge": "last week",
+      "publishedPrice": 579000,
+      "snapshotPrice": 490000
+    }
   },
   {
     "id": "land-34200758",
@@ -489,7 +795,16 @@ const LandCatalog = [
     "evidence": "Advertiser describes panoramic ocean views from the existing house.",
     "note": "Includes an existing house and two title articles. Advertised total construction allowance 439.2 m²; verify.",
     "sourceURL": "https://www.idealista.pt/imovel/34200758/",
-    "researchedAt": "2026-09-27"
+    "researchedAt": "2026-09-27",
+    "sourceCheck": {
+      "id": "land-34200758",
+      "sourceURL": "https://www.idealista.pt/imovel/34200758/",
+      "checkedAt": "2026-10-01",
+      "status": "source-snapshot",
+      "sourceCrawlAge": "2 weeks ago",
+      "publishedPrice": 1650000,
+      "snapshotPrice": 1650000
+    }
   },
   {
     "id": "land-32465277",
@@ -503,7 +818,16 @@ const LandCatalog = [
     "evidence": "Advertiser describes views of the sea, Lisbon and Cascais coastline.",
     "note": "Agricultural / forest zone. Only about 18.75 m² agricultural support claimed; no residential approval established.",
     "sourceURL": "https://www.idealista.pt/imovel/32465277/",
-    "researchedAt": "2026-09-27"
+    "researchedAt": "2026-09-27",
+    "sourceCheck": {
+      "id": "land-32465277",
+      "sourceURL": "https://www.idealista.pt/imovel/32465277/",
+      "checkedAt": "2026-10-01",
+      "status": "source-snapshot",
+      "sourceCrawlAge": "5 months ago",
+      "publishedPrice": 100000,
+      "snapshotPrice": 100000
+    }
   },
   {
     "id": "land-34766539",
@@ -517,7 +841,16 @@ const LandCatalog = [
     "evidence": "Advertiser describes a bay view toward Ribeiro do Cavalo beach.",
     "note": "Two rural parcels; portal says non-buildable. Any alternative use needs confirmation.",
     "sourceURL": "https://www.idealista.pt/imovel/34766539/",
-    "researchedAt": "2026-09-27"
+    "researchedAt": "2026-09-27",
+    "sourceCheck": {
+      "id": "land-34766539",
+      "sourceURL": "https://www.idealista.pt/imovel/34766539/",
+      "checkedAt": "2026-10-01",
+      "status": "source-snapshot",
+      "sourceCrawlAge": "last month",
+      "publishedPrice": 1849000,
+      "snapshotPrice": 1849000
+    }
   },
   {
     "id": "land-35317279",
@@ -531,7 +864,16 @@ const LandCatalog = [
     "evidence": "Advertiser describes panoramic Atlantic views.",
     "note": "PIP for 165 m² house and pool claimed. Portal places it in Alto das Vinhas, description says Meco; exact location needs confirmation.",
     "sourceURL": "https://www.idealista.pt/imovel/35317279/",
-    "researchedAt": "2026-09-27"
+    "researchedAt": "2026-09-27",
+    "sourceCheck": {
+      "id": "land-35317279",
+      "sourceURL": "https://www.idealista.pt/imovel/35317279/",
+      "checkedAt": "2026-10-01",
+      "status": "source-snapshot",
+      "sourceCrawlAge": "2 weeks ago",
+      "publishedPrice": 580000,
+      "snapshotPrice": 580000
+    }
   },
   {
     "id": "land-34955330",
@@ -545,7 +887,16 @@ const LandCatalog = [
     "evidence": "Advertiser describes views over the ocean and Lisbon bay.",
     "note": "Development permissions and sale boundaries need confirmation; do not infer buildable area from plot size.",
     "sourceURL": "https://www.idealista.pt/imovel/34955330/",
-    "researchedAt": "2026-09-27"
+    "researchedAt": "2026-09-27",
+    "sourceCheck": {
+      "id": "land-34955330",
+      "sourceURL": "https://www.idealista.pt/imovel/34955330/",
+      "checkedAt": "2026-10-01",
+      "status": "source-snapshot",
+      "sourceCrawlAge": "6 days ago",
+      "publishedPrice": 1790000,
+      "snapshotPrice": 1790000
+    }
   },
   {
     "id": "land-32068022",
@@ -559,7 +910,16 @@ const LandCatalog = [
     "evidence": "Advertiser describes a 180-degree Atlantic and harbour view.",
     "note": "Planning decision and permitted construction area not established in this research.",
     "sourceURL": "https://www.idealista.pt/imovel/32068022/",
-    "researchedAt": "2026-09-27"
+    "researchedAt": "2026-09-27",
+    "sourceCheck": {
+      "id": "land-32068022",
+      "sourceURL": "https://www.idealista.pt/imovel/32068022/",
+      "checkedAt": "2026-10-01",
+      "status": "source-snapshot",
+      "sourceCrawlAge": "last month",
+      "publishedPrice": 2500000,
+      "snapshotPrice": 2500000
+    }
   },
   {
     "id": "land-34729807",
@@ -573,7 +933,16 @@ const LandCatalog = [
     "evidence": "Advertiser states a view over Lisbon and the sea.",
     "note": "Confirm ocean sightline rather than only estuary; displayed buildable area requires municipal verification.",
     "sourceURL": "https://www.idealista.pt/imovel/34729807/",
-    "researchedAt": "2026-09-27"
+    "researchedAt": "2026-09-27",
+    "sourceCheck": {
+      "id": "land-34729807",
+      "sourceURL": "https://www.idealista.pt/imovel/34729807/",
+      "checkedAt": "2026-10-01",
+      "status": "source-snapshot",
+      "sourceCrawlAge": "5 months ago",
+      "publishedPrice": 280000,
+      "snapshotPrice": 280000
+    }
   },
   {
     "id": "land-rm12344130537",
@@ -587,7 +956,16 @@ const LandCatalog = [
     "evidence": "RE/MAX advertises two adjoining lots with sea views.",
     "note": "Combined sale: 1,619 m² plus 1,643 m². Two houses claimed; confirm which direction and floors have ocean views.",
     "sourceURL": "https://www.remax.pt/pt/imoveis/venda-terreno-tgrandola-carvalhal/123441305-37",
-    "researchedAt": "2026-09-27"
+    "researchedAt": "2026-09-27",
+    "sourceCheck": {
+      "id": "land-rm12344130537",
+      "sourceURL": "https://www.remax.pt/pt/imoveis/venda-terreno-tgrandola-carvalhal/123441305-37",
+      "checkedAt": "2026-10-01",
+      "status": "source-snapshot",
+      "sourceCrawlAge": "last month",
+      "publishedPrice": 5500000,
+      "snapshotPrice": 5500000
+    }
   },
   {
     "id": "land-34566546",
@@ -599,9 +977,18 @@ const LandCatalog = [
     "planning": "Conflicting / unclear",
     "view": "Panoramic",
     "evidence": "Advertiser describes countryside and sea views.",
-    "note": "Includes a ruin; further construction confirmation is pending in the description despite urbanisable label.",
+    "note": "Includes a ruin; further construction confirmation is pending in the description despite urbanisable label. Review 1 Oct 2026: older cached source shows EUR 1,250,000 (crawl age: 2 months ago). Retained existing price pending fresh confirmation.",
     "sourceURL": "https://www.idealista.pt/imovel/34566546/",
-    "researchedAt": "2026-09-27"
+    "researchedAt": "2026-09-27",
+    "sourceCheck": {
+      "id": "land-34566546",
+      "sourceURL": "https://www.idealista.pt/imovel/34566546/",
+      "checkedAt": "2026-10-01",
+      "status": "source-snapshot",
+      "sourceCrawlAge": "2 months ago",
+      "publishedPrice": 975000,
+      "snapshotPrice": 1250000
+    }
   },
   {
     "id": "land-34902700",
@@ -615,7 +1002,16 @@ const LandCatalog = [
     "evidence": "Advertiser describes a traditional estate with sea views.",
     "note": "Existing buildings about 300 m². Heading 24,000 m² versus description 2.43 ha; confirm surveyed area.",
     "sourceURL": "https://www.idealista.pt/pro/imomelides/imovel/34902700/",
-    "researchedAt": "2026-09-27"
+    "researchedAt": "2026-09-27",
+    "sourceCheck": {
+      "id": "land-34902700",
+      "sourceURL": "https://www.idealista.pt/pro/imomelides/imovel/34902700/",
+      "checkedAt": "2026-10-01",
+      "status": "unavailable",
+      "sourceCrawlAge": null,
+      "publishedPrice": 1600000,
+      "snapshotPrice": null
+    }
   },
   {
     "id": "land-33206361",
@@ -629,7 +1025,16 @@ const LandCatalog = [
     "evidence": "Advertiser describes a 270-degree outlook reaching the ocean horizon.",
     "note": "Urbanisable portal category; exact permitted development and licence not established.",
     "sourceURL": "https://www.idealista.pt/imovel/33206361/",
-    "researchedAt": "2026-09-27"
+    "researchedAt": "2026-09-27",
+    "sourceCheck": {
+      "id": "land-33206361",
+      "sourceURL": "https://www.idealista.pt/imovel/33206361/",
+      "checkedAt": "2026-10-01",
+      "status": "unavailable",
+      "sourceCrawlAge": null,
+      "publishedPrice": 1560000,
+      "snapshotPrice": null
+    }
   },
   {
     "id": "land-32267492",
@@ -643,7 +1048,16 @@ const LandCatalog = [
     "evidence": "Advertiser describes sea views from a six-hectare property.",
     "note": "Residential potential claimed; obtain current municipal confirmation of use and building limits.",
     "sourceURL": "https://www.idealista.pt/imovel/32267492/",
-    "researchedAt": "2026-09-27"
+    "researchedAt": "2026-09-27",
+    "sourceCheck": {
+      "id": "land-32267492",
+      "sourceURL": "https://www.idealista.pt/imovel/32267492/",
+      "checkedAt": "2026-10-01",
+      "status": "source-snapshot",
+      "sourceCrawlAge": "last month",
+      "publishedPrice": 727000,
+      "snapshotPrice": 727000
+    }
   },
   {
     "id": "land-33243646",
@@ -657,7 +1071,16 @@ const LandCatalog = [
     "evidence": "Advertiser says the sea is visible from the highest parts of the land.",
     "note": "Portal says non-buildable while description presents a house project. Confirm area, approvals and exact viewing points.",
     "sourceURL": "https://www.idealista.pt/imovel/33243646/",
-    "researchedAt": "2026-09-27"
+    "researchedAt": "2026-09-27",
+    "sourceCheck": {
+      "id": "land-33243646",
+      "sourceURL": "https://www.idealista.pt/imovel/33243646/",
+      "checkedAt": "2026-10-01",
+      "status": "source-snapshot",
+      "sourceCrawlAge": "last month",
+      "publishedPrice": 1500000,
+      "snapshotPrice": 1500000
+    }
   },
   {
     "id": "land-35061215",
@@ -671,7 +1094,16 @@ const LandCatalog = [
     "evidence": "Advertiser describes sea views from the residential plot.",
     "note": "House with basement and two upper levels claimed; obtain planning and licence documents.",
     "sourceURL": "https://www.idealista.pt/imovel/35061215/",
-    "researchedAt": "2026-09-27"
+    "researchedAt": "2026-09-27",
+    "sourceCheck": {
+      "id": "land-35061215",
+      "sourceURL": "https://www.idealista.pt/imovel/35061215/",
+      "checkedAt": "2026-10-01",
+      "status": "source-snapshot",
+      "sourceCrawlAge": "2 days ago",
+      "publishedPrice": 275000,
+      "snapshotPrice": 275000
+    }
   },
   {
     "id": "land-32565217",
@@ -685,7 +1117,16 @@ const LandCatalog = [
     "evidence": "Advertiser describes land with a house to rehabilitate and sea views.",
     "note": "Includes existing buildings; verify legal reconstruction and any new-development limits.",
     "sourceURL": "https://www.idealista.pt/imovel/32565217/",
-    "researchedAt": "2026-09-27"
+    "researchedAt": "2026-09-27",
+    "sourceCheck": {
+      "id": "land-32565217",
+      "sourceURL": "https://www.idealista.pt/imovel/32565217/",
+      "checkedAt": "2026-10-01",
+      "status": "source-snapshot",
+      "sourceCrawlAge": "3 weeks ago",
+      "publishedPrice": 1500000,
+      "snapshotPrice": 1500000
+    }
   },
   {
     "id": "land-33545362",
@@ -699,7 +1140,16 @@ const LandCatalog = [
     "evidence": "Advertiser explicitly states views over the sea.",
     "note": "Non-buildable rural classification on portal; construction rights not established.",
     "sourceURL": "https://www.idealista.pt/imovel/33545362/",
-    "researchedAt": "2026-09-27"
+    "researchedAt": "2026-09-27",
+    "sourceCheck": {
+      "id": "land-33545362",
+      "sourceURL": "https://www.idealista.pt/imovel/33545362/",
+      "checkedAt": "2026-10-01",
+      "status": "source-snapshot",
+      "sourceCrawlAge": "4 weeks ago",
+      "publishedPrice": 580000,
+      "snapshotPrice": 580000
+    }
   },
   {
     "id": "land-34631140",
@@ -713,7 +1163,16 @@ const LandCatalog = [
     "evidence": "Advertiser describes cleared land with a sea view.",
     "note": "Three 7.5 ha parcels sold together. No construction viability advertised; agricultural support only subject to approval.",
     "sourceURL": "https://www.idealista.pt/imovel/34631140/",
-    "researchedAt": "2026-09-27"
+    "researchedAt": "2026-09-27",
+    "sourceCheck": {
+      "id": "land-34631140",
+      "sourceURL": "https://www.idealista.pt/imovel/34631140/",
+      "checkedAt": "2026-10-01",
+      "status": "source-snapshot",
+      "sourceCrawlAge": "last month",
+      "publishedPrice": 360000,
+      "snapshotPrice": 360000
+    }
   },
   {
     "id": "land-35281476",
@@ -727,7 +1186,16 @@ const LandCatalog = [
     "evidence": "Advertiser explicitly states sea views opposite Ilha do Pessegueiro.",
     "note": "Agricultural land; mobile homes or caravans explicitly subject to authority approval.",
     "sourceURL": "https://www.idealista.pt/imovel/35281476/",
-    "researchedAt": "2026-09-27"
+    "researchedAt": "2026-09-27",
+    "sourceCheck": {
+      "id": "land-35281476",
+      "sourceURL": "https://www.idealista.pt/imovel/35281476/",
+      "checkedAt": "2026-10-01",
+      "status": "source-snapshot",
+      "sourceCrawlAge": "2 weeks ago",
+      "publishedPrice": 100000,
+      "snapshotPrice": 100000
+    }
   },
   {
     "id": "land-35185798",
@@ -741,7 +1209,16 @@ const LandCatalog = [
     "evidence": "Advertiser describes sea views from a flat three-frontage plot.",
     "note": "Likely matching advert at €145,000 counted once. Confirm current price and parcel identity; non-buildable.",
     "sourceURL": "https://www.idealista.pt/imovel/35185798/",
-    "researchedAt": "2026-09-27"
+    "researchedAt": "2026-09-27",
+    "sourceCheck": {
+      "id": "land-35185798",
+      "sourceURL": "https://www.idealista.pt/imovel/35185798/",
+      "checkedAt": "2026-10-01",
+      "status": "source-snapshot",
+      "sourceCrawlAge": "4 weeks ago",
+      "publishedPrice": 137500,
+      "snapshotPrice": 137500
+    }
   },
   {
     "id": "land-35183313",
@@ -755,7 +1232,16 @@ const LandCatalog = [
     "evidence": "Advertiser describes a rural parcel with sea views.",
     "note": "Heading 56,000 m² versus description six hectares; urbanisable label is not an approval. Confirm area and permissions.",
     "sourceURL": "https://www.idealista.pt/imovel/35183313/",
-    "researchedAt": "2026-09-27"
+    "researchedAt": "2026-09-27",
+    "sourceCheck": {
+      "id": "land-35183313",
+      "sourceURL": "https://www.idealista.pt/imovel/35183313/",
+      "checkedAt": "2026-10-01",
+      "status": "source-snapshot",
+      "sourceCrawlAge": "5 days ago",
+      "publishedPrice": 375000,
+      "snapshotPrice": 375000
+    }
   },
   {
     "id": "land-iv19258147",
@@ -769,7 +1255,54 @@ const LandCatalog = [
     "evidence": "The agent listing title explicitly advertises a sea view.",
     "note": "Urban category on portal; full permissions and view must be confirmed with the agent.",
     "sourceURL": "https://www.imovirtual.com/pt/anuncio/terreno-com-vista-mar-em-sao-francisco-da-serra-ID1iNWh",
-    "researchedAt": "2026-09-27"
+    "researchedAt": "2026-09-27",
+    "sourceCheck": {
+      "id": "land-iv19258147",
+      "sourceURL": "https://www.imovirtual.com/pt/anuncio/terreno-com-vista-mar-em-sao-francisco-da-serra-ID1iNWh",
+      "checkedAt": "2026-10-01",
+      "status": "source-snapshot",
+      "sourceCrawlAge": "last week",
+      "publishedPrice": 400000,
+      "snapshotPrice": 400000
+    }
+  },
+  {
+    "id": "land-32127944",
+    "title": "Travessa do Moinho · windmill and land",
+    "municipality": "Lourinhã",
+    "district": "Lisbon",
+    "price": 290000,
+    "area": 2270,
+    "planning": "Potential advertised",
+    "view": "Ocean view",
+    "evidence": "Advertiser states sea views towards the Berlengas.",
+    "note": "Includes a windmill and annex needing rehabilitation. 2,110 m² described as agricultural land; residential potential under the PDM is an unverified claim.",
+    "sourceURL": "https://www.idealista.pt/imovel/32127944/",
+    "researchedAt": "2026-10-01",
+    "sourceCheck": {
+      "checkedAt": "2026-10-01",
+      "status": "source-snapshot",
+      "sourceCrawlAge": "today"
+    }
+  },
+  {
+    "id": "land-35242132",
+    "title": "Areia Branca outlook · residential plot",
+    "municipality": "Lourinhã",
+    "district": "Lisbon",
+    "price": 135000,
+    "area": 162.76,
+    "planning": "Potential advertised",
+    "view": "Ocean view",
+    "evidence": "Advertiser describes views over Areia Branca beach and the sea.",
+    "note": "Header rounds area to 162 m²; description says 162.76 m². Advertised construction potential is not verified approval. House images are illustrative.",
+    "sourceURL": "https://www.idealista.pt/imovel/35242132/",
+    "researchedAt": "2026-10-01",
+    "sourceCheck": {
+      "checkedAt": "2026-10-01",
+      "status": "source-snapshot",
+      "sourceCrawlAge": "today"
+    }
   }
 ];
 if(typeof module!=='undefined')module.exports=LandCatalog;

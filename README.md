@@ -47,3 +47,6 @@ The Land tab contains 55 candidate adverts researched on 27 September 2026 acros
 Land filters include district, municipality, view type, advertised planning status, maximum asking price, minimum area, sort order and saved-only. Land watchlists and notes remain browser-local, are included in workspace backups, and appear in Watchlist. Export land listings downloads the filtered research catalogue. Land is separate from renovation calculations so plot area is never treated as house floor area.
 
 `land-data.js` holds the research catalogue; `land.js` renders and filters it. No automated land scan is connected.
+
+## Review 1 October 2026
+64 existing advert URLs attempted: 52 source snapshots retrieved, 12 unavailable. Added two Lourinha land candidates. Capuchos price revised to EUR 490,000 from an advertised reduction; exact change date unknown. Older conflicting snapshots retained as warnings, not price updates. See refresh-report.json. Daily 08:00 update is a local Codex automation requiring the computer awake and Codex running; no cloud scanner is deployed.
