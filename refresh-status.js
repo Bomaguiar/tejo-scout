@@ -1,86 +1,95 @@
 'use strict';
 const RefreshStatus = {
   "schemaVersion": 2,
-  "checkedAt": "2026-10-02T08:25:09Z",
+  "checkedAt": "2026-10-02T08:53:33Z",
   "mode": "github-actions",
   "schedule": "Daily at 08:17 Europe/Lisbon",
   "existingAttempted": 75,
   "directlyObserved": 16,
-  "unavailable": 59,
+  "unavailable": 57,
   "needsReview": 0,
   "newListings": 0,
   "priceChanges": [],
-  "lastSuccessfulScan": "2026-10-02T08:25:09Z",
-  "lastSuccessfulContentUpdate": "2026-10-02T08:17:47Z",
+  "lastSuccessfulScan": "2026-10-02T08:53:33Z",
+  "lastSuccessfulContentUpdate": "2026-10-02T08:53:33Z",
   "coverage": "Bounded public agency pages and sitemaps; incomplete coverage. Failed/blocked pages retain last good data. Advertised availability, sea views and permissions are not independently verified.",
   "records": [
     {
       "id": "33408663",
       "sourceURL": "https://www.idealista.pt/imovel/33408663/",
-      "checkedAt": "2026-10-02T08:25:09Z",
+      "checkedAt": "2026-10-02T08:53:33Z",
       "status": "unavailable",
-      "error": "robots HTTP 403"
+      "error": "robots HTTP 403",
+      "httpStatus": null
     },
     {
       "id": "34417056",
       "sourceURL": "https://www.idealista.pt/imovel/34417056/",
-      "checkedAt": "2026-10-02T08:25:09Z",
+      "checkedAt": "2026-10-02T08:53:33Z",
       "status": "unavailable",
-      "error": "robots HTTP 403"
+      "error": "robots HTTP 403",
+      "httpStatus": null
     },
     {
       "id": "34893545",
       "sourceURL": "https://www.idealista.pt/imovel/34893545/",
-      "checkedAt": "2026-10-02T08:25:09Z",
+      "checkedAt": "2026-10-02T08:53:33Z",
       "status": "unavailable",
-      "error": "robots HTTP 403"
+      "error": "robots HTTP 403",
+      "httpStatus": null
     },
     {
       "id": "34997193",
       "sourceURL": "https://www.idealista.pt/imovel/34997193/",
-      "checkedAt": "2026-10-02T08:25:09Z",
+      "checkedAt": "2026-10-02T08:53:33Z",
       "status": "unavailable",
-      "error": "robots HTTP 403"
+      "error": "robots HTTP 403",
+      "httpStatus": null
     },
     {
       "id": "35001171",
       "sourceURL": "https://www.idealista.pt/imovel/35001171/",
-      "checkedAt": "2026-10-02T08:25:09Z",
+      "checkedAt": "2026-10-02T08:53:33Z",
       "status": "unavailable",
-      "error": "robots HTTP 403"
+      "error": "robots HTTP 403",
+      "httpStatus": null
     },
     {
       "id": "35075003",
       "sourceURL": "https://www.idealista.pt/imovel/35075003/",
-      "checkedAt": "2026-10-02T08:25:09Z",
+      "checkedAt": "2026-10-02T08:53:33Z",
       "status": "unavailable",
-      "error": "robots HTTP 403"
+      "error": "robots HTTP 403",
+      "httpStatus": null
     },
     {
       "id": "35098754",
       "sourceURL": "https://www.idealista.pt/imovel/35098754/",
-      "checkedAt": "2026-10-02T08:25:09Z",
+      "checkedAt": "2026-10-02T08:53:33Z",
       "status": "unavailable",
-      "error": "robots HTTP 403"
+      "error": "robots HTTP 403",
+      "httpStatus": null
     },
     {
       "id": "35297875",
       "sourceURL": "https://www.idealista.pt/imovel/35297875/",
-      "checkedAt": "2026-10-02T08:25:09Z",
+      "checkedAt": "2026-10-02T08:53:33Z",
       "status": "unavailable",
-      "error": "robots HTTP 403"
+      "error": "robots HTTP 403",
+      "httpStatus": null
     },
     {
       "id": "35315415",
       "sourceURL": "https://www.idealista.pt/imovel/35315415/",
-      "checkedAt": "2026-10-02T08:25:09Z",
+      "checkedAt": "2026-10-02T08:53:33Z",
       "status": "unavailable",
-      "error": "robots HTTP 403"
+      "error": "robots HTTP 403",
+      "httpStatus": null
     },
     {
       "id": "agency-8740d5893e2062",
       "sourceURL": "https://nestenn.pt/moradia-por-recuperar-em-papagovas-ref-1860",
-      "checkedAt": "2026-10-02T08:25:09Z",
+      "checkedAt": "2026-10-02T08:53:33Z",
       "status": "observed",
       "observation": {
         "title": "Moradia por recuperar em Papagovas",
@@ -95,13 +104,13 @@ const RefreshStatus = {
         "reference": "N115LNH816",
         "sourceURL": "https://nestenn.pt/moradia-por-recuperar-em-papagovas-ref-1860",
         "method": "public-page / nestenn",
-        "contentHash": "cbfa50b32234025bff7cc08580fcfa206843a8d878b22c73def41a960690c6a4"
+        "contentHash": "9e861a90e26771a9b1ec6733c13dfd42d70cd85b88956d4568734f44c918ce63"
       }
     },
     {
       "id": "land-237b0167116954",
       "sourceURL": "https://www.imomelides.com/pt/propriedade/66-melides-terreno-com-vista-ao-mar",
-      "checkedAt": "2026-10-02T08:25:09Z",
+      "checkedAt": "2026-10-02T08:53:33Z",
       "status": "observed",
       "observation": {
         "title": "Melides, terreno com vista ao mar",
@@ -122,329 +131,375 @@ const RefreshStatus = {
     {
       "id": "land-29411935",
       "sourceURL": "https://www.idealista.pt/imovel/29411935/",
-      "checkedAt": "2026-10-02T08:25:09Z",
+      "checkedAt": "2026-10-02T08:53:33Z",
       "status": "unavailable",
-      "error": "robots HTTP 403"
+      "error": "robots HTTP 403",
+      "httpStatus": null
     },
     {
       "id": "land-31415263",
       "sourceURL": "https://www.idealista.pt/imovel/31415263/",
-      "checkedAt": "2026-10-02T08:25:09Z",
+      "checkedAt": "2026-10-02T08:53:33Z",
       "status": "unavailable",
-      "error": "robots HTTP 403"
+      "error": "robots HTTP 403",
+      "httpStatus": null
     },
     {
       "id": "land-31424804",
       "sourceURL": "https://www.idealista.pt/imovel/31424804/",
-      "checkedAt": "2026-10-02T08:25:09Z",
+      "checkedAt": "2026-10-02T08:53:33Z",
       "status": "unavailable",
-      "error": "robots HTTP 403"
+      "error": "robots HTTP 403",
+      "httpStatus": null
     },
     {
       "id": "land-32068022",
       "sourceURL": "https://www.idealista.pt/imovel/32068022/",
-      "checkedAt": "2026-10-02T08:25:09Z",
+      "checkedAt": "2026-10-02T08:53:33Z",
       "status": "unavailable",
-      "error": "robots HTTP 403"
+      "error": "robots HTTP 403",
+      "httpStatus": null
     },
     {
       "id": "land-32077224",
       "sourceURL": "https://www.idealista.pt/imovel/32077224/",
-      "checkedAt": "2026-10-02T08:25:09Z",
+      "checkedAt": "2026-10-02T08:53:33Z",
       "status": "unavailable",
-      "error": "robots HTTP 403"
+      "error": "robots HTTP 403",
+      "httpStatus": null
     },
     {
       "id": "land-32127944",
       "sourceURL": "https://www.idealista.pt/imovel/32127944/",
-      "checkedAt": "2026-10-02T08:25:09Z",
+      "checkedAt": "2026-10-02T08:53:33Z",
       "status": "unavailable",
-      "error": "robots HTTP 403"
+      "error": "robots HTTP 403",
+      "httpStatus": null
     },
     {
       "id": "land-32267492",
       "sourceURL": "https://www.idealista.pt/imovel/32267492/",
-      "checkedAt": "2026-10-02T08:25:09Z",
+      "checkedAt": "2026-10-02T08:53:33Z",
       "status": "unavailable",
-      "error": "robots HTTP 403"
+      "error": "robots HTTP 403",
+      "httpStatus": null
     },
     {
       "id": "land-32465277",
       "sourceURL": "https://www.idealista.pt/imovel/32465277/",
-      "checkedAt": "2026-10-02T08:25:09Z",
+      "checkedAt": "2026-10-02T08:53:33Z",
       "status": "unavailable",
-      "error": "robots HTTP 403"
+      "error": "robots HTTP 403",
+      "httpStatus": null
     },
     {
       "id": "land-32565217",
       "sourceURL": "https://www.idealista.pt/imovel/32565217/",
-      "checkedAt": "2026-10-02T08:25:09Z",
+      "checkedAt": "2026-10-02T08:53:33Z",
       "status": "unavailable",
-      "error": "robots HTTP 403"
+      "error": "robots HTTP 403",
+      "httpStatus": null
     },
     {
       "id": "land-33164220",
       "sourceURL": "https://www.idealista.pt/imovel/33164220/",
-      "checkedAt": "2026-10-02T08:25:09Z",
+      "checkedAt": "2026-10-02T08:53:33Z",
       "status": "unavailable",
-      "error": "robots HTTP 403"
+      "error": "robots HTTP 403",
+      "httpStatus": null
     },
     {
       "id": "land-33206361",
       "sourceURL": "https://www.idealista.pt/imovel/33206361/",
-      "checkedAt": "2026-10-02T08:25:09Z",
+      "checkedAt": "2026-10-02T08:53:33Z",
       "status": "unavailable",
-      "error": "robots HTTP 403"
+      "error": "robots HTTP 403",
+      "httpStatus": null
     },
     {
       "id": "land-33243646",
       "sourceURL": "https://www.idealista.pt/imovel/33243646/",
-      "checkedAt": "2026-10-02T08:25:09Z",
+      "checkedAt": "2026-10-02T08:53:33Z",
       "status": "unavailable",
-      "error": "robots HTTP 403"
+      "error": "robots HTTP 403",
+      "httpStatus": null
     },
     {
       "id": "land-33545362",
       "sourceURL": "https://www.idealista.pt/imovel/33545362/",
-      "checkedAt": "2026-10-02T08:25:09Z",
+      "checkedAt": "2026-10-02T08:53:33Z",
       "status": "unavailable",
-      "error": "robots HTTP 403"
+      "error": "robots HTTP 403",
+      "httpStatus": null
     },
     {
       "id": "land-33859005",
       "sourceURL": "https://www.idealista.pt/imovel/33859005/",
-      "checkedAt": "2026-10-02T08:25:09Z",
+      "checkedAt": "2026-10-02T08:53:33Z",
       "status": "unavailable",
-      "error": "robots HTTP 403"
+      "error": "robots HTTP 403",
+      "httpStatus": null
     },
     {
       "id": "land-34053072",
       "sourceURL": "https://www.idealista.pt/imovel/34053072/",
-      "checkedAt": "2026-10-02T08:25:09Z",
+      "checkedAt": "2026-10-02T08:53:33Z",
       "status": "unavailable",
-      "error": "robots HTTP 403"
+      "error": "robots HTTP 403",
+      "httpStatus": null
     },
     {
       "id": "land-34098930",
       "sourceURL": "https://www.idealista.pt/imovel/34098930/",
-      "checkedAt": "2026-10-02T08:25:09Z",
+      "checkedAt": "2026-10-02T08:53:33Z",
       "status": "unavailable",
-      "error": "robots HTTP 403"
+      "error": "robots HTTP 403",
+      "httpStatus": null
     },
     {
       "id": "land-34194709",
       "sourceURL": "https://www.idealista.pt/imovel/34194709/",
-      "checkedAt": "2026-10-02T08:25:09Z",
+      "checkedAt": "2026-10-02T08:53:33Z",
       "status": "unavailable",
-      "error": "robots HTTP 403"
+      "error": "robots HTTP 403",
+      "httpStatus": null
     },
     {
       "id": "land-34200758",
       "sourceURL": "https://www.idealista.pt/imovel/34200758/",
-      "checkedAt": "2026-10-02T08:25:09Z",
+      "checkedAt": "2026-10-02T08:53:33Z",
       "status": "unavailable",
-      "error": "robots HTTP 403"
+      "error": "robots HTTP 403",
+      "httpStatus": null
     },
     {
       "id": "land-34204824",
       "sourceURL": "https://www.idealista.pt/pro/mypropertygere-imobiliaria/imovel/34204824/",
-      "checkedAt": "2026-10-02T08:25:09Z",
+      "checkedAt": "2026-10-02T08:53:33Z",
       "status": "unavailable",
-      "error": "robots HTTP 403"
+      "error": "robots HTTP 403",
+      "httpStatus": null
     },
     {
       "id": "land-34566546",
       "sourceURL": "https://www.idealista.pt/imovel/34566546/",
-      "checkedAt": "2026-10-02T08:25:09Z",
+      "checkedAt": "2026-10-02T08:53:33Z",
       "status": "unavailable",
-      "error": "robots HTTP 403"
+      "error": "robots HTTP 403",
+      "httpStatus": null
     },
     {
       "id": "land-34571797",
       "sourceURL": "https://www.idealista.pt/imovel/34571797/",
-      "checkedAt": "2026-10-02T08:25:09Z",
+      "checkedAt": "2026-10-02T08:53:33Z",
       "status": "unavailable",
-      "error": "robots HTTP 403"
+      "error": "robots HTTP 403",
+      "httpStatus": null
     },
     {
       "id": "land-34631140",
       "sourceURL": "https://www.idealista.pt/imovel/34631140/",
-      "checkedAt": "2026-10-02T08:25:09Z",
+      "checkedAt": "2026-10-02T08:53:33Z",
       "status": "unavailable",
-      "error": "robots HTTP 403"
+      "error": "robots HTTP 403",
+      "httpStatus": null
     },
     {
       "id": "land-34647235",
       "sourceURL": "https://www.idealista.pt/imovel/34647235/",
-      "checkedAt": "2026-10-02T08:25:09Z",
+      "checkedAt": "2026-10-02T08:53:33Z",
       "status": "unavailable",
-      "error": "robots HTTP 403"
+      "error": "robots HTTP 403",
+      "httpStatus": null
     },
     {
       "id": "land-34647256",
       "sourceURL": "https://www.idealista.pt/imovel/34647256/",
-      "checkedAt": "2026-10-02T08:25:09Z",
+      "checkedAt": "2026-10-02T08:53:33Z",
       "status": "unavailable",
-      "error": "robots HTTP 403"
+      "error": "robots HTTP 403",
+      "httpStatus": null
     },
     {
       "id": "land-34729807",
       "sourceURL": "https://www.idealista.pt/imovel/34729807/",
-      "checkedAt": "2026-10-02T08:25:09Z",
+      "checkedAt": "2026-10-02T08:53:33Z",
       "status": "unavailable",
-      "error": "robots HTTP 403"
+      "error": "robots HTTP 403",
+      "httpStatus": null
     },
     {
       "id": "land-34737892",
       "sourceURL": "https://www.idealista.pt/imovel/34737892/",
-      "checkedAt": "2026-10-02T08:25:09Z",
+      "checkedAt": "2026-10-02T08:53:33Z",
       "status": "unavailable",
-      "error": "robots HTTP 403"
+      "error": "robots HTTP 403",
+      "httpStatus": null
     },
     {
       "id": "land-34766539",
       "sourceURL": "https://www.idealista.pt/imovel/34766539/",
-      "checkedAt": "2026-10-02T08:25:09Z",
+      "checkedAt": "2026-10-02T08:53:33Z",
       "status": "unavailable",
-      "error": "robots HTTP 403"
+      "error": "robots HTTP 403",
+      "httpStatus": null
     },
     {
       "id": "land-34851294",
       "sourceURL": "https://www.idealista.pt/imovel/34851294/",
-      "checkedAt": "2026-10-02T08:25:09Z",
+      "checkedAt": "2026-10-02T08:53:33Z",
       "status": "unavailable",
-      "error": "robots HTTP 403"
+      "error": "robots HTTP 403",
+      "httpStatus": null
     },
     {
       "id": "land-34885485",
       "sourceURL": "https://www.idealista.pt/imovel/34885485/",
-      "checkedAt": "2026-10-02T08:25:09Z",
+      "checkedAt": "2026-10-02T08:53:33Z",
       "status": "unavailable",
-      "error": "robots HTTP 403"
+      "error": "robots HTTP 403",
+      "httpStatus": null
     },
     {
       "id": "land-34891179",
       "sourceURL": "https://www.idealista.pt/imovel/34891179/",
-      "checkedAt": "2026-10-02T08:25:09Z",
+      "checkedAt": "2026-10-02T08:53:33Z",
       "status": "unavailable",
-      "error": "robots HTTP 403"
+      "error": "robots HTTP 403",
+      "httpStatus": null
     },
     {
       "id": "land-34902700",
       "sourceURL": "https://www.idealista.pt/pro/imomelides/imovel/34902700/",
-      "checkedAt": "2026-10-02T08:25:09Z",
+      "checkedAt": "2026-10-02T08:53:33Z",
       "status": "unavailable",
-      "error": "robots HTTP 403"
+      "error": "robots HTTP 403",
+      "httpStatus": null
     },
     {
       "id": "land-34955330",
       "sourceURL": "https://www.idealista.pt/imovel/34955330/",
-      "checkedAt": "2026-10-02T08:25:09Z",
+      "checkedAt": "2026-10-02T08:53:33Z",
       "status": "unavailable",
-      "error": "robots HTTP 403"
+      "error": "robots HTTP 403",
+      "httpStatus": null
     },
     {
       "id": "land-34977116",
       "sourceURL": "https://www.idealista.pt/imovel/34977116/",
-      "checkedAt": "2026-10-02T08:25:09Z",
+      "checkedAt": "2026-10-02T08:53:33Z",
       "status": "unavailable",
-      "error": "robots HTTP 403"
+      "error": "robots HTTP 403",
+      "httpStatus": null
     },
     {
       "id": "land-35009406",
       "sourceURL": "https://www.idealista.pt/imovel/35009406/",
-      "checkedAt": "2026-10-02T08:25:09Z",
+      "checkedAt": "2026-10-02T08:53:33Z",
       "status": "unavailable",
-      "error": "robots HTTP 403"
+      "error": "robots HTTP 403",
+      "httpStatus": null
     },
     {
       "id": "land-35049927",
       "sourceURL": "https://www.idealista.pt/imovel/35049927/",
-      "checkedAt": "2026-10-02T08:25:09Z",
+      "checkedAt": "2026-10-02T08:53:33Z",
       "status": "unavailable",
-      "error": "robots HTTP 403"
+      "error": "robots HTTP 403",
+      "httpStatus": null
     },
     {
       "id": "land-35061215",
       "sourceURL": "https://www.idealista.pt/imovel/35061215/",
-      "checkedAt": "2026-10-02T08:25:09Z",
+      "checkedAt": "2026-10-02T08:53:33Z",
       "status": "unavailable",
-      "error": "robots HTTP 403"
+      "error": "robots HTTP 403",
+      "httpStatus": null
     },
     {
       "id": "land-35099207",
       "sourceURL": "https://www.idealista.pt/imovel/35099207/",
-      "checkedAt": "2026-10-02T08:25:09Z",
+      "checkedAt": "2026-10-02T08:53:33Z",
       "status": "unavailable",
-      "error": "robots HTTP 403"
+      "error": "robots HTTP 403",
+      "httpStatus": null
     },
     {
       "id": "land-35125364",
       "sourceURL": "https://www.idealista.pt/imovel/35125364/",
-      "checkedAt": "2026-10-02T08:25:09Z",
+      "checkedAt": "2026-10-02T08:53:33Z",
       "status": "unavailable",
-      "error": "robots HTTP 403"
+      "error": "robots HTTP 403",
+      "httpStatus": null
     },
     {
       "id": "land-35138277",
       "sourceURL": "https://www.idealista.pt/imovel/35138277/",
-      "checkedAt": "2026-10-02T08:25:09Z",
+      "checkedAt": "2026-10-02T08:53:33Z",
       "status": "unavailable",
-      "error": "robots HTTP 403"
+      "error": "robots HTTP 403",
+      "httpStatus": null
     },
     {
       "id": "land-35183313",
       "sourceURL": "https://www.idealista.pt/imovel/35183313/",
-      "checkedAt": "2026-10-02T08:25:09Z",
+      "checkedAt": "2026-10-02T08:53:33Z",
       "status": "unavailable",
-      "error": "robots HTTP 403"
+      "error": "robots HTTP 403",
+      "httpStatus": null
     },
     {
       "id": "land-35185798",
       "sourceURL": "https://www.idealista.pt/imovel/35185798/",
-      "checkedAt": "2026-10-02T08:25:09Z",
+      "checkedAt": "2026-10-02T08:53:33Z",
       "status": "unavailable",
-      "error": "robots HTTP 403"
+      "error": "robots HTTP 403",
+      "httpStatus": null
     },
     {
       "id": "land-35242132",
       "sourceURL": "https://www.idealista.pt/imovel/35242132/",
-      "checkedAt": "2026-10-02T08:25:09Z",
+      "checkedAt": "2026-10-02T08:53:33Z",
       "status": "unavailable",
-      "error": "robots HTTP 403"
+      "error": "robots HTTP 403",
+      "httpStatus": null
     },
     {
       "id": "land-35281476",
       "sourceURL": "https://www.idealista.pt/imovel/35281476/",
-      "checkedAt": "2026-10-02T08:25:09Z",
+      "checkedAt": "2026-10-02T08:53:33Z",
       "status": "unavailable",
-      "error": "robots HTTP 403"
+      "error": "robots HTTP 403",
+      "httpStatus": null
     },
     {
       "id": "land-35317279",
       "sourceURL": "https://www.idealista.pt/imovel/35317279/",
-      "checkedAt": "2026-10-02T08:25:09Z",
+      "checkedAt": "2026-10-02T08:53:33Z",
       "status": "unavailable",
-      "error": "robots HTTP 403"
+      "error": "robots HTTP 403",
+      "httpStatus": null
     },
     {
       "id": "land-35335403",
       "sourceURL": "https://www.idealista.pt/imovel/35335403/",
-      "checkedAt": "2026-10-02T08:25:09Z",
+      "checkedAt": "2026-10-02T08:53:33Z",
       "status": "unavailable",
-      "error": "robots HTTP 403"
+      "error": "robots HTTP 403",
+      "httpStatus": null
     },
     {
       "id": "land-35342696",
       "sourceURL": "https://www.idealista.pt/imovel/35342696/",
-      "checkedAt": "2026-10-02T08:25:09Z",
+      "checkedAt": "2026-10-02T08:53:33Z",
       "status": "unavailable",
-      "error": "robots HTTP 403"
+      "error": "robots HTTP 403",
+      "httpStatus": null
     },
     {
       "id": "land-70e6d327c364c7",
       "sourceURL": "https://www.westlifeimobiliaria.com/imovel/exclusivo-west-life-terreno-rustico-de-4810m2-com-poco-e-fantastica-vista-mar-mafra/26380685",
-      "checkedAt": "2026-10-02T08:25:09Z",
+      "checkedAt": "2026-10-02T08:53:33Z",
       "status": "observed",
       "observation": {
         "title": "EXCLUSIVO West Life - Terreno Rústico de 4810m2 com poço e fantástica Vista MAR - Mafra",
@@ -459,13 +514,13 @@ const RefreshStatus = {
         "reference": "5314WT",
         "sourceURL": "https://www.westlifeimobiliaria.com/imovel/exclusivo-west-life-terreno-rustico-de-4810m2-com-poco-e-fantastica-vista-mar-mafra/26380685",
         "method": "public-page / schema",
-        "contentHash": "00fa805d379385f11db512186eb3a9a5dc08596c1df926d24597f2c3b367914f"
+        "contentHash": "9656e807980527902fd9bf3801129506e628f9626445baea98414df6a0a9f8af"
       }
     },
     {
       "id": "land-a9e8a24c00e931",
       "sourceURL": "https://www.westlifeimobiliaria.com/imovel/terreno-urbano-com-vista-mar-exclusivo-west-life-marvao/26609425",
-      "checkedAt": "2026-10-02T08:25:09Z",
+      "checkedAt": "2026-10-02T08:53:33Z",
       "status": "observed",
       "observation": {
         "title": "Terreno Urbano com Vista Mar | EXCLUSIVO WEST LIFE | Marvão",
@@ -480,13 +535,13 @@ const RefreshStatus = {
         "reference": "6123WM",
         "sourceURL": "https://www.westlifeimobiliaria.com/imovel/terreno-urbano-com-vista-mar-exclusivo-west-life-marvao/26609425",
         "method": "public-page / schema",
-        "contentHash": "6ad3c868a2f6e1c29af5ac5a2ee160213ac2275953388a8f3f6e12bc5287565d"
+        "contentHash": "cde83837f7be37d675a7385bebfafc4b4227ab1ef82a2ef74cce21e44ce40d4e"
       }
     },
     {
       "id": "land-be0aa23194da36",
       "sourceURL": "https://www.imomelides.com/pt/propriedade/73-melides-terreno-com-vista-ao-mar",
-      "checkedAt": "2026-10-02T08:25:09Z",
+      "checkedAt": "2026-10-02T08:53:33Z",
       "status": "observed",
       "observation": {
         "title": "Melides, terreno com vista ao mar",
@@ -507,7 +562,7 @@ const RefreshStatus = {
     {
       "id": "land-cc1003083",
       "sourceURL": "https://casacerta.pt/imovel/1003083/terreno-para-venda-em-mafra",
-      "checkedAt": "2026-10-02T08:25:09Z",
+      "checkedAt": "2026-10-02T08:53:33Z",
       "status": "observed",
       "observation": {
         "title": "Terreno para Venda em Mafra",
@@ -522,13 +577,13 @@ const RefreshStatus = {
         "reference": null,
         "sourceURL": "https://casacerta.pt/imovel/1003083/terreno-para-venda-em-mafra",
         "method": "public-page / schema",
-        "contentHash": "74294e712c42a72d770e84f605cd445c0878bec36611768d3f2a462ebf8729d3"
+        "contentHash": "3b10862f5f32c348fd992f8593a00442b35027c429412bb213179a7bdfb4f751"
       }
     },
     {
       "id": "land-dad215d8bbbca1",
       "sourceURL": "https://www.westlifeimobiliaria.com/imovel/terreno-de-11398m2-com-projeto-aprovado-para-hotel-de-charmeboutique-hotel-vista-mar-soberba-ericeir/23006890",
-      "checkedAt": "2026-10-02T08:25:09Z",
+      "checkedAt": "2026-10-02T08:53:33Z",
       "status": "observed",
       "observation": {
         "title": "Terreno de 11398m2 com PROJETO APROVADO para Hotel de Charme/Boutique Hotel - Vista Mar Soberba - Ericeira.",
@@ -543,20 +598,21 @@ const RefreshStatus = {
         "reference": "5763WE",
         "sourceURL": "https://www.westlifeimobiliaria.com/imovel/terreno-de-11398m2-com-projeto-aprovado-para-hotel-de-charmeboutique-hotel-vista-mar-soberba-ericeir/23006890",
         "method": "public-page / schema",
-        "contentHash": "a7029d64917e952a377d098596371d2471c919e854ba0277549d614784d4a5af"
+        "contentHash": "d2d64eb04229d049a440068bc152dc4be2fee1ee3c39118b0236658ab29a055b"
       }
     },
     {
       "id": "land-era130250026",
       "sourceURL": "https://www.netanuncio.pt/Terreno/Lisboa%2CLourinha/tem-Vista-para-Campo%2CVista-para-Mar%2CEscola%2CTransportes-Publicos/?UID=5cbd58bb-dfcd-11ef-a463-060000000052",
-      "checkedAt": "2026-10-02T08:25:09Z",
+      "checkedAt": "2026-10-02T08:53:33Z",
       "status": "unavailable",
-      "error": "robots HTTP 429"
+      "error": "Advert HTTP 429",
+      "httpStatus": 429
     },
     {
       "id": "land-ff75689b147063",
       "sourceURL": "https://www.westlifeimobiliaria.com/imovel/moradia-t4-num-lote-de-8400m2-vista-mar-e-amplo-terreno-rustico-com-otima-exposicao-solar-lourinha/23310946",
-      "checkedAt": "2026-10-02T08:25:09Z",
+      "checkedAt": "2026-10-02T08:53:33Z",
       "status": "observed",
       "observation": {
         "title": "Moradia T4 num lote de 8400m2, Vista MAR e amplo Terreno Rústico com ótima exposição solar - LOURINHÃ",
@@ -571,13 +627,13 @@ const RefreshStatus = {
         "reference": "5262WT",
         "sourceURL": "https://www.westlifeimobiliaria.com/imovel/moradia-t4-num-lote-de-8400m2-vista-mar-e-amplo-terreno-rustico-com-otima-exposicao-solar-lourinha/23310946",
         "method": "public-page / schema",
-        "contentHash": "1d598f87229a7b07c80eac7f6fa72d5f63bfa15895f7856a472a50dba6776d07"
+        "contentHash": "15fe0f6183cf2dfa0ca5bbe1880eb1b00d6a2782e0f171fb133d040bc0c460a9"
       }
     },
     {
       "id": "land-iad136815",
       "sourceURL": "https://www.iadportugal.pt/anuncio/terreno-venda-ericeira-183m2/r136815",
-      "checkedAt": "2026-10-02T08:25:09Z",
+      "checkedAt": "2026-10-02T08:53:33Z",
       "status": "observed",
       "observation": {
         "title": "Terreno (novo) para venda  183 m² Ericeira",
@@ -592,13 +648,13 @@ const RefreshStatus = {
         "reference": null,
         "sourceURL": "https://www.iadportugal.pt/anuncio/terreno-venda-ericeira-183m2/r136815",
         "method": "public-page / schema",
-        "contentHash": "16d52702d973bc5e35acb18699c638c2e2162c3d1c7a5cbcb4db2775619486db"
+        "contentHash": "95c0055e5027a2a58cff564164373b0cfcadfdb7449c4a186795672fcfddd92d"
       }
     },
     {
       "id": "land-iv19046900",
       "sourceURL": "https://www.imovirtual.com/pt/anuncio/lote-de-998m2-com-projeto-de-autor-e-vista-mar-oeiras-ID1hUY4",
-      "checkedAt": "2026-10-02T08:25:09Z",
+      "checkedAt": "2026-10-02T08:53:33Z",
       "status": "observed",
       "observation": {
         "title": "Lote de 998m2 com Projeto de Autor e Vista Mar | Oeiras",
@@ -613,13 +669,13 @@ const RefreshStatus = {
         "reference": null,
         "sourceURL": "https://www.imovirtual.com/pt/anuncio/lote-de-998m2-com-projeto-de-autor-e-vista-mar-oeiras-ID1hUY4",
         "method": "public-page / schema",
-        "contentHash": "28803044c99b6d2a9246ba1519221709ca2fd77bce567426366c45570d6caea3"
+        "contentHash": "3dc21382ae0d44ac9ad7069c4deac97d005fa9c855d5cd42606cc2edbbc443ce"
       }
     },
     {
       "id": "land-iv19073309",
       "sourceURL": "https://www.imovirtual.com/pt/anuncio/excelente-lote-de-terreno-urbano-com-vista-para-o-mar-ID1i1Q1",
-      "checkedAt": "2026-10-02T08:25:09Z",
+      "checkedAt": "2026-10-02T08:53:33Z",
       "status": "observed",
       "observation": {
         "title": "Excelente Lote de Terreno Urbano com Vista para o Mar",
@@ -634,20 +690,21 @@ const RefreshStatus = {
         "reference": null,
         "sourceURL": "https://www.imovirtual.com/pt/anuncio/excelente-lote-de-terreno-urbano-com-vista-para-o-mar-ID1i1Q1",
         "method": "public-page / schema",
-        "contentHash": "022dc9ecc60f4671769a3bf6b1d27dcebdb1c6df9392aeb87dbfdc0fd6fb7e7f"
+        "contentHash": "ea7702606615d7408fab52a9927bbd452c1a2223d5999782cf389de4e111deb2"
       }
     },
     {
       "id": "land-iv19182944",
       "sourceURL": "https://www.imovirtual.com/pt/anuncio/terreno-rustico-com-4-625-m-vista-mar-baleia-carvoeira-mafra-ID1iumk",
-      "checkedAt": "2026-10-02T08:25:09Z",
-      "status": "unavailable",
-      "error": "HTTP Error 410: Gone"
+      "checkedAt": "2026-10-02T08:53:33Z",
+      "status": "removed",
+      "error": "Advert HTTP 410",
+      "httpStatus": 410
     },
     {
       "id": "land-iv19258147",
       "sourceURL": "https://www.imovirtual.com/pt/anuncio/terreno-com-vista-mar-em-sao-francisco-da-serra-ID1iNWh",
-      "checkedAt": "2026-10-02T08:25:09Z",
+      "checkedAt": "2026-10-02T08:53:33Z",
       "status": "observed",
       "observation": {
         "title": "Terreno com vista mar em São Francisco da Serra",
@@ -662,13 +719,13 @@ const RefreshStatus = {
         "reference": null,
         "sourceURL": "https://www.imovirtual.com/pt/anuncio/terreno-com-vista-mar-em-sao-francisco-da-serra-ID1iNWh",
         "method": "public-page / schema",
-        "contentHash": "744994ba0303a6de621dddaf5e2fbc2c5e396c9abeda80d5ed4707df20014aae"
+        "contentHash": "9d4fea41ec953f563161f4238579e63eae2e61b2e7771819fceda47c7b14ef42"
       }
     },
     {
       "id": "land-kw55379",
       "sourceURL": "https://www.kwportugal.pt/pt/Imovel/Venda/Terreno/Lisboa/Mafra/Santo-Isidoro/55379",
-      "checkedAt": "2026-10-02T08:25:09Z",
+      "checkedAt": "2026-10-02T08:53:33Z",
       "status": "observed",
       "observation": {
         "title": "TERRENO COM VISTA MAR - LAGOA - SANTO ISIDORO",
@@ -683,20 +740,21 @@ const RefreshStatus = {
         "reference": null,
         "sourceURL": "https://www.kwportugal.pt/pt/Imovel/Venda/Terreno/Lisboa/Mafra/Santo-Isidoro/55379",
         "method": "public-page / schema",
-        "contentHash": "e1e19e6c81779f5a65ab0f9589919feb429139735e092b4ee1b8adae2944d608"
+        "contentHash": "72361df2d751cb3c19a31f6a8f9d33c8056f0462e2d2f21d3e159f7ae8cfcdd0"
       }
     },
     {
       "id": "land-rm1206119456",
       "sourceURL": "https://remax.pt/pt/imoveis/venda-terreno-toeiras-porto-salvo/120611945-6",
-      "checkedAt": "2026-10-02T08:25:09Z",
-      "status": "unavailable",
-      "error": "HTTP Error 404: Not Found"
+      "checkedAt": "2026-10-02T08:53:33Z",
+      "status": "removed",
+      "error": "Advert HTTP 404",
+      "httpStatus": 404
     },
     {
       "id": "land-rm121011438132",
       "sourceURL": "https://remax.pt/pt/imoveis/venda-terreno-tmafra-igreja-nova-e-cheleiros/121011438-132",
-      "checkedAt": "2026-10-02T08:25:09Z",
+      "checkedAt": "2026-10-02T08:53:33Z",
       "status": "observed",
       "observation": {
         "title": "Terreno em Mafra com 2 500 m²",
@@ -711,13 +769,13 @@ const RefreshStatus = {
         "reference": null,
         "sourceURL": "https://remax.pt/pt/imoveis/venda-terreno-tmafra-igreja-nova-e-cheleiros/121011438-132",
         "method": "public-page / schema",
-        "contentHash": "58e52914dc70ddf7776346144ef5bd8daa40f9989332bdd512ec19f9914aa1b8"
+        "contentHash": "968c0021420d8fd2d674b042a9e0b3821006c64cb49a988516c564939f17eb93"
       }
     },
     {
       "id": "land-rm12344130537",
       "sourceURL": "https://www.remax.pt/pt/imoveis/venda-terreno-tgrandola-carvalhal/123441305-37",
-      "checkedAt": "2026-10-02T08:25:09Z",
+      "checkedAt": "2026-10-02T08:53:33Z",
       "status": "observed",
       "observation": {
         "title": "Terreno em Grândola com visita virtual",
@@ -738,7 +796,7 @@ const RefreshStatus = {
     {
       "id": "land-rm12587111524",
       "sourceURL": "https://remax.pt/pt/imoveis/venda-terreno-ttorres-vedras-sao-pedro-da-cadeira/125871115-24",
-      "checkedAt": "2026-10-02T08:25:09Z",
+      "checkedAt": "2026-10-02T08:53:33Z",
       "status": "observed",
       "observation": {
         "title": "Terreno em Torres Vedras com visita virtual",
@@ -753,409 +811,410 @@ const RefreshStatus = {
         "reference": null,
         "sourceURL": "https://remax.pt/pt/imoveis/venda-terreno-ttorres-vedras-sao-pedro-da-cadeira/125871115-24",
         "method": "public-page / schema",
-        "contentHash": "14ea46df934cd4fe956747c169db1dbef5820a8df5d96be9e754220a88cfb5ca"
+        "contentHash": "0ffb7371df245c5e40d705bafb5d0801b45c1b8da0534fdb43a38a5e0ce626d2"
       }
     },
     {
       "id": "land-veigas642137",
       "sourceURL": "https://www.veigas.eu/pt/detalhe-propriedade/terreno-vista-mar-lourinha-ribamar-agricultura/642137",
-      "checkedAt": "2026-10-02T08:25:09Z",
+      "checkedAt": "2026-10-02T08:53:33Z",
       "status": "unavailable",
-      "error": "robots HTTP 406"
+      "error": "robots HTTP 406",
+      "httpStatus": null
     }
   ],
   "discovery": [
     {
       "sourceURL": "https://nestenn.pt/lote-de-terreno-para-construcao-zona-de-sintra-ref-1867",
-      "checkedAt": "2026-10-02T08:25:09Z",
+      "checkedAt": "2026-10-02T08:53:33Z",
       "agency": "Nestenn Lourinhã",
       "status": "rejected",
       "reason": "No explicit sea-view evidence (beach proximity is insufficient)"
     },
     {
       "sourceURL": "https://nestenn.pt/lotes-de-terreno-urbano-ref-1852",
-      "checkedAt": "2026-10-02T08:25:09Z",
+      "checkedAt": "2026-10-02T08:53:33Z",
       "agency": "Nestenn Lourinhã",
       "status": "rejected",
       "reason": "Municipality not established from title/address/URL"
     },
     {
       "sourceURL": "https://nestenn.pt/terreno-com-projecto-em-portela-da-vila-ref-1881",
-      "checkedAt": "2026-10-02T08:25:09Z",
+      "checkedAt": "2026-10-02T08:53:33Z",
       "agency": "Nestenn Lourinhã",
       "status": "rejected",
       "reason": "Municipality not established from title/address/URL"
     },
     {
       "sourceURL": "https://nestenn.pt/terreno-com-projeto-aprovado-para-4-moradias-t2-ref-1854",
-      "checkedAt": "2026-10-02T08:25:09Z",
+      "checkedAt": "2026-10-02T08:53:33Z",
       "agency": "Nestenn Lourinhã",
       "status": "rejected",
       "reason": "Municipality not established from title/address/URL"
     },
     {
       "sourceURL": "https://www.atlanticorealestate.com/imovel/lote-de-terreno-222m-para-construcao-moradia-t3-1-projeto-aprovado-e-pronto-a-iniciar-construcao/26243007",
-      "checkedAt": "2026-10-02T08:25:09Z",
+      "checkedAt": "2026-10-02T08:53:33Z",
       "agency": "Atlântico Real Estate",
       "status": "rejected",
       "reason": "No explicit sea-view evidence (beach proximity is insufficient)"
     },
     {
       "sourceURL": "https://www.atlanticorealestate.com/imovel/lote-de-terreno-com-1103-m2-localizado-no-bom-sucesso-resort-em-obidos/26233075",
-      "checkedAt": "2026-10-02T08:25:09Z",
+      "checkedAt": "2026-10-02T08:53:33Z",
       "agency": "Atlântico Real Estate",
       "status": "rejected",
       "reason": "Municipality not established from title/address/URL"
     },
     {
       "sourceURL": "https://www.atlanticorealestate.com/imovel/lote-de-terreno-com-1204-m2-localizado-no-bom-sucesso-resort-em-obidos/25251351",
-      "checkedAt": "2026-10-02T08:25:09Z",
+      "checkedAt": "2026-10-02T08:53:33Z",
       "agency": "Atlântico Real Estate",
       "status": "rejected",
       "reason": "Municipality not established from title/address/URL"
     },
     {
       "sourceURL": "https://www.atlanticorealestate.com/imovel/lote-de-terreno-com-836-m2-localizado-no-bom-sucesso-resort-em-obidos/25251360",
-      "checkedAt": "2026-10-02T08:25:09Z",
+      "checkedAt": "2026-10-02T08:53:33Z",
       "agency": "Atlântico Real Estate",
       "status": "rejected",
       "reason": "Municipality not established from title/address/URL"
     },
     {
       "sourceURL": "https://www.atlanticorealestate.com/imovel/lote-de-terreno-com-projeto-aprovado-localizado-a-4-km-da-ericeira/26431337",
-      "checkedAt": "2026-10-02T08:25:09Z",
+      "checkedAt": "2026-10-02T08:53:33Z",
       "agency": "Atlântico Real Estate",
       "status": "rejected",
       "reason": "Explicit floor/plot area missing"
     },
     {
       "sourceURL": "https://www.atlanticorealestate.com/imovel/lote-para-moradia-isolada-na-ericeira/22701232",
-      "checkedAt": "2026-10-02T08:25:09Z",
+      "checkedAt": "2026-10-02T08:53:33Z",
       "agency": "Atlântico Real Estate",
       "status": "rejected",
       "reason": "No explicit sea-view evidence (beach proximity is insufficient)"
     },
     {
       "sourceURL": "https://www.atlanticorealestate.com/imovel/moradia-terrea-t31-inserida-terreno-674-m-15km-da-ericeira/21001194",
-      "checkedAt": "2026-10-02T08:25:09Z",
+      "checkedAt": "2026-10-02T08:53:33Z",
       "agency": "Atlântico Real Estate",
       "status": "rejected",
       "reason": "Structured listing URL does not match requested advert"
     },
     {
       "sourceURL": "https://www.atlanticorealestate.com/imovel/terreno-para-moradia-em-banda-junto-a-torres-vedras/22987324",
-      "checkedAt": "2026-10-02T08:25:09Z",
+      "checkedAt": "2026-10-02T08:53:33Z",
       "agency": "Atlântico Real Estate",
       "status": "rejected",
       "reason": "Explicit floor/plot area missing"
     },
     {
       "sourceURL": "https://www.atlanticorealestate.com/imovel/terreno-para-moradia-isolada-junto-a-torres-vedras/22987307",
-      "checkedAt": "2026-10-02T08:25:09Z",
+      "checkedAt": "2026-10-02T08:53:33Z",
       "agency": "Atlântico Real Estate",
       "status": "rejected",
       "reason": "Explicit floor/plot area missing"
     },
     {
       "sourceURL": "https://www.atlanticorealestate.com/imovel/terreno-para-moradia-isolada-junto-a-torres-vedras/22987321",
-      "checkedAt": "2026-10-02T08:25:09Z",
+      "checkedAt": "2026-10-02T08:53:33Z",
       "agency": "Atlântico Real Estate",
       "status": "rejected",
       "reason": "Explicit floor/plot area missing"
     },
     {
       "sourceURL": "https://www.atlanticorealestate.com/imovel/terreno-para-moradia-junto-a-torres-vedras/22987319",
-      "checkedAt": "2026-10-02T08:25:09Z",
+      "checkedAt": "2026-10-02T08:53:33Z",
       "agency": "Atlântico Real Estate",
       "status": "rejected",
       "reason": "Explicit floor/plot area missing"
     },
     {
       "sourceURL": "https://www.imomelides.com/pt/propriedade/45-o-terreno-do-trucho-santa-cruz",
-      "checkedAt": "2026-10-02T08:25:09Z",
+      "checkedAt": "2026-10-02T08:53:33Z",
       "agency": "ImoMelides",
       "status": "rejected",
       "reason": "No explicit sea-view evidence (beach proximity is insufficient)"
     },
     {
       "sourceURL": "https://www.imomelides.com/pt/propriedade/52-terreno-com-vista-ao-mar",
-      "checkedAt": "2026-10-02T08:25:09Z",
+      "checkedAt": "2026-10-02T08:53:33Z",
       "agency": "ImoMelides",
       "status": "rejected",
       "reason": "Municipality not established from title/address/URL"
     },
     {
       "sourceURL": "https://www.imomelides.com/pt/propriedade/69-terreno-grande-na-cima-das-serras-melides",
-      "checkedAt": "2026-10-02T08:25:09Z",
+      "checkedAt": "2026-10-02T08:53:33Z",
       "agency": "ImoMelides",
       "status": "rejected",
       "reason": "No explicit sea-view evidence (beach proximity is insufficient)"
     },
     {
       "sourceURL": "https://www.imomelides.com/pt/propriedade/75-terreno-para-construir-uma-residenia-em-melides-com-vista-ao-mar",
-      "checkedAt": "2026-10-02T08:25:09Z",
+      "checkedAt": "2026-10-02T08:53:33Z",
       "agency": "ImoMelides",
       "status": "rejected",
       "reason": "Projected-only view requires review"
     },
     {
       "sourceURL": "https://www.imomelides.com/pt/propriedade/80-terreno-emblematico-no-coracao-de-grandola",
-      "checkedAt": "2026-10-02T08:25:09Z",
+      "checkedAt": "2026-10-02T08:53:33Z",
       "agency": "ImoMelides",
       "status": "rejected",
       "reason": "No explicit sea-view evidence (beach proximity is insufficient)"
     },
     {
       "sourceURL": "https://www.imomelides.com/pt/propriedade/84-terreno-para-proejecto-turistico-melide",
-      "checkedAt": "2026-10-02T08:25:09Z",
+      "checkedAt": "2026-10-02T08:53:33Z",
       "agency": "ImoMelides",
       "status": "rejected",
       "reason": "Municipality not established from title/address/URL"
     },
     {
       "sourceURL": "https://www.imomelides.com/pt/propriedade/89-terreno-urbano-melides",
-      "checkedAt": "2026-10-02T08:25:09Z",
+      "checkedAt": "2026-10-02T08:53:33Z",
       "agency": "ImoMelides",
       "status": "rejected",
       "reason": "No explicit sea-view evidence (beach proximity is insufficient)"
     },
     {
       "sourceURL": "https://www.imomelides.com/pt/propriedade/90-terrenos-na-praia",
-      "checkedAt": "2026-10-02T08:25:09Z",
+      "checkedAt": "2026-10-02T08:53:33Z",
       "agency": "ImoMelides",
       "status": "rejected",
       "reason": "Municipality not established from title/address/URL"
     },
     {
       "sourceURL": "https://www.imomelides.com/pt/propriedade/91-terreno-urbano-apto-para-construccao",
-      "checkedAt": "2026-10-02T08:25:09Z",
+      "checkedAt": "2026-10-02T08:53:33Z",
       "agency": "ImoMelides",
       "status": "rejected",
       "reason": "Municipality not established from title/address/URL"
     },
     {
-      "sourceURL": "https://www.medipred.pt/imovel/lote-de-terreno-rustico-com-361m2-pombal/21144547",
-      "checkedAt": "2026-10-02T08:25:09Z",
+      "sourceURL": "https://www.medipred.pt/imovel/terreno-agricola-com-2-hectares-bombardeira-torres-vedras/23365933",
+      "checkedAt": "2026-10-02T08:53:33Z",
+      "agency": "MediPred",
+      "status": "rejected",
+      "reason": "Explicit floor/plot area missing"
+    },
+    {
+      "sourceURL": "https://www.medipred.pt/imovel/terreno-com-558m2-montijo/19585402",
+      "checkedAt": "2026-10-02T08:53:33Z",
+      "agency": "MediPred",
+      "status": "rejected",
+      "reason": "No explicit sea-view evidence (beach proximity is insufficient)"
+    },
+    {
+      "sourceURL": "https://www.medipred.pt/imovel/terreno-com-projeto-pronto-a-construir-para-moradia-turcifal-torres-vedras/20588094",
+      "checkedAt": "2026-10-02T08:53:33Z",
+      "agency": "MediPred",
+      "status": "rejected",
+      "reason": "No explicit sea-view evidence (beach proximity is insufficient)"
+    },
+    {
+      "sourceURL": "https://www.medipred.pt/imovel/terreno-com-projeto-pronto-a-construir-para-moradia-turcifal-torres-vedras/20631996",
+      "checkedAt": "2026-10-02T08:53:33Z",
+      "agency": "MediPred",
+      "status": "rejected",
+      "reason": "No explicit sea-view evidence (beach proximity is insufficient)"
+    },
+    {
+      "sourceURL": "https://www.medipred.pt/imovel/terreno-de-8200m2-quinta-do-anjo/19587104",
+      "checkedAt": "2026-10-02T08:53:33Z",
+      "agency": "MediPred",
+      "status": "rejected",
+      "reason": "No explicit sea-view evidence (beach proximity is insufficient)"
+    },
+    {
+      "sourceURL": "https://www.medipred.pt/imovel/terreno-industrial-29-hectares-campelos-torres-vedras/20485122",
+      "checkedAt": "2026-10-02T08:53:33Z",
+      "agency": "MediPred",
+      "status": "rejected",
+      "reason": "Explicit floor/plot area missing"
+    },
+    {
+      "sourceURL": "https://www.medipred.pt/imovel/terreno-industrial-em-sintra/6624553",
+      "checkedAt": "2026-10-02T08:53:33Z",
+      "agency": "MediPred",
+      "status": "rejected",
+      "reason": "No explicit sea-view evidence (beach proximity is insufficient)"
+    },
+    {
+      "sourceURL": "https://www.medipred.pt/imovel/terreno-para-construcao-de-uma-moradia-lapa-cartaxo/20768684",
+      "checkedAt": "2026-10-02T08:53:33Z",
       "agency": "MediPred",
       "status": "rejected",
       "reason": "Municipality not established from title/address/URL"
     },
     {
-      "sourceURL": "https://www.medipred.pt/imovel/lote-de-terreno-rustico-om-1836m2-pombal/21144543",
-      "checkedAt": "2026-10-02T08:25:09Z",
+      "sourceURL": "https://www.medipred.pt/imovel/terreno-rustico-com-13200m2-em-covas-e-v-n-de-oliveirinha/6672195",
+      "checkedAt": "2026-10-02T08:53:33Z",
       "agency": "MediPred",
       "status": "rejected",
       "reason": "Municipality not established from title/address/URL"
     },
     {
-      "sourceURL": "https://www.medipred.pt/imovel/lote-de-terreno-urbano-na-malveira/16103512",
-      "checkedAt": "2026-10-02T08:25:09Z",
+      "sourceURL": "https://www.medipred.pt/imovel/terreno-rustico-com-2580-m2-na-povoa-de-sto-adriao/656187",
+      "checkedAt": "2026-10-02T08:53:33Z",
+      "agency": "MediPred",
+      "status": "rejected",
+      "reason": "No explicit sea-view evidence (beach proximity is insufficient)"
+    },
+    {
+      "sourceURL": "https://www.medipred.pt/imovel/terreno-rustico-com-mais-4-hectares-pegoes/19502092",
+      "checkedAt": "2026-10-02T08:53:33Z",
       "agency": "MediPred",
       "status": "rejected",
       "reason": "Explicit floor/plot area missing"
     },
     {
-      "sourceURL": "https://www.medipred.pt/imovel/lote-rustico-com-5160-m2-em-arruda-dos-vinhos/19195332",
-      "checkedAt": "2026-10-02T08:25:09Z",
-      "agency": "MediPred",
-      "status": "rejected",
-      "reason": "Explicit floor/plot area missing"
-    },
-    {
-      "sourceURL": "https://www.medipred.pt/imovel/lotes-de-terreno-para-construcao-de-moradia-em-ferreira-do-zezere/1169701",
-      "checkedAt": "2026-10-02T08:25:09Z",
-      "agency": "MediPred",
-      "status": "rejected",
-      "reason": "Municipality not established from title/address/URL"
-    },
-    {
-      "sourceURL": "https://www.medipred.pt/imovel/moradia-historica-com-terreno-de-2430m2-montijo/19502085",
-      "checkedAt": "2026-10-02T08:25:09Z",
+      "sourceURL": "https://www.medipred.pt/imovel/terreno-rustico-de-5000m2-pinhal-novo/19717419",
+      "checkedAt": "2026-10-02T08:53:33Z",
       "agency": "MediPred",
       "status": "rejected",
       "reason": "No explicit sea-view evidence (beach proximity is insufficient)"
     },
     {
-      "sourceURL": "https://www.medipred.pt/imovel/moradia-t2-com-500-m2-de-terreno-povoa-de-penafirme-torres-vedras/6705677",
-      "checkedAt": "2026-10-02T08:25:09Z",
+      "sourceURL": "https://www.medipred.pt/imovel/terreno-urbano-150-m2-ponte-do-rol-torres-vedras/24408535",
+      "checkedAt": "2026-10-02T08:53:33Z",
       "agency": "MediPred",
       "status": "rejected",
       "reason": "No explicit sea-view evidence (beach proximity is insufficient)"
     },
     {
-      "sourceURL": "https://www.medipred.pt/imovel/moradia-t3-em-lote-de-430-m2-proxima-a-praia-sobral-lourinha/19911195",
-      "checkedAt": "2026-10-02T08:25:09Z",
+      "sourceURL": "https://www.medipred.pt/imovel/terreno-urbano-450-m2-arneiros-ventosa-tvd/24803602",
+      "checkedAt": "2026-10-02T08:53:33Z",
       "agency": "MediPred",
       "status": "rejected",
       "reason": "No explicit sea-view evidence (beach proximity is insufficient)"
     },
     {
-      "sourceURL": "https://www.medipred.pt/imovel/moradia-t51-em-terreno-de-809-m2-loures/21653163",
-      "checkedAt": "2026-10-02T08:25:09Z",
-      "agency": "MediPred",
-      "status": "rejected",
-      "reason": "Structured listing URL does not match requested advert"
-    },
-    {
-      "sourceURL": "https://www.medipred.pt/imovel/mtl3268-terreno-para-uma-moradia-centro-de-torres-vedras/26542133",
-      "checkedAt": "2026-10-02T08:25:09Z",
-      "agency": "MediPred",
-      "status": "rejected",
-      "reason": "Explicit floor/plot area missing"
-    },
-    {
-      "sourceURL": "https://www.medipred.pt/imovel/terreno-5000-m2-para-urbanizacao-bombardeira-a-3-km-de-santa-cruz/23380635",
-      "checkedAt": "2026-10-02T08:25:09Z",
+      "sourceURL": "https://www.medipred.pt/imovel/terreno-urbano-524-m2-a-10-minutos-de-torres-vedras/20979550",
+      "checkedAt": "2026-10-02T08:53:33Z",
       "agency": "MediPred",
       "status": "rejected",
       "reason": "No explicit sea-view evidence (beach proximity is insufficient)"
     },
     {
-      "sourceURL": "https://www.medipred.pt/imovel/terreno-5000-m2-para-urbanizacao-bombardeira-a-3-km-de-santa-cruz/25395037",
-      "checkedAt": "2026-10-02T08:25:09Z",
+      "sourceURL": "https://www.medipred.pt/imovel/terreno-urbano-7500-m2-maceira-torres-vedras/23429629",
+      "checkedAt": "2026-10-02T08:53:33Z",
       "agency": "MediPred",
       "status": "rejected",
-      "reason": "No explicit sea-view evidence (beach proximity is insufficient)"
+      "reason": "Unambiguous asking price missing"
     },
     {
-      "sourceURL": "https://www.medipred.pt/imovel/terreno-agricola-2000-m2-fonte-grada-torres-vedras/6905418",
-      "checkedAt": "2026-10-02T08:25:09Z",
-      "agency": "MediPred",
-      "status": "rejected",
-      "reason": "Explicit floor/plot area missing"
-    },
-    {
-      "sourceURL": "https://www.medipred.pt/imovel/terreno-agricola-31000m2-matacaes-torres-vedras/21055773",
-      "checkedAt": "2026-10-02T08:25:09Z",
-      "agency": "MediPred",
-      "status": "rejected",
-      "reason": "Explicit floor/plot area missing"
-    },
-    {
-      "sourceURL": "https://www.medipred.pt/imovel/terreno-agricola-5900-m2-brejoeira-a-dos-cunhados-torres-vedras/22291668",
-      "checkedAt": "2026-10-02T08:25:09Z",
-      "agency": "MediPred",
-      "status": "rejected",
-      "reason": "Explicit floor/plot area missing"
-    },
-    {
-      "sourceURL": "https://www.medipred.pt/imovel/terreno-agricola-8000-m2-santa-cruz-torres-vedras/23387335",
-      "checkedAt": "2026-10-02T08:25:09Z",
-      "agency": "MediPred",
-      "status": "rejected",
-      "reason": "Explicit floor/plot area missing"
-    },
-    {
-      "sourceURL": "https://www.westlifeimobiliaria.com/imovel/excelente-lote-de-terreno-urbano-plano-de-649m2-com-projeto-aprovado-e-licenca-a-pagamento-torres-ve/25387537",
-      "checkedAt": "2026-10-02T08:25:09Z",
-      "agency": "West Life Imobiliária",
-      "status": "rejected",
-      "reason": "No explicit sea-view evidence (beach proximity is insufficient)"
-    },
-    {
-      "sourceURL": "https://www.westlifeimobiliaria.com/imovel/exclusivo-wl-terreno-urbano-com-980m2-localizacao-privilegiada-declive-suave-mafra/25497688",
-      "checkedAt": "2026-10-02T08:25:09Z",
-      "agency": "West Life Imobiliária",
-      "status": "rejected",
-      "reason": "No explicit sea-view evidence (beach proximity is insufficient)"
-    },
-    {
-      "sourceURL": "https://www.westlifeimobiliaria.com/imovel/herdade-situada-em-pleno-coracao-alentejano-15-hectares-de-terreno-piscina-otimos-acessos-alcacer-do/20843254",
-      "checkedAt": "2026-10-02T08:25:09Z",
-      "agency": "West Life Imobiliária",
-      "status": "rejected",
-      "reason": "Explicit floor/plot area missing"
-    },
-    {
-      "sourceURL": "https://www.westlifeimobiliaria.com/imovel/investimento-seguro-lote-com-265m2/26643491",
-      "checkedAt": "2026-10-02T08:25:09Z",
-      "agency": "West Life Imobiliária",
-      "status": "rejected",
-      "reason": "No explicit sea-view evidence (beach proximity is insufficient)"
-    },
-    {
-      "sourceURL": "https://www.westlifeimobiliaria.com/imovel/investimento-seguro-urbanizacao-de-futuro-lote-com-265m2/19780095",
-      "checkedAt": "2026-10-02T08:25:09Z",
-      "agency": "West Life Imobiliária",
-      "status": "rejected",
-      "reason": "No explicit sea-view evidence (beach proximity is insufficient)"
-    },
-    {
-      "sourceURL": "https://www.westlifeimobiliaria.com/imovel/investimento-seguro-urbanizacao-de-futuro-lote-com-498m2/19780139",
-      "checkedAt": "2026-10-02T08:25:09Z",
-      "agency": "West Life Imobiliária",
-      "status": "rejected",
-      "reason": "No explicit sea-view evidence (beach proximity is insufficient)"
-    },
-    {
-      "sourceURL": "https://www.westlifeimobiliaria.com/imovel/investimento-seguro-urbanizacao-de-futuro-lote-com-513m2/19780149",
-      "checkedAt": "2026-10-02T08:25:09Z",
-      "agency": "West Life Imobiliária",
-      "status": "rejected",
-      "reason": "No explicit sea-view evidence (beach proximity is insufficient)"
-    },
-    {
-      "sourceURL": "https://www.westlifeimobiliaria.com/imovel/investimento-seguro-urbanizacao-de-futuro-lote-com-540m2/19778192",
-      "checkedAt": "2026-10-02T08:25:09Z",
-      "agency": "West Life Imobiliária",
-      "status": "rejected",
-      "reason": "No explicit sea-view evidence (beach proximity is insufficient)"
-    },
-    {
-      "sourceURL": "https://www.westlifeimobiliaria.com/imovel/investimento-seguro-urbanizacao-de-futuro-lote-com-540m2/19778200",
-      "checkedAt": "2026-10-02T08:25:09Z",
-      "agency": "West Life Imobiliária",
-      "status": "rejected",
-      "reason": "No explicit sea-view evidence (beach proximity is insufficient)"
-    },
-    {
-      "sourceURL": "https://www.westlifeimobiliaria.com/imovel/investimento-seguro-urbanizacao-de-futuro-lote-com-540m2/19778603",
-      "checkedAt": "2026-10-02T08:25:09Z",
-      "agency": "West Life Imobiliária",
-      "status": "rejected",
-      "reason": "No explicit sea-view evidence (beach proximity is insufficient)"
-    },
-    {
-      "sourceURL": "https://www.westlifeimobiliaria.com/imovel/investimento-seguro-urbanizacao-de-futuro-lote-com-540m2/19778632",
-      "checkedAt": "2026-10-02T08:25:09Z",
-      "agency": "West Life Imobiliária",
-      "status": "rejected",
-      "reason": "No explicit sea-view evidence (beach proximity is insufficient)"
-    },
-    {
-      "sourceURL": "https://www.westlifeimobiliaria.com/imovel/investimento-seguro-urbanizacao-de-futuro-lote-com-540m2/26643572",
-      "checkedAt": "2026-10-02T08:25:09Z",
-      "agency": "West Life Imobiliária",
-      "status": "rejected",
-      "reason": "No explicit sea-view evidence (beach proximity is insufficient)"
-    },
-    {
-      "sourceURL": "https://www.westlifeimobiliaria.com/imovel/investimento-seguro-urbanizacao-de-futuro-lote-com-650m2/19778187",
-      "checkedAt": "2026-10-02T08:25:09Z",
+      "sourceURL": "https://www.westlifeimobiliaria.com/imovel/lote-de-terreno-com-530m2-com-projeto-aprovado-e-licenca-paga-para-moradia-terrea-sobreiro-mafra/23651746",
+      "checkedAt": "2026-10-02T08:53:33Z",
       "agency": "West Life Imobiliária",
       "status": "rejected",
       "reason": "Unambiguous asking price missing"
     },
     {
-      "sourceURL": "https://www.westlifeimobiliaria.com/imovel/lote-com-540m2-em-vale-do-andorinho/19778617",
-      "checkedAt": "2026-10-02T08:25:09Z",
+      "sourceURL": "https://www.westlifeimobiliaria.com/imovel/lote-de-terreno-com-607-metros-e-projeto-aprovado-malveira/26246717",
+      "checkedAt": "2026-10-02T08:53:33Z",
       "agency": "West Life Imobiliária",
       "status": "rejected",
       "reason": "No explicit sea-view evidence (beach proximity is insufficient)"
     },
     {
-      "sourceURL": "https://www.westlifeimobiliaria.com/imovel/lote-de-757-metros-com-projeto-aprovado-para-moradia-contemporanea-de-3-pisos-e-piscina-santo-isidor/26287368",
-      "checkedAt": "2026-10-02T08:25:09Z",
+      "sourceURL": "https://www.westlifeimobiliaria.com/imovel/lote-de-terreno-para-construcao-5-minutos-da-ericeira/26152100",
+      "checkedAt": "2026-10-02T08:53:33Z",
       "agency": "West Life Imobiliária",
       "status": "rejected",
       "reason": "No explicit sea-view evidence (beach proximity is insufficient)"
     },
     {
-      "sourceURL": "https://www.westlifeimobiliaria.com/imovel/lote-de-terreno-com-1003-metros-e-projeto-aprovado-malveira/26246631",
-      "checkedAt": "2026-10-02T08:25:09Z",
+      "sourceURL": "https://www.westlifeimobiliaria.com/imovel/lote-para-construcao-com-300m2-otima-exposicao-solar-encarnacao/24720088",
+      "checkedAt": "2026-10-02T08:53:33Z",
+      "agency": "West Life Imobiliária",
+      "status": "rejected",
+      "reason": "Unambiguous asking price missing"
+    },
+    {
+      "sourceURL": "https://www.westlifeimobiliaria.com/imovel/lote-para-construcao-com-7822m2-no-coracao-da-vila-localizacao-privilegiada-e-excelente-exposicao-so/21369602",
+      "checkedAt": "2026-10-02T08:53:33Z",
       "agency": "West Life Imobiliária",
       "status": "rejected",
       "reason": "No explicit sea-view evidence (beach proximity is insufficient)"
+    },
+    {
+      "sourceURL": "https://www.westlifeimobiliaria.com/imovel/lote-urbano-com-projeto-de-alteracao-aprovado-para-2-moradias-exclusivo-west-life-mafra/26548016",
+      "checkedAt": "2026-10-02T08:53:33Z",
+      "agency": "West Life Imobiliária",
+      "status": "rejected",
+      "reason": "Explicit floor/plot area missing"
+    },
+    {
+      "sourceURL": "https://www.westlifeimobiliaria.com/imovel/lote-urbano-para-construcao-de-moradia-isolada-exclusivo-west-life-mafra/26548015",
+      "checkedAt": "2026-10-02T08:53:33Z",
+      "agency": "West Life Imobiliária",
+      "status": "rejected",
+      "reason": "Explicit floor/plot area missing"
+    },
+    {
+      "sourceURL": "https://www.westlifeimobiliaria.com/imovel/moradia-com-grande-potencial-terreno-urbano-e-rustico-exclusivo-west-life-carvalhal/26398578",
+      "checkedAt": "2026-10-02T08:53:33Z",
+      "agency": "West Life Imobiliária",
+      "status": "rejected",
+      "reason": "No explicit sea-view evidence (beach proximity is insufficient)"
+    },
+    {
+      "sourceURL": "https://www.westlifeimobiliaria.com/imovel/moradia-independente-t6-em-terreno-de-6250m2-exclusivo-west-life-mafra/24998430",
+      "checkedAt": "2026-10-02T08:53:33Z",
+      "agency": "West Life Imobiliária",
+      "status": "rejected",
+      "reason": "Unambiguous asking price missing"
+    },
+    {
+      "sourceURL": "https://www.westlifeimobiliaria.com/imovel/moradia-na-ericeira-terreno-de-23370m2-com-moradia-terrea-por-cima-do-mar/20666403",
+      "checkedAt": "2026-10-02T08:53:33Z",
+      "agency": "West Life Imobiliária",
+      "status": "rejected",
+      "reason": "Projected-only view requires review"
+    },
+    {
+      "sourceURL": "https://www.westlifeimobiliaria.com/imovel/moradia-t22-com-potencial-de-remodelacao-inserida-num-lote-de-940m-exclusivo-west-life-mafra/25902659",
+      "checkedAt": "2026-10-02T08:53:33Z",
+      "agency": "West Life Imobiliária",
+      "status": "rejected",
+      "reason": "Structured listing URL does not match requested advert"
+    },
+    {
+      "sourceURL": "https://www.westlifeimobiliaria.com/imovel/moradia-t22-suites-independentes-e-terreno-com-potencial-construtivo-vila-franca-do-rosario/26150503",
+      "checkedAt": "2026-10-02T08:53:33Z",
+      "agency": "West Life Imobiliária",
+      "status": "rejected",
+      "reason": "Structured listing URL does not match requested advert"
+    },
+    {
+      "sourceURL": "https://www.westlifeimobiliaria.com/imovel/moradia-t3-inserida-num-lote-de-422m2-potencial-habitacional-campelos/22067785",
+      "checkedAt": "2026-10-02T08:53:33Z",
+      "agency": "West Life Imobiliária",
+      "status": "rejected",
+      "reason": "No explicit sea-view evidence (beach proximity is insufficient)"
+    },
+    {
+      "sourceURL": "https://www.westlifeimobiliaria.com/imovel/moradia-t3-inserida-num-lote-de-422m2-potencial-habitacional-campelos/26529671",
+      "checkedAt": "2026-10-02T08:53:33Z",
+      "agency": "West Life Imobiliária",
+      "status": "rejected",
+      "reason": "No explicit sea-view evidence (beach proximity is insufficient)"
+    },
+    {
+      "sourceURL": "https://www.westlifeimobiliaria.com/imovel/quintinha-com-4500m-de-terreno-a-apenas-3-minutos-da-ericeira-santo-isidoro/26095672",
+      "checkedAt": "2026-10-02T08:53:33Z",
+      "agency": "West Life Imobiliária",
+      "status": "rejected",
+      "reason": "Explicit floor/plot area missing"
+    },
+    {
+      "sourceURL": "https://www.westlifeimobiliaria.com/imovel/quintinha-com-moradia-t41-com-piscina-e-zonas-de-lazer-em-terreno-de-2300m2-exclusivo-wl/25682609",
+      "checkedAt": "2026-10-02T08:53:33Z",
+      "agency": "West Life Imobiliária",
+      "status": "unavailable",
+      "error": "\u003curlopen error timed out>"
     }
   ],
   "sources": [
@@ -1309,7 +1368,20 @@ const RefreshStatus = {
       "discoveryErrors": []
     }
   ],
-  "runURL": "https://github.com/Bomaguiar/tejo-scout/actions/runs/36983883590",
-  "catalogUpdatedAt": "2026-10-02T08:25:09Z"
+  "runURL": "https://github.com/Bomaguiar/tejo-scout/actions/runs/36986580964",
+  "availabilityChanges": [
+    {
+      "id": "land-rm1206119456",
+      "from": "unverified",
+      "to": "removed"
+    },
+    {
+      "id": "land-iv19182944",
+      "from": "unverified",
+      "to": "removed"
+    }
+  ],
+  "inactive": 2,
+  "catalogUpdatedAt": "2026-10-02T08:53:33Z"
 };
 if(typeof module!=='undefined')module.exports=RefreshStatus;
