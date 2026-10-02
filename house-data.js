@@ -32,7 +32,7 @@ const HouseCatalog = [
     "sourceCheck": {
       "id": "34893545",
       "sourceURL": "https://www.idealista.pt/imovel/34893545/",
-      "checkedAt": "2026-10-02T08:17:47Z",
+      "checkedAt": "2026-10-02T08:25:09Z",
       "status": "unavailable",
       "error": "robots HTTP 403"
     }
@@ -67,7 +67,7 @@ const HouseCatalog = [
     "sourceCheck": {
       "id": "35315415",
       "sourceURL": "https://www.idealista.pt/imovel/35315415/",
-      "checkedAt": "2026-10-02T08:17:47Z",
+      "checkedAt": "2026-10-02T08:25:09Z",
       "status": "unavailable",
       "error": "robots HTTP 403"
     }
@@ -103,7 +103,7 @@ const HouseCatalog = [
     "sourceCheck": {
       "id": "34997193",
       "sourceURL": "https://www.idealista.pt/imovel/34997193/",
-      "checkedAt": "2026-10-02T08:17:47Z",
+      "checkedAt": "2026-10-02T08:25:09Z",
       "status": "unavailable",
       "error": "robots HTTP 403"
     }
@@ -138,7 +138,7 @@ const HouseCatalog = [
     "sourceCheck": {
       "id": "35075003",
       "sourceURL": "https://www.idealista.pt/imovel/35075003/",
-      "checkedAt": "2026-10-02T08:17:47Z",
+      "checkedAt": "2026-10-02T08:25:09Z",
       "status": "unavailable",
       "error": "robots HTTP 403"
     }
@@ -173,7 +173,7 @@ const HouseCatalog = [
     "sourceCheck": {
       "id": "35098754",
       "sourceURL": "https://www.idealista.pt/imovel/35098754/",
-      "checkedAt": "2026-10-02T08:17:47Z",
+      "checkedAt": "2026-10-02T08:25:09Z",
       "status": "unavailable",
       "error": "robots HTTP 403"
     }
@@ -209,7 +209,7 @@ const HouseCatalog = [
     "sourceCheck": {
       "id": "35001171",
       "sourceURL": "https://www.idealista.pt/imovel/35001171/",
-      "checkedAt": "2026-10-02T08:17:47Z",
+      "checkedAt": "2026-10-02T08:25:09Z",
       "status": "unavailable",
       "error": "robots HTTP 403"
     }
@@ -245,7 +245,7 @@ const HouseCatalog = [
     "sourceCheck": {
       "id": "35297875",
       "sourceURL": "https://www.idealista.pt/imovel/35297875/",
-      "checkedAt": "2026-10-02T08:17:47Z",
+      "checkedAt": "2026-10-02T08:25:09Z",
       "status": "unavailable",
       "error": "robots HTTP 403"
     }
@@ -281,7 +281,7 @@ const HouseCatalog = [
     "sourceCheck": {
       "id": "34417056",
       "sourceURL": "https://www.idealista.pt/imovel/34417056/",
-      "checkedAt": "2026-10-02T08:17:47Z",
+      "checkedAt": "2026-10-02T08:25:09Z",
       "status": "unavailable",
       "error": "robots HTTP 403"
     }
@@ -317,7 +317,7 @@ const HouseCatalog = [
     "sourceCheck": {
       "id": "33408663",
       "sourceURL": "https://www.idealista.pt/imovel/33408663/",
-      "checkedAt": "2026-10-02T08:17:47Z",
+      "checkedAt": "2026-10-02T08:25:09Z",
       "status": "unavailable",
       "error": "robots HTTP 403"
     }
@@ -325,11 +325,11 @@ const HouseCatalog = [
   {
     "id": "agency-8740d5893e2062",
     "title": "Moradia por recuperar em Papagovas",
-    "price": 275000,
+    "price": 275000.0,
     "area": 270.89,
     "sourceURL": "https://nestenn.pt/moradia-por-recuperar-em-papagovas-ref-1860",
     "firstSeen": "2026-10-02T08:17:47Z",
-    "lastObserved": "2026-10-02T08:17:47Z",
+    "lastObserved": "2026-10-02T08:25:09Z",
     "researchedAt": "2026-10-02",
     "reference": "N115LNH816",
     "history": [
@@ -337,6 +337,12 @@ const HouseCatalog = [
         "price": 275000,
         "at": "2026-10-02T08:17:47Z",
         "method": "public-page / nestenn"
+      },
+      {
+        "price": 275000.0,
+        "at": "2026-10-02T08:25:09Z",
+        "method": "public-page / nestenn",
+        "contentHash": "cbfa50b32234025bff7cc08580fcfa206843a8d878b22c73def41a960690c6a4"
       }
     ],
     "notes": "",
@@ -358,11 +364,12 @@ const HouseCatalog = [
     "lat": null,
     "lon": null,
     "sourceCheck": {
-      "checkedAt": "2026-10-02T08:17:47Z",
-      "status": "observed",
-      "sourceURL": "https://nestenn.pt/moradia-por-recuperar-em-papagovas-ref-1860"
+      "id": "agency-8740d5893e2062",
+      "sourceURL": "https://nestenn.pt/moradia-por-recuperar-em-papagovas-ref-1860",
+      "checkedAt": "2026-10-02T08:25:09Z",
+      "status": "observed"
     },
-    "publishedObservedAt": "2026-10-02T08:17:47Z"
+    "publishedObservedAt": "2026-10-02T08:25:09Z"
   }
 ];
 if(typeof module!=='undefined')module.exports=HouseCatalog;
