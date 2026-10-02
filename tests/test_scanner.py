@@ -17,6 +17,17 @@ class ScannerTests(unittest.TestCase):
         self.assertIsNone(lifecycle('<h1>Moradia</h1><footer>Imóveis vendidos</footer><div class="related">Casa vendida</div>')[0])
     def test_explicit_primary_offer_status(self):
         self.assertEqual(lifecycle('<script type="application/ld+json">{"@type":"RealEstateListing","offers":{"availability":"https://schema.org/SoldOut"}}</script>')[0],'sold')
+    def test_house_with_land_is_not_land_listing(self):
+        r=extract(page('Moradia com terreno para recuperar','170 m2 de área bruta de construção; terreno com 450 m2',area=170),'https://agency.pt/mafra/casa')
+        self.assertEqual(r['kind'],'house');self.assertEqual(r['area'],170)
+    def test_full_district_municipalities(self):
+        r=extract(page('Moradia Barreiro para recuperar','Precisa de recuperação',address='Barreiro'),'https://agency.pt/barreiro/casa')
+        self.assertEqual(r['municipality'],'Barreiro')
+    def test_finished_remodel_is_not_a_renovation_project(self):
+        with self.assertRaises(ValueError):extract(page('Moradia T2','Totalmente remodelado, pronto a habitar'),'https://agency.pt/mafra/casa')
+    def test_heat_recovery_and_nearby_works_not_renovation(self):
+        for desc in ['Moradia nova com recuperador de calor','Perto da estação em remodelação','Totalmente recuperado e pronto a habitar']:
+            with self.assertRaises(ValueError):extract(page('Moradia T2',desc),'https://agency.pt/mafra/casa')
     def test_portuguese_amounts(self):
         for text,value in [('1.250.000 €',1250000),('162,76 m²',162.76),('270.8900',270.89),('59 900',59900)]:self.assertEqual(number(text),value)
     def test_renovation_home_uses_floor_area(self):

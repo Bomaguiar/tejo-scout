@@ -70,3 +70,6 @@ Adding an agency requires its real public URL, discovery pages or sitemap, an al
 
 ### Advert availability
 Current dashboard, house feeds, map and land feeds show only adverts fetched and parsed within the previous 48 hours. Blocked, stale or unparsed adverts are hidden by default; the availability filter reveals unverified records or the full archive. Watchlists retain all saved records and show their status. Explicit advertiser sold/reserved status or an actual advert HTTP 404/410 removes an advert from current feeds. A blocked request is never treated as sold. Prices on hidden records are last known asking prices; a live advert still requires seller confirmation. Availability-only refreshes preserve private notes, scenarios and saved IDs.
+
+### Small-agency discovery
+Daily discovery now includes PT Casas, Oeste Soluções, MCI, Ora Escolha and Acertos e Medidas (11 agencies total). House scope includes all Lisbon and Setúbal municipalities. Ordinary house URLs rotate alongside renovation keywords; houses with land remain houses. €200K is included in the budget feed. Up to four public-page browser renders per agency fill missing explicit floor areas; no login, CAPTCHA bypass or API credentials. Rendering failures retain the last good data. Advertised legal/tenancy/parcel restrictions are flagged, not presumed resolved.

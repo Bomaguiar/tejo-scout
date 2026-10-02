@@ -1,7 +1,8 @@
 'use strict';
 const Tejo = (() => {
-const regions = ["Lisbon", "Setúbal", "Mafra", "Torres Vedras", "Lourinhã"];
+const regions = ["Lisbon", "Setúbal", "Mafra", "Torres Vedras", "Lourinhã", "Amadora", "Odivelas", "Loures", "Oeiras", "Cascais", "Sintra", "Alenquer", "Arruda dos Vinhos", "Azambuja", "Cadaval", "Sobral de Monte Agraço", "Vila Franca de Xira", "Almada", "Seixal", "Barreiro", "Moita", "Montijo", "Alcochete", "Palmela", "Sesimbra", "Grândola", "Santiago do Cacém", "Sines", "Alcácer do Sal"];
 const regionColors = {"Lisbon": "#2d634d", "Setúbal": "#a9c76d", "Mafra": "#bc743d", "Torres Vedras": "#537aa5", "Lourinhã": "#9872a5"};
+for(const city of regions)if(!regionColors[city])regionColors[city]="#537aa5";
 const seed = (typeof HouseCatalog!=='undefined'?HouseCatalog:require('./house-data.js')).map(p=>({...p,firstSeen:p.firstSeen||null,history:p.history||[],notes:p.notes||'',comps:p.comps||[]}));
 const clone = x => JSON.parse(JSON.stringify(x));
 function initial(){return {version:1,properties:clone(seed),watch:[],scenarios:{},imports:[],landWatch:[],landNotes:{}};}

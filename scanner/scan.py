@@ -1,6 +1,6 @@
 """Bounded public-page scanner. No AI, API keys, browser login or proxy required."""
 from __future__ import annotations
-import argparse, concurrent.futures, hashlib, json, math, os, re, socket, time, unicodedata
+import argparse, concurrent.futures, hashlib, json, math, os, re, socket, time, unicodedata, subprocess
 from datetime import datetime, timezone
 from pathlib import Path
 from urllib import request, error, parse, robotparser
@@ -9,10 +9,10 @@ from bs4 import BeautifulSoup
 
 ROOT = Path(__file__).resolve().parents[1]
 USER_AGENT = 'TejoScout/1.0 (+https://bomaguiar.github.io/tejo-scout/; public listing monitor)'
-HOUSE_CITIES = ['Lisbon', 'Setúbal', 'Mafra', 'Torres Vedras', 'Lourinhã']
 DISTRICTS = {
     'Lisbon': ['Lisbon','Amadora','Odivelas','Loures','Oeiras','Cascais','Sintra','Mafra','Torres Vedras','Lourinhã','Alenquer','Arruda dos Vinhos','Azambuja','Cadaval','Sobral de Monte Agraço','Vila Franca de Xira'],
     'Setúbal': ['Setúbal','Almada','Seixal','Barreiro','Moita','Montijo','Alcochete','Palmela','Sesimbra','Grândola','Santiago do Cacém','Sines','Alcácer do Sal']}
+HOUSE_CITIES = [city for cities in DISTRICTS.values() for city in cities]
 ALIASES = {'lisboa':'Lisbon','ericeira':'Mafra','milharado':'Mafra','carvoeira':'Mafra','santo isidoro':'Mafra','santa cruz':'Torres Vedras','a dos cunhados':'Torres Vedras','sao pedro da cadeira':'Torres Vedras','ribamar':'Lourinhã','atalaia':'Lourinhã','melides':'Grândola','carvalhal':'Grândola','troia':'Grândola','porto covo':'Sines','meco':'Sesimbra','caparica':'Almada'}
 
 def fold(s):
@@ -142,6 +142,10 @@ def location(text):
             return city, next(d for d,c in DISTRICTS.items() if city in c)
     return None, None
 
+def renovation_evidence(title, description):
+    title=fold(title);text=title+' '+fold(description)
+    return bool(re.search(r'\b(?:para|por|a)\s+(?:recuperar|reabilitar|remodelar|restaurar)\b|\b(?:recuperacao|remodelacao|reabilitacao|renovacao|reconstrucao)\s+(?:total|integral)\b|\b(?:necessita|precisa|carece|requer).{0,45}(?:obras|recupera|remodel|reabilit|renova)',text) or re.search(r'\bruina\b|\breconstru',title))
+
 def extract(body, url, adapter='schema', known=None):
     soup = BeautifulSoup(body, 'html.parser'); graph = nodes(soup)
     primary = next((n for n in graph if n.get('@type') in ['RealEstateListing','House','Apartment','Product','Residence'] and (n.get('name') or n.get('description'))), {})
@@ -179,12 +183,20 @@ def extract(body, url, adapter='schema', known=None):
     action = fold(str(offer.get('businessFunction',''))+' '+title+' '+url)
     if any(x in action for x in ['/rent','arrend','alquilar','/lease']): raise ValueError('Rental excluded')
     kind = 'land' if re.search(r'\b(terreno|lote|land|plot)\b',fold(title)) else 'house'
+    categories=[fold(n.get('name','')) for n in graph if n.get('@type')=='ListItem' and n.get('position')==1]
+    if any(x in ['moradias','apartamentos','quintas','casas antigas'] for x in categories) or primary.get('@type') in ['House','Apartment','Residence']:kind='house'
     loc = json.dumps(primary.get('address',{}),ensure_ascii=False)+' '+title+' '+parse.unquote(parse.urlsplit(url).path)
     breadcrumbs=[n.get('name','') for n in graph if n.get('@type')=='ListItem']; loc+=' '+' '.join(breadcrumbs)
     city,district = location(loc)
+    if categories and categories[0] in ['moradias','apartamentos','terrenos','quintas']:
+        municipality=next((n.get('name','') for n in graph if n.get('@type')=='ListItem' and n.get('position')==3),'')
+        matches=[(c,d) for d,cities in DISTRICTS.items() for c in cities if fold(c)==fold(municipality) or (c=='Lisbon' and fold(municipality)=='lisboa')]
+        if not matches:raise ValueError('Outside Lisbon/Setúbal districts')
+        city,district=matches[0]
     if known: city=known.get('city') or known.get('municipality'); district=known.get('district') or next((d for d,c in DISTRICTS.items() if city in c),None);kind='land' if 'municipality' in known else 'house'
     if not city: raise ValueError('Municipality not established from title/address/URL')
     if kind=='house' and city not in HOUSE_CITIES: raise ValueError('Outside house-search municipalities')
+    if kind=='house' and not known and not renovation_evidence(title,desc):raise ValueError('No renovation evidence in the listing description')
     # Use explicit floorSize for homes, never landSize or the first m² in page navigation.
     size=primary.get('floorSize',{}) if kind=='house' else primary.get('landSize',{})
     area=number(size.get('value')) if isinstance(size,dict) else number(size)
@@ -194,9 +206,15 @@ def extract(body, url, adapter='schema', known=None):
     text=fold(title+' '+desc)
     if area is None:
         patterns=[r'(?:area (?:bruta|de construcao)|floor area)\s*(?:de|:)?\s*([\d.,\s]+)\s*m[²2]'] if kind=='house' else [r'(?:terreno(?: urbano| rustico)? (?:com|de)|lote (?:com|de)|area (?:do terreno|total))\s*(?:de|:)?\s*([\d.,\s]+)\s*m[²2]',r'\bterreno(?: urbano| rustico)?\s+([\d.,\s]+)\s*m[²2]']
+        if kind=='house':patterns += [r'([\d.,\s]+)\s*m[²2]\s*(?:de )?area bruta(?: de construcao)?']
         for pattern in patterns:
             m=re.search(pattern,text)
             if m: area=number(m[1]);break
+    if area is None and kind=='house':
+        details=soup.select_one('[data-tejo-main-details]')
+        if details:
+            m=re.search(r'area bruta\s*:?\s*([\d.,\s]+)\s*m[²2]',fold(details.get_text(' ',strip=True)))
+            if m:area=number(m[1])
     if known and area is None: area=known['area']
     if area is None or not 1<=area<=20_000_000: raise ValueError('Explicit floor/plot area missing')
     view=None
@@ -211,13 +229,11 @@ def extract(body, url, adapter='schema', known=None):
             if 'parcial' in nearby or 'partial' in nearby:view='Partial'
             elif 'horizonte' in nearby or 'distant' in nearby:view='Distant / horizon'
             elif 'panoram' in nearby:view='Panoramic'
-    elif not known and not re.search(r'recuper|reabilit|remodela|ruina|restaur|renovat',text):
-        raise ValueError('No renovation evidence in the listing description')
     planning='Potential advertised'
     if re.search(r'nao urbanizavel|nao construt|rustico|agricol',text): planning='Rural / non-buildable'
     if re.search(r'(projeto|projecto|pip|licenca).{0,30}aprova',text): planning='Approval advertised'
     ref=re.search(r'(?:#ref:|ref(?:erencia)?[.ªº\s:]*)\s*([a-z0-9]+[-/][a-z0-9-]+|[a-z]+\d+[a-z0-9]*|\d{3,}[a-z]+|\d{3,})',text)
-    return {'title':title[:200],'price':price,'area':area,'kind':kind,'municipality':city,'district':district,'view':view,'planning':planning,'description':desc[:3000],'reference':ref[1].upper() if ref else None,'sourceURL':canonical(url),'method':'public-page / '+adapter,'contentHash':hashlib.sha256(body.encode()).hexdigest()}
+    return {'title':title[:200],'price':price,'area':area,'kind':kind,'municipality':city,'district':district,'view':view,'planning':planning,'description':desc[:3000],'reference':ref[1].upper() if ref else None,'sourceURL':canonical(url),'imageURL':primary.get('image') if isinstance(primary.get('image'),str) else '', 'method':'public-page / '+adapter,'contentHash':hashlib.sha256(body.encode()).hexdigest()}
 
 def discover(fetch, config, cursor, limit):
     urls=set(); errors=[]; pattern=re.compile(config['detailPattern'])
@@ -241,25 +257,49 @@ def discover(fetch, config, cursor, limit):
     # Sea-view land and renovation slugs first; ordinary new homes don't consume the budget.
     def priority(u):
         slug=fold(parse.unquote(u))
-        if any(x in slug for x in ['recuper','ruina','reabilit']):return 0
+        if any(x in slug for x in ['recuper','ruina','reabilit','remodelar','reconstr']):return 0
         if ('terreno' in slug or 'lote' in slug) and 'vista' in slug:return 1
         if 'terreno' in slug or 'lote' in slug:return 2
         return 3
-    ordered=sorted((u for u in urls if priority(u)<3),key=lambda u:(priority(u),u))
+    ordered=sorted((u for u in urls if priority(u)<3 or any(x in fold(u) for x in ['moradia','apartamento','casa-antiga','casa-em'])),key=lambda u:(priority(u),u))
     count=len(ordered)
     selected=[ordered[(cursor+i)%count] for i in range(min(limit,count))] if count else []
     return selected,(cursor+len(selected))%count if count else 0,count,errors
 
+def extract_public(fetch, body, url, adapter, known, config, browser_budget):
+    try:return extract(body,url,adapter,known)
+    except ValueError as original:
+        if 'Explicit floor/plot area missing' not in str(original) or not config or not config.get('browserFallback') or browser_budget[0]>=4:raise
+        browser_budget[0]+=1
+        rendered=subprocess.run(['node',str(ROOT/'scanner'/'render.cjs'),url],capture_output=True,text=True,encoding='utf-8',timeout=35)
+        if rendered.returncode or not rendered.stdout:raise ValueError('Public browser render failed; '+str(original))
+        inactive,reason=lifecycle(rendered.stdout)
+        if inactive:raise ValueError('Rendered advert '+inactive+': '+reason)
+        result=extract(rendered.stdout,url,adapter,known);result['method']='public-browser / '+adapter
+        return result
+
 def new_record(obs, at):
     prefix='land-' if obs['kind']=='land' else 'agency-'
     id=prefix+hashlib.sha256(obs['sourceURL'].encode()).hexdigest()[:14]
-    common={'id':id,'title':obs['title'],'price':obs['price'],'area':obs['area'],'sourceURL':obs['sourceURL'],'firstSeen':at,'lastObserved':at,'researchedAt':at[:10],'reference':obs['reference'],'history':[{'price':obs['price'],'at':at,'method':obs['method']}],'notes':'','imageURL':'','imageLabel':''}
+    common={'id':id,'title':obs['title'],'price':obs['price'],'area':obs['area'],'sourceURL':obs['sourceURL'],'firstSeen':at,'lastObserved':at,'researchedAt':at[:10],'reference':obs['reference'],'history':[{'price':obs['price'],'at':at,'method':obs['method']}],'notes':'','imageURL':obs.get('imageURL',''),'imageLabel':'Agency advert image; check original gallery'}
     if obs['kind']=='land':return {**common,'municipality':obs['municipality'],'district':obs['district'],'view':obs['view'],'planning':obs['planning'],'evidence':'Advertiser explicitly describes a sea view; actual view not independently verified.','note':'Planning and permitted uses are advertiser claims. Obtain municipal documentation. '+('Agency reference: '+obs['reference']+'. ' if obs['reference'] else '')+'Source description: '+obs['description'][:650]}
-    return {**common,'city':obs['municipality'],'areaName':obs['municipality'],'type':'Unknown','floor':'Not confirmed','condition':'Renovation advertised','occupancy':'Not confirmed','risk':'review','risks':['Renovation claim from agency description: confirm scope, gross floor area, title and occupancy.','Agency floorSize is unverified and can include multiple buildings; obtain a measured allocation.','No ROI or resale estimate is assumed.'],'comps':[],'lat':None,'lon':None}
+    legal=fold(obs['description'])
+    caveats=[]
+    if re.search(r'sem licenca|nao (?:tem|possui) licenca|nao tem licenca|afetacao.{0,30}(?:arrum|arrecad|loja)|registad.{0,50}(?:arrum|arrecad)',legal):caveats.append('Non-residential registration or missing habitation licence advertised; municipal/title documents required.')
+    if re.search(r'arrendad|inquilin|contrato de arrendamento',legal):caveats.append('Tenancy advertised; vacant possession is not established.')
+    if re.search(r'sem recurso a financiamento|nao.{0,30}credito habitacao|cash.only',legal):caveats.append('Cash-only or mortgage restriction advertised.')
+    if 'a destacar' in legal:caveats.append('Parcel subdivision still required according to advertiser; obtain approval and exact boundaries.')
+    if re.search(r'(?:projeto|projecto).{0,40}(?:em aprovacao|pendente)',legal):caveats.append('Project approval is pending according to advertiser; no permission is assumed.')
+    common['sourceDescription']=obs['description']
+    if 'criada com ia' in legal or 'inteligencia artificial' in legal:common['imageLabel']='Advertiser uses AI / illustrative images; verify actual condition in original gallery'
+    typ=re.search(r'\bT\s*-?\s*(\d(?:\+\d)?)\b',obs['title'],re.I)
+    property_type=((('T'+typ[1]+' ') if typ else '')+('apartment' if 'apartamento' in fold(obs['title']) else 'house'))
+    return {**common,'city':obs['municipality'],'areaName':obs['municipality'],'type':property_type,'floor':'Not confirmed','condition':'Renovation advertised','occupancy':'Not confirmed','risk':'restricted' if caveats else 'review','risks':caveats+['Renovation claim from agency description: confirm scope, gross floor area, title and occupancy.','Agency floorSize is unverified and can include multiple buildings; obtain a measured allocation.','No ROI or resale estimate is assumed.'],'comps':[],'lat':None,'lon':None}
 
 def match_duplicate(obs, rows):
     for p in rows:
         if canonical(p['sourceURL'])==obs['sourceURL']:return p,'same source URL'
+        if obs['sourceURL'] in p.get('alternateSources',[]):return p,'known alternate source / package; retain primary record'
         text=fold(str(p.get('reference',''))+' '+p.get('note','')+' '+p.get('evidence',''))
         if obs['reference'] and re.search(r'(?<!\w)'+re.escape(fold(obs['reference']))+r'(?!\w)',text):
             city=p.get('city') or p.get('municipality')
@@ -302,6 +342,7 @@ def scan(limit_override=None):
     settings={parse.urlsplit(s['base']).hostname:s for s in config['sources']};hosts.update(settings)
     def work(host):
         cfg=settings.get(host);fetch=Fetcher(cfg['base'] if cfg else 'https://'+host)
+        browser_budget=[0]
         results=[];discoveries=[];stats={'name':cfg['name'] if cfg else host,'host':host,'existing':0,'fetched':0,'errors':0,'discoveredURLs':0,'detailCandidates':0,'discoveryErrors':[]}
         for p in [p for p in rows if parse.urlsplit(p['sourceURL']).hostname==host]:
             stats['existing']+=1;r=fetch.get(p['sourceURL']);entry={'id':p['id'],'sourceURL':p['sourceURL'],'checkedAt':at}
@@ -312,7 +353,7 @@ def scan(limit_override=None):
                     inactive,reason=lifecycle(r['body'])
                     if inactive:entry.update(status=inactive,error=reason)
                     else:
-                        obs=extract(r['body'],p['sourceURL'],cfg['adapter'] if cfg else 'schema',p);entry.update(status='observed',observation=obs);stats['fetched']+=1
+                        obs=extract_public(fetch,r['body'],p['sourceURL'],cfg['adapter'] if cfg else 'schema',p,cfg,browser_budget);entry.update(status='observed',observation=obs);stats['fetched']+=1
                 except ValueError as e:entry.update(status='needs-review',error=str(e));stats['errors']+=1
             results.append(entry)
         cursor=state['cursors'].get(host,0)
@@ -326,7 +367,7 @@ def scan(limit_override=None):
                     try:
                         inactive,reason=lifecycle(r['body'])
                         if inactive:entry.update(status='rejected',reason=reason)
-                        else:entry.update(status='candidate',observation=extract(r['body'],url,cfg['adapter']))
+                        else:entry.update(status='candidate',observation=extract_public(fetch,r['body'],url,cfg['adapter'],None,cfg,browser_budget))
                     except ValueError as e:entry.update(status='rejected',reason=str(e))
                 discoveries.append(entry)
         return results,discoveries,stats,cursor

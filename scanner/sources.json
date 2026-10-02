@@ -2,11 +2,157 @@
   "version": 1,
   "dailyDetailLimitPerAgency": 16,
   "sources": [
-    {"id":"nestenn","name":"Nestenn Lourinhã","base":"https://nestenn.pt","adapter":"nestenn","detailPattern":"/(?:venda/[^/]+/[^/]+/)?[^/]+-ref-\\d+","entrypoints":["/listing?typeTransaction=acheter","/venda/moradia/lourinha","/venda/terreno/lourinha","/venda/moradia/mafra","/venda/moradia/torres-vedras"],"sitemaps":[]},
-    {"id":"medipred","name":"MediPred","base":"https://www.medipred.pt","adapter":"schema","detailPattern":"/imovel/.+/\\d+","entrypoints":["/imoveis"],"sitemaps":["/sitemap-pt-pt.xml"]},
-    {"id":"westlife","name":"West Life Imobiliária","base":"https://www.westlifeimobiliaria.com","adapter":"schema","detailPattern":"/imovel/.+/\\d+","entrypoints":["/imoveis/terrenos","/imoveis/moradias"],"sitemaps":["/sitemap-pt-pt.xml"]},
-    {"id":"atlantico","name":"Atlântico Real Estate","base":"https://www.atlanticorealestate.com","adapter":"schema","detailPattern":"/imovel/.+/\\d+","entrypoints":["/imoveis"],"sitemaps":["/sitemap-pt-pt.xml"]},
-    {"id":"veigas","name":"Veigas","base":"https://www.veigas.eu","adapter":"schema","detailPattern":"/pt/detalhe-propriedade/.+/\\d+","entrypoints":["/pt/propriedades"],"sitemaps":["/sitemap.xml"]},
-    {"id":"imomelides","name":"ImoMelides","base":"https://www.imomelides.com","adapter":"imomelides","detailPattern":"/pt/propriedade/\\d+-.+","entrypoints":["/pt/produtos"],"sitemaps":[]}
+    {
+      "id": "nestenn",
+      "name": "Nestenn LourinhÃ£",
+      "base": "https://nestenn.pt",
+      "adapter": "nestenn",
+      "detailPattern": "/(?:venda/[^/]+/[^/]+/)?[^/]+-ref-\\d+",
+      "entrypoints": [
+        "/listing?typeTransaction=acheter",
+        "/venda/moradia/lourinha",
+        "/venda/terreno/lourinha",
+        "/venda/moradia/mafra",
+        "/venda/moradia/torres-vedras"
+      ],
+      "sitemaps": []
+    },
+    {
+      "id": "medipred",
+      "name": "MediPred",
+      "base": "https://www.medipred.pt",
+      "adapter": "schema",
+      "detailPattern": "/imovel/.+/\\d+",
+      "entrypoints": [
+        "/imoveis"
+      ],
+      "sitemaps": [
+        "/sitemap-pt-pt.xml"
+      ],
+      "browserFallback": true
+    },
+    {
+      "id": "westlife",
+      "name": "West Life ImobiliÃ¡ria",
+      "base": "https://www.westlifeimobiliaria.com",
+      "adapter": "schema",
+      "detailPattern": "/imovel/.+/\\d+",
+      "entrypoints": [
+        "/imoveis/terrenos",
+        "/imoveis/moradias"
+      ],
+      "sitemaps": [
+        "/sitemap-pt-pt.xml"
+      ],
+      "browserFallback": true
+    },
+    {
+      "id": "atlantico",
+      "name": "AtlÃ¢ntico Real Estate",
+      "base": "https://www.atlanticorealestate.com",
+      "adapter": "schema",
+      "detailPattern": "/imovel/.+/\\d+",
+      "entrypoints": [
+        "/imoveis"
+      ],
+      "sitemaps": [
+        "/sitemap-pt-pt.xml"
+      ],
+      "browserFallback": true
+    },
+    {
+      "id": "veigas",
+      "name": "Veigas",
+      "base": "https://www.veigas.eu",
+      "adapter": "schema",
+      "detailPattern": "/pt/detalhe-propriedade/.+/\\d+",
+      "entrypoints": [
+        "/pt/propriedades"
+      ],
+      "sitemaps": [
+        "/sitemap.xml"
+      ]
+    },
+    {
+      "id": "imomelides",
+      "name": "ImoMelides",
+      "base": "https://www.imomelides.com",
+      "adapter": "imomelides",
+      "detailPattern": "/pt/propriedade/\\d+-.+",
+      "entrypoints": [
+        "/pt/produtos"
+      ],
+      "sitemaps": []
+    },
+    {
+      "id": "ptcasas",
+      "name": "PT Casas",
+      "base": "https://www.ptcasas.pt",
+      "adapter": "schema",
+      "detailPattern": "/imovel/.+/\\d+",
+      "entrypoints": [
+        "/imoveis"
+      ],
+      "sitemaps": [
+        "/sitemap-pt-pt.xml"
+      ],
+      "browserFallback": true
+    },
+    {
+      "id": "oeste-solucoes",
+      "name": "Oeste Soluções",
+      "base": "https://www.oestesolucoes.com.pt",
+      "adapter": "schema",
+      "detailPattern": "/imovel/.+/\\d+",
+      "entrypoints": [
+        "/imoveis"
+      ],
+      "sitemaps": [
+        "/sitemap-pt-pt.xml"
+      ],
+      "browserFallback": true
+    },
+    {
+      "id": "mci",
+      "name": "MCI Imobiliária",
+      "base": "https://www.mciimobiliaria.pt",
+      "adapter": "schema",
+      "detailPattern": "/imovel/.+/\\d+",
+      "entrypoints": [
+        "/imoveis"
+      ],
+      "sitemaps": [
+        "/sitemap-pt-pt.xml"
+      ],
+      "browserFallback": true
+    },
+    {
+      "id": "ora-escolha",
+      "name": "Ora Escolha",
+      "base": "https://www.oraescolha.pt",
+      "adapter": "schema",
+      "detailPattern": "/imovel/.+/\\d+",
+      "entrypoints": [
+        "/imoveis"
+      ],
+      "sitemaps": [
+        "/sitemap-pt-pt.xml"
+      ],
+      "browserFallback": true
+    },
+    {
+      "id": "acertos-medidas",
+      "name": "Acertos e Medidas",
+      "base": "https://www.acertosemedidas.pt",
+      "adapter": "schema",
+      "detailPattern": "/imovel/.+/\\d+",
+      "entrypoints": [
+        "/imoveis"
+      ],
+      "sitemaps": [
+        "/sitemap-pt-pt.xml"
+      ],
+      "browserFallback": true
+    }
   ]
 }
