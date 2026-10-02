@@ -32,18 +32,18 @@ const HouseCatalog = [
     "sourceCheck": {
       "id": "34893545",
       "sourceURL": "https://www.idealista.pt/imovel/34893545/",
-      "checkedAt": "2026-10-02T20:32:01Z",
+      "checkedAt": "2026-10-02T20:40:29Z",
       "status": "unavailable",
-      "error": "robots unavailable: \u003curlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1081)>",
+      "error": "robots HTTP 403",
       "httpStatus": null
     },
     "availability": {
       "status": "unverified",
-      "checkedAt": "2026-10-02T20:32:01Z",
+      "checkedAt": "2026-10-02T20:40:29Z",
       "sourceURL": "https://www.idealista.pt/imovel/34893545/",
-      "evidence": "robots unavailable: \u003curlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1081)>"
+      "evidence": "robots HTTP 403"
     },
-    "availabilityCheckedAt": "2026-10-02T20:32:01Z"
+    "availabilityCheckedAt": "2026-10-02T20:40:29Z"
   },
   {
     "id": "35315415",
@@ -75,18 +75,18 @@ const HouseCatalog = [
     "sourceCheck": {
       "id": "35315415",
       "sourceURL": "https://www.idealista.pt/imovel/35315415/",
-      "checkedAt": "2026-10-02T20:32:01Z",
+      "checkedAt": "2026-10-02T20:40:29Z",
       "status": "unavailable",
-      "error": "robots unavailable: \u003curlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1081)>",
+      "error": "robots HTTP 403",
       "httpStatus": null
     },
     "availability": {
       "status": "unverified",
-      "checkedAt": "2026-10-02T20:32:01Z",
+      "checkedAt": "2026-10-02T20:40:29Z",
       "sourceURL": "https://www.idealista.pt/imovel/35315415/",
-      "evidence": "robots unavailable: \u003curlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1081)>"
+      "evidence": "robots HTTP 403"
     },
-    "availabilityCheckedAt": "2026-10-02T20:32:01Z"
+    "availabilityCheckedAt": "2026-10-02T20:40:29Z"
   },
   {
     "id": "34997193",
@@ -119,18 +119,18 @@ const HouseCatalog = [
     "sourceCheck": {
       "id": "34997193",
       "sourceURL": "https://www.idealista.pt/imovel/34997193/",
-      "checkedAt": "2026-10-02T20:32:01Z",
+      "checkedAt": "2026-10-02T20:40:29Z",
       "status": "unavailable",
-      "error": "robots unavailable: \u003curlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1081)>",
+      "error": "robots HTTP 403",
       "httpStatus": null
     },
     "availability": {
       "status": "unverified",
-      "checkedAt": "2026-10-02T20:32:01Z",
+      "checkedAt": "2026-10-02T20:40:29Z",
       "sourceURL": "https://www.idealista.pt/imovel/34997193/",
-      "evidence": "robots unavailable: \u003curlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1081)>"
+      "evidence": "robots HTTP 403"
     },
-    "availabilityCheckedAt": "2026-10-02T20:32:01Z"
+    "availabilityCheckedAt": "2026-10-02T20:40:29Z"
   },
   {
     "id": "35075003",
@@ -162,18 +162,18 @@ const HouseCatalog = [
     "sourceCheck": {
       "id": "35075003",
       "sourceURL": "https://www.idealista.pt/imovel/35075003/",
-      "checkedAt": "2026-10-02T20:32:01Z",
+      "checkedAt": "2026-10-02T20:40:29Z",
       "status": "unavailable",
-      "error": "robots unavailable: \u003curlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1081)>",
+      "error": "robots HTTP 403",
       "httpStatus": null
     },
     "availability": {
       "status": "unverified",
-      "checkedAt": "2026-10-02T20:32:01Z",
+      "checkedAt": "2026-10-02T20:40:29Z",
       "sourceURL": "https://www.idealista.pt/imovel/35075003/",
-      "evidence": "robots unavailable: \u003curlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1081)>"
+      "evidence": "robots HTTP 403"
     },
-    "availabilityCheckedAt": "2026-10-02T20:32:01Z"
+    "availabilityCheckedAt": "2026-10-02T20:40:29Z"
   },
   {
     "id": "35098754",
@@ -205,18 +205,18 @@ const HouseCatalog = [
     "sourceCheck": {
       "id": "35098754",
       "sourceURL": "https://www.idealista.pt/imovel/35098754/",
-      "checkedAt": "2026-10-02T20:32:01Z",
+      "checkedAt": "2026-10-02T20:40:29Z",
       "status": "unavailable",
-      "error": "robots unavailable: \u003curlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1081)>",
+      "error": "robots HTTP 403",
       "httpStatus": null
     },
     "availability": {
       "status": "unverified",
-      "checkedAt": "2026-10-02T20:32:01Z",
+      "checkedAt": "2026-10-02T20:40:29Z",
       "sourceURL": "https://www.idealista.pt/imovel/35098754/",
-      "evidence": "robots unavailable: \u003curlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1081)>"
+      "evidence": "robots HTTP 403"
     },
-    "availabilityCheckedAt": "2026-10-02T20:32:01Z"
+    "availabilityCheckedAt": "2026-10-02T20:40:29Z"
   },
   {
     "id": "35001171",
@@ -249,18 +249,18 @@ const HouseCatalog = [
     "sourceCheck": {
       "id": "35001171",
       "sourceURL": "https://www.idealista.pt/imovel/35001171/",
-      "checkedAt": "2026-10-02T20:32:01Z",
+      "checkedAt": "2026-10-02T20:40:29Z",
       "status": "unavailable",
-      "error": "robots unavailable: \u003curlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1081)>",
+      "error": "robots HTTP 403",
       "httpStatus": null
     },
     "availability": {
       "status": "unverified",
-      "checkedAt": "2026-10-02T20:32:01Z",
+      "checkedAt": "2026-10-02T20:40:29Z",
       "sourceURL": "https://www.idealista.pt/imovel/35001171/",
-      "evidence": "robots unavailable: \u003curlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1081)>"
+      "evidence": "robots HTTP 403"
     },
-    "availabilityCheckedAt": "2026-10-02T20:32:01Z"
+    "availabilityCheckedAt": "2026-10-02T20:40:29Z"
   },
   {
     "id": "35297875",
@@ -293,18 +293,18 @@ const HouseCatalog = [
     "sourceCheck": {
       "id": "35297875",
       "sourceURL": "https://www.idealista.pt/imovel/35297875/",
-      "checkedAt": "2026-10-02T20:32:01Z",
+      "checkedAt": "2026-10-02T20:40:29Z",
       "status": "unavailable",
-      "error": "robots unavailable: \u003curlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1081)>",
+      "error": "robots HTTP 403",
       "httpStatus": null
     },
     "availability": {
       "status": "unverified",
-      "checkedAt": "2026-10-02T20:32:01Z",
+      "checkedAt": "2026-10-02T20:40:29Z",
       "sourceURL": "https://www.idealista.pt/imovel/35297875/",
-      "evidence": "robots unavailable: \u003curlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1081)>"
+      "evidence": "robots HTTP 403"
     },
-    "availabilityCheckedAt": "2026-10-02T20:32:01Z"
+    "availabilityCheckedAt": "2026-10-02T20:40:29Z"
   },
   {
     "id": "34417056",
@@ -337,18 +337,18 @@ const HouseCatalog = [
     "sourceCheck": {
       "id": "34417056",
       "sourceURL": "https://www.idealista.pt/imovel/34417056/",
-      "checkedAt": "2026-10-02T20:32:01Z",
+      "checkedAt": "2026-10-02T20:40:29Z",
       "status": "unavailable",
-      "error": "robots unavailable: \u003curlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1081)>",
+      "error": "robots HTTP 403",
       "httpStatus": null
     },
     "availability": {
       "status": "unverified",
-      "checkedAt": "2026-10-02T20:32:01Z",
+      "checkedAt": "2026-10-02T20:40:29Z",
       "sourceURL": "https://www.idealista.pt/imovel/34417056/",
-      "evidence": "robots unavailable: \u003curlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1081)>"
+      "evidence": "robots HTTP 403"
     },
-    "availabilityCheckedAt": "2026-10-02T20:32:01Z"
+    "availabilityCheckedAt": "2026-10-02T20:40:29Z"
   },
   {
     "id": "33408663",
@@ -381,18 +381,18 @@ const HouseCatalog = [
     "sourceCheck": {
       "id": "33408663",
       "sourceURL": "https://www.idealista.pt/imovel/33408663/",
-      "checkedAt": "2026-10-02T20:32:01Z",
+      "checkedAt": "2026-10-02T20:40:29Z",
       "status": "unavailable",
-      "error": "robots unavailable: \u003curlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1081)>",
+      "error": "robots HTTP 403",
       "httpStatus": null
     },
     "availability": {
       "status": "unverified",
-      "checkedAt": "2026-10-02T20:32:01Z",
+      "checkedAt": "2026-10-02T20:40:29Z",
       "sourceURL": "https://www.idealista.pt/imovel/33408663/",
-      "evidence": "robots unavailable: \u003curlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1081)>"
+      "evidence": "robots HTTP 403"
     },
-    "availabilityCheckedAt": "2026-10-02T20:32:01Z"
+    "availabilityCheckedAt": "2026-10-02T20:40:29Z"
   },
   {
     "id": "agency-8740d5893e2062",
@@ -401,7 +401,7 @@ const HouseCatalog = [
     "area": 270.89,
     "sourceURL": "https://nestenn.pt/moradia-por-recuperar-em-papagovas-ref-1860",
     "firstSeen": "2026-10-02T08:17:47Z",
-    "lastObserved": "2026-10-02T20:32:01Z",
+    "lastObserved": "2026-10-02T20:40:29Z",
     "researchedAt": "2026-10-02",
     "reference": "N115LNH816",
     "history": [
@@ -427,6 +427,12 @@ const HouseCatalog = [
         "at": "2026-10-02T20:32:01Z",
         "method": "public-page / nestenn",
         "contentHash": "57a6275af8d00689978cec69da34d4ed386614661e865610a3f7e9eecb3ead9f"
+      },
+      {
+        "price": 275000.0,
+        "at": "2026-10-02T20:40:29Z",
+        "method": "public-page / nestenn",
+        "contentHash": "76d3ff8d5bca919089a343fc68333a87d0c2d93bd22dd4cbfa9f44ca9bd54872"
       }
     ],
     "notes": "",
@@ -450,17 +456,17 @@ const HouseCatalog = [
     "sourceCheck": {
       "id": "agency-8740d5893e2062",
       "sourceURL": "https://nestenn.pt/moradia-por-recuperar-em-papagovas-ref-1860",
-      "checkedAt": "2026-10-02T20:32:01Z",
+      "checkedAt": "2026-10-02T20:40:29Z",
       "status": "observed"
     },
-    "publishedObservedAt": "2026-10-02T20:32:01Z",
+    "publishedObservedAt": "2026-10-02T20:40:29Z",
     "availability": {
       "status": "advert-live",
-      "checkedAt": "2026-10-02T20:32:01Z",
+      "checkedAt": "2026-10-02T20:40:29Z",
       "sourceURL": "https://nestenn.pt/moradia-por-recuperar-em-papagovas-ref-1860",
       "evidence": "Advert page fetched and parsed; seller confirmation still required"
     },
-    "availabilityCheckedAt": "2026-10-02T20:32:01Z"
+    "availabilityCheckedAt": "2026-10-02T20:40:29Z"
   },
   {
     "id": "agency-b69d38ead3ce45",
@@ -469,7 +475,7 @@ const HouseCatalog = [
     "area": 90.0,
     "sourceURL": "https://www.mciimobiliaria.pt/imovel/apartamento-t2-3-piso-para-remodelar-localizado-perto-do-centro-de-setubal/23644467",
     "firstSeen": "2026-10-02T20:32:01Z",
-    "lastObserved": "2026-10-02T20:32:01Z",
+    "lastObserved": "2026-10-02T20:40:29Z",
     "researchedAt": "2026-10-02",
     "reference": null,
     "history": [
@@ -477,6 +483,12 @@ const HouseCatalog = [
         "price": 187000.0,
         "at": "2026-10-02T20:32:01Z",
         "method": "public-browser / schema"
+      },
+      {
+        "price": 187000.0,
+        "at": "2026-10-02T20:40:29Z",
+        "method": "public-page / schema",
+        "contentHash": "5cecdc73d4a6b259adc99c0725c3a848d1fa4cd5e4193c2f0a23174a81df790c"
       }
     ],
     "notes": "",
@@ -500,18 +512,19 @@ const HouseCatalog = [
     "lat": null,
     "lon": null,
     "sourceCheck": {
-      "checkedAt": "2026-10-02T20:32:01Z",
-      "status": "observed",
-      "sourceURL": "https://www.mciimobiliaria.pt/imovel/apartamento-t2-3-piso-para-remodelar-localizado-perto-do-centro-de-setubal/23644467"
+      "id": "agency-b69d38ead3ce45",
+      "sourceURL": "https://www.mciimobiliaria.pt/imovel/apartamento-t2-3-piso-para-remodelar-localizado-perto-do-centro-de-setubal/23644467",
+      "checkedAt": "2026-10-02T20:40:29Z",
+      "status": "observed"
     },
-    "publishedObservedAt": "2026-10-02T20:32:01Z",
+    "publishedObservedAt": "2026-10-02T20:40:29Z",
     "availability": {
       "status": "advert-live",
-      "checkedAt": "2026-10-02T20:32:01Z",
+      "checkedAt": "2026-10-02T20:40:29Z",
       "sourceURL": "https://www.mciimobiliaria.pt/imovel/apartamento-t2-3-piso-para-remodelar-localizado-perto-do-centro-de-setubal/23644467",
       "evidence": "Advert page fetched and parsed; seller confirmation still required"
     },
-    "availabilityCheckedAt": "2026-10-02T20:32:01Z"
+    "availabilityCheckedAt": "2026-10-02T20:40:29Z"
   },
   {
     "id": "agency-ef0fa5902642d0",
@@ -520,7 +533,7 @@ const HouseCatalog = [
     "area": 360.0,
     "sourceURL": "https://www.oestesolucoes.com.pt/imovel/casa-antiga-para-recuperar-centro-historico-da-lourinha/21479661",
     "firstSeen": "2026-10-02T20:32:01Z",
-    "lastObserved": "2026-10-02T20:32:01Z",
+    "lastObserved": "2026-10-02T20:40:29Z",
     "researchedAt": "2026-10-02",
     "reference": null,
     "history": [
@@ -528,6 +541,12 @@ const HouseCatalog = [
         "price": 185000.0,
         "at": "2026-10-02T20:32:01Z",
         "method": "public-browser / schema"
+      },
+      {
+        "price": 185000.0,
+        "at": "2026-10-02T20:40:29Z",
+        "method": "public-page / schema",
+        "contentHash": "237131d25db82ebfc42e7bf51c2bd64928e641e4eecec53579a6a01c61647e54"
       }
     ],
     "notes": "",
@@ -550,18 +569,19 @@ const HouseCatalog = [
     "lat": null,
     "lon": null,
     "sourceCheck": {
-      "checkedAt": "2026-10-02T20:32:01Z",
-      "status": "observed",
-      "sourceURL": "https://www.oestesolucoes.com.pt/imovel/casa-antiga-para-recuperar-centro-historico-da-lourinha/21479661"
+      "id": "agency-ef0fa5902642d0",
+      "sourceURL": "https://www.oestesolucoes.com.pt/imovel/casa-antiga-para-recuperar-centro-historico-da-lourinha/21479661",
+      "checkedAt": "2026-10-02T20:40:29Z",
+      "status": "observed"
     },
-    "publishedObservedAt": "2026-10-02T20:32:01Z",
+    "publishedObservedAt": "2026-10-02T20:40:29Z",
     "availability": {
       "status": "advert-live",
-      "checkedAt": "2026-10-02T20:32:01Z",
+      "checkedAt": "2026-10-02T20:40:29Z",
       "sourceURL": "https://www.oestesolucoes.com.pt/imovel/casa-antiga-para-recuperar-centro-historico-da-lourinha/21479661",
       "evidence": "Advert page fetched and parsed; seller confirmation still required"
     },
-    "availabilityCheckedAt": "2026-10-02T20:32:01Z"
+    "availabilityCheckedAt": "2026-10-02T20:40:29Z"
   },
   {
     "id": "agency-ffb2a0d439593f",
@@ -600,18 +620,21 @@ const HouseCatalog = [
     "lat": null,
     "lon": null,
     "sourceCheck": {
-      "checkedAt": "2026-10-02T20:32:01Z",
-      "status": "observed",
-      "sourceURL": "https://www.oestesolucoes.com.pt/imovel/casa-para-reabilitar-na-zona-historica-da-lourinha/22126165"
+      "id": "agency-ffb2a0d439593f",
+      "sourceURL": "https://www.oestesolucoes.com.pt/imovel/casa-para-reabilitar-na-zona-historica-da-lourinha/22126165",
+      "checkedAt": "2026-10-02T20:40:29Z",
+      "status": "unavailable",
+      "error": "\u003curlopen error [Errno 111] Connection refused>",
+      "httpStatus": null
     },
     "publishedObservedAt": "2026-10-02T20:32:01Z",
     "availability": {
-      "status": "advert-live",
-      "checkedAt": "2026-10-02T20:32:01Z",
+      "status": "unverified",
+      "checkedAt": "2026-10-02T20:40:29Z",
       "sourceURL": "https://www.oestesolucoes.com.pt/imovel/casa-para-reabilitar-na-zona-historica-da-lourinha/22126165",
-      "evidence": "Advert page fetched and parsed; seller confirmation still required"
+      "evidence": "\u003curlopen error [Errno 111] Connection refused>"
     },
-    "availabilityCheckedAt": "2026-10-02T20:32:01Z"
+    "availabilityCheckedAt": "2026-10-02T20:40:29Z"
   },
   {
     "id": "agency-9af91680c31c20",
@@ -620,7 +643,7 @@ const HouseCatalog = [
     "area": 61.0,
     "sourceURL": "https://www.medipred.pt/imovel/apartamento-t1-baixa-da-banheira/24448450",
     "firstSeen": "2026-10-02T20:32:01Z",
-    "lastObserved": "2026-10-02T20:32:01Z",
+    "lastObserved": "2026-10-02T20:40:29Z",
     "researchedAt": "2026-10-02",
     "reference": "MTJU7171",
     "history": [
@@ -628,6 +651,12 @@ const HouseCatalog = [
         "price": 172500.0,
         "at": "2026-10-02T20:32:01Z",
         "method": "public-browser / schema"
+      },
+      {
+        "price": 172500.0,
+        "at": "2026-10-02T20:40:29Z",
+        "method": "public-page / schema",
+        "contentHash": "94633c5178bccc6988a9158d0e85e723325748e522320a20b765fa666d95398f"
       }
     ],
     "notes": "",
@@ -650,18 +679,19 @@ const HouseCatalog = [
     "lat": null,
     "lon": null,
     "sourceCheck": {
-      "checkedAt": "2026-10-02T20:32:01Z",
-      "status": "observed",
-      "sourceURL": "https://www.medipred.pt/imovel/apartamento-t1-baixa-da-banheira/24448450"
+      "id": "agency-9af91680c31c20",
+      "sourceURL": "https://www.medipred.pt/imovel/apartamento-t1-baixa-da-banheira/24448450",
+      "checkedAt": "2026-10-02T20:40:29Z",
+      "status": "observed"
     },
-    "publishedObservedAt": "2026-10-02T20:32:01Z",
+    "publishedObservedAt": "2026-10-02T20:40:29Z",
     "availability": {
       "status": "advert-live",
-      "checkedAt": "2026-10-02T20:32:01Z",
+      "checkedAt": "2026-10-02T20:40:29Z",
       "sourceURL": "https://www.medipred.pt/imovel/apartamento-t1-baixa-da-banheira/24448450",
       "evidence": "Advert page fetched and parsed; seller confirmation still required"
     },
-    "availabilityCheckedAt": "2026-10-02T20:32:01Z"
+    "availabilityCheckedAt": "2026-10-02T20:40:29Z"
   },
   {
     "id": "agency-4955fb7adfc811",
@@ -670,7 +700,7 @@ const HouseCatalog = [
     "area": 160.0,
     "sourceURL": "https://www.ptcasas.pt/imovel/moradia-t2-para-recuperar-em-dagorda-cadaval/25787966",
     "firstSeen": "2026-10-02T20:32:01Z",
-    "lastObserved": "2026-10-02T20:32:01Z",
+    "lastObserved": "2026-10-02T20:40:29Z",
     "researchedAt": "2026-10-02",
     "reference": null,
     "history": [
@@ -678,6 +708,12 @@ const HouseCatalog = [
         "price": 160000.0,
         "at": "2026-10-02T20:32:01Z",
         "method": "public-browser / schema"
+      },
+      {
+        "price": 160000.0,
+        "at": "2026-10-02T20:40:29Z",
+        "method": "public-page / schema",
+        "contentHash": "b189d95382c26ceb35502e9e9bcc4e1263fd65122f929c7f7286dd0fc74bc68e"
       }
     ],
     "notes": "",
@@ -701,18 +737,19 @@ const HouseCatalog = [
     "lat": null,
     "lon": null,
     "sourceCheck": {
-      "checkedAt": "2026-10-02T20:32:01Z",
-      "status": "observed",
-      "sourceURL": "https://www.ptcasas.pt/imovel/moradia-t2-para-recuperar-em-dagorda-cadaval/25787966"
+      "id": "agency-4955fb7adfc811",
+      "sourceURL": "https://www.ptcasas.pt/imovel/moradia-t2-para-recuperar-em-dagorda-cadaval/25787966",
+      "checkedAt": "2026-10-02T20:40:29Z",
+      "status": "observed"
     },
-    "publishedObservedAt": "2026-10-02T20:32:01Z",
+    "publishedObservedAt": "2026-10-02T20:40:29Z",
     "availability": {
       "status": "advert-live",
-      "checkedAt": "2026-10-02T20:32:01Z",
+      "checkedAt": "2026-10-02T20:40:29Z",
       "sourceURL": "https://www.ptcasas.pt/imovel/moradia-t2-para-recuperar-em-dagorda-cadaval/25787966",
       "evidence": "Advert page fetched and parsed; seller confirmation still required"
     },
-    "availabilityCheckedAt": "2026-10-02T20:32:01Z"
+    "availabilityCheckedAt": "2026-10-02T20:40:29Z"
   },
   {
     "id": "agency-f53b139753f70a",
@@ -721,7 +758,7 @@ const HouseCatalog = [
     "area": 170.0,
     "sourceURL": "https://www.medipred.pt/imovel/ruina-com-170-m2-em-terreno-com-460-m2-arneiros-ventosa-tvd/25381290",
     "firstSeen": "2026-10-02T20:36:20Z",
-    "lastObserved": "2026-10-02T20:36:20Z",
+    "lastObserved": "2026-10-02T20:40:29Z",
     "researchedAt": "2026-10-02",
     "reference": "MTM6880C",
     "history": [
@@ -729,6 +766,12 @@ const HouseCatalog = [
         "price": 63000.0,
         "at": "2026-10-02T20:36:20Z",
         "method": "public-page / schema"
+      },
+      {
+        "price": 63000.0,
+        "at": "2026-10-02T20:40:29Z",
+        "method": "public-page / schema",
+        "contentHash": "e992eaa1dc55a4a554c10898d67ce5b919526a8ae30c7864f1563aa5b5b64863"
       }
     ],
     "notes": "",
@@ -753,21 +796,72 @@ const HouseCatalog = [
     "lat": null,
     "lon": null,
     "sourceCheck": {
-      "status": "observed",
-      "checkedAt": "2026-10-02T20:36:20Z",
-      "sourceURL": "https://www.medipred.pt/imovel/ruina-com-170-m2-em-terreno-com-460-m2-arneiros-ventosa-tvd/25381290"
+      "id": "agency-f53b139753f70a",
+      "sourceURL": "https://www.medipred.pt/imovel/ruina-com-170-m2-em-terreno-com-460-m2-arneiros-ventosa-tvd/25381290",
+      "checkedAt": "2026-10-02T20:40:29Z",
+      "status": "observed"
     },
     "availability": {
       "status": "advert-live",
-      "checkedAt": "2026-10-02T20:36:20Z",
+      "checkedAt": "2026-10-02T20:40:29Z",
       "sourceURL": "https://www.medipred.pt/imovel/ruina-com-170-m2-em-terreno-com-460-m2-arneiros-ventosa-tvd/25381290",
-      "evidence": "Direct agency page fetched and parsed"
+      "evidence": "Advert page fetched and parsed; seller confirmation still required"
     },
-    "availabilityCheckedAt": "2026-10-02T20:36:20Z",
-    "publishedObservedAt": "2026-10-02T20:36:20Z",
+    "availabilityCheckedAt": "2026-10-02T20:40:29Z",
+    "publishedObservedAt": "2026-10-02T20:40:29Z",
     "alternateSources": [
       "https://www.medipred.pt/imovel/ruina-com-170-m2-em-terreno-com-940-m2-arneiros-ventosa-tvd/24803498"
     ]
+  },
+  {
+    "id": "agency-ff59b536e95a24",
+    "title": "Apartamento T3, com 3 parqueamentos, necessita algumas remodelações, perto Estação Fertagus!",
+    "price": 319000.0,
+    "area": 160.0,
+    "sourceURL": "https://www.mciimobiliaria.pt/imovel/apartamento-t3-com-3-parqueamentos-necessita-algumas-remodelacoes-perto-estacao-fertagus/23499159",
+    "firstSeen": "2026-10-02T20:40:29Z",
+    "lastObserved": "2026-10-02T20:40:29Z",
+    "researchedAt": "2026-10-02",
+    "reference": null,
+    "history": [
+      {
+        "price": 319000.0,
+        "at": "2026-10-02T20:40:29Z",
+        "method": "public-page / schema"
+      }
+    ],
+    "notes": "",
+    "imageURL": "https://images.egorealestate.com/Z1280x960/OAYES/S5/C16629/P27505744/Tphoto/ID50b4a301-0000-0500-0000-000016426854.jpg",
+    "imageLabel": "Agency advert image; check original gallery",
+    "sourceDescription": "Apresentamos este espaçoso apartamento T3, com 160m² de área bruta, situado no 2º andar, a necessitar de algumas ob ras, inserido numa zona residencial calma e com ótima envolvente.\r\nO imóvel destaca-se pelas suas áreas generosas e excelente organização dos espaços, distribuídos da seguinte forma:\r\n\r\n Hall de entrada\r\n\r\n Ampla sala comum com ótima luminosidade\r\n\r\n Três quartos, todos com roupeiros embutidos\r\n\r\n Duas casas de banho completas\r\n\r\n Cozinha mobilada, muito espaçosa e funcional\r\n\r\n Arrecadação no sótão\r\n\r\n Três lugares de estacionamento na cave\r\nSituado a poucos minutos da estação de comboios da Fertagus, com fácil acesso a transportes públicos, escolas, comércio e serviços. A zona oferece ainda excelentes acessibilidades, com ligação direta às principais vias (A12 e A33), tornando este imóvel ideal para famílias ou para quem procura conforto e mobilidade.\r\nNão perca esta oportunidade. Marque já a sua visita!\r\nEste imóvel está disponível para partilha de comissão de mediação (50%-50%) com QUALQUER mediadora imobiliária que possua licença AMI válida.",
+    "city": "Palmela",
+    "areaName": "Palmela",
+    "type": "T3 apartment",
+    "floor": "Not confirmed",
+    "condition": "Renovation advertised",
+    "occupancy": "Not confirmed",
+    "risk": "review",
+    "risks": [
+      "Renovation claim from agency description: confirm scope, gross floor area, title and occupancy.",
+      "Agency floorSize is unverified and can include multiple buildings; obtain a measured allocation.",
+      "No ROI or resale estimate is assumed."
+    ],
+    "comps": [],
+    "lat": null,
+    "lon": null,
+    "sourceCheck": {
+      "checkedAt": "2026-10-02T20:40:29Z",
+      "status": "observed",
+      "sourceURL": "https://www.mciimobiliaria.pt/imovel/apartamento-t3-com-3-parqueamentos-necessita-algumas-remodelacoes-perto-estacao-fertagus/23499159"
+    },
+    "publishedObservedAt": "2026-10-02T20:40:29Z",
+    "availability": {
+      "status": "advert-live",
+      "checkedAt": "2026-10-02T20:40:29Z",
+      "sourceURL": "https://www.mciimobiliaria.pt/imovel/apartamento-t3-com-3-parqueamentos-necessita-algumas-remodelacoes-perto-estacao-fertagus/23499159",
+      "evidence": "Advert page fetched and parsed; seller confirmation still required"
+    },
+    "availabilityCheckedAt": "2026-10-02T20:40:29Z"
   }
 ];
 if(typeof module!=='undefined')module.exports=HouseCatalog;
