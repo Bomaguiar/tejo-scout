@@ -50,3 +50,6 @@ Land filters include district, municipality, view type, advertised planning stat
 
 ## Review 1 October 2026
 64 existing advert URLs attempted: 52 source snapshots retrieved, 12 unavailable. Added two Lourinha land candidates. Capuchos price revised to EUR 490,000 from an advertised reduction; exact change date unknown. Older conflicting snapshots retained as warnings, not price updates. See refresh-report.json. Daily 08:00 update is a local Codex automation requiring the computer awake and Codex running; no cloud scanner is deployed.
+
+## Review 2 October 2026
+66 existing adverts attempted: 54 snapshots retrieved, 12 unavailable. Two new sea-view land candidates: Torres Vedras (EUR 140,000 / 5,040 m2) and Sesimbra (EUR 490,000 / 5,000 m2). No new verified price changes. Discovery is incomplete; cached pages are not live availability. Dated source reviews retained in research/.

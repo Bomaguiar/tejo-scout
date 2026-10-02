@@ -1,17 +1,14 @@
 {
-  "checkedAt": "2026-10-02",
-  "lastSuccessfulContentUpdate": "2026-10-02",
-  "existingAttempted": 66,
-  "accessibleSnapshots": 54,
+  "checkedAt": "2026-10-01",
+  "existingAttempted": 64,
+  "accessibleSnapshots": 52,
   "unavailable": 12,
   "newListings": 2,
-  "priceChanges": 0,
-  "coverage": "All 66 existing advert URLs attempted. Discovery searches sampled renovation homes across the five target municipalities and ocean-view land in Lisbon and Setúbal districts; not exhaustive. Snapshot retrieval does not confirm current availability. Older conflicting prices retained without overwriting last good data.",
   "records": [
     {
       "id": "34893545",
       "sourceURL": "https://www.idealista.pt/imovel/34893545/",
-      "checkedAt": "2026-10-02",
+      "checkedAt": "2026-10-01",
       "status": "source-snapshot",
       "sourceCrawlAge": "today",
       "publishedPrice": 139000,
@@ -20,7 +17,7 @@
     {
       "id": "35315415",
       "sourceURL": "https://www.idealista.pt/imovel/35315415/",
-      "checkedAt": "2026-10-02",
+      "checkedAt": "2026-10-01",
       "status": "source-snapshot",
       "sourceCrawlAge": "today",
       "publishedPrice": 199000,
@@ -29,7 +26,7 @@
     {
       "id": "34997193",
       "sourceURL": "https://www.idealista.pt/imovel/34997193/",
-      "checkedAt": "2026-10-02",
+      "checkedAt": "2026-10-01",
       "status": "source-snapshot",
       "sourceCrawlAge": "today",
       "publishedPrice": 160000,
@@ -38,7 +35,7 @@
     {
       "id": "35075003",
       "sourceURL": "https://www.idealista.pt/imovel/35075003/",
-      "checkedAt": "2026-10-02",
+      "checkedAt": "2026-10-01",
       "status": "source-snapshot",
       "sourceCrawlAge": "4 days ago",
       "publishedPrice": 179000,
@@ -47,7 +44,7 @@
     {
       "id": "35098754",
       "sourceURL": "https://www.idealista.pt/imovel/35098754/",
-      "checkedAt": "2026-10-02",
+      "checkedAt": "2026-10-01",
       "status": "unavailable",
       "sourceCrawlAge": null,
       "publishedPrice": 159000,
@@ -56,7 +53,7 @@
     {
       "id": "35001171",
       "sourceURL": "https://www.idealista.pt/imovel/35001171/",
-      "checkedAt": "2026-10-02",
+      "checkedAt": "2026-10-01",
       "status": "source-snapshot",
       "sourceCrawlAge": "last week",
       "publishedPrice": 175000,
@@ -65,16 +62,16 @@
     {
       "id": "35297875",
       "sourceURL": "https://www.idealista.pt/imovel/35297875/",
-      "checkedAt": "2026-10-02",
+      "checkedAt": "2026-10-01",
       "status": "source-snapshot",
-      "sourceCrawlAge": "yesterday",
+      "sourceCrawlAge": "today",
       "publishedPrice": 59900,
       "snapshotPrice": 59900
     },
     {
       "id": "34417056",
       "sourceURL": "https://www.idealista.pt/imovel/34417056/",
-      "checkedAt": "2026-10-02",
+      "checkedAt": "2026-10-01",
       "status": "unavailable",
       "sourceCrawlAge": null,
       "publishedPrice": 99700,
@@ -83,7 +80,7 @@
     {
       "id": "33408663",
       "sourceURL": "https://www.idealista.pt/imovel/33408663/",
-      "checkedAt": "2026-10-02",
+      "checkedAt": "2026-10-01",
       "status": "source-snapshot",
       "sourceCrawlAge": "3 days ago",
       "publishedPrice": 80000,
@@ -92,7 +89,7 @@
     {
       "id": "land-kw55379",
       "sourceURL": "https://www.kwportugal.pt/pt/Imovel/Venda/Terreno/Lisboa/Mafra/Santo-Isidoro/55379",
-      "checkedAt": "2026-10-02",
+      "checkedAt": "2026-10-01",
       "status": "unavailable",
       "sourceCrawlAge": null,
       "publishedPrice": 135000,
@@ -101,7 +98,7 @@
     {
       "id": "land-cc1003083",
       "sourceURL": "https://casacerta.pt/imovel/1003083/terreno-para-venda-em-mafra",
-      "checkedAt": "2026-10-02",
+      "checkedAt": "2026-10-01",
       "status": "source-snapshot",
       "sourceCrawlAge": "4 months ago",
       "publishedPrice": 65000,
@@ -110,7 +107,7 @@
     {
       "id": "land-iv19182944",
       "sourceURL": "https://www.imovirtual.com/pt/anuncio/terreno-rustico-com-4-625-m-vista-mar-baleia-carvoeira-mafra-ID1iumk",
-      "checkedAt": "2026-10-02",
+      "checkedAt": "2026-10-01",
       "status": "source-snapshot",
       "sourceCrawlAge": "last month",
       "publishedPrice": 60000,
@@ -119,7 +116,7 @@
     {
       "id": "land-iad136815",
       "sourceURL": "https://www.iadportugal.pt/anuncio/terreno-venda-ericeira-183m2/r136815",
-      "checkedAt": "2026-10-02",
+      "checkedAt": "2026-10-01",
       "status": "source-snapshot",
       "sourceCrawlAge": "3 weeks ago",
       "publishedPrice": 299000,
@@ -128,7 +125,7 @@
     {
       "id": "land-34571797",
       "sourceURL": "https://www.idealista.pt/imovel/34571797/",
-      "checkedAt": "2026-10-02",
+      "checkedAt": "2026-10-01",
       "status": "source-snapshot",
       "sourceCrawlAge": "today",
       "publishedPrice": 350000,
@@ -137,7 +134,7 @@
     {
       "id": "land-35049927",
       "sourceURL": "https://www.idealista.pt/imovel/35049927/",
-      "checkedAt": "2026-10-02",
+      "checkedAt": "2026-10-01",
       "status": "unavailable",
       "sourceCrawlAge": null,
       "publishedPrice": 650000,
@@ -146,16 +143,16 @@
     {
       "id": "land-34851294",
       "sourceURL": "https://www.idealista.pt/imovel/34851294/",
-      "checkedAt": "2026-10-02",
+      "checkedAt": "2026-10-01",
       "status": "source-snapshot",
-      "sourceCrawlAge": "yesterday",
+      "sourceCrawlAge": "today",
       "publishedPrice": 1900000,
       "snapshotPrice": 1900000
     },
     {
       "id": "land-rm121011438132",
       "sourceURL": "https://remax.pt/pt/imoveis/venda-terreno-tmafra-igreja-nova-e-cheleiros/121011438-132",
-      "checkedAt": "2026-10-02",
+      "checkedAt": "2026-10-01",
       "status": "source-snapshot",
       "sourceCrawlAge": "today",
       "publishedPrice": 482500,
@@ -164,7 +161,7 @@
     {
       "id": "land-35009406",
       "sourceURL": "https://www.idealista.pt/imovel/35009406/",
-      "checkedAt": "2026-10-02",
+      "checkedAt": "2026-10-01",
       "status": "unavailable",
       "sourceCrawlAge": null,
       "publishedPrice": 52500,
@@ -173,7 +170,7 @@
     {
       "id": "land-34647235",
       "sourceURL": "https://www.idealista.pt/imovel/34647235/",
-      "checkedAt": "2026-10-02",
+      "checkedAt": "2026-10-01",
       "status": "source-snapshot",
       "sourceCrawlAge": "today",
       "publishedPrice": 118000,
@@ -182,7 +179,7 @@
     {
       "id": "land-34647256",
       "sourceURL": "https://www.idealista.pt/imovel/34647256/",
-      "checkedAt": "2026-10-02",
+      "checkedAt": "2026-10-01",
       "status": "source-snapshot",
       "sourceCrawlAge": "last week",
       "publishedPrice": 185000,
@@ -191,7 +188,7 @@
     {
       "id": "land-35125364",
       "sourceURL": "https://www.idealista.pt/imovel/35125364/",
-      "checkedAt": "2026-10-02",
+      "checkedAt": "2026-10-01",
       "status": "source-snapshot",
       "sourceCrawlAge": "last month",
       "publishedPrice": 160000,
@@ -200,7 +197,7 @@
     {
       "id": "land-34977116",
       "sourceURL": "https://www.idealista.pt/imovel/34977116/",
-      "checkedAt": "2026-10-02",
+      "checkedAt": "2026-10-01",
       "status": "source-snapshot",
       "sourceCrawlAge": "last month",
       "publishedPrice": 595000,
@@ -209,7 +206,7 @@
     {
       "id": "land-rm12587111524",
       "sourceURL": "https://remax.pt/pt/imoveis/venda-terreno-ttorres-vedras-sao-pedro-da-cadeira/125871115-24",
-      "checkedAt": "2026-10-02",
+      "checkedAt": "2026-10-01",
       "status": "source-snapshot",
       "sourceCrawlAge": "last month",
       "publishedPrice": 430000,
@@ -218,7 +215,7 @@
     {
       "id": "land-35138277",
       "sourceURL": "https://www.idealista.pt/imovel/35138277/",
-      "checkedAt": "2026-10-02",
+      "checkedAt": "2026-10-01",
       "status": "unavailable",
       "sourceCrawlAge": null,
       "publishedPrice": 480000,
@@ -227,7 +224,7 @@
     {
       "id": "land-34204824",
       "sourceURL": "https://www.idealista.pt/pro/mypropertygere-imobiliaria/imovel/34204824/",
-      "checkedAt": "2026-10-02",
+      "checkedAt": "2026-10-01",
       "status": "source-snapshot",
       "sourceCrawlAge": "last month",
       "publishedPrice": 89000,
@@ -236,7 +233,7 @@
     {
       "id": "land-33164220",
       "sourceURL": "https://www.idealista.pt/imovel/33164220/",
-      "checkedAt": "2026-10-02",
+      "checkedAt": "2026-10-01",
       "status": "source-snapshot",
       "sourceCrawlAge": "last week",
       "publishedPrice": 400000,
@@ -245,7 +242,7 @@
     {
       "id": "land-29411935",
       "sourceURL": "https://www.idealista.pt/imovel/29411935/",
-      "checkedAt": "2026-10-02",
+      "checkedAt": "2026-10-01",
       "status": "source-snapshot",
       "sourceCrawlAge": "2 days ago",
       "publishedPrice": 300000,
@@ -254,34 +251,34 @@
     {
       "id": "land-34885485",
       "sourceURL": "https://www.idealista.pt/imovel/34885485/",
-      "checkedAt": "2026-10-02",
+      "checkedAt": "2026-10-01",
       "status": "source-snapshot",
-      "sourceCrawlAge": "today",
+      "sourceCrawlAge": "yesterday",
       "publishedPrice": 129000,
       "snapshotPrice": 129000
     },
     {
       "id": "land-32077224",
       "sourceURL": "https://www.idealista.pt/imovel/32077224/",
-      "checkedAt": "2026-10-02",
+      "checkedAt": "2026-10-01",
       "status": "source-snapshot",
-      "sourceCrawlAge": "today",
+      "sourceCrawlAge": "2 days ago",
       "publishedPrice": 220000,
       "snapshotPrice": 220000
     },
     {
       "id": "land-34891179",
       "sourceURL": "https://www.idealista.pt/imovel/34891179/",
-      "checkedAt": "2026-10-02",
+      "checkedAt": "2026-10-01",
       "status": "source-snapshot",
-      "sourceCrawlAge": "yesterday",
+      "sourceCrawlAge": "today",
       "publishedPrice": 120000,
       "snapshotPrice": 120000
     },
     {
       "id": "land-33859005",
       "sourceURL": "https://www.idealista.pt/imovel/33859005/",
-      "checkedAt": "2026-10-02",
+      "checkedAt": "2026-10-01",
       "status": "source-snapshot",
       "sourceCrawlAge": "last year",
       "publishedPrice": 350000,
@@ -290,7 +287,7 @@
     {
       "id": "land-34098930",
       "sourceURL": "https://www.idealista.pt/imovel/34098930/",
-      "checkedAt": "2026-10-02",
+      "checkedAt": "2026-10-01",
       "status": "source-snapshot",
       "sourceCrawlAge": "last month",
       "publishedPrice": 495000,
@@ -299,7 +296,7 @@
     {
       "id": "land-veigas642137",
       "sourceURL": "https://www.veigas.eu/pt/detalhe-propriedade/terreno-vista-mar-lourinha-ribamar-agricultura/642137",
-      "checkedAt": "2026-10-02",
+      "checkedAt": "2026-10-01",
       "status": "source-snapshot",
       "sourceCrawlAge": "11 months ago",
       "publishedPrice": 330000,
@@ -308,7 +305,7 @@
     {
       "id": "land-era130250026",
       "sourceURL": "https://www.netanuncio.pt/Terreno/Lisboa%2CLourinha/tem-Vista-para-Campo%2CVista-para-Mar%2CEscola%2CTransportes-Publicos/?UID=5cbd58bb-dfcd-11ef-a463-060000000052",
-      "checkedAt": "2026-10-02",
+      "checkedAt": "2026-10-01",
       "status": "unavailable",
       "sourceCrawlAge": null,
       "publishedPrice": 320000,
@@ -317,7 +314,7 @@
     {
       "id": "land-35099207",
       "sourceURL": "https://www.idealista.pt/imovel/35099207/",
-      "checkedAt": "2026-10-02",
+      "checkedAt": "2026-10-01",
       "status": "source-snapshot",
       "sourceCrawlAge": "last month",
       "publishedPrice": 195000,
@@ -326,7 +323,7 @@
     {
       "id": "land-34737892",
       "sourceURL": "https://www.idealista.pt/imovel/34737892/",
-      "checkedAt": "2026-10-02",
+      "checkedAt": "2026-10-01",
       "status": "unavailable",
       "sourceCrawlAge": null,
       "publishedPrice": 14000,
@@ -335,7 +332,7 @@
     {
       "id": "land-34053072",
       "sourceURL": "https://www.idealista.pt/imovel/34053072/",
-      "checkedAt": "2026-10-02",
+      "checkedAt": "2026-10-01",
       "status": "unavailable",
       "sourceCrawlAge": null,
       "publishedPrice": 69000,
@@ -344,7 +341,7 @@
     {
       "id": "land-35335403",
       "sourceURL": "https://www.idealista.pt/imovel/35335403/",
-      "checkedAt": "2026-10-02",
+      "checkedAt": "2026-10-01",
       "status": "source-snapshot",
       "sourceCrawlAge": "2 weeks ago",
       "publishedPrice": 1400000,
@@ -353,7 +350,7 @@
     {
       "id": "land-35342696",
       "sourceURL": "https://www.idealista.pt/imovel/35342696/",
-      "checkedAt": "2026-10-02",
+      "checkedAt": "2026-10-01",
       "status": "source-snapshot",
       "sourceCrawlAge": "3 days ago",
       "publishedPrice": 1890000,
@@ -362,7 +359,7 @@
     {
       "id": "land-31424804",
       "sourceURL": "https://www.idealista.pt/imovel/31424804/",
-      "checkedAt": "2026-10-02",
+      "checkedAt": "2026-10-01",
       "status": "source-snapshot",
       "sourceCrawlAge": "2 weeks ago",
       "publishedPrice": 600000,
@@ -371,7 +368,7 @@
     {
       "id": "land-iv19046900",
       "sourceURL": "https://www.imovirtual.com/pt/anuncio/lote-de-998m2-com-projeto-de-autor-e-vista-mar-oeiras-ID1hUY4",
-      "checkedAt": "2026-10-02",
+      "checkedAt": "2026-10-01",
       "status": "source-snapshot",
       "sourceCrawlAge": "3 weeks ago",
       "publishedPrice": 2000000,
@@ -380,7 +377,7 @@
     {
       "id": "land-rm1206119456",
       "sourceURL": "https://remax.pt/pt/imoveis/venda-terreno-toeiras-porto-salvo/120611945-6",
-      "checkedAt": "2026-10-02",
+      "checkedAt": "2026-10-01",
       "status": "unavailable",
       "sourceCrawlAge": null,
       "publishedPrice": 1550000,
@@ -389,16 +386,16 @@
     {
       "id": "land-34194709",
       "sourceURL": "https://www.idealista.pt/imovel/34194709/",
-      "checkedAt": "2026-10-02",
+      "checkedAt": "2026-10-01",
       "status": "source-snapshot",
       "sourceCrawlAge": "last week",
-      "publishedPrice": 490000,
+      "publishedPrice": 579000,
       "snapshotPrice": 490000
     },
     {
       "id": "land-34200758",
       "sourceURL": "https://www.idealista.pt/imovel/34200758/",
-      "checkedAt": "2026-10-02",
+      "checkedAt": "2026-10-01",
       "status": "source-snapshot",
       "sourceCrawlAge": "2 weeks ago",
       "publishedPrice": 1650000,
@@ -407,7 +404,7 @@
     {
       "id": "land-32465277",
       "sourceURL": "https://www.idealista.pt/imovel/32465277/",
-      "checkedAt": "2026-10-02",
+      "checkedAt": "2026-10-01",
       "status": "source-snapshot",
       "sourceCrawlAge": "5 months ago",
       "publishedPrice": 100000,
@@ -416,7 +413,7 @@
     {
       "id": "land-34766539",
       "sourceURL": "https://www.idealista.pt/imovel/34766539/",
-      "checkedAt": "2026-10-02",
+      "checkedAt": "2026-10-01",
       "status": "source-snapshot",
       "sourceCrawlAge": "last month",
       "publishedPrice": 1849000,
@@ -425,7 +422,7 @@
     {
       "id": "land-35317279",
       "sourceURL": "https://www.idealista.pt/imovel/35317279/",
-      "checkedAt": "2026-10-02",
+      "checkedAt": "2026-10-01",
       "status": "source-snapshot",
       "sourceCrawlAge": "2 weeks ago",
       "publishedPrice": 580000,
@@ -434,7 +431,7 @@
     {
       "id": "land-34955330",
       "sourceURL": "https://www.idealista.pt/imovel/34955330/",
-      "checkedAt": "2026-10-02",
+      "checkedAt": "2026-10-01",
       "status": "source-snapshot",
       "sourceCrawlAge": "6 days ago",
       "publishedPrice": 1790000,
@@ -443,7 +440,7 @@
     {
       "id": "land-32068022",
       "sourceURL": "https://www.idealista.pt/imovel/32068022/",
-      "checkedAt": "2026-10-02",
+      "checkedAt": "2026-10-01",
       "status": "source-snapshot",
       "sourceCrawlAge": "last month",
       "publishedPrice": 2500000,
@@ -452,7 +449,7 @@
     {
       "id": "land-34729807",
       "sourceURL": "https://www.idealista.pt/imovel/34729807/",
-      "checkedAt": "2026-10-02",
+      "checkedAt": "2026-10-01",
       "status": "source-snapshot",
       "sourceCrawlAge": "5 months ago",
       "publishedPrice": 280000,
@@ -461,7 +458,7 @@
     {
       "id": "land-rm12344130537",
       "sourceURL": "https://www.remax.pt/pt/imoveis/venda-terreno-tgrandola-carvalhal/123441305-37",
-      "checkedAt": "2026-10-02",
+      "checkedAt": "2026-10-01",
       "status": "source-snapshot",
       "sourceCrawlAge": "last month",
       "publishedPrice": 5500000,
@@ -470,7 +467,7 @@
     {
       "id": "land-34566546",
       "sourceURL": "https://www.idealista.pt/imovel/34566546/",
-      "checkedAt": "2026-10-02",
+      "checkedAt": "2026-10-01",
       "status": "source-snapshot",
       "sourceCrawlAge": "2 months ago",
       "publishedPrice": 975000,
@@ -479,7 +476,7 @@
     {
       "id": "land-34902700",
       "sourceURL": "https://www.idealista.pt/pro/imomelides/imovel/34902700/",
-      "checkedAt": "2026-10-02",
+      "checkedAt": "2026-10-01",
       "status": "unavailable",
       "sourceCrawlAge": null,
       "publishedPrice": 1600000,
@@ -488,7 +485,7 @@
     {
       "id": "land-33206361",
       "sourceURL": "https://www.idealista.pt/imovel/33206361/",
-      "checkedAt": "2026-10-02",
+      "checkedAt": "2026-10-01",
       "status": "unavailable",
       "sourceCrawlAge": null,
       "publishedPrice": 1560000,
@@ -497,7 +494,7 @@
     {
       "id": "land-32267492",
       "sourceURL": "https://www.idealista.pt/imovel/32267492/",
-      "checkedAt": "2026-10-02",
+      "checkedAt": "2026-10-01",
       "status": "source-snapshot",
       "sourceCrawlAge": "last month",
       "publishedPrice": 727000,
@@ -506,7 +503,7 @@
     {
       "id": "land-33243646",
       "sourceURL": "https://www.idealista.pt/imovel/33243646/",
-      "checkedAt": "2026-10-02",
+      "checkedAt": "2026-10-01",
       "status": "source-snapshot",
       "sourceCrawlAge": "last month",
       "publishedPrice": 1500000,
@@ -515,7 +512,7 @@
     {
       "id": "land-35061215",
       "sourceURL": "https://www.idealista.pt/imovel/35061215/",
-      "checkedAt": "2026-10-02",
+      "checkedAt": "2026-10-01",
       "status": "source-snapshot",
       "sourceCrawlAge": "2 days ago",
       "publishedPrice": 275000,
@@ -524,7 +521,7 @@
     {
       "id": "land-32565217",
       "sourceURL": "https://www.idealista.pt/imovel/32565217/",
-      "checkedAt": "2026-10-02",
+      "checkedAt": "2026-10-01",
       "status": "source-snapshot",
       "sourceCrawlAge": "3 weeks ago",
       "publishedPrice": 1500000,
@@ -533,7 +530,7 @@
     {
       "id": "land-33545362",
       "sourceURL": "https://www.idealista.pt/imovel/33545362/",
-      "checkedAt": "2026-10-02",
+      "checkedAt": "2026-10-01",
       "status": "source-snapshot",
       "sourceCrawlAge": "4 weeks ago",
       "publishedPrice": 580000,
@@ -542,7 +539,7 @@
     {
       "id": "land-34631140",
       "sourceURL": "https://www.idealista.pt/imovel/34631140/",
-      "checkedAt": "2026-10-02",
+      "checkedAt": "2026-10-01",
       "status": "source-snapshot",
       "sourceCrawlAge": "last month",
       "publishedPrice": 360000,
@@ -551,7 +548,7 @@
     {
       "id": "land-35281476",
       "sourceURL": "https://www.idealista.pt/imovel/35281476/",
-      "checkedAt": "2026-10-02",
+      "checkedAt": "2026-10-01",
       "status": "source-snapshot",
       "sourceCrawlAge": "2 weeks ago",
       "publishedPrice": 100000,
@@ -560,7 +557,7 @@
     {
       "id": "land-35185798",
       "sourceURL": "https://www.idealista.pt/imovel/35185798/",
-      "checkedAt": "2026-10-02",
+      "checkedAt": "2026-10-01",
       "status": "source-snapshot",
       "sourceCrawlAge": "4 weeks ago",
       "publishedPrice": 137500,
@@ -569,7 +566,7 @@
     {
       "id": "land-35183313",
       "sourceURL": "https://www.idealista.pt/imovel/35183313/",
-      "checkedAt": "2026-10-02",
+      "checkedAt": "2026-10-01",
       "status": "source-snapshot",
       "sourceCrawlAge": "5 days ago",
       "publishedPrice": 375000,
@@ -578,68 +575,50 @@
     {
       "id": "land-iv19258147",
       "sourceURL": "https://www.imovirtual.com/pt/anuncio/terreno-com-vista-mar-em-sao-francisco-da-serra-ID1iNWh",
-      "checkedAt": "2026-10-02",
+      "checkedAt": "2026-10-01",
       "status": "source-snapshot",
       "sourceCrawlAge": "last week",
       "publishedPrice": 400000,
       "snapshotPrice": 400000
-    },
-    {
-      "id": "land-32127944",
-      "sourceURL": "https://www.idealista.pt/imovel/32127944/",
-      "checkedAt": "2026-10-02",
-      "status": "source-snapshot",
-      "sourceCrawlAge": "last month",
-      "publishedPrice": 290000,
-      "snapshotPrice": 290000
-    },
-    {
-      "id": "land-35242132",
-      "sourceURL": "https://www.idealista.pt/imovel/35242132/",
-      "checkedAt": "2026-10-02",
-      "status": "source-snapshot",
-      "sourceCrawlAge": "last week",
-      "publishedPrice": 135000,
-      "snapshotPrice": 135000
     }
   ],
   "additions": [
     {
-      "id": "land-31415263",
-      "title": "Póvoa de Penafirme · rural sea-view plot",
-      "municipality": "Torres Vedras",
+      "id": "land-32127944",
+      "title": "Travessa do Moinho · windmill and land",
+      "municipality": "Lourinhã",
       "district": "Lisbon",
-      "price": 140000,
-      "area": 5040,
-      "planning": "Rural / non-buildable",
+      "price": 290000,
+      "area": 2270,
+      "planning": "Potential advertised",
       "view": "Ocean view",
-      "evidence": "Advertiser explicitly claims a sea view in Póvoa de Penafirme.",
-      "note": "Advertised as non-buildable rural land. No residential approval established. Agency reference MTL3208; distinct from the nearby 700 and 1,400 m² offers.",
-      "sourceURL": "https://www.idealista.pt/imovel/31415263/",
-      "researchedAt": "2026-10-02",
+      "evidence": "Advertiser states sea views towards the Berlengas.",
+      "note": "Includes a windmill and annex needing rehabilitation. 2,110 m² described as agricultural land; residential potential under the PDM is an unverified claim.",
+      "sourceURL": "https://www.idealista.pt/imovel/32127944/",
+      "researchedAt": "2026-10-01",
       "sourceCheck": {
-        "checkedAt": "2026-10-02",
+        "checkedAt": "2026-10-01",
         "status": "source-snapshot",
-        "sourceCrawlAge": "last month"
+        "sourceCrawlAge": "today"
       }
     },
     {
-      "id": "land-iv19073309",
-      "title": "Castelo · sea-view plot",
-      "municipality": "Sesimbra",
-      "district": "Setúbal",
-      "price": 490000,
-      "area": 5000,
+      "id": "land-35242132",
+      "title": "Areia Branca outlook · residential plot",
+      "municipality": "Lourinhã",
+      "district": "Lisbon",
+      "price": 135000,
+      "area": 162.76,
       "planning": "Potential advertised",
       "view": "Ocean view",
-      "evidence": "Advertiser title explicitly states sea views.",
-      "note": "Portal categorises the land as urban; approval and construction limits were not supplied in the retrieved description. Agency reference TER_185. Advert last-updated date shown as 19 May 2026; confirm availability.",
-      "sourceURL": "https://www.imovirtual.com/pt/anuncio/excelente-lote-de-terreno-urbano-com-vista-para-o-mar-ID1i1Q1",
-      "researchedAt": "2026-10-02",
+      "evidence": "Advertiser describes views over Areia Branca beach and the sea.",
+      "note": "Header rounds area to 162 m²; description says 162.76 m². Advertised construction potential is not verified approval. House images are illustrative.",
+      "sourceURL": "https://www.idealista.pt/imovel/35242132/",
+      "researchedAt": "2026-10-01",
       "sourceCheck": {
-        "checkedAt": "2026-10-02",
+        "checkedAt": "2026-10-01",
         "status": "source-snapshot",
-        "sourceCrawlAge": "last month"
+        "sourceCrawlAge": "today"
       }
     }
   ]
