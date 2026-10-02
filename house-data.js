@@ -1,5 +1,5 @@
 'use strict';
-const HouseCatalog = [
+const HouseCatalog=[
   {
     "id": "34893545",
     "title": "Beco Imaginário, 10",
@@ -35,7 +35,14 @@ const HouseCatalog = [
       "checkedAt": "2026-10-02T08:25:09Z",
       "status": "unavailable",
       "error": "robots HTTP 403"
-    }
+    },
+    "availability": {
+      "status": "unverified",
+      "checkedAt": "2026-10-02T08:25:09Z",
+      "sourceURL": "https://www.idealista.pt/imovel/34893545/",
+      "evidence": "robots HTTP 403"
+    },
+    "availabilityCheckedAt": "2026-10-02T08:25:09Z"
   },
   {
     "id": "35315415",
@@ -70,7 +77,14 @@ const HouseCatalog = [
       "checkedAt": "2026-10-02T08:25:09Z",
       "status": "unavailable",
       "error": "robots HTTP 403"
-    }
+    },
+    "availability": {
+      "status": "unverified",
+      "checkedAt": "2026-10-02T08:25:09Z",
+      "sourceURL": "https://www.idealista.pt/imovel/35315415/",
+      "evidence": "robots HTTP 403"
+    },
+    "availabilityCheckedAt": "2026-10-02T08:25:09Z"
   },
   {
     "id": "34997193",
@@ -106,7 +120,14 @@ const HouseCatalog = [
       "checkedAt": "2026-10-02T08:25:09Z",
       "status": "unavailable",
       "error": "robots HTTP 403"
-    }
+    },
+    "availability": {
+      "status": "unverified",
+      "checkedAt": "2026-10-02T08:25:09Z",
+      "sourceURL": "https://www.idealista.pt/imovel/34997193/",
+      "evidence": "robots HTTP 403"
+    },
+    "availabilityCheckedAt": "2026-10-02T08:25:09Z"
   },
   {
     "id": "35075003",
@@ -141,7 +162,14 @@ const HouseCatalog = [
       "checkedAt": "2026-10-02T08:25:09Z",
       "status": "unavailable",
       "error": "robots HTTP 403"
-    }
+    },
+    "availability": {
+      "status": "unverified",
+      "checkedAt": "2026-10-02T08:25:09Z",
+      "sourceURL": "https://www.idealista.pt/imovel/35075003/",
+      "evidence": "robots HTTP 403"
+    },
+    "availabilityCheckedAt": "2026-10-02T08:25:09Z"
   },
   {
     "id": "35098754",
@@ -176,7 +204,14 @@ const HouseCatalog = [
       "checkedAt": "2026-10-02T08:25:09Z",
       "status": "unavailable",
       "error": "robots HTTP 403"
-    }
+    },
+    "availability": {
+      "status": "unverified",
+      "checkedAt": "2026-10-02T08:25:09Z",
+      "sourceURL": "https://www.idealista.pt/imovel/35098754/",
+      "evidence": "robots HTTP 403"
+    },
+    "availabilityCheckedAt": "2026-10-02T08:25:09Z"
   },
   {
     "id": "35001171",
@@ -212,7 +247,14 @@ const HouseCatalog = [
       "checkedAt": "2026-10-02T08:25:09Z",
       "status": "unavailable",
       "error": "robots HTTP 403"
-    }
+    },
+    "availability": {
+      "status": "unverified",
+      "checkedAt": "2026-10-02T08:25:09Z",
+      "sourceURL": "https://www.idealista.pt/imovel/35001171/",
+      "evidence": "robots HTTP 403"
+    },
+    "availabilityCheckedAt": "2026-10-02T08:25:09Z"
   },
   {
     "id": "35297875",
@@ -248,7 +290,14 @@ const HouseCatalog = [
       "checkedAt": "2026-10-02T08:25:09Z",
       "status": "unavailable",
       "error": "robots HTTP 403"
-    }
+    },
+    "availability": {
+      "status": "unverified",
+      "checkedAt": "2026-10-02T08:25:09Z",
+      "sourceURL": "https://www.idealista.pt/imovel/35297875/",
+      "evidence": "robots HTTP 403"
+    },
+    "availabilityCheckedAt": "2026-10-02T08:25:09Z"
   },
   {
     "id": "34417056",
@@ -284,7 +333,14 @@ const HouseCatalog = [
       "checkedAt": "2026-10-02T08:25:09Z",
       "status": "unavailable",
       "error": "robots HTTP 403"
-    }
+    },
+    "availability": {
+      "status": "unverified",
+      "checkedAt": "2026-10-02T08:25:09Z",
+      "sourceURL": "https://www.idealista.pt/imovel/34417056/",
+      "evidence": "robots HTTP 403"
+    },
+    "availabilityCheckedAt": "2026-10-02T08:25:09Z"
   },
   {
     "id": "33408663",
@@ -320,7 +376,14 @@ const HouseCatalog = [
       "checkedAt": "2026-10-02T08:25:09Z",
       "status": "unavailable",
       "error": "robots HTTP 403"
-    }
+    },
+    "availability": {
+      "status": "unverified",
+      "checkedAt": "2026-10-02T08:25:09Z",
+      "sourceURL": "https://www.idealista.pt/imovel/33408663/",
+      "evidence": "robots HTTP 403"
+    },
+    "availabilityCheckedAt": "2026-10-02T08:25:09Z"
   },
   {
     "id": "agency-8740d5893e2062",
@@ -369,7 +432,14 @@ const HouseCatalog = [
       "checkedAt": "2026-10-02T08:25:09Z",
       "status": "observed"
     },
-    "publishedObservedAt": "2026-10-02T08:25:09Z"
+    "publishedObservedAt": "2026-10-02T08:25:09Z",
+    "availability": {
+      "status": "advert-live",
+      "checkedAt": "2026-10-02T08:25:09Z",
+      "sourceURL": "https://nestenn.pt/moradia-por-recuperar-em-papagovas-ref-1860",
+      "evidence": "Advert page fetched; seller confirmation still required"
+    },
+    "availabilityCheckedAt": "2026-10-02T08:25:09Z"
   }
 ];
 if(typeof module!=='undefined')module.exports=HouseCatalog;

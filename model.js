@@ -11,6 +11,10 @@ function mergeSeed(s){
   const existing=next.properties.find(x=>x.id===p.id||canonical(x.sourceURL)===canonical(p.sourceURL));
   if(!existing){next.properties.push(clone(p));continue;}
   const latest=existing.history.at(-1)?.at||existing.lastObserved;
+  // Availability can change without a price observation, including blocked or removed ads.
+  if(p.availabilityCheckedAt&&(!existing.availabilityCheckedAt||Date.parse(p.availabilityCheckedAt)>=Date.parse(existing.availabilityCheckedAt))){
+   existing.availability=clone(p.availability);existing.availabilityCheckedAt=p.availabilityCheckedAt;existing.sourceCheck=clone(p.sourceCheck);
+  }
   const observed=p.publishedObservedAt;
   if(observed&&(!latest||Date.parse(observed)>Date.parse(latest))){
    const personal={id:existing.id,notes:existing.notes,comps:existing.comps,firstSeen:existing.firstSeen||p.firstSeen};

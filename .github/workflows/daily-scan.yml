@@ -42,6 +42,7 @@ jobs:
         run: |
           python -m unittest discover -s tests -p 'test_*.py'
           node tests/model.cjs
+          node tests/availability.cjs
       - name: Scan public sources
         id: scan
         if: github.event_name != 'push'
@@ -54,6 +55,7 @@ jobs:
           node --check app.js
           node --check land.js
           node tests/model.cjs
+          node tests/availability.cjs
           node scanner/build.cjs
       - name: Save dated observations
         if: github.event_name != 'push'

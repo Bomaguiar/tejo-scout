@@ -88,6 +88,8 @@ class Fetcher:
             if any(x in title for x in ['just a moment','access denied','captcha','attention required']):
                 raise ValueError('Access challenge; no bypass attempted')
             result = {'ok':True,'body':body}
+        except error.HTTPError as e:
+            result = {'ok':False,'error':'Advert HTTP '+str(e.code),'httpStatus':e.code,'removed':e.code in [404,410]}
         except Exception as e: result = {'ok':False,'error':str(e)[:200]}
         self.cache[url] = result; return result
 
@@ -108,6 +110,26 @@ def nodes(soup):
             except json.JSONDecodeError: continue
         walk(data)
     return result
+
+def lifecycle(body):
+    """Only primary structured offer or dedicated listing-status elements are evidence."""
+    soup=BeautifulSoup(body,'html.parser');graph=nodes(soup)
+    primary=next((n for n in graph if n.get('@type') in ['RealEstateListing','House','Apartment','Residence','Product']),{})
+    offer=primary.get('offers',{})
+    if isinstance(offer,list):offer=offer[0] if len(offer)==1 else {}
+    availability=fold(offer.get('availability','')) if isinstance(offer,dict) else ''
+    if availability.endswith('/soldout'):return 'sold','Structured primary offer marked SoldOut'
+    if availability.endswith('/discontinued'):return 'removed','Structured primary offer marked Discontinued'
+    # Ignore navigation, related properties and agency success stories.
+    heading=soup.find('h1');texts=[heading.get_text(' ',strip=True)] if heading else []
+    for tag in soup.select('[data-property-status], .property-status, .listing-status, .property-detail-status'):
+        texts.append(tag.get('data-property-status','')+' '+tag.get_text(' ',strip=True))
+    for text in texts:
+        text=fold(text)
+        if re.search(r'\b(vendido|vendida|sold)\b',text):return 'sold','Listing status explicitly states sold'
+        if re.search(r'\b(reservado|reservada|reserved|under offer)\b',text):return 'reserved','Listing status explicitly states reserved'
+        if re.search(r'(anuncio|imovel|listing).{0,40}(removido|retirado|indisponivel|no longer available|not found)',text):return 'removed','Listing explicitly states removed/unavailable'
+    return None,None
 
 def location(text):
     text = fold(text)
@@ -283,9 +305,14 @@ def scan(limit_override=None):
         results=[];discoveries=[];stats={'name':cfg['name'] if cfg else host,'host':host,'existing':0,'fetched':0,'errors':0,'discoveredURLs':0,'detailCandidates':0,'discoveryErrors':[]}
         for p in [p for p in rows if parse.urlsplit(p['sourceURL']).hostname==host]:
             stats['existing']+=1;r=fetch.get(p['sourceURL']);entry={'id':p['id'],'sourceURL':p['sourceURL'],'checkedAt':at}
-            if not r['ok']:entry.update(status='unavailable',error=r['error']);stats['errors']+=1
+            if not r['ok']:
+                entry.update(status='removed' if r.get('removed') else 'unavailable',error=r['error'],httpStatus=r.get('httpStatus'));stats['errors']+=1
             else:
-                try:obs=extract(r['body'],p['sourceURL'],cfg['adapter'] if cfg else 'schema',p);entry.update(status='observed',observation=obs);stats['fetched']+=1
+                try:
+                    inactive,reason=lifecycle(r['body'])
+                    if inactive:entry.update(status=inactive,error=reason)
+                    else:
+                        obs=extract(r['body'],p['sourceURL'],cfg['adapter'] if cfg else 'schema',p);entry.update(status='observed',observation=obs);stats['fetched']+=1
                 except ValueError as e:entry.update(status='needs-review',error=str(e));stats['errors']+=1
             results.append(entry)
         cursor=state['cursors'].get(host,0)
@@ -296,7 +323,10 @@ def scan(limit_override=None):
                 r=fetch.get(url);entry={'sourceURL':url,'checkedAt':at,'agency':cfg['name']}
                 if not r['ok']:entry.update(status='unavailable',error=r['error'])
                 else:
-                    try:entry.update(status='candidate',observation=extract(r['body'],url,cfg['adapter']))
+                    try:
+                        inactive,reason=lifecycle(r['body'])
+                        if inactive:entry.update(status='rejected',reason=reason)
+                        else:entry.update(status='candidate',observation=extract(r['body'],url,cfg['adapter']))
                     except ValueError as e:entry.update(status='rejected',reason=str(e))
                 discoveries.append(entry)
         return results,discoveries,stats,cursor
@@ -309,9 +339,15 @@ def scan(limit_override=None):
                 r,d,s,c=future.result();results+=r;discovery+=d;agencies.append(s);state['cursors'][host]=c
                 print(json.dumps({'host':host,'observed':s['fetched'],'errors':s['errors'],'discovered':s['discoveredURLs']},ensure_ascii=True),flush=True)
             except Exception as e:raise RuntimeError('Source worker failed for '+host) from e
-    updated=0;changes=[];added=0
+    updated=0;changes=[];added=0;availability_changes=[]
     for entry in results:
         p=next(p for p in rows if p['id']==entry['id']);p['sourceCheck']={k:v for k,v in entry.items() if k!='observation'}
+        prior=p.get('availability',{})
+        status='advert-live' if entry['status']=='observed' else entry['status'] if entry['status'] in ['removed','sold','reserved'] else 'unverified'
+        if status!='unverified' or prior.get('status') not in ['removed','sold','reserved']:
+            p['availability']={'status':status,'checkedAt':at,'sourceURL':p['sourceURL'],'evidence':entry.get('error','Advert page fetched and parsed; seller confirmation still required')}
+        if prior.get('status')!=p.get('availability',{}).get('status'):availability_changes.append({'id':p['id'],'from':prior.get('status','unknown'),'to':p['availability']['status']})
+        p['availabilityCheckedAt']=at
         if entry['status']!='observed':continue
         obs=entry['observation'];old=p['price']
         p.setdefault('history',[]).append({'price':obs['price'],'at':at,'method':obs['method'],'contentHash':obs['contentHash']})
@@ -329,9 +365,12 @@ def scan(limit_override=None):
         possible=next((p for p in rows if (p.get('city') or p.get('municipality'))==obs['municipality'] and p['price']==obs['price'] and abs(p['area']-obs['area'])<1),None)
         if possible:entry.update(status='needs-review',reason='Possible cross-site duplicate',matches=possible['id']);continue
         p=new_record(obs,at);p['sourceCheck']={'checkedAt':at,'status':'observed','sourceURL':obs['sourceURL']};p['publishedObservedAt']=at
+        p['availability']={'status':'advert-live','checkedAt':at,'sourceURL':obs['sourceURL'],'evidence':'Advert page fetched and parsed; seller confirmation still required'};p['availabilityCheckedAt']=at
         catalog['land' if obs['kind']=='land' else 'houses'].append(p);rows.append(p);entry.update(status='added',id=p['id']);added+=1
     observed=sum(x['status']=='observed' for x in results)
-    report={'schemaVersion':2,'checkedAt':at,'mode':'github-actions' if os.getenv('GITHUB_ACTIONS') else 'local-scanner','schedule':'Daily at 08:17 Europe/Lisbon','existingAttempted':len(results),'directlyObserved':observed,'unavailable':sum(x['status']=='unavailable' for x in results),'needsReview':sum(x['status']=='needs-review' for x in results),'newListings':added,'priceChanges':changes,'lastSuccessfulScan':at if observed or added else previous.get('lastSuccessfulScan'),'lastSuccessfulContentUpdate':at if added or changes else previous.get('lastSuccessfulContentUpdate',previous['checkedAt']),'coverage':'Bounded public agency pages and sitemaps; incomplete coverage. Failed/blocked pages retain last good data. Advertised availability, sea views and permissions are not independently verified.','records':sorted(results,key=lambda x:x['id']),'discovery':sorted(discovery,key=lambda x:x['sourceURL']),'sources':sorted(agencies,key=lambda x:x['host']),'runURL':'https://github.com/'+os.getenv('GITHUB_REPOSITORY','Bomaguiar/tejo-scout')+'/actions/runs/'+os.getenv('GITHUB_RUN_ID','')}
+    report={'schemaVersion':2,'checkedAt':at,'mode':'github-actions' if os.getenv('GITHUB_ACTIONS') else 'local-scanner','schedule':'Daily at 08:17 Europe/Lisbon','existingAttempted':len(results),'directlyObserved':observed,'unavailable':sum(x['status']=='unavailable' for x in results),'needsReview':sum(x['status']=='needs-review' for x in results),'newListings':added,'priceChanges':changes,'lastSuccessfulScan':at if observed or added else previous.get('lastSuccessfulScan'),'lastSuccessfulContentUpdate':at if added or changes or availability_changes else previous.get('lastSuccessfulContentUpdate',previous['checkedAt']),'coverage':'Bounded public agency pages and sitemaps; incomplete coverage. Failed/blocked pages retain last good data. Advertised availability, sea views and permissions are not independently verified.','records':sorted(results,key=lambda x:x['id']),'discovery':sorted(discovery,key=lambda x:x['sourceURL']),'sources':sorted(agencies,key=lambda x:x['host']),'runURL':'https://github.com/'+os.getenv('GITHUB_REPOSITORY','Bomaguiar/tejo-scout')+'/actions/runs/'+os.getenv('GITHUB_RUN_ID','')}
+    report['availabilityChanges']=availability_changes
+    report['inactive']=sum(x['status'] in ['removed','sold','reserved'] for x in results)
     publish(catalog,report,state)
     summary=f'Scan complete: {observed}/{len(results)} existing ads directly observed; {added} added; {len(changes)} price changes; {report["unavailable"]} unavailable; {report["needsReview"]} need review.'
     print(summary)

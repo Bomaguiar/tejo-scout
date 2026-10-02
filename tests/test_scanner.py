@@ -1,7 +1,7 @@
 import sys, unittest
 from pathlib import Path
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]/'scanner'))
-from scan import extract, number, match_duplicate, validate_catalog
+from scan import extract, number, match_duplicate, validate_catalog, lifecycle
 
 def page(title,desc,price=100000,area=50,address='Mafra',kind='House'):
     import json
@@ -9,6 +9,14 @@ def page(title,desc,price=100000,area=50,address='Mafra',kind='House'):
     return '<html><h1>'+title+'</h1><script type="application/ld+json">'+json.dumps(obj)+'</script></html>'
 
 class ScannerTests(unittest.TestCase):
+    def test_sold_badge_excluded(self):
+        self.assertEqual(lifecycle('<h1>Moradia</h1><span class="property-status">Vendido</span>')[0],'sold')
+    def test_reserved_badge_excluded(self):
+        self.assertEqual(lifecycle('<h1>Moradia</h1><span data-property-status="Reservado"></span>')[0],'reserved')
+    def test_related_sold_property_not_evidence(self):
+        self.assertIsNone(lifecycle('<h1>Moradia</h1><footer>Imóveis vendidos</footer><div class="related">Casa vendida</div>')[0])
+    def test_explicit_primary_offer_status(self):
+        self.assertEqual(lifecycle('<script type="application/ld+json">{"@type":"RealEstateListing","offers":{"availability":"https://schema.org/SoldOut"}}</script>')[0],'sold')
     def test_portuguese_amounts(self):
         for text,value in [('1.250.000 €',1250000),('162,76 m²',162.76),('270.8900',270.89),('59 900',59900)]:self.assertEqual(number(text),value)
     def test_renovation_home_uses_floor_area(self):
