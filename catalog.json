@@ -1,0 +1,1944 @@
+{
+  "schemaVersion": 1,
+  "houses": [
+    {
+      "id": "34893545",
+      "title": "Beco Imaginário, 10",
+      "city": "Lisbon",
+      "areaName": "Mouraria · Santa Maria Maior",
+      "price": 139000,
+      "area": 39,
+      "usefulArea": 33,
+      "type": "T1",
+      "floor": "Ground floor · no lift",
+      "condition": "Full renovation",
+      "occupancy": "Not confirmed",
+      "risk": "review",
+      "risks": [
+        "Confirm unit and floor area: other adverts in this building show different areas.",
+        "Common-area works are advertised; confirm completion and costs.",
+        "Advertiser includes illustrative / AI-edited images."
+      ],
+      "image": "02/dd/f5/311663486.jpg",
+      "lat": 38.716,
+      "lon": -9.134,
+      "sourceURL": "https://www.idealista.pt/imovel/34893545/",
+      "imageURL": "https://img4.idealista.pt/blur/WEB_DETAIL_TOP-L-L/0/id.pro.pt.image.master/02/dd/f5/311663486.jpg",
+      "imageLabel": "Advertiser image · marked AI-edited",
+      "researchedAt": "2026-09-26",
+      "firstSeen": null,
+      "history": [],
+      "notes": "",
+      "comps": [],
+      "sourceCheck": {
+        "id": "34893545",
+        "sourceURL": "https://www.idealista.pt/imovel/34893545/",
+        "checkedAt": "2026-10-02T08:17:47Z",
+        "status": "unavailable",
+        "error": "robots HTTP 403"
+      }
+    },
+    {
+      "id": "35315415",
+      "title": "Rua João do Outeiro, 45",
+      "city": "Lisbon",
+      "areaName": "Mouraria · Santa Maria Maior",
+      "price": 199000,
+      "area": 42,
+      "type": "T1",
+      "floor": "1st floor · no lift",
+      "condition": "Needs refurbishment",
+      "occupancy": "Vacant per advertiser",
+      "risk": "review",
+      "risks": [
+        "Vacancy and use-licence exemption are advertiser statements; confirm documentation.",
+        "1930 building; inspect structure and shared maintenance obligations."
+      ],
+      "image": "5c/92/31/328743724.jpg",
+      "lat": 38.716,
+      "lon": -9.135,
+      "sourceURL": "https://www.idealista.pt/imovel/35315415/",
+      "imageURL": "https://img4.idealista.pt/blur/WEB_DETAIL_TOP-L-L/0/id.pro.pt.image.master/5c/92/31/328743724.jpg",
+      "imageLabel": "Advertiser image · marked AI-edited",
+      "researchedAt": "2026-09-26",
+      "firstSeen": null,
+      "history": [],
+      "notes": "",
+      "comps": [],
+      "sourceCheck": {
+        "id": "35315415",
+        "sourceURL": "https://www.idealista.pt/imovel/35315415/",
+        "checkedAt": "2026-10-02T08:17:47Z",
+        "status": "unavailable",
+        "error": "robots HTTP 403"
+      }
+    },
+    {
+      "id": "34997193",
+      "title": "Rua Ladislau Parreira",
+      "city": "Setúbal",
+      "areaName": "Baixa · Centro Histórico",
+      "price": 160000,
+      "area": 41,
+      "usefulArea": 39,
+      "type": "T1",
+      "floor": "Ground floor · private courtyard",
+      "condition": "Full renovation",
+      "occupancy": "Not confirmed",
+      "risk": "review",
+      "risks": [
+        "Full renovation required; obtain an inspection and contractor quotation.",
+        "Exact property location is withheld by the advertiser."
+      ],
+      "image": "52/18/03/316292582.jpg",
+      "lat": 38.524,
+      "lon": -8.891,
+      "sourceURL": "https://www.idealista.pt/imovel/34997193/",
+      "imageURL": "https://img4.idealista.pt/blur/WEB_DETAIL_TOP-L-L/0/id.pro.pt.image.master/52/18/03/316292582.jpg",
+      "imageLabel": "Advertiser image · marked AI-edited",
+      "researchedAt": "2026-09-26",
+      "firstSeen": null,
+      "history": [],
+      "notes": "",
+      "comps": [],
+      "sourceCheck": {
+        "id": "34997193",
+        "sourceURL": "https://www.idealista.pt/imovel/34997193/",
+        "checkedAt": "2026-10-02T08:17:47Z",
+        "status": "unavailable",
+        "error": "robots HTTP 403"
+      }
+    },
+    {
+      "id": "35075003",
+      "title": "Rua Doutor Álvaro Gomes",
+      "city": "Setúbal",
+      "areaName": "Lanchoa–Tetra · São Sebastião",
+      "price": 179000,
+      "area": 71,
+      "type": "T2",
+      "floor": "2nd floor · no lift",
+      "condition": "Improvements required",
+      "occupancy": "Not confirmed",
+      "risk": "review",
+      "risks": [
+        "1979 building without a lift; inspect condition and confirm works budget.",
+        "Confirm occupancy and title before relying on resale assumptions."
+      ],
+      "image": "d3/46/c3/319309611.jpg",
+      "lat": 38.536,
+      "lon": -8.879,
+      "sourceURL": "https://www.idealista.pt/imovel/35075003/",
+      "imageURL": "https://img4.idealista.pt/blur/WEB_DETAIL_TOP-L-L/0/id.pro.pt.image.master/d3/46/c3/319309611.jpg",
+      "imageLabel": "Advertiser image · marked AI-edited",
+      "researchedAt": "2026-09-26",
+      "firstSeen": null,
+      "history": [],
+      "notes": "",
+      "comps": [],
+      "sourceCheck": {
+        "id": "35075003",
+        "sourceURL": "https://www.idealista.pt/imovel/35075003/",
+        "checkedAt": "2026-10-02T08:17:47Z",
+        "status": "unavailable",
+        "error": "robots HTTP 403"
+      }
+    },
+    {
+      "id": "35098754",
+      "title": "Rua Zófimo Ramos Luz, 11",
+      "city": "Setúbal",
+      "areaName": "Lanchoa–Tetra · São Sebastião",
+      "price": 159000,
+      "area": 61,
+      "type": "T1",
+      "floor": "No lift",
+      "condition": "Renovation potential",
+      "occupancy": "Not confirmed",
+      "risk": "restricted",
+      "risks": [
+        "Surface right until 2048, renewable per advertiser. Do not value as unrestricted freehold.",
+        "Verify renewal terms and financing eligibility."
+      ],
+      "image": "1c/66/8a/320213861.jpg",
+      "lat": 38.538,
+      "lon": -8.878,
+      "sourceURL": "https://www.idealista.pt/imovel/35098754/",
+      "imageURL": "https://img4.idealista.pt/blur/WEB_DETAIL_TOP-L-L/0/id.pro.pt.image.master/1c/66/8a/320213861.jpg",
+      "imageLabel": "Advertiser image · marked AI-edited",
+      "researchedAt": "2026-09-26",
+      "firstSeen": null,
+      "history": [],
+      "notes": "",
+      "comps": [],
+      "sourceCheck": {
+        "id": "35098754",
+        "sourceURL": "https://www.idealista.pt/imovel/35098754/",
+        "checkedAt": "2026-10-02T08:17:47Z",
+        "status": "unavailable",
+        "error": "robots HTTP 403"
+      }
+    },
+    {
+      "id": "35001171",
+      "title": "Rua do Moinho",
+      "city": "Setúbal",
+      "areaName": "Bela Vista · São Sebastião",
+      "price": 175000,
+      "area": 119,
+      "type": "T3",
+      "floor": "3rd floor · no lift",
+      "condition": "Interior inaccessible",
+      "occupancy": "Unknown · bricked up",
+      "risk": "restricted",
+      "risks": [
+        "Bricked-up property: interior visits are not possible.",
+        "Cash-only purchase per advertiser.",
+        "Bank-owned; interior condition cannot be assessed from listing."
+      ],
+      "image": "5c/cf/0f/321233320.jpg",
+      "lat": 38.532,
+      "lon": -8.864,
+      "sourceURL": "https://www.idealista.pt/imovel/35001171/",
+      "imageURL": "https://img4.idealista.pt/blur/WEB_DETAIL_TOP-L-L/0/id.pro.pt.image.master/5c/cf/0f/321233320.jpg",
+      "imageLabel": "Advertiser image · marked AI-edited",
+      "researchedAt": "2026-09-26",
+      "firstSeen": null,
+      "history": [],
+      "notes": "",
+      "comps": [],
+      "sourceCheck": {
+        "id": "35001171",
+        "sourceURL": "https://www.idealista.pt/imovel/35001171/",
+        "checkedAt": "2026-10-02T08:17:47Z",
+        "status": "unavailable",
+        "error": "robots HTTP 403"
+      }
+    },
+    {
+      "id": "35297875",
+      "title": "Beco do Gato",
+      "city": "Mafra",
+      "areaName": "Milharado",
+      "price": 59900,
+      "area": 54,
+      "usefulArea": 53,
+      "type": "T2",
+      "floor": "Detached house · floor count unconfirmed",
+      "condition": "Ruin · full renovation",
+      "occupancy": "Not confirmed",
+      "risk": "review",
+      "risks": [
+        "Ruin: inspect structure and verify planning permissions before estimating a full rebuild.",
+        "Advertised gross area 54 m²; useful area 53 m². Confirm title and occupancy.",
+        "Map pin is an approximate locality, not the property address."
+      ],
+      "lat": 38.945,
+      "lon": -9.2,
+      "researchedAt": "2026-09-27",
+      "sourceURL": "https://www.idealista.pt/imovel/35297875/",
+      "imageURL": "",
+      "imageLabel": "",
+      "firstSeen": null,
+      "history": [],
+      "notes": "",
+      "comps": [],
+      "sourceCheck": {
+        "id": "35297875",
+        "sourceURL": "https://www.idealista.pt/imovel/35297875/",
+        "checkedAt": "2026-10-02T08:17:47Z",
+        "status": "unavailable",
+        "error": "robots HTTP 403"
+      }
+    },
+    {
+      "id": "34417056",
+      "title": "Rua Dom Vasco Martinho de Siqueira",
+      "city": "Torres Vedras",
+      "areaName": "Torres Vedras e Matacães",
+      "price": 99700,
+      "area": 124,
+      "usefulArea": 120,
+      "type": "T3",
+      "floor": "Detached house · 1 floor",
+      "condition": "Full renovation",
+      "occupancy": "Not confirmed",
+      "risk": "review",
+      "risks": [
+        "Indexed advertiser snapshot: confirm current asking price and availability directly.",
+        "Advertised cellar: verify its allocation within the gross area and permitted residential use.",
+        "Inspect structure, title and occupancy. Map pin is the municipality centre."
+      ],
+      "lat": 39.091,
+      "lon": -9.259,
+      "researchedAt": "2026-09-27",
+      "sourceURL": "https://www.idealista.pt/imovel/34417056/",
+      "imageURL": "",
+      "imageLabel": "",
+      "firstSeen": null,
+      "history": [],
+      "notes": "",
+      "comps": [],
+      "sourceCheck": {
+        "id": "34417056",
+        "sourceURL": "https://www.idealista.pt/imovel/34417056/",
+        "checkedAt": "2026-10-02T08:17:47Z",
+        "status": "unavailable",
+        "error": "robots HTTP 403"
+      }
+    },
+    {
+      "id": "33408663",
+      "title": "Rua 13 de Maio",
+      "city": "Lourinhã",
+      "areaName": "Lourinhã · exact village unconfirmed",
+      "price": 80000,
+      "area": 140,
+      "usefulArea": 60,
+      "type": "T1",
+      "floor": "Detached house · floor count unconfirmed",
+      "condition": "Full restoration · no bathroom listed",
+      "occupancy": "Not confirmed",
+      "risk": "review",
+      "risks": [
+        "No bathroom listed; full restoration and permissions need assessment.",
+        "Gross area 140 m² versus useful area 60 m²: verify residential usable area before modelling returns.",
+        "Exact location withheld. Map pin is the municipality centre."
+      ],
+      "lat": 39.241,
+      "lon": -9.313,
+      "researchedAt": "2026-09-27",
+      "sourceURL": "https://www.idealista.pt/imovel/33408663/",
+      "imageURL": "",
+      "imageLabel": "",
+      "firstSeen": null,
+      "history": [],
+      "notes": "",
+      "comps": [],
+      "sourceCheck": {
+        "id": "33408663",
+        "sourceURL": "https://www.idealista.pt/imovel/33408663/",
+        "checkedAt": "2026-10-02T08:17:47Z",
+        "status": "unavailable",
+        "error": "robots HTTP 403"
+      }
+    },
+    {
+      "id": "agency-8740d5893e2062",
+      "title": "Moradia por recuperar em Papagovas",
+      "price": 275000,
+      "area": 270.89,
+      "sourceURL": "https://nestenn.pt/moradia-por-recuperar-em-papagovas-ref-1860",
+      "firstSeen": "2026-10-02T08:17:47Z",
+      "lastObserved": "2026-10-02T08:17:47Z",
+      "researchedAt": "2026-10-02",
+      "reference": "N115LNH816",
+      "history": [
+        {
+          "price": 275000,
+          "at": "2026-10-02T08:17:47Z",
+          "method": "public-page / nestenn"
+        }
+      ],
+      "notes": "",
+      "imageURL": "",
+      "imageLabel": "",
+      "city": "Lourinhã",
+      "areaName": "Lourinhã",
+      "type": "Unknown",
+      "floor": "Not confirmed",
+      "condition": "Renovation advertised",
+      "occupancy": "Not confirmed",
+      "risk": "review",
+      "risks": [
+        "Renovation claim from agency description: confirm scope, gross floor area, title and occupancy.",
+        "Agency floorSize is unverified and can include multiple buildings; obtain a measured allocation.",
+        "No ROI or resale estimate is assumed."
+      ],
+      "comps": [],
+      "lat": null,
+      "lon": null,
+      "sourceCheck": {
+        "checkedAt": "2026-10-02T08:17:47Z",
+        "status": "observed",
+        "sourceURL": "https://nestenn.pt/moradia-por-recuperar-em-papagovas-ref-1860"
+      },
+      "publishedObservedAt": "2026-10-02T08:17:47Z"
+    }
+  ],
+  "land": [
+    {
+      "id": "land-kw55379",
+      "title": "Lagoa · Santo Isidoro",
+      "municipality": "Mafra",
+      "district": "Lisbon",
+      "price": 135000,
+      "area": 11062,
+      "planning": "Rural / non-buildable",
+      "view": "Ocean view",
+      "evidence": "Advertiser describes a rural plot with a sea view in Lagoa.",
+      "note": "Rural land; no residential approval established.",
+      "sourceURL": "https://www.kwportugal.pt/pt/Imovel/Venda/Terreno/Lisboa/Mafra/Santo-Isidoro/55379",
+      "researchedAt": "2026-09-27",
+      "sourceCheck": {
+        "id": "land-kw55379",
+        "sourceURL": "https://www.kwportugal.pt/pt/Imovel/Venda/Terreno/Lisboa/Mafra/Santo-Isidoro/55379",
+        "checkedAt": "2026-10-02T08:17:47Z",
+        "status": "observed"
+      },
+      "history": [
+        {
+          "price": 135000,
+          "at": "2026-10-02T08:15:18Z",
+          "method": "public-page / schema",
+          "contentHash": "efb75867e87c7884813af4e88f5e692794e7291ebeb7d6aac6f95871ced5fe75"
+        },
+        {
+          "price": 135000,
+          "at": "2026-10-02T08:17:47Z",
+          "method": "public-page / schema",
+          "contentHash": "2464bb868d253ea54ad161bc551bbc42a12dbdf06afa9f64e67247024d59b72f"
+        }
+      ],
+      "lastObserved": "2026-10-02T08:17:47Z",
+      "publishedObservedAt": "2026-10-02T08:17:47Z"
+    },
+    {
+      "id": "land-cc1003083",
+      "title": "Casal da Serra · Sobreiro",
+      "municipality": "Mafra",
+      "district": "Lisbon",
+      "price": 65000,
+      "area": 2500,
+      "planning": "Rural / non-buildable",
+      "view": "Distant / horizon",
+      "evidence": "Advertiser describes a sea view on the horizon.",
+      "note": "Agricultural / leisure use advertised; dirt-road access.",
+      "sourceURL": "https://casacerta.pt/imovel/1003083/terreno-para-venda-em-mafra",
+      "researchedAt": "2026-09-27",
+      "sourceCheck": {
+        "id": "land-cc1003083",
+        "sourceURL": "https://casacerta.pt/imovel/1003083/terreno-para-venda-em-mafra",
+        "checkedAt": "2026-10-02T08:17:47Z",
+        "status": "observed"
+      },
+      "history": [
+        {
+          "price": 65000,
+          "at": "2026-10-02T08:15:18Z",
+          "method": "public-page / schema",
+          "contentHash": "357f12b3549de86ffe9c694522dcbf327e987c1b586d90889addbfdc4aa4f15f"
+        },
+        {
+          "price": 65000,
+          "at": "2026-10-02T08:17:47Z",
+          "method": "public-page / schema",
+          "contentHash": "5bdd6728576c896157b353b295e960c95e24c27c8ca32f657a3d386745edc145"
+        }
+      ],
+      "lastObserved": "2026-10-02T08:17:47Z",
+      "publishedObservedAt": "2026-10-02T08:17:47Z"
+    },
+    {
+      "id": "land-iv19182944",
+      "title": "Baleia · Carvoeira",
+      "municipality": "Mafra",
+      "district": "Lisbon",
+      "price": 60000,
+      "area": 4625,
+      "planning": "Rural / non-buildable",
+      "view": "Ocean view",
+      "evidence": "The listing title explicitly advertises a sea view.",
+      "note": "Rural plot; construction rights not established. Title evidence only; confirm the view on site.",
+      "sourceURL": "https://www.imovirtual.com/pt/anuncio/terreno-rustico-com-4-625-m-vista-mar-baleia-carvoeira-mafra-ID1iumk",
+      "researchedAt": "2026-09-27",
+      "sourceCheck": {
+        "id": "land-iv19182944",
+        "sourceURL": "https://www.imovirtual.com/pt/anuncio/terreno-rustico-com-4-625-m-vista-mar-baleia-carvoeira-mafra-ID1iumk",
+        "checkedAt": "2026-10-02T08:17:47Z",
+        "status": "unavailable",
+        "error": "HTTP Error 410: Gone"
+      }
+    },
+    {
+      "id": "land-iad136815",
+      "title": "Ericeira · near Praia do Sul",
+      "municipality": "Mafra",
+      "district": "Lisbon",
+      "price": 299000,
+      "area": 183,
+      "planning": "Approval advertised",
+      "view": "Ocean view",
+      "evidence": "Advertiser describes a sea view, 300 m from Praia do Sul.",
+      "note": "Approved house project claimed; obtain the decision and valid licence.",
+      "sourceURL": "https://www.iadportugal.pt/anuncio/terreno-venda-ericeira-183m2/r136815",
+      "researchedAt": "2026-09-27",
+      "sourceCheck": {
+        "id": "land-iad136815",
+        "sourceURL": "https://www.iadportugal.pt/anuncio/terreno-venda-ericeira-183m2/r136815",
+        "checkedAt": "2026-10-02T08:17:47Z",
+        "status": "observed"
+      },
+      "history": [
+        {
+          "price": 299000,
+          "at": "2026-10-02T08:15:18Z",
+          "method": "public-page / schema",
+          "contentHash": "f266a6a3d30795f662a6828ca815238debef74ffef81a0847bfcbdeaf4b7e7fd"
+        },
+        {
+          "price": 299000,
+          "at": "2026-10-02T08:17:47Z",
+          "method": "public-page / schema",
+          "contentHash": "f266a6a3d30795f662a6828ca815238debef74ffef81a0847bfcbdeaf4b7e7fd"
+        }
+      ],
+      "lastObserved": "2026-10-02T08:17:47Z",
+      "publishedObservedAt": "2026-10-02T08:17:47Z"
+    },
+    {
+      "id": "land-34571797",
+      "title": "Ericeira Sul · 400 m² lot",
+      "municipality": "Mafra",
+      "district": "Lisbon",
+      "price": 350000,
+      "area": 400,
+      "planning": "Approval advertised",
+      "view": "Ocean view",
+      "evidence": "Advertiser describes an open sea view from the plot.",
+      "note": "353.7 m² house project; advertiser says paid licence valid until 18 November 2027. Verify documentation.",
+      "sourceURL": "https://www.idealista.pt/imovel/34571797/",
+      "researchedAt": "2026-09-27",
+      "sourceCheck": {
+        "id": "land-34571797",
+        "sourceURL": "https://www.idealista.pt/imovel/34571797/",
+        "checkedAt": "2026-10-02T08:17:47Z",
+        "status": "unavailable",
+        "error": "robots HTTP 403"
+      }
+    },
+    {
+      "id": "land-35049927",
+      "title": "Caminho do Rio da Mina · Lagoa",
+      "municipality": "Mafra",
+      "district": "Lisbon",
+      "price": 650000,
+      "area": 1100,
+      "planning": "Approval advertised",
+      "view": "Panoramic",
+      "evidence": "Advertiser describes panoramic sea-facing views.",
+      "note": "380 m² house and licence advertised. Project renders do not show completed buildings; construction excluded.",
+      "sourceURL": "https://www.idealista.pt/imovel/35049927/",
+      "researchedAt": "2026-09-27",
+      "sourceCheck": {
+        "id": "land-35049927",
+        "sourceURL": "https://www.idealista.pt/imovel/35049927/",
+        "checkedAt": "2026-10-02T08:17:47Z",
+        "status": "unavailable",
+        "error": "robots HTTP 403"
+      }
+    },
+    {
+      "id": "land-34851294",
+      "title": "Rua da Igreja · Santo Isidoro",
+      "municipality": "Mafra",
+      "district": "Lisbon",
+      "price": 1900000,
+      "area": 57880,
+      "planning": "Conflicting / unclear",
+      "view": "Ocean view",
+      "evidence": "Advertiser explicitly states the land has a sea view.",
+      "note": "Portal labels non-buildable but description refers to a 2004 PIP. No current approval established.",
+      "sourceURL": "https://www.idealista.pt/imovel/34851294/",
+      "researchedAt": "2026-09-27",
+      "sourceCheck": {
+        "id": "land-34851294",
+        "sourceURL": "https://www.idealista.pt/imovel/34851294/",
+        "checkedAt": "2026-10-02T08:17:47Z",
+        "status": "unavailable",
+        "error": "robots HTTP 403"
+      }
+    },
+    {
+      "id": "land-rm121011438132",
+      "title": "Rua 25 de Abril · Igreja Nova",
+      "municipality": "Mafra",
+      "district": "Lisbon",
+      "price": 482500,
+      "area": 2500,
+      "planning": "Potential advertised",
+      "view": "Ocean view",
+      "evidence": "Advertiser describes sea views from the land.",
+      "note": "Up to 750 m² development claimed; obtain current municipal confirmation.",
+      "sourceURL": "https://remax.pt/pt/imoveis/venda-terreno-tmafra-igreja-nova-e-cheleiros/121011438-132",
+      "researchedAt": "2026-09-27",
+      "sourceCheck": {
+        "id": "land-rm121011438132",
+        "sourceURL": "https://remax.pt/pt/imoveis/venda-terreno-tmafra-igreja-nova-e-cheleiros/121011438-132",
+        "checkedAt": "2026-10-02T08:17:47Z",
+        "status": "observed"
+      },
+      "history": [
+        {
+          "price": 482500,
+          "at": "2026-10-02T08:15:18Z",
+          "method": "public-page / schema",
+          "contentHash": "58e52914dc70ddf7776346144ef5bd8daa40f9989332bdd512ec19f9914aa1b8"
+        },
+        {
+          "price": 482500,
+          "at": "2026-10-02T08:17:47Z",
+          "method": "public-page / schema",
+          "contentHash": "968c0021420d8fd2d674b042a9e0b3821006c64cb49a988516c564939f17eb93"
+        }
+      ],
+      "lastObserved": "2026-10-02T08:17:47Z",
+      "publishedObservedAt": "2026-10-02T08:17:47Z"
+    },
+    {
+      "id": "land-35009406",
+      "title": "Alto do Valongo · Sobreiro Curvo",
+      "municipality": "Torres Vedras",
+      "district": "Lisbon",
+      "price": 52500,
+      "area": 6341,
+      "planning": "Rural / non-buildable",
+      "view": "Ocean view",
+      "evidence": "Advertised as rural land with sea views over the Maceira valley.",
+      "note": "Non-buildable listing. Water and electricity claimed. Matching duplicate advert counted once.",
+      "sourceURL": "https://www.idealista.pt/imovel/35009406/",
+      "researchedAt": "2026-09-27",
+      "sourceCheck": {
+        "id": "land-35009406",
+        "sourceURL": "https://www.idealista.pt/imovel/35009406/",
+        "checkedAt": "2026-10-02T08:17:47Z",
+        "status": "unavailable",
+        "error": "robots HTTP 403"
+      }
+    },
+    {
+      "id": "land-34647235",
+      "title": "Póvoa de Penafirme · 700 m²",
+      "municipality": "Torres Vedras",
+      "district": "Lisbon",
+      "price": 118000,
+      "area": 700,
+      "planning": "Potential advertised",
+      "view": "Ocean view",
+      "evidence": "Agent reference MTL3265 explicitly advertises sea views.",
+      "note": "Up to 175 m² / two floors claimed. May overlap the 1,400 m² offering MTL3265B; confirm parcel boundaries.",
+      "sourceURL": "https://www.idealista.pt/imovel/34647235/",
+      "researchedAt": "2026-09-27",
+      "sourceCheck": {
+        "id": "land-34647235",
+        "sourceURL": "https://www.idealista.pt/imovel/34647235/",
+        "checkedAt": "2026-10-02T08:17:47Z",
+        "status": "unavailable",
+        "error": "robots HTTP 403"
+      }
+    },
+    {
+      "id": "land-34647256",
+      "title": "Póvoa de Penafirme · 1,400 m²",
+      "municipality": "Torres Vedras",
+      "district": "Lisbon",
+      "price": 185000,
+      "area": 1400,
+      "planning": "Potential advertised",
+      "view": "Ocean view",
+      "evidence": "Agent reference MTL3265B explicitly advertises sea views.",
+      "note": "Up to two houses / 350 m² claimed. May combine the 700 m² offering; do not assume independent parcels.",
+      "sourceURL": "https://www.idealista.pt/imovel/34647256/",
+      "researchedAt": "2026-09-27",
+      "sourceCheck": {
+        "id": "land-34647256",
+        "sourceURL": "https://www.idealista.pt/imovel/34647256/",
+        "checkedAt": "2026-10-02T08:17:47Z",
+        "status": "unavailable",
+        "error": "robots HTTP 403"
+      }
+    },
+    {
+      "id": "land-35125364",
+      "title": "A dos Cunhados · coastal panorama",
+      "municipality": "Torres Vedras",
+      "district": "Lisbon",
+      "price": 160000,
+      "area": 16520,
+      "planning": "Conflicting / unclear",
+      "view": "Panoramic",
+      "evidence": "Advertiser describes views of Santa Rita beach, Berlengas and Santa Cruz.",
+      "note": "Portal says non-buildable; description claims 480 m² urbanisable and ruins. Resolve zoning before valuation.",
+      "sourceURL": "https://www.idealista.pt/imovel/35125364/",
+      "researchedAt": "2026-09-27",
+      "sourceCheck": {
+        "id": "land-35125364",
+        "sourceURL": "https://www.idealista.pt/imovel/35125364/",
+        "checkedAt": "2026-10-02T08:17:47Z",
+        "status": "unavailable",
+        "error": "robots HTTP 403"
+      }
+    },
+    {
+      "id": "land-34977116",
+      "title": "Sobreiro Curvo · development land",
+      "municipality": "Torres Vedras",
+      "district": "Lisbon",
+      "price": 595000,
+      "area": 8960,
+      "planning": "Potential advertised",
+      "view": "Ocean view",
+      "evidence": "Advertiser describes a sea view near Santa Cruz.",
+      "note": "PIP submitted for nine houses; submission is not approval.",
+      "sourceURL": "https://www.idealista.pt/imovel/34977116/",
+      "researchedAt": "2026-09-27",
+      "sourceCheck": {
+        "id": "land-34977116",
+        "sourceURL": "https://www.idealista.pt/imovel/34977116/",
+        "checkedAt": "2026-10-02T08:17:47Z",
+        "status": "unavailable",
+        "error": "robots HTTP 403"
+      }
+    },
+    {
+      "id": "land-rm12587111524",
+      "title": "Rua do Lugar de Baixo · São Pedro da Cadeira",
+      "municipality": "Torres Vedras",
+      "district": "Lisbon",
+      "price": 430000,
+      "area": 2840,
+      "planning": "Potential advertised",
+      "view": "Ocean view",
+      "evidence": "RE/MAX describes sea views from this 2,840 m² plot.",
+      "note": "PIP in preparation for five houses. Another matching portal advert asks €450,000; confirm the actual asking price.",
+      "sourceURL": "https://remax.pt/pt/imoveis/venda-terreno-ttorres-vedras-sao-pedro-da-cadeira/125871115-24",
+      "researchedAt": "2026-09-27",
+      "sourceCheck": {
+        "id": "land-rm12587111524",
+        "sourceURL": "https://remax.pt/pt/imoveis/venda-terreno-ttorres-vedras-sao-pedro-da-cadeira/125871115-24",
+        "checkedAt": "2026-10-02T08:17:47Z",
+        "status": "observed"
+      },
+      "history": [
+        {
+          "price": 430000,
+          "at": "2026-10-02T08:15:18Z",
+          "method": "public-page / schema",
+          "contentHash": "9df056f88987fdb69601951cc45dc7b7de5621c2abccb82d4260d1f4cbe611dd"
+        },
+        {
+          "price": 430000,
+          "at": "2026-10-02T08:17:47Z",
+          "method": "public-page / schema",
+          "contentHash": "501361dd7b405a48acc0269b09fac85bc3838f5a25237f55d89fcfa3a1b820d6"
+        }
+      ],
+      "lastObserved": "2026-10-02T08:17:47Z",
+      "publishedObservedAt": "2026-10-02T08:17:47Z"
+    },
+    {
+      "id": "land-35138277",
+      "title": "Avenida Alto da Vela · Santa Cruz",
+      "municipality": "Torres Vedras",
+      "district": "Lisbon",
+      "price": 480000,
+      "area": 540,
+      "planning": "Approval advertised",
+      "view": "Oceanfront",
+      "evidence": "Advertised on the first line of the sea at Santa Cruz.",
+      "note": "Approved house and paid licence awaiting collection claimed. Other matching ads differ on price/licence; verify.",
+      "sourceURL": "https://www.idealista.pt/imovel/35138277/",
+      "researchedAt": "2026-09-27",
+      "sourceCheck": {
+        "id": "land-35138277",
+        "sourceURL": "https://www.idealista.pt/imovel/35138277/",
+        "checkedAt": "2026-10-02T08:17:47Z",
+        "status": "unavailable",
+        "error": "robots HTTP 403"
+      }
+    },
+    {
+      "id": "land-34204824",
+      "title": "Rua do Moinho, 14 · Torres Vedras",
+      "municipality": "Torres Vedras",
+      "district": "Lisbon",
+      "price": 89000,
+      "area": 1130,
+      "planning": "Potential advertised",
+      "view": "Distant / horizon",
+      "evidence": "Advertiser says the western coastline is visible on clear days.",
+      "note": "Urban construction potential claimed. Weather-dependent distant view; indexed snapshot requires current-price confirmation.",
+      "sourceURL": "https://www.idealista.pt/pro/mypropertygere-imobiliaria/imovel/34204824/",
+      "researchedAt": "2026-09-27",
+      "sourceCheck": {
+        "id": "land-34204824",
+        "sourceURL": "https://www.idealista.pt/pro/mypropertygere-imobiliaria/imovel/34204824/",
+        "checkedAt": "2026-10-02T08:17:47Z",
+        "status": "unavailable",
+        "error": "robots HTTP 403"
+      }
+    },
+    {
+      "id": "land-33164220",
+      "title": "Estrada do Vale Bravo · Atalaia",
+      "municipality": "Lourinhã",
+      "district": "Lisbon",
+      "price": 400000,
+      "area": 1450,
+      "planning": "Approval advertised",
+      "view": "Ocean view",
+      "evidence": "Advertiser describes a four-house project with sea views.",
+      "note": "Project approved and licence ready to collect claimed; confirm view from ground and future floors.",
+      "sourceURL": "https://www.idealista.pt/imovel/33164220/",
+      "researchedAt": "2026-09-27",
+      "sourceCheck": {
+        "id": "land-33164220",
+        "sourceURL": "https://www.idealista.pt/imovel/33164220/",
+        "checkedAt": "2026-10-02T08:17:47Z",
+        "status": "unavailable",
+        "error": "robots HTTP 403"
+      }
+    },
+    {
+      "id": "land-29411935",
+      "title": "Atalaia · 22,920 m²",
+      "municipality": "Lourinhã",
+      "district": "Lisbon",
+      "price": 300000,
+      "area": 22920,
+      "planning": "Potential advertised",
+      "view": "Ocean view",
+      "evidence": "Advertised as construction land with sea views, 700 m from the beach.",
+      "note": "Other snapshots quote €375,000 and project approval. Confirm current price and approval status.",
+      "sourceURL": "https://www.idealista.pt/imovel/29411935/",
+      "researchedAt": "2026-09-27",
+      "sourceCheck": {
+        "id": "land-29411935",
+        "sourceURL": "https://www.idealista.pt/imovel/29411935/",
+        "checkedAt": "2026-10-02T08:17:47Z",
+        "status": "unavailable",
+        "error": "robots HTTP 403"
+      }
+    },
+    {
+      "id": "land-34885485",
+      "title": "Rua 8 de Dezembro · Atalaia",
+      "municipality": "Lourinhã",
+      "district": "Lisbon",
+      "price": 129000,
+      "area": 720,
+      "planning": "Approval advertised",
+      "view": "Ocean view",
+      "evidence": "Advertiser explicitly states a sea view.",
+      "note": "Approved T3 house project with 208 m² claimed; verify approved plans and licence.",
+      "sourceURL": "https://www.idealista.pt/imovel/34885485/",
+      "researchedAt": "2026-09-27",
+      "sourceCheck": {
+        "id": "land-34885485",
+        "sourceURL": "https://www.idealista.pt/imovel/34885485/",
+        "checkedAt": "2026-10-02T08:17:47Z",
+        "status": "unavailable",
+        "error": "robots HTTP 403"
+      }
+    },
+    {
+      "id": "land-32077224",
+      "title": "Atalaia · two-house project",
+      "municipality": "Lourinhã",
+      "district": "Lisbon",
+      "price": 220000,
+      "area": 2891,
+      "planning": "Approval advertised",
+      "view": "Ocean view",
+      "evidence": "Advertiser describes urban land with sea views.",
+      "note": "Area conflict: heading 2,891 m², description 2,390 m². Two V4 houses with shared pool advertised; confirm survey.",
+      "sourceURL": "https://www.idealista.pt/imovel/32077224/",
+      "researchedAt": "2026-09-27",
+      "sourceCheck": {
+        "id": "land-32077224",
+        "sourceURL": "https://www.idealista.pt/imovel/32077224/",
+        "checkedAt": "2026-10-02T08:17:47Z",
+        "status": "unavailable",
+        "error": "robots HTTP 403"
+      }
+    },
+    {
+      "id": "land-34891179",
+      "title": "Rua do Sargaçalinho · Atalaia",
+      "municipality": "Lourinhã",
+      "district": "Lisbon",
+      "price": 120000,
+      "area": 347,
+      "planning": "Potential advertised",
+      "view": "Ocean view",
+      "evidence": "Advertiser describes an open sea view.",
+      "note": "Heading 347 m² versus description 346 m². Building viability explicitly subject to municipal confirmation.",
+      "sourceURL": "https://www.idealista.pt/imovel/34891179/",
+      "researchedAt": "2026-09-27",
+      "sourceCheck": {
+        "id": "land-34891179",
+        "sourceURL": "https://www.idealista.pt/imovel/34891179/",
+        "checkedAt": "2026-10-02T08:17:47Z",
+        "status": "unavailable",
+        "error": "robots HTTP 403"
+      }
+    },
+    {
+      "id": "land-33859005",
+      "title": "Atalaia · 3,960 m²",
+      "municipality": "Lourinhã",
+      "district": "Lisbon",
+      "price": 350000,
+      "area": 3960,
+      "planning": "Potential advertised",
+      "view": "Ocean view",
+      "evidence": "Advertiser describes open sea and countryside views.",
+      "note": "Recent directory €350,000 versus older detail snapshot €370,000. Confirm current price and construction limits. Review 1 Oct 2026: older cached source shows EUR 370,000 (crawl age: last year). Retained existing price pending fresh confirmation.",
+      "sourceURL": "https://www.idealista.pt/imovel/33859005/",
+      "researchedAt": "2026-09-27",
+      "sourceCheck": {
+        "id": "land-33859005",
+        "sourceURL": "https://www.idealista.pt/imovel/33859005/",
+        "checkedAt": "2026-10-02T08:17:47Z",
+        "status": "unavailable",
+        "error": "robots HTTP 403"
+      }
+    },
+    {
+      "id": "land-34098930",
+      "title": "Avenida 24 de Junho",
+      "municipality": "Lourinhã",
+      "district": "Lisbon",
+      "price": 495000,
+      "area": 2320,
+      "planning": "Rural / non-buildable",
+      "view": "Ocean view",
+      "evidence": "Advertiser describes a sea view near Praia da Areia Branca.",
+      "note": "Portal labels non-buildable despite residential surroundings; do not infer permission from neighbouring houses.",
+      "sourceURL": "https://www.idealista.pt/imovel/34098930/",
+      "researchedAt": "2026-09-27",
+      "sourceCheck": {
+        "id": "land-34098930",
+        "sourceURL": "https://www.idealista.pt/imovel/34098930/",
+        "checkedAt": "2026-10-02T08:17:47Z",
+        "status": "unavailable",
+        "error": "robots HTTP 403"
+      }
+    },
+    {
+      "id": "land-veigas642137",
+      "title": "Ribamar · views toward Berlengas",
+      "municipality": "Lourinhã",
+      "district": "Lisbon",
+      "price": 330000,
+      "area": 1945,
+      "planning": "Conflicting / unclear",
+      "view": "Panoramic",
+      "evidence": "Agent describes views of the ocean, Berlengas and countryside.",
+      "note": "Well and two road accesses advertised. Residential approval not established. Matching Nestenn listing counted once. Review 1 Oct 2026: older cached source shows EUR 350,000 (crawl age: 11 months ago). Retained existing price pending fresh confirmation.",
+      "sourceURL": "https://www.veigas.eu/pt/detalhe-propriedade/terreno-vista-mar-lourinha-ribamar-agricultura/642137",
+      "researchedAt": "2026-09-27",
+      "sourceCheck": {
+        "id": "land-veigas642137",
+        "sourceURL": "https://www.veigas.eu/pt/detalhe-propriedade/terreno-vista-mar-lourinha-ribamar-agricultura/642137",
+        "checkedAt": "2026-10-02T08:17:47Z",
+        "status": "unavailable",
+        "error": "robots unavailable: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)>"
+      }
+    },
+    {
+      "id": "land-era130250026",
+      "title": "Estrada da Areia Branca",
+      "municipality": "Lourinhã",
+      "district": "Lisbon",
+      "price": 320000,
+      "area": 3080,
+      "planning": "Potential advertised",
+      "view": "Ocean view",
+      "evidence": "Advertiser explicitly describes sea views from the land.",
+      "note": "Only part of the parcel is described as allowing construction; confirm footprint and limits.",
+      "sourceURL": "https://www.netanuncio.pt/Terreno/Lisboa%2CLourinha/tem-Vista-para-Campo%2CVista-para-Mar%2CEscola%2CTransportes-Publicos/?UID=5cbd58bb-dfcd-11ef-a463-060000000052",
+      "researchedAt": "2026-09-27",
+      "sourceCheck": {
+        "id": "land-era130250026",
+        "sourceURL": "https://www.netanuncio.pt/Terreno/Lisboa%2CLourinha/tem-Vista-para-Campo%2CVista-para-Mar%2CEscola%2CTransportes-Publicos/?UID=5cbd58bb-dfcd-11ef-a463-060000000052",
+        "checkedAt": "2026-10-02T08:17:47Z",
+        "status": "unavailable",
+        "error": "HTTP Error 429: Too Many Requests"
+      }
+    },
+    {
+      "id": "land-35099207",
+      "title": "Almoçageme · Ulgueira",
+      "municipality": "Sintra",
+      "district": "Lisbon",
+      "price": 195000,
+      "area": 1280,
+      "planning": "Rural / non-buildable",
+      "view": "Ocean view",
+      "evidence": "Advertiser describes views over the ocean and Serra de Sintra.",
+      "note": "Non-buildable land with a tiny house advertised; legality not verified. Description rounds area to about 1,200 m².",
+      "sourceURL": "https://www.idealista.pt/imovel/35099207/",
+      "researchedAt": "2026-09-27",
+      "sourceCheck": {
+        "id": "land-35099207",
+        "sourceURL": "https://www.idealista.pt/imovel/35099207/",
+        "checkedAt": "2026-10-02T08:17:47Z",
+        "status": "unavailable",
+        "error": "robots HTTP 403"
+      }
+    },
+    {
+      "id": "land-34737892",
+      "title": "Praia da Samarra · São João das Lampas",
+      "municipality": "Sintra",
+      "district": "Lisbon",
+      "price": 14000,
+      "area": 760,
+      "planning": "Rural / non-buildable",
+      "view": "Panoramic",
+      "evidence": "Advertiser describes panoramic views over the Atlantic.",
+      "note": "Non-buildable rural land. Confirm access, boundaries and coastal restrictions.",
+      "sourceURL": "https://www.idealista.pt/imovel/34737892/",
+      "researchedAt": "2026-09-27",
+      "sourceCheck": {
+        "id": "land-34737892",
+        "sourceURL": "https://www.idealista.pt/imovel/34737892/",
+        "checkedAt": "2026-10-02T08:17:47Z",
+        "status": "unavailable",
+        "error": "robots HTTP 403"
+      }
+    },
+    {
+      "id": "land-34053072",
+      "title": "Rua da Picada · Magoito",
+      "municipality": "Sintra",
+      "district": "Lisbon",
+      "price": 69000,
+      "area": 3400,
+      "planning": "Rural / non-buildable",
+      "view": "Ocean view",
+      "evidence": "Advertiser describes sea views over Praia do Magoito.",
+      "note": "Older indexed snapshot. No permanent construction advertised; mobile-home permissions are not verified.",
+      "sourceURL": "https://www.idealista.pt/imovel/34053072/",
+      "researchedAt": "2026-09-27",
+      "sourceCheck": {
+        "id": "land-34053072",
+        "sourceURL": "https://www.idealista.pt/imovel/34053072/",
+        "checkedAt": "2026-10-02T08:17:47Z",
+        "status": "unavailable",
+        "error": "robots HTTP 403"
+      }
+    },
+    {
+      "id": "land-35335403",
+      "title": "Alto da Parede · Rua Professor Branquinho",
+      "municipality": "Cascais",
+      "district": "Lisbon",
+      "price": 1400000,
+      "area": 940,
+      "planning": "Potential advertised",
+      "view": "Partial",
+      "evidence": "Advertiser explicitly describes a partial sea view.",
+      "note": "470 m² house potential claimed. Two-house alternative requires municipal confirmation.",
+      "sourceURL": "https://www.idealista.pt/imovel/35335403/",
+      "researchedAt": "2026-09-27",
+      "sourceCheck": {
+        "id": "land-35335403",
+        "sourceURL": "https://www.idealista.pt/imovel/35335403/",
+        "checkedAt": "2026-10-02T08:17:47Z",
+        "status": "unavailable",
+        "error": "robots HTTP 403"
+      }
+    },
+    {
+      "id": "land-35342696",
+      "title": "Murtal · Avenida Almirante João de Azevedo Coutinho",
+      "municipality": "Cascais",
+      "district": "Lisbon",
+      "price": 1890000,
+      "area": 1620,
+      "planning": "Potential advertised",
+      "view": "Ocean view",
+      "evidence": "Advertiser describes an open view over the sea.",
+      "note": "Includes an existing T3 house and pool. Development limits require municipal information; not vacant land.",
+      "sourceURL": "https://www.idealista.pt/imovel/35342696/",
+      "researchedAt": "2026-09-27",
+      "sourceCheck": {
+        "id": "land-35342696",
+        "sourceURL": "https://www.idealista.pt/imovel/35342696/",
+        "checkedAt": "2026-10-02T08:17:47Z",
+        "status": "unavailable",
+        "error": "robots HTTP 403"
+      }
+    },
+    {
+      "id": "land-31424804",
+      "title": "Malveira da Serra · Guincho hinterland",
+      "municipality": "Cascais",
+      "district": "Lisbon",
+      "price": 600000,
+      "area": 28960,
+      "planning": "Conflicting / unclear",
+      "view": "Panoramic",
+      "evidence": "Advertiser describes broad views over the Atlantic.",
+      "note": "Portal says urban, description places land in a natural park. No approved project established.",
+      "sourceURL": "https://www.idealista.pt/imovel/31424804/",
+      "researchedAt": "2026-09-27",
+      "sourceCheck": {
+        "id": "land-31424804",
+        "sourceURL": "https://www.idealista.pt/imovel/31424804/",
+        "checkedAt": "2026-10-02T08:17:47Z",
+        "status": "unavailable",
+        "error": "robots HTTP 403"
+      }
+    },
+    {
+      "id": "land-iv19046900",
+      "title": "Santo Amaro de Oeiras",
+      "municipality": "Oeiras",
+      "district": "Lisbon",
+      "price": 2000000,
+      "area": 998,
+      "planning": "Conflicting / unclear",
+      "view": "Ocean view",
+      "evidence": "The listing title explicitly advertises a sea view.",
+      "note": "Urban plot with an architect-designed project advertised; approval status and precise view need confirmation.",
+      "sourceURL": "https://www.imovirtual.com/pt/anuncio/lote-de-998m2-com-projeto-de-autor-e-vista-mar-oeiras-ID1hUY4",
+      "researchedAt": "2026-09-27",
+      "sourceCheck": {
+        "id": "land-iv19046900",
+        "sourceURL": "https://www.imovirtual.com/pt/anuncio/lote-de-998m2-com-projeto-de-autor-e-vista-mar-oeiras-ID1hUY4",
+        "checkedAt": "2026-10-02T08:17:47Z",
+        "status": "observed"
+      },
+      "history": [
+        {
+          "price": 2000000,
+          "at": "2026-10-02T08:15:18Z",
+          "method": "public-page / schema",
+          "contentHash": "dbbcd79f9b9ec0190914364fed6422877b2caa779409ba6f8629bc12ba3d0bfb"
+        },
+        {
+          "price": 2000000,
+          "at": "2026-10-02T08:17:47Z",
+          "method": "public-page / schema",
+          "contentHash": "f7baf5b826345f040211a07f143707e3ab333a212fe82ebffc285dd48eaf3fa3"
+        }
+      ],
+      "lastObserved": "2026-10-02T08:17:47Z",
+      "publishedObservedAt": "2026-10-02T08:17:47Z"
+    },
+    {
+      "id": "land-rm1206119456",
+      "title": "Porto Salvo",
+      "municipality": "Oeiras",
+      "district": "Lisbon",
+      "price": 1550000,
+      "area": 10680,
+      "planning": "Conflicting / unclear",
+      "view": "Ocean view",
+      "evidence": "RE/MAX describes the rural parcel as having a sea view.",
+      "note": "Urban / business surroundings do not establish building permission on the rural parcel.",
+      "sourceURL": "https://remax.pt/pt/imoveis/venda-terreno-toeiras-porto-salvo/120611945-6",
+      "researchedAt": "2026-09-27",
+      "sourceCheck": {
+        "id": "land-rm1206119456",
+        "sourceURL": "https://remax.pt/pt/imoveis/venda-terreno-toeiras-porto-salvo/120611945-6",
+        "checkedAt": "2026-10-02T08:17:47Z",
+        "status": "unavailable",
+        "error": "HTTP Error 404: Not Found"
+      }
+    },
+    {
+      "id": "land-34194709",
+      "title": "Estrada do Robalo · Capuchos",
+      "municipality": "Almada",
+      "district": "Setúbal",
+      "price": 490000,
+      "area": 630,
+      "planning": "Potential advertised",
+      "view": "Ocean view",
+      "evidence": "Advertiser describes sea views and an open horizon over the fossil cliff.",
+      "note": "Urban corner lot; house viability claimed, approval documents not reviewed. Review 1 Oct 2026: source snapshot shows EUR 490,000, with EUR 579,000 crossed out. Snapshot crawled last week; exact reduction date and availability unconfirmed.",
+      "sourceURL": "https://www.idealista.pt/imovel/34194709/",
+      "researchedAt": "2026-10-01",
+      "sourceCheck": {
+        "id": "land-34194709",
+        "sourceURL": "https://www.idealista.pt/imovel/34194709/",
+        "checkedAt": "2026-10-02T08:17:47Z",
+        "status": "unavailable",
+        "error": "robots HTTP 403"
+      }
+    },
+    {
+      "id": "land-34200758",
+      "title": "Capuchos · two adjoining lots",
+      "municipality": "Almada",
+      "district": "Setúbal",
+      "price": 1650000,
+      "area": 1330,
+      "planning": "Potential advertised",
+      "view": "Panoramic",
+      "evidence": "Advertiser describes panoramic ocean views from the existing house.",
+      "note": "Includes an existing house and two title articles. Advertised total construction allowance 439.2 m²; verify.",
+      "sourceURL": "https://www.idealista.pt/imovel/34200758/",
+      "researchedAt": "2026-09-27",
+      "sourceCheck": {
+        "id": "land-34200758",
+        "sourceURL": "https://www.idealista.pt/imovel/34200758/",
+        "checkedAt": "2026-10-02T08:17:47Z",
+        "status": "unavailable",
+        "error": "robots HTTP 403"
+      }
+    },
+    {
+      "id": "land-32465277",
+      "title": "Zambujal · Aiana",
+      "municipality": "Sesimbra",
+      "district": "Setúbal",
+      "price": 100000,
+      "area": 3750,
+      "planning": "Rural / non-buildable",
+      "view": "Ocean view",
+      "evidence": "Advertiser describes views of the sea, Lisbon and Cascais coastline.",
+      "note": "Agricultural / forest zone. Only about 18.75 m² agricultural support claimed; no residential approval established.",
+      "sourceURL": "https://www.idealista.pt/imovel/32465277/",
+      "researchedAt": "2026-09-27",
+      "sourceCheck": {
+        "id": "land-32465277",
+        "sourceURL": "https://www.idealista.pt/imovel/32465277/",
+        "checkedAt": "2026-10-02T08:17:47Z",
+        "status": "unavailable",
+        "error": "robots HTTP 403"
+      }
+    },
+    {
+      "id": "land-34766539",
+      "title": "N379 · Sentrão",
+      "municipality": "Sesimbra",
+      "district": "Setúbal",
+      "price": 1849000,
+      "area": 31326,
+      "planning": "Rural / non-buildable",
+      "view": "Panoramic",
+      "evidence": "Advertiser describes a bay view toward Ribeiro do Cavalo beach.",
+      "note": "Two rural parcels; portal says non-buildable. Any alternative use needs confirmation.",
+      "sourceURL": "https://www.idealista.pt/imovel/34766539/",
+      "researchedAt": "2026-09-27",
+      "sourceCheck": {
+        "id": "land-34766539",
+        "sourceURL": "https://www.idealista.pt/imovel/34766539/",
+        "checkedAt": "2026-10-02T08:17:47Z",
+        "status": "unavailable",
+        "error": "robots HTTP 403"
+      }
+    },
+    {
+      "id": "land-35317279",
+      "title": "Meco / Azóia · 15,700 m²",
+      "municipality": "Sesimbra",
+      "district": "Setúbal",
+      "price": 580000,
+      "area": 15700,
+      "planning": "Approval advertised",
+      "view": "Panoramic",
+      "evidence": "Advertiser describes panoramic Atlantic views.",
+      "note": "PIP for 165 m² house and pool claimed. Portal places it in Alto das Vinhas, description says Meco; exact location needs confirmation.",
+      "sourceURL": "https://www.idealista.pt/imovel/35317279/",
+      "researchedAt": "2026-09-27",
+      "sourceCheck": {
+        "id": "land-35317279",
+        "sourceURL": "https://www.idealista.pt/imovel/35317279/",
+        "checkedAt": "2026-10-02T08:17:47Z",
+        "status": "unavailable",
+        "error": "robots HTTP 403"
+      }
+    },
+    {
+      "id": "land-34955330",
+      "title": "Aiana de Cima · near Meco",
+      "municipality": "Sesimbra",
+      "district": "Setúbal",
+      "price": 1790000,
+      "area": 16500,
+      "planning": "Conflicting / unclear",
+      "view": "Panoramic",
+      "evidence": "Advertiser describes views over the ocean and Lisbon bay.",
+      "note": "Development permissions and sale boundaries need confirmation; do not infer buildable area from plot size.",
+      "sourceURL": "https://www.idealista.pt/imovel/34955330/",
+      "researchedAt": "2026-09-27",
+      "sourceCheck": {
+        "id": "land-34955330",
+        "sourceURL": "https://www.idealista.pt/imovel/34955330/",
+        "checkedAt": "2026-10-02T08:17:47Z",
+        "status": "unavailable",
+        "error": "robots HTTP 403"
+      }
+    },
+    {
+      "id": "land-32068022",
+      "title": "Santiago · above the harbour",
+      "municipality": "Sesimbra",
+      "district": "Setúbal",
+      "price": 2500000,
+      "area": 2000,
+      "planning": "Conflicting / unclear",
+      "view": "Panoramic",
+      "evidence": "Advertiser describes a 180-degree Atlantic and harbour view.",
+      "note": "Planning decision and permitted construction area not established in this research.",
+      "sourceURL": "https://www.idealista.pt/imovel/32068022/",
+      "researchedAt": "2026-09-27",
+      "sourceCheck": {
+        "id": "land-32068022",
+        "sourceURL": "https://www.idealista.pt/imovel/32068022/",
+        "checkedAt": "2026-10-02T08:17:47Z",
+        "status": "unavailable",
+        "error": "robots HTTP 403"
+      }
+    },
+    {
+      "id": "land-34729807",
+      "title": "Venda Nova · Charneca da Cotovia",
+      "municipality": "Sesimbra",
+      "district": "Setúbal",
+      "price": 280000,
+      "area": 2971,
+      "planning": "Potential advertised",
+      "view": "Ocean view",
+      "evidence": "Advertiser states a view over Lisbon and the sea.",
+      "note": "Confirm ocean sightline rather than only estuary; displayed buildable area requires municipal verification.",
+      "sourceURL": "https://www.idealista.pt/imovel/34729807/",
+      "researchedAt": "2026-09-27",
+      "sourceCheck": {
+        "id": "land-34729807",
+        "sourceURL": "https://www.idealista.pt/imovel/34729807/",
+        "checkedAt": "2026-10-02T08:17:47Z",
+        "status": "unavailable",
+        "error": "robots HTTP 403"
+      }
+    },
+    {
+      "id": "land-rm12344130537",
+      "title": "Soltróia · lots 17 and 19",
+      "municipality": "Grândola",
+      "district": "Setúbal",
+      "price": 5500000,
+      "area": 3262,
+      "planning": "Potential advertised",
+      "view": "Ocean view",
+      "evidence": "RE/MAX advertises two adjoining lots with sea views.",
+      "note": "Combined sale: 1,619 m² plus 1,643 m². Two houses claimed; confirm which direction and floors have ocean views.",
+      "sourceURL": "https://www.remax.pt/pt/imoveis/venda-terreno-tgrandola-carvalhal/123441305-37",
+      "researchedAt": "2026-09-27",
+      "sourceCheck": {
+        "id": "land-rm12344130537",
+        "sourceURL": "https://www.remax.pt/pt/imoveis/venda-terreno-tgrandola-carvalhal/123441305-37",
+        "checkedAt": "2026-10-02T08:17:47Z",
+        "status": "observed"
+      },
+      "history": [
+        {
+          "price": 5500000,
+          "at": "2026-10-02T08:15:18Z",
+          "method": "public-page / schema",
+          "contentHash": "342563990889502e8dc0bf092932779d662c2289e9035638dfa2983e49262ba8"
+        },
+        {
+          "price": 5500000,
+          "at": "2026-10-02T08:17:47Z",
+          "method": "public-page / schema",
+          "contentHash": "6f4ffc53be894e8eeb425101b4ee00f913e421cc711cbe5a63c54eaadc81fa14"
+        }
+      ],
+      "lastObserved": "2026-10-02T08:17:47Z",
+      "publishedObservedAt": "2026-10-02T08:17:47Z"
+    },
+    {
+      "id": "land-34566546",
+      "title": "Rossinha · Melides",
+      "municipality": "Grândola",
+      "district": "Setúbal",
+      "price": 975000,
+      "area": 92500,
+      "planning": "Conflicting / unclear",
+      "view": "Panoramic",
+      "evidence": "Advertiser describes countryside and sea views.",
+      "note": "Includes a ruin; further construction confirmation is pending in the description despite urbanisable label. Review 1 Oct 2026: older cached source shows EUR 1,250,000 (crawl age: 2 months ago). Retained existing price pending fresh confirmation.",
+      "sourceURL": "https://www.idealista.pt/imovel/34566546/",
+      "researchedAt": "2026-09-27",
+      "sourceCheck": {
+        "id": "land-34566546",
+        "sourceURL": "https://www.idealista.pt/imovel/34566546/",
+        "checkedAt": "2026-10-02T08:17:47Z",
+        "status": "unavailable",
+        "error": "robots HTTP 403"
+      }
+    },
+    {
+      "id": "land-34902700",
+      "title": "Sobreiras Altas · Melides",
+      "municipality": "Grândola",
+      "district": "Setúbal",
+      "price": 1600000,
+      "area": 24000,
+      "planning": "Potential advertised",
+      "view": "Ocean view",
+      "evidence": "Advertiser describes a traditional estate with sea views.",
+      "note": "Existing buildings about 300 m². Heading 24,000 m² versus description 2.43 ha; confirm surveyed area.",
+      "sourceURL": "https://www.idealista.pt/pro/imomelides/imovel/34902700/",
+      "researchedAt": "2026-09-27",
+      "sourceCheck": {
+        "id": "land-34902700",
+        "sourceURL": "https://www.idealista.pt/pro/imomelides/imovel/34902700/",
+        "checkedAt": "2026-10-02T08:17:47Z",
+        "status": "unavailable",
+        "error": "robots HTTP 403"
+      }
+    },
+    {
+      "id": "land-33206361",
+      "title": "EN261-2 · Melides hilltop",
+      "municipality": "Grândola",
+      "district": "Setúbal",
+      "price": 1560000,
+      "area": 90000,
+      "planning": "Potential advertised",
+      "view": "Panoramic",
+      "evidence": "Advertiser describes a 270-degree outlook reaching the ocean horizon.",
+      "note": "Urbanisable portal category; exact permitted development and licence not established.",
+      "sourceURL": "https://www.idealista.pt/imovel/33206361/",
+      "researchedAt": "2026-09-27",
+      "sourceCheck": {
+        "id": "land-33206361",
+        "sourceURL": "https://www.idealista.pt/imovel/33206361/",
+        "checkedAt": "2026-10-02T08:17:47Z",
+        "status": "unavailable",
+        "error": "robots HTTP 403"
+      }
+    },
+    {
+      "id": "land-32267492",
+      "title": "Travessa do Teixeira · Melides",
+      "municipality": "Grândola",
+      "district": "Setúbal",
+      "price": 727000,
+      "area": 60000,
+      "planning": "Potential advertised",
+      "view": "Ocean view",
+      "evidence": "Advertiser describes sea views from a six-hectare property.",
+      "note": "Residential potential claimed; obtain current municipal confirmation of use and building limits.",
+      "sourceURL": "https://www.idealista.pt/imovel/32267492/",
+      "researchedAt": "2026-09-27",
+      "sourceCheck": {
+        "id": "land-32267492",
+        "sourceURL": "https://www.idealista.pt/imovel/32267492/",
+        "checkedAt": "2026-10-02T08:17:47Z",
+        "status": "unavailable",
+        "error": "robots HTTP 403"
+      }
+    },
+    {
+      "id": "land-33243646",
+      "title": "Melides · elevated six-hectare estate",
+      "municipality": "Grândola",
+      "district": "Setúbal",
+      "price": 1500000,
+      "area": 60000,
+      "planning": "Conflicting / unclear",
+      "view": "Distant / horizon",
+      "evidence": "Advertiser says the sea is visible from the highest parts of the land.",
+      "note": "Portal says non-buildable while description presents a house project. Confirm area, approvals and exact viewing points.",
+      "sourceURL": "https://www.idealista.pt/imovel/33243646/",
+      "researchedAt": "2026-09-27",
+      "sourceCheck": {
+        "id": "land-33243646",
+        "sourceURL": "https://www.idealista.pt/imovel/33243646/",
+        "checkedAt": "2026-10-02T08:17:47Z",
+        "status": "unavailable",
+        "error": "robots HTTP 403"
+      }
+    },
+    {
+      "id": "land-35061215",
+      "title": "Rua da Nau São Miguel · Convento",
+      "municipality": "Sines",
+      "district": "Setúbal",
+      "price": 275000,
+      "area": 580,
+      "planning": "Potential advertised",
+      "view": "Ocean view",
+      "evidence": "Advertiser describes sea views from the residential plot.",
+      "note": "House with basement and two upper levels claimed; obtain planning and licence documents.",
+      "sourceURL": "https://www.idealista.pt/imovel/35061215/",
+      "researchedAt": "2026-09-27",
+      "sourceCheck": {
+        "id": "land-35061215",
+        "sourceURL": "https://www.idealista.pt/imovel/35061215/",
+        "checkedAt": "2026-10-02T08:17:47Z",
+        "status": "unavailable",
+        "error": "robots HTTP 403"
+      }
+    },
+    {
+      "id": "land-32565217",
+      "title": "Daroeira · Porto Covo",
+      "municipality": "Sines",
+      "district": "Setúbal",
+      "price": 1500000,
+      "area": 53547,
+      "planning": "Potential advertised",
+      "view": "Ocean view",
+      "evidence": "Advertiser describes land with a house to rehabilitate and sea views.",
+      "note": "Includes existing buildings; verify legal reconstruction and any new-development limits.",
+      "sourceURL": "https://www.idealista.pt/imovel/32565217/",
+      "researchedAt": "2026-09-27",
+      "sourceCheck": {
+        "id": "land-32565217",
+        "sourceURL": "https://www.idealista.pt/imovel/32565217/",
+        "checkedAt": "2026-10-02T08:17:47Z",
+        "status": "unavailable",
+        "error": "robots HTTP 403"
+      }
+    },
+    {
+      "id": "land-33545362",
+      "title": "Courela do Castanhal",
+      "municipality": "Sines",
+      "district": "Setúbal",
+      "price": 580000,
+      "area": 61500,
+      "planning": "Rural / non-buildable",
+      "view": "Ocean view",
+      "evidence": "Advertiser explicitly states views over the sea.",
+      "note": "Non-buildable rural classification on portal; construction rights not established.",
+      "sourceURL": "https://www.idealista.pt/imovel/33545362/",
+      "researchedAt": "2026-09-27",
+      "sourceCheck": {
+        "id": "land-33545362",
+        "sourceURL": "https://www.idealista.pt/imovel/33545362/",
+        "checkedAt": "2026-10-02T08:17:47Z",
+        "status": "unavailable",
+        "error": "robots HTTP 403"
+      }
+    },
+    {
+      "id": "land-34631140",
+      "title": "M554 · three agricultural parcels",
+      "municipality": "Sines",
+      "district": "Setúbal",
+      "price": 360000,
+      "area": 225000,
+      "planning": "Rural / non-buildable",
+      "view": "Ocean view",
+      "evidence": "Advertiser describes cleared land with a sea view.",
+      "note": "Three 7.5 ha parcels sold together. No construction viability advertised; agricultural support only subject to approval.",
+      "sourceURL": "https://www.idealista.pt/imovel/34631140/",
+      "researchedAt": "2026-09-27",
+      "sourceCheck": {
+        "id": "land-34631140",
+        "sourceURL": "https://www.idealista.pt/imovel/34631140/",
+        "checkedAt": "2026-10-02T08:17:47Z",
+        "status": "unavailable",
+        "error": "robots HTTP 403"
+      }
+    },
+    {
+      "id": "land-35281476",
+      "title": "Porto Covo · opposite Ilha do Pessegueiro",
+      "municipality": "Sines",
+      "district": "Setúbal",
+      "price": 100000,
+      "area": 20000,
+      "planning": "Rural / non-buildable",
+      "view": "Ocean view",
+      "evidence": "Advertiser explicitly states sea views opposite Ilha do Pessegueiro.",
+      "note": "Agricultural land; mobile homes or caravans explicitly subject to authority approval.",
+      "sourceURL": "https://www.idealista.pt/imovel/35281476/",
+      "researchedAt": "2026-09-27",
+      "sourceCheck": {
+        "id": "land-35281476",
+        "sourceURL": "https://www.idealista.pt/imovel/35281476/",
+        "checkedAt": "2026-10-02T08:17:47Z",
+        "status": "unavailable",
+        "error": "robots HTTP 403"
+      }
+    },
+    {
+      "id": "land-35185798",
+      "title": "M554 · fenced 5,000 m² plot",
+      "municipality": "Sines",
+      "district": "Setúbal",
+      "price": 137500,
+      "area": 5000,
+      "planning": "Rural / non-buildable",
+      "view": "Ocean view",
+      "evidence": "Advertiser describes sea views from a flat three-frontage plot.",
+      "note": "Likely matching advert at €145,000 counted once. Confirm current price and parcel identity; non-buildable.",
+      "sourceURL": "https://www.idealista.pt/imovel/35185798/",
+      "researchedAt": "2026-09-27",
+      "sourceCheck": {
+        "id": "land-35185798",
+        "sourceURL": "https://www.idealista.pt/imovel/35185798/",
+        "checkedAt": "2026-10-02T08:17:47Z",
+        "status": "unavailable",
+        "error": "robots HTTP 403"
+      }
+    },
+    {
+      "id": "land-35183313",
+      "title": "Ademas · Santa Cruz",
+      "municipality": "Santiago do Cacém",
+      "district": "Setúbal",
+      "price": 375000,
+      "area": 56000,
+      "planning": "Conflicting / unclear",
+      "view": "Ocean view",
+      "evidence": "Advertiser describes a rural parcel with sea views.",
+      "note": "Heading 56,000 m² versus description six hectares; urbanisable label is not an approval. Confirm area and permissions.",
+      "sourceURL": "https://www.idealista.pt/imovel/35183313/",
+      "researchedAt": "2026-09-27",
+      "sourceCheck": {
+        "id": "land-35183313",
+        "sourceURL": "https://www.idealista.pt/imovel/35183313/",
+        "checkedAt": "2026-10-02T08:17:47Z",
+        "status": "unavailable",
+        "error": "robots HTTP 403"
+      }
+    },
+    {
+      "id": "land-iv19258147",
+      "title": "São Francisco da Serra",
+      "municipality": "Santiago do Cacém",
+      "district": "Setúbal",
+      "price": 400000,
+      "area": 31864.4,
+      "planning": "Potential advertised",
+      "view": "Ocean view",
+      "evidence": "The agent listing title explicitly advertises a sea view.",
+      "note": "Urban category on portal; full permissions and view must be confirmed with the agent.",
+      "sourceURL": "https://www.imovirtual.com/pt/anuncio/terreno-com-vista-mar-em-sao-francisco-da-serra-ID1iNWh",
+      "researchedAt": "2026-09-27",
+      "sourceCheck": {
+        "id": "land-iv19258147",
+        "sourceURL": "https://www.imovirtual.com/pt/anuncio/terreno-com-vista-mar-em-sao-francisco-da-serra-ID1iNWh",
+        "checkedAt": "2026-10-02T08:17:47Z",
+        "status": "observed"
+      },
+      "history": [
+        {
+          "price": 400000,
+          "at": "2026-10-02T08:15:18Z",
+          "method": "public-page / schema",
+          "contentHash": "9bf3dcf4c751bf67465b359e4a379f9b7e5f4596c5f6fff956f10d0406b82489"
+        },
+        {
+          "price": 400000,
+          "at": "2026-10-02T08:17:47Z",
+          "method": "public-page / schema",
+          "contentHash": "9f37448113054f4a935fa7c2972cfaf5fbee792556d69cb1eeeabe9b10fb082a"
+        }
+      ],
+      "lastObserved": "2026-10-02T08:17:47Z",
+      "publishedObservedAt": "2026-10-02T08:17:47Z"
+    },
+    {
+      "id": "land-32127944",
+      "title": "Travessa do Moinho · windmill and land",
+      "municipality": "Lourinhã",
+      "district": "Lisbon",
+      "price": 290000,
+      "area": 2270,
+      "planning": "Potential advertised",
+      "view": "Ocean view",
+      "evidence": "Advertiser states sea views towards the Berlengas.",
+      "note": "Includes a windmill and annex needing rehabilitation. 2,110 m² described as agricultural land; residential potential under the PDM is an unverified claim.",
+      "sourceURL": "https://www.idealista.pt/imovel/32127944/",
+      "researchedAt": "2026-10-01",
+      "sourceCheck": {
+        "id": "land-32127944",
+        "sourceURL": "https://www.idealista.pt/imovel/32127944/",
+        "checkedAt": "2026-10-02T08:17:47Z",
+        "status": "unavailable",
+        "error": "robots HTTP 403"
+      }
+    },
+    {
+      "id": "land-35242132",
+      "title": "Areia Branca outlook · residential plot",
+      "municipality": "Lourinhã",
+      "district": "Lisbon",
+      "price": 135000,
+      "area": 162.76,
+      "planning": "Potential advertised",
+      "view": "Ocean view",
+      "evidence": "Advertiser describes views over Areia Branca beach and the sea.",
+      "note": "Header rounds area to 162 m²; description says 162.76 m². Advertised construction potential is not verified approval. House images are illustrative.",
+      "sourceURL": "https://www.idealista.pt/imovel/35242132/",
+      "researchedAt": "2026-10-01",
+      "sourceCheck": {
+        "id": "land-35242132",
+        "sourceURL": "https://www.idealista.pt/imovel/35242132/",
+        "checkedAt": "2026-10-02T08:17:47Z",
+        "status": "unavailable",
+        "error": "robots HTTP 403"
+      }
+    },
+    {
+      "id": "land-31415263",
+      "title": "Póvoa de Penafirme · rural sea-view plot",
+      "municipality": "Torres Vedras",
+      "district": "Lisbon",
+      "price": 140000,
+      "area": 5040,
+      "planning": "Rural / non-buildable",
+      "view": "Ocean view",
+      "evidence": "Advertiser explicitly claims a sea view in Póvoa de Penafirme.",
+      "note": "Advertised as non-buildable rural land. No residential approval established. Agency reference MTL3208; distinct from the nearby 700 and 1,400 m² offers.",
+      "sourceURL": "https://www.idealista.pt/imovel/31415263/",
+      "researchedAt": "2026-10-02",
+      "sourceCheck": {
+        "id": "land-31415263",
+        "sourceURL": "https://www.idealista.pt/imovel/31415263/",
+        "checkedAt": "2026-10-02T08:17:47Z",
+        "status": "unavailable",
+        "error": "robots HTTP 403"
+      }
+    },
+    {
+      "id": "land-iv19073309",
+      "title": "Castelo · sea-view plot",
+      "municipality": "Sesimbra",
+      "district": "Setúbal",
+      "price": 490000,
+      "area": 5000,
+      "planning": "Potential advertised",
+      "view": "Ocean view",
+      "evidence": "Advertiser title explicitly states sea views.",
+      "note": "Portal categorises the land as urban; approval and construction limits were not supplied in the retrieved description. Agency reference TER_185. Advert last-updated date shown as 19 May 2026; confirm availability.",
+      "sourceURL": "https://www.imovirtual.com/pt/anuncio/excelente-lote-de-terreno-urbano-com-vista-para-o-mar-ID1i1Q1",
+      "researchedAt": "2026-10-02",
+      "sourceCheck": {
+        "id": "land-iv19073309",
+        "sourceURL": "https://www.imovirtual.com/pt/anuncio/excelente-lote-de-terreno-urbano-com-vista-para-o-mar-ID1i1Q1",
+        "checkedAt": "2026-10-02T08:17:47Z",
+        "status": "observed"
+      },
+      "history": [
+        {
+          "price": 490000,
+          "at": "2026-10-02T08:15:18Z",
+          "method": "public-page / schema",
+          "contentHash": "06be355f48ff86b3cc63a9dc337633160d5b1f62428580af2e680d24468fe043"
+        },
+        {
+          "price": 490000,
+          "at": "2026-10-02T08:17:47Z",
+          "method": "public-page / schema",
+          "contentHash": "cbeedb4ae2191385c2654c0486bc9c14b12f97536d4a2ec5dc822ed6144936df"
+        }
+      ],
+      "lastObserved": "2026-10-02T08:17:47Z",
+      "publishedObservedAt": "2026-10-02T08:17:47Z"
+    },
+    {
+      "id": "land-237b0167116954",
+      "title": "Melides, terreno com vista ao mar",
+      "price": 3820000,
+      "area": 2643000,
+      "sourceURL": "https://www.imomelides.com/pt/propriedade/66-melides-terreno-com-vista-ao-mar",
+      "firstSeen": "2026-10-02T08:17:47Z",
+      "lastObserved": "2026-10-02T08:17:47Z",
+      "researchedAt": "2026-10-02",
+      "reference": "1750",
+      "history": [
+        {
+          "price": 3820000,
+          "at": "2026-10-02T08:17:47Z",
+          "method": "public-page / imomelides"
+        }
+      ],
+      "notes": "",
+      "imageURL": "",
+      "imageLabel": "",
+      "municipality": "Grândola",
+      "district": "Setúbal",
+      "view": "Ocean view",
+      "planning": "Potential advertised",
+      "evidence": "Advertiser explicitly describes a sea view; actual view not independently verified.",
+      "note": "Planning and permitted uses are advertiser claims. Obtain municipal documentation. Agency reference: 1750. Source description: Herdades ou quintas Melides Melides, terreno com vista ao mar terreno unico a dez minutos da nossa aldeia 3.820.000 € Ref. 1750 2.643.000 m2 500 m2 Apenas natureza. sem postes de electricidade, sem vizinhos ruidosos, apenas natureza pura. Com uma vista incredivel sobre o oceano, as colinas circundantes e bom acesso. Talvez a dez minutos da nossa aldeia, e não mais, no cimo das colinas, este terreno único para construir a(s) sua(s) residência(ões), como sabe, porque temos as ruínas necessárias. Pronto para uma visita? Até já! MAIS INFORMÇÕES",
+      "sourceCheck": {
+        "checkedAt": "2026-10-02T08:17:47Z",
+        "status": "observed",
+        "sourceURL": "https://www.imomelides.com/pt/propriedade/66-melides-terreno-com-vista-ao-mar"
+      },
+      "publishedObservedAt": "2026-10-02T08:17:47Z"
+    },
+    {
+      "id": "land-be0aa23194da36",
+      "title": "Melides, terreno com vista ao mar",
+      "price": 6000000,
+      "area": 125000,
+      "sourceURL": "https://www.imomelides.com/pt/propriedade/73-melides-terreno-com-vista-ao-mar",
+      "firstSeen": "2026-10-02T08:17:47Z",
+      "lastObserved": "2026-10-02T08:17:47Z",
+      "researchedAt": "2026-10-02",
+      "reference": "1500",
+      "history": [
+        {
+          "price": 6000000,
+          "at": "2026-10-02T08:17:47Z",
+          "method": "public-page / imomelides"
+        }
+      ],
+      "notes": "",
+      "imageURL": "",
+      "imageLabel": "",
+      "municipality": "Grândola",
+      "district": "Setúbal",
+      "view": "Ocean view",
+      "planning": "Potential advertised",
+      "evidence": "Advertiser explicitly describes a sea view; actual view not independently verified.",
+      "note": "Planning and permitted uses are advertiser claims. Obtain municipal documentation. Agency reference: 1500. Source description: Terreno Melides Melides, terreno com vista ao mar 6.000.000 € Ref. 1500 125.000 m2 75 m2 Melides, terreno com vista para o mar. A menos de 8 minutos de carro da nossa aldeia, encontra esta propriedade de cerca de 13,27 hectares. Bons acessos e excelente vista para o mar. Toda a privacidade e natureza que a nossa serra pode oferecer. Possibilidade de construir uma moradia até 500 metros quadrados. MAIS INFORMÇÕES",
+      "sourceCheck": {
+        "checkedAt": "2026-10-02T08:17:47Z",
+        "status": "observed",
+        "sourceURL": "https://www.imomelides.com/pt/propriedade/73-melides-terreno-com-vista-ao-mar"
+      },
+      "publishedObservedAt": "2026-10-02T08:17:47Z"
+    },
+    {
+      "id": "land-70e6d327c364c7",
+      "title": "EXCLUSIVO West Life - Terreno Rústico de 4810m2 com poço e fantástica Vista MAR - Mafra",
+      "price": 49500,
+      "area": 4810,
+      "sourceURL": "https://www.westlifeimobiliaria.com/imovel/exclusivo-west-life-terreno-rustico-de-4810m2-com-poco-e-fantastica-vista-mar-mafra/26380685",
+      "firstSeen": "2026-10-02T08:17:47Z",
+      "lastObserved": "2026-10-02T08:17:47Z",
+      "researchedAt": "2026-10-02",
+      "reference": "5314",
+      "history": [
+        {
+          "price": 49500,
+          "at": "2026-10-02T08:17:47Z",
+          "method": "public-page / schema"
+        }
+      ],
+      "notes": "",
+      "imageURL": "",
+      "imageLabel": "",
+      "municipality": "Mafra",
+      "district": "Lisbon",
+      "view": "Ocean view",
+      "planning": "Rural / non-buildable",
+      "evidence": "Advertiser explicitly describes a sea view; actual view not independently verified.",
+      "note": "Planning and permitted uses are advertiser claims. Obtain municipal documentation. Agency reference: 5314. Source description: EXCLUSIVO West Life - Terreno Rústico de 4810m2 com poço e fenomenal vista MAR e para o convento de Mafra. Localizado a apenas 15 minutos do centro de Mafra.\r\n\r\n\r\nEste terreno conta com muita cultura arvorense e com poço. \r\n\r\n\r\nO espaço apresenta um enorme potencial para ser utilizado como um parque de atividades lúdicas, tais como arborismo, paintball, eventos de team building e outras atividades ao ar livre. Tendo em conta a crescente procura por experiências emocionantes e aventuras ao ar livre, principalmente na zona onde se insere, este imóvel torna-se excelente ideia de negócio.\r\n\r\n\r\nA sua localização privilegiada oferece uma agradável ",
+      "sourceCheck": {
+        "checkedAt": "2026-10-02T08:17:47Z",
+        "status": "observed",
+        "sourceURL": "https://www.westlifeimobiliaria.com/imovel/exclusivo-west-life-terreno-rustico-de-4810m2-com-poco-e-fantastica-vista-mar-mafra/26380685"
+      },
+      "publishedObservedAt": "2026-10-02T08:17:47Z"
+    },
+    {
+      "id": "land-ff75689b147063",
+      "title": "Moradia T4 num lote de 8400m2, Vista MAR e amplo Terreno Rústico com ótima exposição solar - LOURINHÃ",
+      "price": 499000,
+      "area": 8400,
+      "sourceURL": "https://www.westlifeimobiliaria.com/imovel/moradia-t4-num-lote-de-8400m2-vista-mar-e-amplo-terreno-rustico-com-otima-exposicao-solar-lourinha/23310946",
+      "firstSeen": "2026-10-02T08:17:47Z",
+      "lastObserved": "2026-10-02T08:17:47Z",
+      "researchedAt": "2026-10-02",
+      "reference": "5262",
+      "history": [
+        {
+          "price": 499000,
+          "at": "2026-10-02T08:17:47Z",
+          "method": "public-page / schema"
+        }
+      ],
+      "notes": "",
+      "imageURL": "",
+      "imageLabel": "",
+      "municipality": "Lourinhã",
+      "district": "Lisbon",
+      "view": "Ocean view",
+      "planning": "Rural / non-buildable",
+      "evidence": "Advertiser explicitly describes a sea view; actual view not independently verified.",
+      "note": "Planning and permitted uses are advertiser claims. Obtain municipal documentation. Agency reference: 5262. Source description: A propriedade é composta por moradia independente de tipologia T4, Vista MAR e amplo terreno rústico. Se pretende um sitio onde pode usufruir do sossego do campo com tudo o que necessita para uma vida funcional em redor, este imóvel é para si, a apenas 10 minutos da Praia de Porto Novo conhecida pelo extenso areal e pelas suas infraestruturas de apoio como restaurantes, sanitários e aluguer de toldos e o acesso a trilhos para caminhadas e parapente. \r\n\r\n\r\nComposta por cave, piso térreo e piso superior. Na cave conta com cozinha, sala de estar, lavandaria, despensa e garagem. O piso térreo dispõe de suíte com casa de banho privativa, um quarto",
+      "sourceCheck": {
+        "checkedAt": "2026-10-02T08:17:47Z",
+        "status": "observed",
+        "sourceURL": "https://www.westlifeimobiliaria.com/imovel/moradia-t4-num-lote-de-8400m2-vista-mar-e-amplo-terreno-rustico-com-otima-exposicao-solar-lourinha/23310946"
+      },
+      "publishedObservedAt": "2026-10-02T08:17:47Z"
+    },
+    {
+      "id": "land-dad215d8bbbca1",
+      "title": "Terreno de 11398m2 com PROJETO APROVADO para Hotel de Charme/Boutique Hotel - Vista Mar Soberba - Ericeira.",
+      "price": 1400000,
+      "area": 11398,
+      "sourceURL": "https://www.westlifeimobiliaria.com/imovel/terreno-de-11398m2-com-projeto-aprovado-para-hotel-de-charmeboutique-hotel-vista-mar-soberba-ericeir/23006890",
+      "firstSeen": "2026-10-02T08:17:47Z",
+      "lastObserved": "2026-10-02T08:17:47Z",
+      "researchedAt": "2026-10-02",
+      "reference": "5763",
+      "history": [
+        {
+          "price": 1400000,
+          "at": "2026-10-02T08:17:47Z",
+          "method": "public-page / schema"
+        }
+      ],
+      "notes": "",
+      "imageURL": "",
+      "imageLabel": "",
+      "municipality": "Mafra",
+      "district": "Lisbon",
+      "view": "Ocean view",
+      "planning": "Approval advertised",
+      "evidence": "Advertiser explicitly describes a sea view; actual view not independently verified.",
+      "note": "Planning and permitted uses are advertiser claims. Obtain municipal documentation. Agency reference: 5763. Source description: Procura um terreno com projeto aprovado para um Hotel intimista com atmosfera sofisticada na Ericeira ? \r\n\r\n\r\nCom 11398 m2, este magnifico terreno de localização única, junto ao Mar e a Praia de S. Lourenço, conceder-lhe-á a oportunidade de construir aquele que poderá vir a ser o projeto da sua vida, um glamoroso Hotel de Charme.\r\n\r\n\r\nO projeto, já aprovado, contempla 17 quartos de luxo com área central comum, piscina, spa, restaurante com capacidade para 50 lugares sentados, espaço para diversos eventos e Bar. \r\n\r\n\r\nIdealizado para proporcionar experiências exclusivas, com um design diferenciado conjuntamente com a essência da Vila Pitoresca",
+      "sourceCheck": {
+        "checkedAt": "2026-10-02T08:17:47Z",
+        "status": "observed",
+        "sourceURL": "https://www.westlifeimobiliaria.com/imovel/terreno-de-11398m2-com-projeto-aprovado-para-hotel-de-charmeboutique-hotel-vista-mar-soberba-ericeir/23006890"
+      },
+      "publishedObservedAt": "2026-10-02T08:17:47Z"
+    },
+    {
+      "id": "land-a9e8a24c00e931",
+      "title": "Terreno Urbano com Vista Mar | EXCLUSIVO WEST LIFE | Marvão",
+      "price": 200000,
+      "area": 1125,
+      "sourceURL": "https://www.westlifeimobiliaria.com/imovel/terreno-urbano-com-vista-mar-exclusivo-west-life-marvao/26609425",
+      "firstSeen": "2026-10-02T08:17:47Z",
+      "lastObserved": "2026-10-02T08:17:47Z",
+      "researchedAt": "2026-10-02",
+      "reference": "6123",
+      "history": [
+        {
+          "price": 200000,
+          "at": "2026-10-02T08:17:47Z",
+          "method": "public-page / schema"
+        }
+      ],
+      "notes": "",
+      "imageURL": "",
+      "imageLabel": "",
+      "municipality": "Mafra",
+      "district": "Lisbon",
+      "view": "Ocean view",
+      "planning": "Potential advertised",
+      "evidence": "Advertiser explicitly describes a sea view; actual view not independently verified.",
+      "note": "Planning and permitted uses are advertiser claims. Obtain municipal documentation. Agency reference: 6123. Source description: EXCLUSIVO WEST LIFE\r\nExcelente oportunidade de investimento num terreno urbano com 1.125 m², situado em Marvão, na freguesia de Santo Isidoro, a poucos minutos da Ericeira.\r\n\r\n\r\nCom uma localização privilegiada e vista mar, este terreno oferece um cenário ideal para a construção de uma moradia, permitindo desfrutar da tranquilidade do campo e da proximidade das praias, comércio, serviços e restauração da Ericeira.\r\n\r\n\r\nA envolvente caracteriza-se por uma zona residencial tranquila, com moradias de arquitetura tradicional e amplos espaços verdes, proporcionando um ambiente agradável e desafogado.\r\n\r\n\r\nPrincipais características:\r\n\r\nTerreno urb",
+      "sourceCheck": {
+        "checkedAt": "2026-10-02T08:17:47Z",
+        "status": "observed",
+        "sourceURL": "https://www.westlifeimobiliaria.com/imovel/terreno-urbano-com-vista-mar-exclusivo-west-life-marvao/26609425"
+      },
+      "publishedObservedAt": "2026-10-02T08:17:47Z"
+    }
+  ],
+  "updatedAt": "2026-10-02T08:17:47Z"
+}

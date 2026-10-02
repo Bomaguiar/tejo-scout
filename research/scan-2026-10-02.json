@@ -405,8 +405,8 @@
       "status": "observed",
       "observation": {
         "title": "Terreno para Venda em Mafra",
-        "price": 65000,
-        "area": 2500,
+        "price": 65000.0,
+        "area": 2500.0,
         "kind": "land",
         "municipality": "Mafra",
         "district": "Lisbon",
@@ -433,8 +433,8 @@
       "status": "observed",
       "observation": {
         "title": "Terreno (novo) para venda  183 m² Ericeira",
-        "price": 299000,
-        "area": 183,
+        "price": 299000.0,
+        "area": 183.0,
         "kind": "land",
         "municipality": "Mafra",
         "district": "Lisbon",
@@ -454,8 +454,8 @@
       "status": "observed",
       "observation": {
         "title": "Lote de 998m2 com Projeto de Autor e Vista Mar | Oeiras",
-        "price": 2000000,
-        "area": 998,
+        "price": 2000000.0,
+        "area": 998.0,
         "kind": "land",
         "municipality": "Oeiras",
         "district": "Lisbon",
@@ -475,7 +475,7 @@
       "status": "observed",
       "observation": {
         "title": "Excelente Lote de Terreno Urbano com Vista para o Mar",
-        "price": 490000,
+        "price": 490000.0,
         "area": 5000,
         "kind": "land",
         "municipality": "Sesimbra",
@@ -503,7 +503,7 @@
       "status": "observed",
       "observation": {
         "title": "Terreno com vista mar em São Francisco da Serra",
-        "price": 400000,
+        "price": 400000.0,
         "area": 31864.4,
         "kind": "land",
         "municipality": "Santiago do Cacém",
@@ -524,8 +524,8 @@
       "status": "observed",
       "observation": {
         "title": "TERRENO COM VISTA MAR - LAGOA - SANTO ISIDORO",
-        "price": 135000,
-        "area": 11062,
+        "price": 135000.0,
+        "area": 11062.0,
         "kind": "land",
         "municipality": "Mafra",
         "district": "Lisbon",
@@ -552,7 +552,7 @@
       "status": "observed",
       "observation": {
         "title": "Terreno em Mafra com 2 500 m²",
-        "price": 482500,
+        "price": 482500.0,
         "area": 2500,
         "kind": "land",
         "municipality": "Mafra",
@@ -573,7 +573,7 @@
       "status": "observed",
       "observation": {
         "title": "Terreno em Grândola com visita virtual",
-        "price": 5500000,
+        "price": 5500000.0,
         "area": 3262,
         "kind": "land",
         "municipality": "Grândola",
@@ -594,7 +594,7 @@
       "status": "observed",
       "observation": {
         "title": "Terreno em Torres Vedras com visita virtual",
-        "price": 430000,
+        "price": 430000.0,
         "area": 2840,
         "kind": "land",
         "municipality": "Torres Vedras",
@@ -638,7 +638,7 @@
       "status": "added",
       "observation": {
         "title": "Moradia por recuperar em Papagovas",
-        "price": 275000,
+        "price": 275000.0,
         "area": 270.89,
         "kind": "house",
         "municipality": "Lourinhã",
@@ -765,8 +765,8 @@
       "status": "added",
       "observation": {
         "title": "Melides, terreno com vista ao mar",
-        "price": 3820000,
-        "area": 2643000,
+        "price": 3820000.0,
+        "area": 2643000.0,
         "kind": "land",
         "municipality": "Grândola",
         "district": "Setúbal",
@@ -794,8 +794,8 @@
       "status": "added",
       "observation": {
         "title": "Melides, terreno com vista ao mar",
-        "price": 6000000,
-        "area": 125000,
+        "price": 6000000.0,
+        "area": 125000.0,
         "kind": "land",
         "municipality": "Grândola",
         "district": "Setúbal",
@@ -991,8 +991,8 @@
       "status": "added",
       "observation": {
         "title": "EXCLUSIVO West Life - Terreno Rústico de 4810m2 com poço e fantástica Vista MAR - Mafra",
-        "price": 49500,
-        "area": 4810,
+        "price": 49500.0,
+        "area": 4810.0,
         "kind": "land",
         "municipality": "Mafra",
         "district": "Lisbon",
@@ -1034,8 +1034,8 @@
       "status": "added",
       "observation": {
         "title": "Moradia T4 num lote de 8400m2, Vista MAR e amplo Terreno Rústico com ótima exposição solar - LOURINHÃ",
-        "price": 499000,
-        "area": 8400,
+        "price": 499000.0,
+        "area": 8400.0,
         "kind": "land",
         "municipality": "Lourinhã",
         "district": "Lisbon",
@@ -1056,8 +1056,8 @@
       "status": "added",
       "observation": {
         "title": "Terreno de 11398m2 com PROJETO APROVADO para Hotel de Charme/Boutique Hotel - Vista Mar Soberba - Ericeira.",
-        "price": 1400000,
-        "area": 11398,
+        "price": 1400000.0,
+        "area": 11398.0,
         "kind": "land",
         "municipality": "Mafra",
         "district": "Lisbon",
@@ -1106,8 +1106,8 @@
       "status": "added",
       "observation": {
         "title": "Terreno Urbano com Vista Mar | EXCLUSIVO WEST LIFE | Marvão",
-        "price": 200000,
-        "area": 1125,
+        "price": 200000.0,
+        "area": 1125.0,
         "kind": "land",
         "municipality": "Mafra",
         "district": "Lisbon",
@@ -1128,8 +1128,8 @@
       "status": "needs-review",
       "observation": {
         "title": "Terreno Urbano de 400m2 com projeto aprovado e licença de construção paga - Vista Mar - Ericeira",
-        "price": 350000,
-        "area": 400,
+        "price": 350000.0,
+        "area": 400.0,
         "kind": "land",
         "municipality": "Mafra",
         "district": "Lisbon",
@@ -1303,6 +1303,5 @@
       "discoveryErrors": []
     }
   ],
-  "runURL": "https://github.com/Bomaguiar/tejo-scout/actions/runs/",
-  "catalogUpdatedAt": "2026-10-02T08:17:47Z"
+  "runURL": "https://github.com/Bomaguiar/tejo-scout/actions/runs/"
 }

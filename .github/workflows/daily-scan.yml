@@ -1,0 +1,83 @@
+name: Scan listings and publish website
+
+on:
+  schedule:
+    - cron: '17 8 * * *'
+      timezone: Europe/Lisbon
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+concurrency:
+  group: tejo-scout-publish
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  scan-and-publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: main
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+          cache: pip
+          cache-dependency-path: scanner/requirements.txt
+      - uses: actions/setup-node@v6
+        with:
+          node-version: '24'
+      - name: Install parser
+        run: pip install -r scanner/requirements.txt
+      - name: Test extraction and saved-data migration
+        run: |
+          python -m unittest discover -s tests -p 'test_*.py'
+          node tests/model.cjs
+      - name: Scan public sources
+        id: scan
+        if: github.event_name != 'push'
+        continue-on-error: true
+        run: python scanner/scan.py
+      - name: Validate generated site
+        run: |
+          python scanner/scan.py --render-only
+          node --check model.js
+          node --check app.js
+          node --check land.js
+          node tests/model.cjs
+          node scanner/build.cjs
+      - name: Save dated observations
+        if: github.event_name != 'push'
+        run: |
+          git config user.name 'Tejo Scout scanner'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add catalog.json house-data.js land-data.js refresh-status.js refresh-report.json scanner/state.json research/
+          if ! git diff --cached --quiet; then
+            git commit -m "Daily listing observations $(date -u +%F)"
+            git push origin HEAD:main
+          fi
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: dist
+      - name: Publish website
+        id: deployment
+        uses: actions/deploy-pages@v4
+      - name: Verify deployed scan status
+        env:
+          SITE_URL: ${{ steps.deployment.outputs.page_url }}
+        run: python scanner/verify_live.py
+      - name: Report unusable scan
+        if: steps.scan.outcome == 'failure'
+        run: |
+          echo 'Scan failed or produced no usable observations. Last good listings and status are deployed.'
+          exit 1

@@ -18,7 +18,7 @@ Double-click **Start dashboard.cmd** to start it again (Python is installed on t
 ## Data and limitations
 Nine real listing records cover Lisbon, Setúbal, Mafra, Torres Vedras and Lourinhã, researched on 26–27 September 2026. The Torres Vedras record uses an indexed advertiser snapshot; confirm its current price. Each links to its Idealista source. Asking prices and availability can change. Source imagery is advertiser-provided and marked AI-edited; it is not verified current condition.
 
-The daily scan is **not connected**. Import observations manually from your existing scan; the app never pretends to have refreshed live listings. Required import fields: title, city (Lisbon, Setúbal, Mafra, Torres Vedras or Lourinhã), price, area, sourceURL, observedAt. Optional: type, areaName, lat, lon. observedAt must be the actual observation timestamp in ISO 8601 format. Numeric fields contain plain numbers. One source URL per row. A first observation establishes a baseline; later observations detect changes. Duplicate/older timestamps are ignored. Use the same canonical listing URL across scans. Listings with different URLs are not automatically matched to the same physical property.
+The daily scan runs in GitHub Actions at **08:17 Europe/Lisbon**, independently of this computer. The workflow discovers agency listings, checks existing sources, saves dated observations, generates the static data files and deploys GitHub Pages. Public pages may be blocked or incomplete; the scan status displays errors and retains last good data. You can also import observations manually. Required import fields: title, city (Lisbon, Setúbal, Mafra, Torres Vedras or Lourinhã), price, area, sourceURL, observedAt. Optional: type, areaName, lat, lon. observedAt must be the actual observation timestamp in ISO 8601 format. Numeric fields contain plain numbers. One source URL per row. A first observation establishes a baseline; later observations detect changes. Duplicate/older timestamps are ignored. Use the same canonical listing URL across scans. Listings with different URLs are not automatically matched to the same physical property.
 
 Comparables and resale estimates are not prefilled. Add relevant source-backed comparables in property details. These are asking prices, not completed sales. ROI requires all cost and resale assumptions. Acquisition taxes are manual inputs, not an automatic Portuguese tax assessment. Contingency (10%) and selling costs (5%) are explicitly editable assumptions. Returns exclude income / capital gains tax. Restricted assets are excluded from dashboard ROI rankings.
 
@@ -46,10 +46,24 @@ The Land tab contains 55 candidate adverts researched on 27 September 2026 acros
 
 Land filters include district, municipality, view type, advertised planning status, maximum asking price, minimum area, sort order and saved-only. Land watchlists and notes remain browser-local, are included in workspace backups, and appear in Watchlist. Export land listings downloads the filtered research catalogue. Land is separate from renovation calculations so plot area is never treated as house floor area.
 
-`land-data.js` holds the research catalogue; `land.js` renders and filters it. No automated land scan is connected.
+`land-data.js` holds the research catalogue; `land.js` renders and filters it. Agency land discovery and advert checks run through the repository scanner.
 
 ## Review 1 October 2026
 64 existing advert URLs attempted: 52 source snapshots retrieved, 12 unavailable. Added two Lourinha land candidates. Capuchos price revised to EUR 490,000 from an advertised reduction; exact change date unknown. Older conflicting snapshots retained as warnings, not price updates. See refresh-report.json. Daily 08:00 update is a local Codex automation requiring the computer awake and Codex running; no cloud scanner is deployed.
 
 ## Review 2 October 2026
 66 existing adverts attempted: 54 snapshots retrieved, 12 unavailable. Two new sea-view land candidates: Torres Vedras (EUR 140,000 / 5,040 m2) and Sesimbra (EUR 490,000 / 5,000 m2). No new verified price changes. Discovery is incomplete; cached pages are not live availability. Dated source reviews retained in research/.
+
+## Independent scanner
+
+- `.github/workflows/daily-scan.yml`: daily schedule, manual Run workflow, parser and migration tests, scan, commit observations, deploy Pages and verify live status.
+- `scanner/sources.json`: six agency adapters and discovery entrypoints (Nestenn, MediPred, West Life, Atlântico, Veigas and ImoMelides). Public sitemaps and links supply candidates; no official API, search API, paid service or AI key is needed.
+- `scanner/scan.py`: respects robots.txt, TLS validation, 1.2-second minimum host delay, 18-second timeouts, 3 MB response limit, at most 16 candidate details per agency per run, rotating discovery cursor. At most six hosts in parallel; each host sequential. No login, proxy, CAPTCHA workaround or certificate bypass.
+- `catalog.json`: authoritative public house/land data; generated `house-data.js` and `land-data.js` feed the site. Never edit generated files without updating the catalogue.
+- `refresh-report.json`: latest scan status, per-source errors, new matches, actual direct observations, rejections and duplicate review queue. `research/scan-YYYY-MM-DD.json` stores the most recent run for that day; direct observation history stays in each listing.
+- `scanner/state.json`: discovery cursors. Source URLs and agency-reference/area matches merge duplicate observations; weaker price/area matches go to review rather than being counted twice.
+- Browser data: new published house observations merge while preserving watch IDs, notes, scenarios, comparables and newer manual observations. Private data never enters the scanner or GitHub.
+
+Run locally: `pip install -r scanner/requirements.txt`, `python scanner/scan.py`, `node scanner/build.cjs`. Run tests: `python -m unittest discover -s tests -p "test_*.py"` and `node tests/model.cjs`. GitHub schedules may run late and can be disabled after repository inactivity; Actions shows the enabled state and every run. A completely unusable scan publishes retained data and failure status, then fails the workflow. Infrastructure failures leave the prior report date visible.
+
+Adding an agency requires its real public URL, discovery pages or sitemap, an allowed detail-path pattern and an adapter with explicit asking price, area and municipality evidence. A successful HTTP response without sufficient fields is rejected. Sea-view land must have an explicit sea/ocean claim; nearby beaches, river-only views and projected views do not qualify. All construction permissions remain unverified advertiser claims. Floor area never comes from the plot area.
