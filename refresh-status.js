@@ -1,17 +1,17 @@
 'use strict';
 const RefreshStatus = {
   "schemaVersion": 2,
-  "checkedAt": "2026-10-02T20:40:29Z",
-  "mode": "github-actions",
+  "checkedAt": "2026-10-02T20:40:46Z",
+  "mode": "github-actions + targeted agency review",
   "schedule": "Daily at 08:17 Europe/Lisbon",
   "existingAttempted": 81,
   "directlyObserved": 17,
   "unavailable": 62,
   "needsReview": 0,
-  "newListings": 1,
+  "newListings": 2,
   "priceChanges": [],
   "lastSuccessfulScan": "2026-10-02T20:40:29Z",
-  "lastSuccessfulContentUpdate": "2026-10-02T20:40:29Z",
+  "lastSuccessfulContentUpdate": "2026-10-02T20:40:46Z",
   "coverage": "Bounded public agency pages and sitemaps; incomplete coverage. Failed/blocked pages retain last good data. Advertised availability, sea views and permissions are not independently verified.",
   "records": [
     {
@@ -1750,6 +1750,30 @@ const RefreshStatus = {
       "agency": "PT Casas",
       "status": "unavailable",
       "error": "\u003curlopen error [Errno 111] Connection refused>"
+    },
+    {
+      "status": "added",
+      "agency": "PT Casas",
+      "sourceURL": "https://www.ptcasas.pt/imovel/moradia-com-anexo-e-logradouro/26412145",
+      "checkedAt": "2026-10-02T20:40:46Z",
+      "observation": {
+        "title": "Moradia com anexo e logradouro",
+        "price": 99000.0,
+        "area": 50.0,
+        "kind": "house",
+        "municipality": "Lourinhã",
+        "district": "Lisbon",
+        "view": null,
+        "planning": "Potential advertised",
+        "description": "Moradia para remodelar com espaço exterior localizada em Paço, Lourinhã\r\n\r\nCom enorme potencial para habitação própria ou investimento, localizada entre a praia e a natureza.\r\nRés do chão: Sala, cozinha, casa de banho, arrecadação e quintal.\r\nPrimeiro andar: 2 quartos e terraço.\r\n\r\n Moradia para recuperar\r\n 10 minutos da Vila de Lourinhã e da Cidade de Peniche\r\n Enorme potencial de valorização\r\n\r\nPróxima de comércio, serviços e transportes públicos.\r\nRápida acesso aoIP6 e a 50 minutos de Lisboa.\r\n\r\nImóvel vendido ao abrigo do simplex",
+        "reference": null,
+        "sourceURL": "https://www.ptcasas.pt/imovel/moradia-com-anexo-e-logradouro/26412145",
+        "imageURL": "https://images.egorealestate.com/Z1280x960/OAYES/S5/C2717/P29605780/Tphoto/ID94bfc301-0000-0500-0000-000018abfd24.jpg",
+        "method": "public-browser / schema",
+        "contentHash": "fad84fd7fe19e8f9bf0340a34711a42b4855b3fb157e0e3953b023e8bb9e234a"
+      },
+      "id": "agency-3236bb99cb0817",
+      "method": "targeted public-browser research"
     }
   ],
   "sources": [
@@ -2015,6 +2039,6 @@ const RefreshStatus = {
     }
   ],
   "inactive": 2,
-  "catalogUpdatedAt": "2026-10-02T20:40:29Z"
+  "catalogUpdatedAt": "2026-10-02T20:40:46Z"
 };
 if(typeof module!=='undefined')module.exports=RefreshStatus;

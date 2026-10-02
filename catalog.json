@@ -863,6 +863,57 @@
         "evidence": "Advert page fetched and parsed; seller confirmation still required"
       },
       "availabilityCheckedAt": "2026-10-02T20:40:29Z"
+    },
+    {
+      "id": "agency-3236bb99cb0817",
+      "title": "Moradia com anexo e logradouro",
+      "price": 99000.0,
+      "area": 50.0,
+      "sourceURL": "https://www.ptcasas.pt/imovel/moradia-com-anexo-e-logradouro/26412145",
+      "firstSeen": "2026-10-02T20:40:46Z",
+      "lastObserved": "2026-10-02T20:40:46Z",
+      "researchedAt": "2026-10-02",
+      "reference": null,
+      "history": [
+        {
+          "price": 99000.0,
+          "at": "2026-10-02T20:40:46Z",
+          "method": "public-browser / schema"
+        }
+      ],
+      "notes": "",
+      "imageURL": "https://images.egorealestate.com/Z1280x960/OAYES/S5/C2717/P29605780/Tphoto/ID94bfc301-0000-0500-0000-000018abfd24.jpg",
+      "imageLabel": "Agency advert image; check original gallery",
+      "sourceDescription": "Moradia para remodelar com espaço exterior localizada em Paço, Lourinhã\r\n\r\nCom enorme potencial para habitação própria ou investimento, localizada entre a praia e a natureza.\r\nRés do chão: Sala, cozinha, casa de banho, arrecadação e quintal.\r\nPrimeiro andar: 2 quartos e terraço.\r\n\r\n Moradia para recuperar\r\n 10 minutos da Vila de Lourinhã e da Cidade de Peniche\r\n Enorme potencial de valorização\r\n\r\nPróxima de comércio, serviços e transportes públicos.\r\nRápida acesso aoIP6 e a 50 minutos de Lisboa.\r\n\r\nImóvel vendido ao abrigo do simplex",
+      "city": "Lourinhã",
+      "areaName": "Lourinhã",
+      "type": "T2 house",
+      "floor": "Not confirmed",
+      "condition": "Renovation advertised",
+      "occupancy": "Not confirmed",
+      "risk": "review",
+      "risks": [
+        "Renovation claim from agency description: confirm scope, gross floor area, title and occupancy.",
+        "Agency floorSize is unverified and can include multiple buildings; obtain a measured allocation.",
+        "No ROI or resale estimate is assumed.",
+        "Advertiser states sale under Simplex. Obtain legal-use, habitation and municipal documentation; no compliance is assumed."
+      ],
+      "comps": [],
+      "lat": null,
+      "lon": null,
+      "sourceCheck": {
+        "status": "observed",
+        "checkedAt": "2026-10-02T20:40:46Z",
+        "sourceURL": "https://www.ptcasas.pt/imovel/moradia-com-anexo-e-logradouro/26412145"
+      },
+      "availability": {
+        "status": "advert-live",
+        "checkedAt": "2026-10-02T20:40:46Z",
+        "sourceURL": "https://www.ptcasas.pt/imovel/moradia-com-anexo-e-logradouro/26412145",
+        "evidence": "Original agency advert displayed and parsed in public browser"
+      },
+      "availabilityCheckedAt": "2026-10-02T20:40:46Z",
+      "publishedObservedAt": "2026-10-02T20:40:46Z"
     }
   ],
   "land": [
@@ -3282,5 +3333,5 @@
       "availabilityCheckedAt": "2026-10-02T20:40:29Z"
     }
   ],
-  "updatedAt": "2026-10-02T20:40:29Z"
+  "updatedAt": "2026-10-02T20:40:46Z"
 }

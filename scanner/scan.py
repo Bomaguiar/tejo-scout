@@ -259,9 +259,10 @@ def discover(fetch, config, cursor, limit):
         slug=fold(parse.unquote(u))
         if any(x in slug for x in ['recuper','ruina','reabilit','remodelar','reconstr']):return 0
         if ('terreno' in slug or 'lote' in slug) and 'vista' in slug:return 1
-        if 'terreno' in slug or 'lote' in slug:return 2
+        if any(x in slug for x in ['moradia','apartamento','casa-antiga','casa-em']):return 2
+        if 'terreno' in slug or 'lote' in slug:return 3
         return 3
-    ordered=sorted((u for u in urls if priority(u)<3 or any(x in fold(u) for x in ['moradia','apartamento','casa-antiga','casa-em'])),key=lambda u:(priority(u),u))
+    ordered=sorted((u for u in urls if priority(u)<3 or any(x in fold(u) for x in ['moradia','apartamento','casa-antiga','casa-em','terreno','lote'])),key=lambda u:(priority(u),u))
     count=len(ordered)
     selected=[ordered[(cursor+i)%count] for i in range(min(limit,count))] if count else []
     return selected,(cursor+len(selected))%count if count else 0,count,errors
