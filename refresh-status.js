@@ -1,23 +1,23 @@
 'use strict';
 const RefreshStatus = {
   "schemaVersion": 2,
-  "checkedAt": "2026-10-04T13:13:52Z",
+  "checkedAt": "2026-10-05T16:04:24Z",
   "mode": "github-actions",
   "schedule": "Daily at 08:17 Europe/Lisbon",
   "existingAttempted": 85,
-  "directlyObserved": 23,
-  "unavailable": 60,
+  "directlyObserved": 24,
+  "unavailable": 59,
   "needsReview": 0,
-  "newListings": 0,
+  "newListings": 3,
   "priceChanges": [],
-  "lastSuccessfulScan": "2026-10-04T13:13:52Z",
-  "lastSuccessfulContentUpdate": "2026-10-04T13:13:52Z",
+  "lastSuccessfulScan": "2026-10-05T16:04:24Z",
+  "lastSuccessfulContentUpdate": "2026-10-05T16:04:24Z",
   "coverage": "Bounded public agency pages and sitemaps; incomplete coverage. Failed/blocked pages retain last good data. Advertised availability, sea views and permissions are not independently verified.",
   "records": [
     {
       "id": "33408663",
       "sourceURL": "https://www.idealista.pt/imovel/33408663/",
-      "checkedAt": "2026-10-04T13:13:52Z",
+      "checkedAt": "2026-10-05T16:04:24Z",
       "status": "unavailable",
       "error": "robots HTTP 403",
       "httpStatus": null
@@ -25,7 +25,7 @@ const RefreshStatus = {
     {
       "id": "34417056",
       "sourceURL": "https://www.idealista.pt/imovel/34417056/",
-      "checkedAt": "2026-10-04T13:13:52Z",
+      "checkedAt": "2026-10-05T16:04:24Z",
       "status": "unavailable",
       "error": "robots HTTP 403",
       "httpStatus": null
@@ -33,7 +33,7 @@ const RefreshStatus = {
     {
       "id": "34893545",
       "sourceURL": "https://www.idealista.pt/imovel/34893545/",
-      "checkedAt": "2026-10-04T13:13:52Z",
+      "checkedAt": "2026-10-05T16:04:24Z",
       "status": "unavailable",
       "error": "robots HTTP 403",
       "httpStatus": null
@@ -41,7 +41,7 @@ const RefreshStatus = {
     {
       "id": "34997193",
       "sourceURL": "https://www.idealista.pt/imovel/34997193/",
-      "checkedAt": "2026-10-04T13:13:52Z",
+      "checkedAt": "2026-10-05T16:04:24Z",
       "status": "unavailable",
       "error": "robots HTTP 403",
       "httpStatus": null
@@ -49,7 +49,7 @@ const RefreshStatus = {
     {
       "id": "35001171",
       "sourceURL": "https://www.idealista.pt/imovel/35001171/",
-      "checkedAt": "2026-10-04T13:13:52Z",
+      "checkedAt": "2026-10-05T16:04:24Z",
       "status": "unavailable",
       "error": "robots HTTP 403",
       "httpStatus": null
@@ -57,7 +57,7 @@ const RefreshStatus = {
     {
       "id": "35075003",
       "sourceURL": "https://www.idealista.pt/imovel/35075003/",
-      "checkedAt": "2026-10-04T13:13:52Z",
+      "checkedAt": "2026-10-05T16:04:24Z",
       "status": "unavailable",
       "error": "robots HTTP 403",
       "httpStatus": null
@@ -65,7 +65,7 @@ const RefreshStatus = {
     {
       "id": "35098754",
       "sourceURL": "https://www.idealista.pt/imovel/35098754/",
-      "checkedAt": "2026-10-04T13:13:52Z",
+      "checkedAt": "2026-10-05T16:04:24Z",
       "status": "unavailable",
       "error": "robots HTTP 403",
       "httpStatus": null
@@ -73,7 +73,7 @@ const RefreshStatus = {
     {
       "id": "35297875",
       "sourceURL": "https://www.idealista.pt/imovel/35297875/",
-      "checkedAt": "2026-10-04T13:13:52Z",
+      "checkedAt": "2026-10-05T16:04:24Z",
       "status": "unavailable",
       "error": "robots HTTP 403",
       "httpStatus": null
@@ -81,7 +81,7 @@ const RefreshStatus = {
     {
       "id": "35315415",
       "sourceURL": "https://www.idealista.pt/imovel/35315415/",
-      "checkedAt": "2026-10-04T13:13:52Z",
+      "checkedAt": "2026-10-05T16:04:24Z",
       "status": "unavailable",
       "error": "robots HTTP 403",
       "httpStatus": null
@@ -89,7 +89,7 @@ const RefreshStatus = {
     {
       "id": "agency-3236bb99cb0817",
       "sourceURL": "https://www.ptcasas.pt/imovel/moradia-com-anexo-e-logradouro/26412145",
-      "checkedAt": "2026-10-04T13:13:52Z",
+      "checkedAt": "2026-10-05T16:04:24Z",
       "status": "observed",
       "observation": {
         "title": "Moradia com anexo e logradouro",
@@ -105,13 +105,13 @@ const RefreshStatus = {
         "sourceURL": "https://www.ptcasas.pt/imovel/moradia-com-anexo-e-logradouro/26412145",
         "imageURL": "https://images.egorealestate.com/Z1280x960/OAYES/S5/C2717/P29605780/Tphoto/ID94bfc301-0000-0500-0000-000018abfd24.jpg",
         "method": "public-page / schema",
-        "contentHash": "8d4076a1232bb3ec611fc4bb9d11ce803933689d68ee9bd4bccaf3ac6d3bfd5b"
+        "contentHash": "6cbee30d6e69aa27819ae9599ecb92bb5fe92553e5b8da76cb99de57a8946181"
       }
     },
     {
       "id": "agency-4955fb7adfc811",
       "sourceURL": "https://www.ptcasas.pt/imovel/moradia-t2-para-recuperar-em-dagorda-cadaval/25787966",
-      "checkedAt": "2026-10-04T13:13:52Z",
+      "checkedAt": "2026-10-05T16:04:24Z",
       "status": "observed",
       "observation": {
         "title": "Moradia T2 para recuperar em Dagorda Cadaval",
@@ -127,13 +127,13 @@ const RefreshStatus = {
         "sourceURL": "https://www.ptcasas.pt/imovel/moradia-t2-para-recuperar-em-dagorda-cadaval/25787966",
         "imageURL": "https://images.egorealestate.com/Z1280x960/OAYES/S5/C2717/P30052099/Tphoto/ID038fca01-0000-0500-0000-000019589be3.jpg",
         "method": "public-page / schema",
-        "contentHash": "22d5a63535cea274448ea4bfff2af83027788603358b552786bfa6a5f318b211"
+        "contentHash": "ba2ac23ed073c76a161a084bbe328769ad8be5ae09f3a88e356b81b141bbf193"
       }
     },
     {
       "id": "agency-8740d5893e2062",
       "sourceURL": "https://nestenn.pt/moradia-por-recuperar-em-papagovas-ref-1860",
-      "checkedAt": "2026-10-04T13:13:52Z",
+      "checkedAt": "2026-10-05T16:04:24Z",
       "status": "observed",
       "observation": {
         "title": "Moradia por recuperar em Papagovas",
@@ -149,13 +149,13 @@ const RefreshStatus = {
         "sourceURL": "https://nestenn.pt/moradia-por-recuperar-em-papagovas-ref-1860",
         "imageURL": "",
         "method": "public-page / nestenn",
-        "contentHash": "a87101e5f1761c3846226e5587d00d4ec15d8689987aafa97e11fd4448e0b2b1"
+        "contentHash": "62b94d6f6e00acc9e6b4ca105d91618a6f0ee03a9c04c1f615c5f59c8cbb3f80"
       }
     },
     {
       "id": "agency-9af91680c31c20",
       "sourceURL": "https://www.medipred.pt/imovel/apartamento-t1-baixa-da-banheira/24448450",
-      "checkedAt": "2026-10-04T13:13:52Z",
+      "checkedAt": "2026-10-05T16:04:24Z",
       "status": "observed",
       "observation": {
         "title": "Apartamento T1 - Baixa da Banheira",
@@ -171,13 +171,13 @@ const RefreshStatus = {
         "sourceURL": "https://www.medipred.pt/imovel/apartamento-t1-baixa-da-banheira/24448450",
         "imageURL": "https://images.egorealestate.com/Z1280x960/OAYES/S5/C3298/P28585883/Tphoto/ID9b2fb401-0000-0500-0000-00001780d318.jpg",
         "method": "public-page / schema",
-        "contentHash": "bbbea2b1fe8e6650d68324b4d677c4cc0f060e0629b0c909736f975e5931e755"
+        "contentHash": "a65c37ca5a3cc3eb792ba0944b262c4a9bc7e3541afc50694cf5b0c14ca963d8"
       }
     },
     {
       "id": "agency-b69d38ead3ce45",
       "sourceURL": "https://www.mciimobiliaria.pt/imovel/apartamento-t2-3-piso-para-remodelar-localizado-perto-do-centro-de-setubal/23644467",
-      "checkedAt": "2026-10-04T13:13:52Z",
+      "checkedAt": "2026-10-05T16:04:24Z",
       "status": "observed",
       "observation": {
         "title": "Apartamento T2, 3º Piso para remodelar, localizado perto do Centro de Setúbal!",
@@ -193,13 +193,13 @@ const RefreshStatus = {
         "sourceURL": "https://www.mciimobiliaria.pt/imovel/apartamento-t2-3-piso-para-remodelar-localizado-perto-do-centro-de-setubal/23644467",
         "imageURL": "https://images.egorealestate.com/Z1280x960/OAYES/S5/C16629/P27679908/Tphoto/IDa45ca601-0000-0500-0000-00001684b298.jpg",
         "method": "public-page / schema",
-        "contentHash": "c2475764266781d67363683f4d249d3f5db7ae409ea5b545ca74ace2794ba0a3"
+        "contentHash": "1c9df209fdfa6db876b448cc6032081946718863424bff879ec18fcf0f97b4c7"
       }
     },
     {
       "id": "agency-c6bc4d69f61226",
       "sourceURL": "https://www.medipred.pt/imovel/lote-de-329-m-com-moradia-para-recuperar-sao-sebastiao-de-guerreiros-loures/25813712",
-      "checkedAt": "2026-10-04T13:13:52Z",
+      "checkedAt": "2026-10-05T16:04:24Z",
       "status": "observed",
       "observation": {
         "title": "Lote de 329 m² com Moradia para Recuperar | São Sebastião de Guerreiros, Loures",
@@ -215,13 +215,13 @@ const RefreshStatus = {
         "sourceURL": "https://www.medipred.pt/imovel/lote-de-329-m-com-moradia-para-recuperar-sao-sebastiao-de-guerreiros-loures/25813712",
         "imageURL": "https://images.egorealestate.com/Z1280x960/OAYES/S5/C3298/P30042378/Tphoto/ID0a69ca01-0000-0500-0000-0000195550f0.jpg",
         "method": "public-page / schema",
-        "contentHash": "ddfc31efc1018c7dd676973d0bb6410944ca29c06d4929a94c91660afcda1fc5"
+        "contentHash": "7579e12d81cad0a877aa4d1b301490ebd3c9ac6b159bb113171b15c506157782"
       }
     },
     {
       "id": "agency-e280d888355ce7",
       "sourceURL": "https://www.mciimobiliaria.pt/imovel/apartamento-t2-2-piso-a-necessitar-de-algumas-obras-no-centro-do-carregado/24521303",
-      "checkedAt": "2026-10-04T13:13:52Z",
+      "checkedAt": "2026-10-05T16:04:24Z",
       "status": "observed",
       "observation": {
         "title": "Apartamento T2, 2º piso, a necessitar de algumas obras no Centro do Carregado!",
@@ -237,13 +237,13 @@ const RefreshStatus = {
         "sourceURL": "https://www.mciimobiliaria.pt/imovel/apartamento-t2-2-piso-a-necessitar-de-algumas-obras-no-centro-do-carregado/24521303",
         "imageURL": "https://images.egorealestate.com/Z1280x960/OAYES/S5/C16629/P28670329/Tphoto/ID7979b501-0000-0500-0000-000017972af7.jpg",
         "method": "public-page / schema",
-        "contentHash": "89c2fa34bcb52126f593fa5a1279fd5eb4b46ba5e76c2eb805899cc81146f251"
+        "contentHash": "ca52a7b103081daa45672ca20fff1378b9d4d8988708fd82fd9741e6eedb059f"
       }
     },
     {
       "id": "agency-ef0fa5902642d0",
       "sourceURL": "https://www.oestesolucoes.com.pt/imovel/casa-antiga-para-recuperar-centro-historico-da-lourinha/21479661",
-      "checkedAt": "2026-10-04T13:13:52Z",
+      "checkedAt": "2026-10-05T16:04:24Z",
       "status": "observed",
       "observation": {
         "title": "Casa antiga para recuperar-CENTRO HISTÓRICO DA LOURINHÃ\n",
@@ -259,13 +259,13 @@ const RefreshStatus = {
         "sourceURL": "https://www.oestesolucoes.com.pt/imovel/casa-antiga-para-recuperar-centro-historico-da-lourinha/21479661",
         "imageURL": "https://images.egorealestate.com/Z1280x960/OAYES/S5/C4698/P25277036/Tphoto/ID6cb28101-0000-0500-0000-000013b688a9.jpg",
         "method": "public-page / schema",
-        "contentHash": "986d05c743c6b9411d28cdff06f897fd7135429f1339b91a73c16b47892a4fb3"
+        "contentHash": "5795eed0ad74c9eb5f75963ee8bf6276feaa6ed5fe74a78a695f321e44c39666"
       }
     },
     {
       "id": "agency-f53b139753f70a",
       "sourceURL": "https://www.medipred.pt/imovel/ruina-com-170-m2-em-terreno-com-460-m2-arneiros-ventosa-tvd/25381290",
-      "checkedAt": "2026-10-04T13:13:52Z",
+      "checkedAt": "2026-10-05T16:04:24Z",
       "status": "observed",
       "observation": {
         "title": "Ruína com 170 m2 em terreno com 460 m2 | Arneiros, Ventosa TVD",
@@ -281,13 +281,13 @@ const RefreshStatus = {
         "sourceURL": "https://www.medipred.pt/imovel/ruina-com-170-m2-em-terreno-com-460-m2-arneiros-ventosa-tvd/25381290",
         "imageURL": "https://images.egorealestate.com/Z1280x960/OAYES/S5/C3298/P29613653/Tphoto/ID55dec301-0000-0500-0000-000018ae2533.jpg",
         "method": "public-page / schema",
-        "contentHash": "9b0e7da0433e99dc09103064d9d60242347f2451387ca8764bbbfdf7bd4c0125"
+        "contentHash": "72e09c928b37bd8c0cb8f81e3cbba1b07c032b0f1970b364e50d9a3e54b5a67f"
       }
     },
     {
       "id": "agency-ff59b536e95a24",
       "sourceURL": "https://www.mciimobiliaria.pt/imovel/apartamento-t3-com-3-parqueamentos-necessita-algumas-remodelacoes-perto-estacao-fertagus/23499159",
-      "checkedAt": "2026-10-04T13:13:52Z",
+      "checkedAt": "2026-10-05T16:04:24Z",
       "status": "observed",
       "observation": {
         "title": "Apartamento T3, com 3 parqueamentos, necessita algumas remodelações, perto Estação Fertagus!",
@@ -303,13 +303,13 @@ const RefreshStatus = {
         "sourceURL": "https://www.mciimobiliaria.pt/imovel/apartamento-t3-com-3-parqueamentos-necessita-algumas-remodelacoes-perto-estacao-fertagus/23499159",
         "imageURL": "https://images.egorealestate.com/Z1280x960/OAYES/S5/C16629/P27505744/Tphoto/ID50b4a301-0000-0500-0000-000016426854.jpg",
         "method": "public-page / schema",
-        "contentHash": "fa3128cb4bda05b953c809d34f17c73b68267df08e2e976124e13335f046ea9e"
+        "contentHash": "aed19c32472412b49ffc1a65f8e946475db18daea1a85db26c6bda044e181bc6"
       }
     },
     {
       "id": "agency-ffb2a0d439593f",
       "sourceURL": "https://www.oestesolucoes.com.pt/imovel/casa-para-reabilitar-na-zona-historica-da-lourinha/22126165",
-      "checkedAt": "2026-10-04T13:13:52Z",
+      "checkedAt": "2026-10-05T16:04:24Z",
       "status": "observed",
       "observation": {
         "title": "Casa para reabilitar na zona histórica da Lourinhã",
@@ -325,13 +325,13 @@ const RefreshStatus = {
         "sourceURL": "https://www.oestesolucoes.com.pt/imovel/casa-para-reabilitar-na-zona-historica-da-lourinha/22126165",
         "imageURL": "https://images.egorealestate.com/Z1280x960/OAYES/S5/C4698/P25597023/Tphoto/ID5f948601-0000-0500-0000-0000148223c8.jpg",
         "method": "public-page / schema",
-        "contentHash": "fa5a0c0b603c7093c65380ffbce593b8debf22a563fad1e040320c7f42db0beb"
+        "contentHash": "ac0f91d55023095ce2d0a97c04d5ab2040f7fcd78a88753d8fb51f0d3b86b9a9"
       }
     },
     {
       "id": "land-237b0167116954",
       "sourceURL": "https://www.imomelides.com/pt/propriedade/66-melides-terreno-com-vista-ao-mar",
-      "checkedAt": "2026-10-04T13:13:52Z",
+      "checkedAt": "2026-10-05T16:04:24Z",
       "status": "observed",
       "observation": {
         "title": "Melides, terreno com vista ao mar",
@@ -353,7 +353,7 @@ const RefreshStatus = {
     {
       "id": "land-29411935",
       "sourceURL": "https://www.idealista.pt/imovel/29411935/",
-      "checkedAt": "2026-10-04T13:13:52Z",
+      "checkedAt": "2026-10-05T16:04:24Z",
       "status": "unavailable",
       "error": "robots HTTP 403",
       "httpStatus": null
@@ -361,7 +361,7 @@ const RefreshStatus = {
     {
       "id": "land-31415263",
       "sourceURL": "https://www.idealista.pt/imovel/31415263/",
-      "checkedAt": "2026-10-04T13:13:52Z",
+      "checkedAt": "2026-10-05T16:04:24Z",
       "status": "unavailable",
       "error": "robots HTTP 403",
       "httpStatus": null
@@ -369,7 +369,7 @@ const RefreshStatus = {
     {
       "id": "land-31424804",
       "sourceURL": "https://www.idealista.pt/imovel/31424804/",
-      "checkedAt": "2026-10-04T13:13:52Z",
+      "checkedAt": "2026-10-05T16:04:24Z",
       "status": "unavailable",
       "error": "robots HTTP 403",
       "httpStatus": null
@@ -377,7 +377,7 @@ const RefreshStatus = {
     {
       "id": "land-32068022",
       "sourceURL": "https://www.idealista.pt/imovel/32068022/",
-      "checkedAt": "2026-10-04T13:13:52Z",
+      "checkedAt": "2026-10-05T16:04:24Z",
       "status": "unavailable",
       "error": "robots HTTP 403",
       "httpStatus": null
@@ -385,7 +385,7 @@ const RefreshStatus = {
     {
       "id": "land-32077224",
       "sourceURL": "https://www.idealista.pt/imovel/32077224/",
-      "checkedAt": "2026-10-04T13:13:52Z",
+      "checkedAt": "2026-10-05T16:04:24Z",
       "status": "unavailable",
       "error": "robots HTTP 403",
       "httpStatus": null
@@ -393,7 +393,7 @@ const RefreshStatus = {
     {
       "id": "land-32127944",
       "sourceURL": "https://www.idealista.pt/imovel/32127944/",
-      "checkedAt": "2026-10-04T13:13:52Z",
+      "checkedAt": "2026-10-05T16:04:24Z",
       "status": "unavailable",
       "error": "robots HTTP 403",
       "httpStatus": null
@@ -401,7 +401,7 @@ const RefreshStatus = {
     {
       "id": "land-32267492",
       "sourceURL": "https://www.idealista.pt/imovel/32267492/",
-      "checkedAt": "2026-10-04T13:13:52Z",
+      "checkedAt": "2026-10-05T16:04:24Z",
       "status": "unavailable",
       "error": "robots HTTP 403",
       "httpStatus": null
@@ -409,7 +409,7 @@ const RefreshStatus = {
     {
       "id": "land-32465277",
       "sourceURL": "https://www.idealista.pt/imovel/32465277/",
-      "checkedAt": "2026-10-04T13:13:52Z",
+      "checkedAt": "2026-10-05T16:04:24Z",
       "status": "unavailable",
       "error": "robots HTTP 403",
       "httpStatus": null
@@ -417,7 +417,7 @@ const RefreshStatus = {
     {
       "id": "land-32565217",
       "sourceURL": "https://www.idealista.pt/imovel/32565217/",
-      "checkedAt": "2026-10-04T13:13:52Z",
+      "checkedAt": "2026-10-05T16:04:24Z",
       "status": "unavailable",
       "error": "robots HTTP 403",
       "httpStatus": null
@@ -425,7 +425,7 @@ const RefreshStatus = {
     {
       "id": "land-33164220",
       "sourceURL": "https://www.idealista.pt/imovel/33164220/",
-      "checkedAt": "2026-10-04T13:13:52Z",
+      "checkedAt": "2026-10-05T16:04:24Z",
       "status": "unavailable",
       "error": "robots HTTP 403",
       "httpStatus": null
@@ -433,7 +433,7 @@ const RefreshStatus = {
     {
       "id": "land-33206361",
       "sourceURL": "https://www.idealista.pt/imovel/33206361/",
-      "checkedAt": "2026-10-04T13:13:52Z",
+      "checkedAt": "2026-10-05T16:04:24Z",
       "status": "unavailable",
       "error": "robots HTTP 403",
       "httpStatus": null
@@ -441,7 +441,7 @@ const RefreshStatus = {
     {
       "id": "land-33243646",
       "sourceURL": "https://www.idealista.pt/imovel/33243646/",
-      "checkedAt": "2026-10-04T13:13:52Z",
+      "checkedAt": "2026-10-05T16:04:24Z",
       "status": "unavailable",
       "error": "robots HTTP 403",
       "httpStatus": null
@@ -449,7 +449,7 @@ const RefreshStatus = {
     {
       "id": "land-33545362",
       "sourceURL": "https://www.idealista.pt/imovel/33545362/",
-      "checkedAt": "2026-10-04T13:13:52Z",
+      "checkedAt": "2026-10-05T16:04:24Z",
       "status": "unavailable",
       "error": "robots HTTP 403",
       "httpStatus": null
@@ -457,7 +457,7 @@ const RefreshStatus = {
     {
       "id": "land-33859005",
       "sourceURL": "https://www.idealista.pt/imovel/33859005/",
-      "checkedAt": "2026-10-04T13:13:52Z",
+      "checkedAt": "2026-10-05T16:04:24Z",
       "status": "unavailable",
       "error": "robots HTTP 403",
       "httpStatus": null
@@ -465,7 +465,7 @@ const RefreshStatus = {
     {
       "id": "land-34053072",
       "sourceURL": "https://www.idealista.pt/imovel/34053072/",
-      "checkedAt": "2026-10-04T13:13:52Z",
+      "checkedAt": "2026-10-05T16:04:24Z",
       "status": "unavailable",
       "error": "robots HTTP 403",
       "httpStatus": null
@@ -473,7 +473,7 @@ const RefreshStatus = {
     {
       "id": "land-34098930",
       "sourceURL": "https://www.idealista.pt/imovel/34098930/",
-      "checkedAt": "2026-10-04T13:13:52Z",
+      "checkedAt": "2026-10-05T16:04:24Z",
       "status": "unavailable",
       "error": "robots HTTP 403",
       "httpStatus": null
@@ -481,7 +481,7 @@ const RefreshStatus = {
     {
       "id": "land-34194709",
       "sourceURL": "https://www.idealista.pt/imovel/34194709/",
-      "checkedAt": "2026-10-04T13:13:52Z",
+      "checkedAt": "2026-10-05T16:04:24Z",
       "status": "unavailable",
       "error": "robots HTTP 403",
       "httpStatus": null
@@ -489,7 +489,7 @@ const RefreshStatus = {
     {
       "id": "land-34200758",
       "sourceURL": "https://www.idealista.pt/imovel/34200758/",
-      "checkedAt": "2026-10-04T13:13:52Z",
+      "checkedAt": "2026-10-05T16:04:24Z",
       "status": "unavailable",
       "error": "robots HTTP 403",
       "httpStatus": null
@@ -497,7 +497,7 @@ const RefreshStatus = {
     {
       "id": "land-34204824",
       "sourceURL": "https://www.idealista.pt/pro/mypropertygere-imobiliaria/imovel/34204824/",
-      "checkedAt": "2026-10-04T13:13:52Z",
+      "checkedAt": "2026-10-05T16:04:24Z",
       "status": "unavailable",
       "error": "robots HTTP 403",
       "httpStatus": null
@@ -505,7 +505,7 @@ const RefreshStatus = {
     {
       "id": "land-34566546",
       "sourceURL": "https://www.idealista.pt/imovel/34566546/",
-      "checkedAt": "2026-10-04T13:13:52Z",
+      "checkedAt": "2026-10-05T16:04:24Z",
       "status": "unavailable",
       "error": "robots HTTP 403",
       "httpStatus": null
@@ -513,7 +513,7 @@ const RefreshStatus = {
     {
       "id": "land-34571797",
       "sourceURL": "https://www.idealista.pt/imovel/34571797/",
-      "checkedAt": "2026-10-04T13:13:52Z",
+      "checkedAt": "2026-10-05T16:04:24Z",
       "status": "unavailable",
       "error": "robots HTTP 403",
       "httpStatus": null
@@ -521,7 +521,7 @@ const RefreshStatus = {
     {
       "id": "land-34631140",
       "sourceURL": "https://www.idealista.pt/imovel/34631140/",
-      "checkedAt": "2026-10-04T13:13:52Z",
+      "checkedAt": "2026-10-05T16:04:24Z",
       "status": "unavailable",
       "error": "robots HTTP 403",
       "httpStatus": null
@@ -529,7 +529,7 @@ const RefreshStatus = {
     {
       "id": "land-34647235",
       "sourceURL": "https://www.idealista.pt/imovel/34647235/",
-      "checkedAt": "2026-10-04T13:13:52Z",
+      "checkedAt": "2026-10-05T16:04:24Z",
       "status": "unavailable",
       "error": "robots HTTP 403",
       "httpStatus": null
@@ -537,7 +537,7 @@ const RefreshStatus = {
     {
       "id": "land-34647256",
       "sourceURL": "https://www.idealista.pt/imovel/34647256/",
-      "checkedAt": "2026-10-04T13:13:52Z",
+      "checkedAt": "2026-10-05T16:04:24Z",
       "status": "unavailable",
       "error": "robots HTTP 403",
       "httpStatus": null
@@ -545,7 +545,7 @@ const RefreshStatus = {
     {
       "id": "land-34729807",
       "sourceURL": "https://www.idealista.pt/imovel/34729807/",
-      "checkedAt": "2026-10-04T13:13:52Z",
+      "checkedAt": "2026-10-05T16:04:24Z",
       "status": "unavailable",
       "error": "robots HTTP 403",
       "httpStatus": null
@@ -553,7 +553,7 @@ const RefreshStatus = {
     {
       "id": "land-34737892",
       "sourceURL": "https://www.idealista.pt/imovel/34737892/",
-      "checkedAt": "2026-10-04T13:13:52Z",
+      "checkedAt": "2026-10-05T16:04:24Z",
       "status": "unavailable",
       "error": "robots HTTP 403",
       "httpStatus": null
@@ -561,7 +561,7 @@ const RefreshStatus = {
     {
       "id": "land-34766539",
       "sourceURL": "https://www.idealista.pt/imovel/34766539/",
-      "checkedAt": "2026-10-04T13:13:52Z",
+      "checkedAt": "2026-10-05T16:04:24Z",
       "status": "unavailable",
       "error": "robots HTTP 403",
       "httpStatus": null
@@ -569,7 +569,7 @@ const RefreshStatus = {
     {
       "id": "land-34851294",
       "sourceURL": "https://www.idealista.pt/imovel/34851294/",
-      "checkedAt": "2026-10-04T13:13:52Z",
+      "checkedAt": "2026-10-05T16:04:24Z",
       "status": "unavailable",
       "error": "robots HTTP 403",
       "httpStatus": null
@@ -577,7 +577,7 @@ const RefreshStatus = {
     {
       "id": "land-34885485",
       "sourceURL": "https://www.idealista.pt/imovel/34885485/",
-      "checkedAt": "2026-10-04T13:13:52Z",
+      "checkedAt": "2026-10-05T16:04:24Z",
       "status": "unavailable",
       "error": "robots HTTP 403",
       "httpStatus": null
@@ -585,7 +585,7 @@ const RefreshStatus = {
     {
       "id": "land-34891179",
       "sourceURL": "https://www.idealista.pt/imovel/34891179/",
-      "checkedAt": "2026-10-04T13:13:52Z",
+      "checkedAt": "2026-10-05T16:04:24Z",
       "status": "unavailable",
       "error": "robots HTTP 403",
       "httpStatus": null
@@ -593,7 +593,7 @@ const RefreshStatus = {
     {
       "id": "land-34902700",
       "sourceURL": "https://www.idealista.pt/pro/imomelides/imovel/34902700/",
-      "checkedAt": "2026-10-04T13:13:52Z",
+      "checkedAt": "2026-10-05T16:04:24Z",
       "status": "unavailable",
       "error": "robots HTTP 403",
       "httpStatus": null
@@ -601,7 +601,7 @@ const RefreshStatus = {
     {
       "id": "land-34955330",
       "sourceURL": "https://www.idealista.pt/imovel/34955330/",
-      "checkedAt": "2026-10-04T13:13:52Z",
+      "checkedAt": "2026-10-05T16:04:24Z",
       "status": "unavailable",
       "error": "robots HTTP 403",
       "httpStatus": null
@@ -609,7 +609,7 @@ const RefreshStatus = {
     {
       "id": "land-34977116",
       "sourceURL": "https://www.idealista.pt/imovel/34977116/",
-      "checkedAt": "2026-10-04T13:13:52Z",
+      "checkedAt": "2026-10-05T16:04:24Z",
       "status": "unavailable",
       "error": "robots HTTP 403",
       "httpStatus": null
@@ -617,7 +617,7 @@ const RefreshStatus = {
     {
       "id": "land-35009406",
       "sourceURL": "https://www.idealista.pt/imovel/35009406/",
-      "checkedAt": "2026-10-04T13:13:52Z",
+      "checkedAt": "2026-10-05T16:04:24Z",
       "status": "unavailable",
       "error": "robots HTTP 403",
       "httpStatus": null
@@ -625,7 +625,7 @@ const RefreshStatus = {
     {
       "id": "land-35049927",
       "sourceURL": "https://www.idealista.pt/imovel/35049927/",
-      "checkedAt": "2026-10-04T13:13:52Z",
+      "checkedAt": "2026-10-05T16:04:24Z",
       "status": "unavailable",
       "error": "robots HTTP 403",
       "httpStatus": null
@@ -633,7 +633,7 @@ const RefreshStatus = {
     {
       "id": "land-35061215",
       "sourceURL": "https://www.idealista.pt/imovel/35061215/",
-      "checkedAt": "2026-10-04T13:13:52Z",
+      "checkedAt": "2026-10-05T16:04:24Z",
       "status": "unavailable",
       "error": "robots HTTP 403",
       "httpStatus": null
@@ -641,7 +641,7 @@ const RefreshStatus = {
     {
       "id": "land-35099207",
       "sourceURL": "https://www.idealista.pt/imovel/35099207/",
-      "checkedAt": "2026-10-04T13:13:52Z",
+      "checkedAt": "2026-10-05T16:04:24Z",
       "status": "unavailable",
       "error": "robots HTTP 403",
       "httpStatus": null
@@ -649,7 +649,7 @@ const RefreshStatus = {
     {
       "id": "land-35125364",
       "sourceURL": "https://www.idealista.pt/imovel/35125364/",
-      "checkedAt": "2026-10-04T13:13:52Z",
+      "checkedAt": "2026-10-05T16:04:24Z",
       "status": "unavailable",
       "error": "robots HTTP 403",
       "httpStatus": null
@@ -657,7 +657,7 @@ const RefreshStatus = {
     {
       "id": "land-35138277",
       "sourceURL": "https://www.idealista.pt/imovel/35138277/",
-      "checkedAt": "2026-10-04T13:13:52Z",
+      "checkedAt": "2026-10-05T16:04:24Z",
       "status": "unavailable",
       "error": "robots HTTP 403",
       "httpStatus": null
@@ -665,7 +665,7 @@ const RefreshStatus = {
     {
       "id": "land-35183313",
       "sourceURL": "https://www.idealista.pt/imovel/35183313/",
-      "checkedAt": "2026-10-04T13:13:52Z",
+      "checkedAt": "2026-10-05T16:04:24Z",
       "status": "unavailable",
       "error": "robots HTTP 403",
       "httpStatus": null
@@ -673,7 +673,7 @@ const RefreshStatus = {
     {
       "id": "land-35185798",
       "sourceURL": "https://www.idealista.pt/imovel/35185798/",
-      "checkedAt": "2026-10-04T13:13:52Z",
+      "checkedAt": "2026-10-05T16:04:24Z",
       "status": "unavailable",
       "error": "robots HTTP 403",
       "httpStatus": null
@@ -681,7 +681,7 @@ const RefreshStatus = {
     {
       "id": "land-35242132",
       "sourceURL": "https://www.idealista.pt/imovel/35242132/",
-      "checkedAt": "2026-10-04T13:13:52Z",
+      "checkedAt": "2026-10-05T16:04:24Z",
       "status": "unavailable",
       "error": "robots HTTP 403",
       "httpStatus": null
@@ -689,7 +689,7 @@ const RefreshStatus = {
     {
       "id": "land-35281476",
       "sourceURL": "https://www.idealista.pt/imovel/35281476/",
-      "checkedAt": "2026-10-04T13:13:52Z",
+      "checkedAt": "2026-10-05T16:04:24Z",
       "status": "unavailable",
       "error": "robots HTTP 403",
       "httpStatus": null
@@ -697,7 +697,7 @@ const RefreshStatus = {
     {
       "id": "land-35317279",
       "sourceURL": "https://www.idealista.pt/imovel/35317279/",
-      "checkedAt": "2026-10-04T13:13:52Z",
+      "checkedAt": "2026-10-05T16:04:24Z",
       "status": "unavailable",
       "error": "robots HTTP 403",
       "httpStatus": null
@@ -705,7 +705,7 @@ const RefreshStatus = {
     {
       "id": "land-35335403",
       "sourceURL": "https://www.idealista.pt/imovel/35335403/",
-      "checkedAt": "2026-10-04T13:13:52Z",
+      "checkedAt": "2026-10-05T16:04:24Z",
       "status": "unavailable",
       "error": "robots HTTP 403",
       "httpStatus": null
@@ -713,7 +713,7 @@ const RefreshStatus = {
     {
       "id": "land-35342696",
       "sourceURL": "https://www.idealista.pt/imovel/35342696/",
-      "checkedAt": "2026-10-04T13:13:52Z",
+      "checkedAt": "2026-10-05T16:04:24Z",
       "status": "unavailable",
       "error": "robots HTTP 403",
       "httpStatus": null
@@ -721,15 +721,29 @@ const RefreshStatus = {
     {
       "id": "land-70e6d327c364c7",
       "sourceURL": "https://www.westlifeimobiliaria.com/imovel/exclusivo-west-life-terreno-rustico-de-4810m2-com-poco-e-fantastica-vista-mar-mafra/26380685",
-      "checkedAt": "2026-10-04T13:13:52Z",
-      "status": "unavailable",
-      "error": "\u003curlopen error [Errno 111] Connection refused>",
-      "httpStatus": null
+      "checkedAt": "2026-10-05T16:04:24Z",
+      "status": "observed",
+      "observation": {
+        "title": "EXCLUSIVO West Life - Terreno Rústico de 4810m2 com poço e fantástica Vista MAR - Mafra",
+        "price": 49500.0,
+        "area": 4810.0,
+        "kind": "land",
+        "municipality": "Mafra",
+        "district": "Lisbon",
+        "view": "Ocean view",
+        "planning": "Rural / non-buildable",
+        "description": "EXCLUSIVO West Life - Terreno Rústico de 4810m2 com poço e fenomenal vista MAR e para o convento de Mafra. Localizado a apenas 15 minutos do centro de Mafra.\r\n\r\n\r\nEste terreno conta com muita cultura arvorense e com poço. \r\n\r\n\r\nO espaço apresenta um enorme potencial para ser utilizado como um parque de atividades lúdicas, tais como arborismo, paintball, eventos de team building e outras atividades ao ar livre. Tendo em conta a crescente procura por experiências emocionantes e aventuras ao ar livre, principalmente na zona onde se insere, este imóvel torna-se excelente ideia de negócio.\r\n\r\n\r\nA sua localização privilegiada oferece uma agradável vista para o mar, criando um ambiente tranquilo e inspirador. O terreno já conta com muitas árvores e um poço, tornando-o um espaço natural muito atraente.\r\n\r\n\r\nTerreno com levantamento topográfico efetuado.\r\n\r\n\r\nCom acessos fáceis à A21 em menos de 10 minutos e com transportes públicos, hipermercados, escolas e outros serviços a poucos minutos de distância, este terreno é definitivamente uma oportunidade imperdível de investimento para quem procura criar um negócio no setor de turismo e lazer. \r\n\r\n\r\n* Todas as informações apresentadas não têm qualquer carácter vinculativo, não dispensa a confirmação por parte da mediadora, bem como a consulta da documentação do imóvel *\r\n\r\n\r\n----------------------------------\r\n REF. 5314WT \r\n----------------------------------\r\n\r\n\r\nTradicional vila piscatória, a Ericeira desenvolveu-se muito durante o séc. XXI pela crescente procura como zona de passeio, mantendo todavia as suas características originais e uma atmosfera muito própria. Em 2011 foi consagrada pela organização internacional 'Save the Waves Coalition' como Reserva Mundial de Surf. Mafra é um local de experiências e emoções; conheça a sua riqueza histórica e cultural, sabores e tradições. Visite os fantásticos monumentos, jardins e artesanato local.\r\n\r\n\r\nProcuramos proporcionar bons negócios e simplificar os processos aos nossos clientes. O nosso crescimento tem sido exponencial e sustentado.\r\n\r\n\r\nCrédito à habitação? Sem preocupações! Somo uma intermediadora de crédito e tratamos de todo o processo até ao dia da escritura. Explique-nos a sua situação e nós procuramos o banco que lhe proporciona as melhores condições de financiamento.\r\n\r\n\r\nCertificação energética? Se está a pensar vender ou arrendar o seu imóvel, saiba que o certificado energético é OBRIGATÓRIO. E nós em parceria, tratamos de tudo por si.",
+        "reference": "5314WT",
+        "sourceURL": "https://www.westlifeimobiliaria.com/imovel/exclusivo-west-life-terreno-rustico-de-4810m2-com-poco-e-fantastica-vista-mar-mafra/26380685",
+        "imageURL": "https://images.egorealestate.com/Z1280x960/OAYES/S5/C3078/P30777330/Tphoto/IDf29fd501-0000-0500-0000-00001a14ddcd.jpg",
+        "method": "public-page / schema",
+        "contentHash": "2b42b94c27f4ff209f4df33a22b3e38eb8b4ecb0aa464b07115d154ac3b84199"
+      }
     },
     {
       "id": "land-a9e8a24c00e931",
       "sourceURL": "https://www.westlifeimobiliaria.com/imovel/terreno-urbano-com-vista-mar-exclusivo-west-life-marvao/26609425",
-      "checkedAt": "2026-10-04T13:13:52Z",
+      "checkedAt": "2026-10-05T16:04:24Z",
       "status": "unavailable",
       "error": "\u003curlopen error [Errno 111] Connection refused>",
       "httpStatus": null
@@ -737,7 +751,7 @@ const RefreshStatus = {
     {
       "id": "land-be0aa23194da36",
       "sourceURL": "https://www.imomelides.com/pt/propriedade/73-melides-terreno-com-vista-ao-mar",
-      "checkedAt": "2026-10-04T13:13:52Z",
+      "checkedAt": "2026-10-05T16:04:24Z",
       "status": "observed",
       "observation": {
         "title": "Melides, terreno com vista ao mar",
@@ -759,7 +773,7 @@ const RefreshStatus = {
     {
       "id": "land-cc1003083",
       "sourceURL": "https://casacerta.pt/imovel/1003083/terreno-para-venda-em-mafra",
-      "checkedAt": "2026-10-04T13:13:52Z",
+      "checkedAt": "2026-10-05T16:04:24Z",
       "status": "observed",
       "observation": {
         "title": "Terreno para Venda em Mafra",
@@ -775,13 +789,13 @@ const RefreshStatus = {
         "sourceURL": "https://casacerta.pt/imovel/1003083/terreno-para-venda-em-mafra",
         "imageURL": "",
         "method": "public-page / schema",
-        "contentHash": "2a55c3e718ea43bd79581bf3d57c15dea483e0a9b54eea5172fac616ee59b6da"
+        "contentHash": "e726c6d162a3cc5832a1771f1a43e1e25b74bbd3824f0bd73d651a94b2348888"
       }
     },
     {
       "id": "land-dad215d8bbbca1",
       "sourceURL": "https://www.westlifeimobiliaria.com/imovel/terreno-de-11398m2-com-projeto-aprovado-para-hotel-de-charmeboutique-hotel-vista-mar-soberba-ericeir/23006890",
-      "checkedAt": "2026-10-04T13:13:52Z",
+      "checkedAt": "2026-10-05T16:04:24Z",
       "status": "unavailable",
       "error": "\u003curlopen error [Errno 111] Connection refused>",
       "httpStatus": null
@@ -789,7 +803,7 @@ const RefreshStatus = {
     {
       "id": "land-era130250026",
       "sourceURL": "https://www.netanuncio.pt/Terreno/Lisboa%2CLourinha/tem-Vista-para-Campo%2CVista-para-Mar%2CEscola%2CTransportes-Publicos/?UID=5cbd58bb-dfcd-11ef-a463-060000000052",
-      "checkedAt": "2026-10-04T13:13:52Z",
+      "checkedAt": "2026-10-05T16:04:24Z",
       "status": "unavailable",
       "error": "robots HTTP 429",
       "httpStatus": null
@@ -797,7 +811,7 @@ const RefreshStatus = {
     {
       "id": "land-ff75689b147063",
       "sourceURL": "https://www.westlifeimobiliaria.com/imovel/moradia-t4-num-lote-de-8400m2-vista-mar-e-amplo-terreno-rustico-com-otima-exposicao-solar-lourinha/23310946",
-      "checkedAt": "2026-10-04T13:13:52Z",
+      "checkedAt": "2026-10-05T16:04:24Z",
       "status": "observed",
       "observation": {
         "title": "Moradia T4 num lote de 8400m2, Vista MAR e amplo Terreno Rústico com ótima exposição solar - LOURINHÃ",
@@ -813,13 +827,13 @@ const RefreshStatus = {
         "sourceURL": "https://www.westlifeimobiliaria.com/imovel/moradia-t4-num-lote-de-8400m2-vista-mar-e-amplo-terreno-rustico-com-otima-exposicao-solar-lourinha/23310946",
         "imageURL": "https://images.egorealestate.com/Z1280x960/OAYES/S5/C3078/P27305435/Tphoto/IDdba5a001-0000-0500-0000-000016df54b4.jpg",
         "method": "public-page / schema",
-        "contentHash": "a4a48aabc2a996090bbc6e0a2731fd6e3fea7f376883e595b4c8eaad5dbe5c7e"
+        "contentHash": "e4500fcd49dd3fbf21448609393fe9ce7f6be3f726fa289f812da1a45f4423d2"
       }
     },
     {
       "id": "land-iad136815",
       "sourceURL": "https://www.iadportugal.pt/anuncio/terreno-venda-ericeira-183m2/r136815",
-      "checkedAt": "2026-10-04T13:13:52Z",
+      "checkedAt": "2026-10-05T16:04:24Z",
       "status": "observed",
       "observation": {
         "title": "Terreno (novo) para venda  183 m² Ericeira",
@@ -835,13 +849,13 @@ const RefreshStatus = {
         "sourceURL": "https://www.iadportugal.pt/anuncio/terreno-venda-ericeira-183m2/r136815",
         "imageURL": "",
         "method": "public-page / schema",
-        "contentHash": "cf5a2325ac496598cf046d3c365a44cf43e79f407b0b9c607b4b11cf64cce766"
+        "contentHash": "726b0af549485e241569fdf526612c493dcdcbc904b1d4002c809a53c4c54054"
       }
     },
     {
       "id": "land-iv19046900",
       "sourceURL": "https://www.imovirtual.com/pt/anuncio/lote-de-998m2-com-projeto-de-autor-e-vista-mar-oeiras-ID1hUY4",
-      "checkedAt": "2026-10-04T13:13:52Z",
+      "checkedAt": "2026-10-05T16:04:24Z",
       "status": "observed",
       "observation": {
         "title": "Lote de 998m2 com Projeto de Autor e Vista Mar | Oeiras",
@@ -857,13 +871,13 @@ const RefreshStatus = {
         "sourceURL": "https://www.imovirtual.com/pt/anuncio/lote-de-998m2-com-projeto-de-autor-e-vista-mar-oeiras-ID1hUY4",
         "imageURL": "",
         "method": "public-page / schema",
-        "contentHash": "a3fe918905bcebce284a80fdb65f68acbd19bf87ce52560c795dd787669c73fa"
+        "contentHash": "629481b64d8a01ccddcafe7d614d364b5a2611888da261464ac3bb26a762d994"
       }
     },
     {
       "id": "land-iv19073309",
       "sourceURL": "https://www.imovirtual.com/pt/anuncio/excelente-lote-de-terreno-urbano-com-vista-para-o-mar-ID1i1Q1",
-      "checkedAt": "2026-10-04T13:13:52Z",
+      "checkedAt": "2026-10-05T16:04:24Z",
       "status": "observed",
       "observation": {
         "title": "Excelente Lote de Terreno Urbano com Vista para o Mar",
@@ -879,13 +893,13 @@ const RefreshStatus = {
         "sourceURL": "https://www.imovirtual.com/pt/anuncio/excelente-lote-de-terreno-urbano-com-vista-para-o-mar-ID1i1Q1",
         "imageURL": "",
         "method": "public-page / schema",
-        "contentHash": "62d2f8110cd715eb916c5b9594b69c022f63217e1b17636f9fbfd65fc3a00b22"
+        "contentHash": "db7260761282b6a6d18862ac9b3e8afa2ed49603c35f7404d282694daeb5c813"
       }
     },
     {
       "id": "land-iv19182944",
       "sourceURL": "https://www.imovirtual.com/pt/anuncio/terreno-rustico-com-4-625-m-vista-mar-baleia-carvoeira-mafra-ID1iumk",
-      "checkedAt": "2026-10-04T13:13:52Z",
+      "checkedAt": "2026-10-05T16:04:24Z",
       "status": "removed",
       "error": "Advert HTTP 410",
       "httpStatus": 410
@@ -893,7 +907,7 @@ const RefreshStatus = {
     {
       "id": "land-iv19258147",
       "sourceURL": "https://www.imovirtual.com/pt/anuncio/terreno-com-vista-mar-em-sao-francisco-da-serra-ID1iNWh",
-      "checkedAt": "2026-10-04T13:13:52Z",
+      "checkedAt": "2026-10-05T16:04:24Z",
       "status": "observed",
       "observation": {
         "title": "Terreno com vista mar em São Francisco da Serra",
@@ -909,13 +923,13 @@ const RefreshStatus = {
         "sourceURL": "https://www.imovirtual.com/pt/anuncio/terreno-com-vista-mar-em-sao-francisco-da-serra-ID1iNWh",
         "imageURL": "",
         "method": "public-page / schema",
-        "contentHash": "5ddc554021a398b7de617fbb3c35ef8942fe5f9c8bd95fe34d9a78d389c40080"
+        "contentHash": "90eb35ca383f1a910174a259740f984f66ec9e09d07088538ab422dedbcf6b0c"
       }
     },
     {
       "id": "land-kw55379",
       "sourceURL": "https://www.kwportugal.pt/pt/Imovel/Venda/Terreno/Lisboa/Mafra/Santo-Isidoro/55379",
-      "checkedAt": "2026-10-04T13:13:52Z",
+      "checkedAt": "2026-10-05T16:04:24Z",
       "status": "observed",
       "observation": {
         "title": "TERRENO COM VISTA MAR - LAGOA - SANTO ISIDORO",
@@ -931,13 +945,13 @@ const RefreshStatus = {
         "sourceURL": "https://www.kwportugal.pt/pt/Imovel/Venda/Terreno/Lisboa/Mafra/Santo-Isidoro/55379",
         "imageURL": "https://imgs.soukwportugal.pt/37109/properties/16773677-0f78-4842-943f-57dd4ff7c5cf.jpg",
         "method": "public-page / schema",
-        "contentHash": "dd6ada3fd9cb995627d025849e4e7e1df449c4d5d62bce8b59c2edec30035369"
+        "contentHash": "940252a93d78ed74c082dd50b247e1187abf79088e5de74b53a3f5d48c246090"
       }
     },
     {
       "id": "land-rm1206119456",
       "sourceURL": "https://remax.pt/pt/imoveis/venda-terreno-toeiras-porto-salvo/120611945-6",
-      "checkedAt": "2026-10-04T13:13:52Z",
+      "checkedAt": "2026-10-05T16:04:24Z",
       "status": "removed",
       "error": "Advert HTTP 404",
       "httpStatus": 404
@@ -945,7 +959,7 @@ const RefreshStatus = {
     {
       "id": "land-rm121011438132",
       "sourceURL": "https://remax.pt/pt/imoveis/venda-terreno-tmafra-igreja-nova-e-cheleiros/121011438-132",
-      "checkedAt": "2026-10-04T13:13:52Z",
+      "checkedAt": "2026-10-05T16:04:24Z",
       "status": "observed",
       "observation": {
         "title": "Terreno em Mafra com 2 500 m²",
@@ -961,13 +975,13 @@ const RefreshStatus = {
         "sourceURL": "https://remax.pt/pt/imoveis/venda-terreno-tmafra-igreja-nova-e-cheleiros/121011438-132",
         "imageURL": "https://i.maxwork.pt/ds-l/listings/12101/7244864/c9ce856a-83ce-4f33-bf22-88538f649082.jpg",
         "method": "public-page / schema",
-        "contentHash": "a120a749e7d7634e463a8c07a080c7aaaa52337810eb756e535d985c867deaac"
+        "contentHash": "9008e9cc4812bb389c2204c8863393e4d0f880a5007d11ec11b876c29eb8eaf7"
       }
     },
     {
       "id": "land-rm12344130537",
       "sourceURL": "https://www.remax.pt/pt/imoveis/venda-terreno-tgrandola-carvalhal/123441305-37",
-      "checkedAt": "2026-10-04T13:13:52Z",
+      "checkedAt": "2026-10-05T16:04:24Z",
       "status": "observed",
       "observation": {
         "title": "Terreno em Grândola com visita virtual",
@@ -983,13 +997,13 @@ const RefreshStatus = {
         "sourceURL": "https://www.remax.pt/pt/imoveis/venda-terreno-tgrandola-carvalhal/123441305-37",
         "imageURL": "https://i.maxwork.pt/ds-l/listings/12344/6487329/a634141d-e133-4904-9184-5cad4a258235.jpg",
         "method": "public-page / schema",
-        "contentHash": "835dfa705c65310ea91d676f680d5118eac78530744272ed659e0d06bdedcd5f"
+        "contentHash": "dc771361487e47792772562cb5d32ef4c4cf3cc8f262e3e31ba21b5df955e523"
       }
     },
     {
       "id": "land-rm12587111524",
       "sourceURL": "https://remax.pt/pt/imoveis/venda-terreno-ttorres-vedras-sao-pedro-da-cadeira/125871115-24",
-      "checkedAt": "2026-10-04T13:13:52Z",
+      "checkedAt": "2026-10-05T16:04:24Z",
       "status": "observed",
       "observation": {
         "title": "Terreno em Torres Vedras com visita virtual",
@@ -1005,13 +1019,13 @@ const RefreshStatus = {
         "sourceURL": "https://remax.pt/pt/imoveis/venda-terreno-ttorres-vedras-sao-pedro-da-cadeira/125871115-24",
         "imageURL": "https://i.maxwork.pt/ds-l/listings/12587/7083762/d90efdb8-4f65-44ee-bc1c-a1af0f35d4d2.jpg",
         "method": "public-page / schema",
-        "contentHash": "a34b2f7ce0c8f1d1d2bf1f4cb754faff45c6464fb154396d7faef26737d8fc86"
+        "contentHash": "55e5f60a601852cf1e8ff29893bcc66064b8e61b8622a8c46aa336a470f58d58"
       }
     },
     {
       "id": "land-veigas642137",
       "sourceURL": "https://www.veigas.eu/pt/detalhe-propriedade/terreno-vista-mar-lourinha-ribamar-agricultura/642137",
-      "checkedAt": "2026-10-04T13:13:52Z",
+      "checkedAt": "2026-10-05T16:04:24Z",
       "status": "unavailable",
       "error": "robots HTTP 406",
       "httpStatus": null
@@ -1019,956 +1033,969 @@ const RefreshStatus = {
   ],
   "discovery": [
     {
+      "sourceURL": "https://nestenn.pt/apartamento-t2-a-400-m-da-praia-ref-1847",
+      "checkedAt": "2026-10-05T16:04:24Z",
+      "agency": "Nestenn LourinhÃ£",
+      "status": "rejected",
+      "reason": "Municipality not established from title/address/URL"
+    },
+    {
       "sourceURL": "https://nestenn.pt/apartamento-t2-a-400-m-da-praia-ref-1849",
-      "checkedAt": "2026-10-04T13:13:52Z",
+      "checkedAt": "2026-10-05T16:04:24Z",
       "agency": "Nestenn LourinhÃ£",
       "status": "rejected",
       "reason": "Municipality not established from title/address/URL"
     },
     {
       "sourceURL": "https://nestenn.pt/apartamento-t2-em-praia-da-areia-branca-com-piscina-ref-1884",
-      "checkedAt": "2026-10-04T13:13:52Z",
-      "agency": "Nestenn LourinhÃ£",
-      "status": "rejected",
-      "reason": "No renovation evidence in the listing description"
-    },
-    {
-      "sourceURL": "https://nestenn.pt/apartamento-t2-no-centro-de-caldas-da-rainha-ref-1883",
-      "checkedAt": "2026-10-04T13:13:52Z",
-      "agency": "Nestenn LourinhÃ£",
-      "status": "rejected",
-      "reason": "Municipality not established from title/address/URL"
-    },
-    {
-      "sourceURL": "https://nestenn.pt/apartamento-t3-na-lourinha-perto-das-praias-ref-1882",
-      "checkedAt": "2026-10-04T13:13:52Z",
+      "checkedAt": "2026-10-05T16:04:24Z",
       "agency": "Nestenn LourinhÃ£",
       "status": "rejected",
       "reason": "No renovation evidence in the listing description"
     },
     {
       "sourceURL": "https://nestenn.pt/lote-de-terreno-para-construcao-zona-de-sintra-ref-1867",
-      "checkedAt": "2026-10-04T13:13:52Z",
+      "checkedAt": "2026-10-05T16:04:24Z",
       "agency": "Nestenn LourinhÃ£",
       "status": "rejected",
       "reason": "No renovation evidence in the listing description"
     },
     {
       "sourceURL": "https://nestenn.pt/lotes-de-terreno-urbano-ref-1852",
-      "checkedAt": "2026-10-04T13:13:52Z",
+      "checkedAt": "2026-10-05T16:04:24Z",
       "agency": "Nestenn LourinhÃ£",
       "status": "rejected",
       "reason": "Municipality not established from title/address/URL"
     },
     {
       "sourceURL": "https://nestenn.pt/moradia-t-3-em-miragaia-lourinha-ref-1879",
-      "checkedAt": "2026-10-04T13:13:52Z",
+      "checkedAt": "2026-10-05T16:04:24Z",
       "agency": "Nestenn LourinhÃ£",
       "status": "rejected",
       "reason": "No renovation evidence in the listing description"
     },
     {
       "sourceURL": "https://nestenn.pt/moradia-t-4-vista-campo-em-torres-vedras-ref-1880",
-      "checkedAt": "2026-10-04T13:13:52Z",
+      "checkedAt": "2026-10-05T16:04:24Z",
       "agency": "Nestenn LourinhÃ£",
       "status": "rejected",
       "reason": "No renovation evidence in the listing description"
     },
     {
-      "sourceURL": "https://nestenn.pt/moradia-t3-com-piscina-ref-1889",
-      "checkedAt": "2026-10-04T13:13:52Z",
+      "sourceURL": "https://nestenn.pt/moradia-t3-1-com-vista-mar-praia-areia-branca-ref-1873",
+      "checkedAt": "2026-10-05T16:04:24Z",
       "agency": "Nestenn LourinhÃ£",
       "status": "rejected",
       "reason": "No renovation evidence in the listing description"
+    },
+    {
+      "sourceURL": "https://nestenn.pt/moradia-t3-com-garagem-na-lourinha-ref-1868",
+      "checkedAt": "2026-10-05T16:04:24Z",
+      "agency": "Nestenn LourinhÃ£",
+      "status": "rejected",
+      "reason": "No renovation evidence in the listing description"
+    },
+    {
+      "sourceURL": "https://nestenn.pt/moradia-t3-com-piscina-ref-1870",
+      "checkedAt": "2026-10-05T16:04:24Z",
+      "agency": "Nestenn LourinhÃ£",
+      "status": "rejected",
+      "reason": "Municipality not established from title/address/URL"
     },
     {
       "sourceURL": "https://nestenn.pt/moradia-t4-com-garagem-e-espaco-exterior-ref-1885",
-      "checkedAt": "2026-10-04T13:13:52Z",
+      "checkedAt": "2026-10-05T16:04:24Z",
       "agency": "Nestenn LourinhÃ£",
       "status": "rejected",
       "reason": "No renovation evidence in the listing description"
     },
     {
       "sourceURL": "https://nestenn.pt/moradia-t4-com-piscina-e-picadeiro-na-lourinha-ref-1865",
-      "checkedAt": "2026-10-04T13:13:52Z",
+      "checkedAt": "2026-10-05T16:04:24Z",
       "agency": "Nestenn LourinhÃ£",
       "status": "rejected",
       "reason": "No renovation evidence in the listing description"
     },
     {
-      "sourceURL": "https://nestenn.pt/moradia-t4-na-zona-do-bombarral-ref-1887",
-      "checkedAt": "2026-10-04T13:13:52Z",
-      "agency": "Nestenn LourinhÃ£",
-      "status": "rejected",
-      "reason": "Municipality not established from title/address/URL"
-    },
-    {
       "sourceURL": "https://nestenn.pt/moradia-t4-vista-mar-na-zona-da-lourinha-ref-1869",
-      "checkedAt": "2026-10-04T13:13:52Z",
+      "checkedAt": "2026-10-05T16:04:24Z",
       "agency": "Nestenn LourinhÃ£",
       "status": "rejected",
       "reason": "No renovation evidence in the listing description"
     },
     {
       "sourceURL": "https://nestenn.pt/terreno-com-projecto-em-portela-da-vila-ref-1881",
-      "checkedAt": "2026-10-04T13:13:52Z",
+      "checkedAt": "2026-10-05T16:04:24Z",
       "agency": "Nestenn LourinhÃ£",
       "status": "rejected",
       "reason": "Municipality not established from title/address/URL"
     },
     {
       "sourceURL": "https://nestenn.pt/terreno-com-projeto-aprovado-para-4-moradias-t2-ref-1854",
-      "checkedAt": "2026-10-04T13:13:52Z",
+      "checkedAt": "2026-10-05T16:04:24Z",
       "agency": "Nestenn LourinhÃ£",
       "status": "rejected",
       "reason": "Municipality not established from title/address/URL"
     },
     {
-      "sourceURL": "https://www.acertosemedidas.pt/imovel/loteamento-4-moradias/19994237",
-      "checkedAt": "2026-10-04T13:13:52Z",
+      "sourceURL": "https://www.acertosemedidas.pt/imovel/lote-terreno-delgada-bombarral/26586246",
+      "checkedAt": "2026-10-05T16:04:24Z",
       "agency": "Acertos e Medidas",
       "status": "rejected",
       "reason": "Outside Lisbon/Setúbal districts"
     },
     {
-      "sourceURL": "https://www.acertosemedidas.pt/imovel/moradia-com-terreno-salgueiral-amoreira/21225619",
-      "checkedAt": "2026-10-04T13:13:52Z",
+      "sourceURL": "https://www.acertosemedidas.pt/imovel/lote-terreno-peniche/25934097",
+      "checkedAt": "2026-10-05T16:04:24Z",
       "agency": "Acertos e Medidas",
       "status": "rejected",
       "reason": "Outside Lisbon/Setúbal districts"
     },
     {
-      "sourceURL": "https://www.acertosemedidas.pt/imovel/moradia-de-luxo-v5-alfeizerao-alcobaca/21446698",
-      "checkedAt": "2026-10-04T13:13:52Z",
+      "sourceURL": "https://www.acertosemedidas.pt/imovel/lote-terrenoferrel/22989592",
+      "checkedAt": "2026-10-05T16:04:24Z",
       "agency": "Acertos e Medidas",
       "status": "rejected",
       "reason": "Outside Lisbon/Setúbal districts"
     },
     {
-      "sourceURL": "https://www.acertosemedidas.pt/imovel/moradia-moledo-lourinha/26567885",
-      "checkedAt": "2026-10-04T13:13:52Z",
+      "sourceURL": "https://www.acertosemedidas.pt/imovel/lotes-casais-mestre-mendo-peniche/21341870",
+      "checkedAt": "2026-10-05T16:04:24Z",
+      "agency": "Acertos e Medidas",
+      "status": "rejected",
+      "reason": "Outside Lisbon/Setúbal districts"
+    },
+    {
+      "sourceURL": "https://www.acertosemedidas.pt/imovel/moradia-t3-lourinha/20995381",
+      "checkedAt": "2026-10-05T16:04:24Z",
+      "agency": "Acertos e Medidas",
+      "status": "rejected",
+      "reason": "No renovation evidence in the listing description"
+    },
+    {
+      "sourceURL": "https://www.acertosemedidas.pt/imovel/moradia-t3-peniche/26179172",
+      "checkedAt": "2026-10-05T16:04:24Z",
+      "agency": "Acertos e Medidas",
+      "status": "rejected",
+      "reason": "Outside Lisbon/Setúbal districts"
+    },
+    {
+      "sourceURL": "https://www.acertosemedidas.pt/imovel/moradia-t3-sao-bernardino-peniche/25422834",
+      "checkedAt": "2026-10-05T16:04:24Z",
+      "agency": "Acertos e Medidas",
+      "status": "rejected",
+      "reason": "Outside Lisbon/Setúbal districts"
+    },
+    {
+      "sourceURL": "https://www.acertosemedidas.pt/imovel/moradia-t3-zambujeira-do-marlourinha/23576708",
+      "checkedAt": "2026-10-05T16:04:24Z",
+      "agency": "Acertos e Medidas",
+      "status": "rejected",
+      "reason": "No renovation evidence in the listing description"
+    },
+    {
+      "sourceURL": "https://www.acertosemedidas.pt/imovel/moradia-t31-peniche/26564844",
+      "checkedAt": "2026-10-05T16:04:24Z",
+      "agency": "Acertos e Medidas",
+      "status": "rejected",
+      "reason": "Structured listing URL does not match requested advert"
+    },
+    {
+      "sourceURL": "https://www.acertosemedidas.pt/imovel/moradia-t4-ferrel-peniche/25029747",
+      "checkedAt": "2026-10-05T16:04:24Z",
+      "agency": "Acertos e Medidas",
+      "status": "rejected",
+      "reason": "Outside Lisbon/Setúbal districts"
+    },
+    {
+      "sourceURL": "https://www.acertosemedidas.pt/imovel/moradia-t4-lourinha/26303232",
+      "checkedAt": "2026-10-05T16:04:24Z",
+      "agency": "Acertos e Medidas",
+      "status": "added",
+      "observation": {
+        "title": "MORADIA T4 | LOURINHÃ",
+        "price": 330000.0,
+        "area": 243.2,
+        "kind": "house",
+        "municipality": "Lourinhã",
+        "district": "Lisbon",
+        "view": null,
+        "planning": "Potential advertised",
+        "description": "Moradia T4 com Vista Mar e Excelente Potencial de Investimento - A 3 km da Praia da Areia Branca\r\n\r\nDescubra esta moradia T4 de rés do chão e primeiro andar, inserida num generoso terreno com cerca de 1.900 m², situada numa localização privilegiada, a apenas 3 km da Praia da Areia Branca, 1 km do Dino Parque e a 50 minutos de Lisboa.\r\n\r\nA moradia necessita de renovação total, sendo uma excelente oportunidade para criar a casa dos seus sonhos ou desenvolver um projeto de investimento com elevado potencial.\r\n\r\nNo rés do chão encontra uma ampla sala de estar com lareira, sala de refeições, cozinha, despensa, casa de banho No primeiro andar dispõe de quatro quartos, uma casa de banho e um magnífico terraço com vista mar, ideal para desfrutar da tranquilidade e da paisagem envolvente.\r\n\r\nA casa contempla ainda de uma garagem e adega.\r\n\r\nNo exterior, a propriedade conta ainda com furo de água e várias arrecadações, oferecendo múltiplas possibilidades de utilização.\r\nComo mais-valia, o terreno de 900 m² é urbano, permitindo a construção de uma segunda moradia (mediante confirmação da viabilidade urbanística junto das entidades competentes).\r\n\r\nSe procura um imóvel com localização estratégica, amplo espaço exterior e enorme potencial de valorização, esta é uma oportunidade que não pode deixar escapar.\r\n\r\nPara visitar, contacte AM, a sua Imobiliária! Isabel Ferreira: + (telefone) Francisco Valadas: + (telefone)",
+        "reference": null,
+        "sourceURL": "https://www.acertosemedidas.pt/imovel/moradia-t4-lourinha/26303232",
+        "imageURL": "https://images.egorealestate.com/Z1280x960/OAYES/S5/C5482/P30672262/Tphoto/ID8605d401-0000-0500-0000-000019f3cf61.jpg",
+        "method": "public-browser / schema",
+        "contentHash": "a82b1ec10cf70d7371c71bf6e292748b8922de642be360e702d0a09403cc2de7"
+      },
+      "id": "agency-8a641948b7f57d"
+    },
+    {
+      "sourceURL": "https://www.acertosemedidas.pt/imovel/moradia-t5-ferrel/20046422",
+      "checkedAt": "2026-10-05T16:04:24Z",
       "agency": "Acertos e Medidas",
       "status": "rejected",
       "reason": "Unambiguous asking price missing"
     },
     {
-      "sourceURL": "https://www.acertosemedidas.pt/imovel/moradia-t2-1-casais-baleal-ferrel/25699135",
-      "checkedAt": "2026-10-04T13:13:52Z",
+      "sourceURL": "https://www.acertosemedidas.pt/imovel/moradia-terrea-com-jardim/20640799",
+      "checkedAt": "2026-10-05T16:04:24Z",
       "agency": "Acertos e Medidas",
       "status": "rejected",
       "reason": "Outside Lisbon/Setúbal districts"
     },
     {
-      "sourceURL": "https://www.acertosemedidas.pt/imovel/moradia-t2-peniche/26560018",
-      "checkedAt": "2026-10-04T13:13:52Z",
-      "agency": "Acertos e Medidas",
-      "status": "rejected",
-      "reason": "Outside Lisbon/Setúbal districts"
-    },
-    {
-      "sourceURL": "https://www.acertosemedidas.pt/imovel/moradia-t2-reinaldes-atouguia-da-baleia/24869787",
-      "checkedAt": "2026-10-04T13:13:52Z",
-      "agency": "Acertos e Medidas",
-      "status": "rejected",
-      "reason": "Unambiguous asking price missing"
-    },
-    {
-      "sourceURL": "https://www.acertosemedidas.pt/imovel/moradia-t2-supertubospeniche/20997951",
-      "checkedAt": "2026-10-04T13:13:52Z",
-      "agency": "Acertos e Medidas",
-      "status": "rejected",
-      "reason": "Outside Lisbon/Setúbal districts"
-    },
-    {
-      "sourceURL": "https://www.acertosemedidas.pt/imovel/moradia-t21-atouguia-da-baleia/26460182",
-      "checkedAt": "2026-10-04T13:13:52Z",
-      "agency": "Acertos e Medidas",
-      "status": "rejected",
-      "reason": "Structured listing URL does not match requested advert"
-    },
-    {
-      "sourceURL": "https://www.acertosemedidas.pt/imovel/moradia-t3-alto-do-verissimo-peniche/23445488",
-      "checkedAt": "2026-10-04T13:13:52Z",
-      "agency": "Acertos e Medidas",
-      "status": "rejected",
-      "reason": "Outside Lisbon/Setúbal districts"
-    },
-    {
-      "sourceURL": "https://www.acertosemedidas.pt/imovel/moradia-t3-atouguia-da-baleia-peniche/25707266",
-      "checkedAt": "2026-10-04T13:13:52Z",
-      "agency": "Acertos e Medidas",
-      "status": "rejected",
-      "reason": "Outside Lisbon/Setúbal districts"
-    },
-    {
-      "sourceURL": "https://www.acertosemedidas.pt/imovel/moradia-t3-atouguia-da-baleia/23879264",
-      "checkedAt": "2026-10-04T13:13:52Z",
-      "agency": "Acertos e Medidas",
-      "status": "rejected",
-      "reason": "Outside Lisbon/Setúbal districts"
-    },
-    {
-      "sourceURL": "https://www.acertosemedidas.pt/imovel/moradia-t3-caldas-da-rainha/26240710",
-      "checkedAt": "2026-10-04T13:13:52Z",
-      "agency": "Acertos e Medidas",
-      "status": "rejected",
-      "reason": "Outside Lisbon/Setúbal districts"
-    },
-    {
-      "sourceURL": "https://www.acertosemedidas.pt/imovel/moradia-t3-centro-obidos/25971539",
-      "checkedAt": "2026-10-04T13:13:52Z",
-      "agency": "Acertos e Medidas",
-      "status": "rejected",
-      "reason": "Outside Lisbon/Setúbal districts"
-    },
-    {
-      "sourceURL": "https://www.acertosemedidas.pt/imovel/moradia-t3-centro-peniche/25623581",
-      "checkedAt": "2026-10-04T13:13:52Z",
-      "agency": "Acertos e Medidas",
-      "status": "rejected",
-      "reason": "Outside Lisbon/Setúbal districts"
-    },
-    {
-      "sourceURL": "https://www.acertosemedidas.pt/imovel/moradia-t3-cezaredas-lourinha/26662224",
-      "checkedAt": "2026-10-04T13:13:52Z",
+      "sourceURL": "https://www.acertosemedidas.pt/imovel/moradia-v4-abelheira-lourinha/21339722",
+      "checkedAt": "2026-10-05T16:04:24Z",
       "agency": "Acertos e Medidas",
       "status": "rejected",
       "reason": "No renovation evidence in the listing description"
     },
     {
-      "sourceURL": "https://www.atlanticorealestate.com/imovel/lote-de-terreno-com-1103-m2-localizado-no-bom-sucesso-resort-em-obidos/26233075",
-      "checkedAt": "2026-10-04T13:13:52Z",
-      "agency": "AtlÃ¢ntico Real Estate",
+      "sourceURL": "https://www.acertosemedidas.pt/imovel/moradia-v4-coimbra-peniche/21339309",
+      "checkedAt": "2026-10-05T16:04:24Z",
+      "agency": "Acertos e Medidas",
       "status": "rejected",
       "reason": "Outside Lisbon/Setúbal districts"
     },
     {
-      "sourceURL": "https://www.atlanticorealestate.com/imovel/lote-de-terreno-com-1204-m2-localizado-no-bom-sucesso-resort-em-obidos/25251351",
-      "checkedAt": "2026-10-04T13:13:52Z",
-      "agency": "AtlÃ¢ntico Real Estate",
+      "sourceURL": "https://www.acertosemedidas.pt/imovel/moradianadrupelourinha/22761780",
+      "checkedAt": "2026-10-05T16:04:24Z",
+      "agency": "Acertos e Medidas",
       "status": "rejected",
-      "reason": "Outside Lisbon/Setúbal districts"
+      "reason": "No renovation evidence in the listing description"
     },
     {
-      "sourceURL": "https://www.atlanticorealestate.com/imovel/lote-de-terreno-com-836-m2-localizado-no-bom-sucesso-resort-em-obidos/25251360",
-      "checkedAt": "2026-10-04T13:13:52Z",
-      "agency": "AtlÃ¢ntico Real Estate",
-      "status": "unavailable",
-      "error": "\u003curlopen error [Errno 111] Connection refused>"
-    },
-    {
-      "sourceURL": "https://www.atlanticorealestate.com/imovel/lote-de-terreno-com-projeto-aprovado-localizado-a-4-km-da-ericeira/26431337",
-      "checkedAt": "2026-10-04T13:13:52Z",
-      "agency": "AtlÃ¢ntico Real Estate",
-      "status": "unavailable",
-      "error": "\u003curlopen error [Errno 111] Connection refused>"
-    },
-    {
-      "sourceURL": "https://www.atlanticorealestate.com/imovel/moradia-isolada-inserida-em-condominio-com-piscina-a-1km-da-ericeira/23816083",
-      "checkedAt": "2026-10-04T13:13:52Z",
+      "sourceURL": "https://www.atlanticorealestate.com/imovel/apartamento-junto-ao-centro-da-ericeira-com-vista-panoramica-sobre-a-ericeira-e-o-oceano/22902177",
+      "checkedAt": "2026-10-05T16:04:24Z",
       "agency": "AtlÃ¢ntico Real Estate",
       "status": "rejected",
       "reason": "No renovation evidence in the listing description"
     },
     {
-      "sourceURL": "https://www.atlanticorealestate.com/imovel/moradia-na-primeira-linha-de-mar-e-praia-entre-a-ericeira-e-as-praias-de-sintra/25381315",
-      "checkedAt": "2026-10-04T13:13:52Z",
+      "sourceURL": "https://www.atlanticorealestate.com/imovel/apartamento-novo-em-condominio-com-piscina-em-mafra-a-apenas-10-minutos-da-ericeira-e-a-15-minutos-d/21072447",
+      "checkedAt": "2026-10-05T16:04:24Z",
       "agency": "AtlÃ¢ntico Real Estate",
       "status": "rejected",
       "reason": "No renovation evidence in the listing description"
     },
     {
-      "sourceURL": "https://www.atlanticorealestate.com/imovel/moradia-na-primeira-linha-de-mar-e-praia-entre-a-ericeira-e-as-praias-de-sintra/25381348",
-      "checkedAt": "2026-10-04T13:13:52Z",
+      "sourceURL": "https://www.atlanticorealestate.com/imovel/apartamento-novo-em-condominio-com-piscina-em-mafra-a-apenas-10-minutos-da-ericeira-e-a-15-minutos-d/21072448",
+      "checkedAt": "2026-10-05T16:04:24Z",
       "agency": "AtlÃ¢ntico Real Estate",
       "status": "rejected",
       "reason": "No renovation evidence in the listing description"
     },
     {
-      "sourceURL": "https://www.atlanticorealestate.com/imovel/moradia-na-primeira-linha-de-mar-e-praia-entre-a-ericeira-e-as-praias-de-sintra/25381398",
-      "checkedAt": "2026-10-04T13:13:52Z",
-      "agency": "AtlÃ¢ntico Real Estate",
-      "status": "rejected",
-      "reason": "No renovation evidence in the listing description"
-    },
-    {
-      "sourceURL": "https://www.atlanticorealestate.com/imovel/moradia-nova-t31/26058393",
-      "checkedAt": "2026-10-04T13:13:52Z",
+      "sourceURL": "https://www.atlanticorealestate.com/imovel/ericeira-zona-moradia-t3-1-em-condominio-com-piscina/21041873",
+      "checkedAt": "2026-10-05T16:04:24Z",
       "agency": "AtlÃ¢ntico Real Estate",
       "status": "rejected",
       "reason": "Structured listing URL does not match requested advert"
     },
     {
-      "sourceURL": "https://www.atlanticorealestate.com/imovel/moradia-terrea-t31-inserida-terreno-674-m-15km-da-ericeira/21001194",
-      "checkedAt": "2026-10-04T13:13:52Z",
+      "sourceURL": "https://www.atlanticorealestate.com/imovel/ericeira-zona-moradia-t3-1-em-condominio-com-piscina/21041880",
+      "checkedAt": "2026-10-05T16:04:24Z",
       "agency": "AtlÃ¢ntico Real Estate",
       "status": "rejected",
       "reason": "Structured listing URL does not match requested advert"
     },
     {
-      "sourceURL": "https://www.atlanticorealestate.com/imovel/predio-em-construcao-com-apartamentos-novos-em-condominio-com-ginasio-e-terraco/25372607",
-      "checkedAt": "2026-10-04T13:13:52Z",
+      "sourceURL": "https://www.atlanticorealestate.com/imovel/exclusividade-design-e-mar-uma-moradia-unica-na-ericeira/26414958",
+      "checkedAt": "2026-10-05T16:04:24Z",
       "agency": "AtlÃ¢ntico Real Estate",
       "status": "rejected",
       "reason": "No renovation evidence in the listing description"
     },
     {
-      "sourceURL": "https://www.atlanticorealestate.com/imovel/predio-em-construcao-com-apartamentos-novos-em-condominio-com-ginasio-e-terraco/25372670",
-      "checkedAt": "2026-10-04T13:13:52Z",
+      "sourceURL": "https://www.atlanticorealestate.com/imovel/lote-de-terreno-222m-para-construcao-moradia-t3-1-projeto-aprovado-e-pronto-a-iniciar-construcao/26243007",
+      "checkedAt": "2026-10-05T16:04:24Z",
+      "agency": "AtlÃ¢ntico Real Estate",
+      "status": "rejected",
+      "reason": "No explicit sea-view evidence (beach proximity is insufficient)"
+    },
+    {
+      "sourceURL": "https://www.atlanticorealestate.com/imovel/lote-para-moradia-isolada-na-ericeira/22701232",
+      "checkedAt": "2026-10-05T16:04:24Z",
+      "agency": "AtlÃ¢ntico Real Estate",
+      "status": "rejected",
+      "reason": "No explicit sea-view evidence (beach proximity is insufficient)"
+    },
+    {
+      "sourceURL": "https://www.atlanticorealestate.com/imovel/mafra-moradia-isolada-t4-com-jardim-e-piscina/25760734",
+      "checkedAt": "2026-10-05T16:04:24Z",
       "agency": "AtlÃ¢ntico Real Estate",
       "status": "rejected",
       "reason": "No renovation evidence in the listing description"
     },
     {
-      "sourceURL": "https://www.atlanticorealestate.com/imovel/terreno-para-moradia-em-banda-junto-a-torres-vedras/22987324",
-      "checkedAt": "2026-10-04T13:13:52Z",
+      "sourceURL": "https://www.atlanticorealestate.com/imovel/mafra-moradia-isolada-t4-com-jardim/25760731",
+      "checkedAt": "2026-10-05T16:04:24Z",
       "agency": "AtlÃ¢ntico Real Estate",
       "status": "rejected",
-      "reason": "Explicit floor/plot area missing"
+      "reason": "No renovation evidence in the listing description"
     },
     {
-      "sourceURL": "https://www.atlanticorealestate.com/imovel/terreno-para-moradia-isolada-junto-a-torres-vedras/22987307",
-      "checkedAt": "2026-10-04T13:13:52Z",
+      "sourceURL": "https://www.atlanticorealestate.com/imovel/mafra-moradia-isolada-t4-com-jardim/25760732",
+      "checkedAt": "2026-10-05T16:04:24Z",
       "agency": "AtlÃ¢ntico Real Estate",
       "status": "rejected",
-      "reason": "Explicit floor/plot area missing"
+      "reason": "No renovation evidence in the listing description"
     },
     {
-      "sourceURL": "https://www.atlanticorealestate.com/imovel/terreno-para-moradia-isolada-junto-a-torres-vedras/22987321",
-      "checkedAt": "2026-10-04T13:13:52Z",
+      "sourceURL": "https://www.atlanticorealestate.com/imovel/mafra-moradia-isolada-t4-com-jardim/25760733",
+      "checkedAt": "2026-10-05T16:04:24Z",
       "agency": "AtlÃ¢ntico Real Estate",
       "status": "rejected",
-      "reason": "Explicit floor/plot area missing"
+      "reason": "No renovation evidence in the listing description"
     },
     {
-      "sourceURL": "https://www.atlanticorealestate.com/imovel/terreno-para-moradia-junto-a-torres-vedras/22987319",
-      "checkedAt": "2026-10-04T13:13:52Z",
+      "sourceURL": "https://www.atlanticorealestate.com/imovel/moradia-de-luxo-com-magnifica-vista-de-mar-junto-a-praia-de-sao-juliao-ericeira-sintra/20752264",
+      "checkedAt": "2026-10-05T16:04:24Z",
       "agency": "AtlÃ¢ntico Real Estate",
       "status": "rejected",
-      "reason": "Explicit floor/plot area missing"
+      "reason": "No renovation evidence in the listing description"
+    },
+    {
+      "sourceURL": "https://www.atlanticorealestate.com/imovel/moradia-de-luxo-com-vista-eterna-de-mar/22690925",
+      "checkedAt": "2026-10-05T16:04:24Z",
+      "agency": "AtlÃ¢ntico Real Estate",
+      "status": "rejected",
+      "reason": "No renovation evidence in the listing description"
+    },
+    {
+      "sourceURL": "https://www.atlanticorealestate.com/imovel/moradia-geminada-com-vista-mar-e-piscina-em-ericeira/20281089",
+      "checkedAt": "2026-10-05T16:04:24Z",
+      "agency": "AtlÃ¢ntico Real Estate",
+      "status": "rejected",
+      "reason": "No renovation evidence in the listing description"
+    },
+    {
+      "sourceURL": "https://www.atlanticorealestate.com/imovel/moradia-geminada-com-vista-mar-e-piscina-na-ericeira-urbiceira/26471322",
+      "checkedAt": "2026-10-05T16:04:24Z",
+      "agency": "AtlÃ¢ntico Real Estate",
+      "status": "rejected",
+      "reason": "No renovation evidence in the listing description"
     },
     {
       "sourceURL": "https://www.imomelides.com/pt/propriedade/45-o-terreno-do-trucho-santa-cruz",
-      "checkedAt": "2026-10-04T13:13:52Z",
+      "checkedAt": "2026-10-05T16:04:24Z",
       "agency": "ImoMelides",
       "status": "rejected",
       "reason": "No explicit sea-view evidence (beach proximity is insufficient)"
     },
     {
       "sourceURL": "https://www.imomelides.com/pt/propriedade/52-terreno-com-vista-ao-mar",
-      "checkedAt": "2026-10-04T13:13:52Z",
+      "checkedAt": "2026-10-05T16:04:24Z",
       "agency": "ImoMelides",
       "status": "rejected",
       "reason": "Municipality not established from title/address/URL"
     },
     {
       "sourceURL": "https://www.imomelides.com/pt/propriedade/69-terreno-grande-na-cima-das-serras-melides",
-      "checkedAt": "2026-10-04T13:13:52Z",
+      "checkedAt": "2026-10-05T16:04:24Z",
       "agency": "ImoMelides",
       "status": "rejected",
       "reason": "No explicit sea-view evidence (beach proximity is insufficient)"
     },
     {
       "sourceURL": "https://www.imomelides.com/pt/propriedade/75-terreno-para-construir-uma-residenia-em-melides-com-vista-ao-mar",
-      "checkedAt": "2026-10-04T13:13:52Z",
+      "checkedAt": "2026-10-05T16:04:24Z",
       "agency": "ImoMelides",
       "status": "rejected",
       "reason": "Projected-only view requires review"
     },
     {
       "sourceURL": "https://www.imomelides.com/pt/propriedade/80-terreno-emblematico-no-coracao-de-grandola",
-      "checkedAt": "2026-10-04T13:13:52Z",
+      "checkedAt": "2026-10-05T16:04:24Z",
       "agency": "ImoMelides",
       "status": "rejected",
       "reason": "No explicit sea-view evidence (beach proximity is insufficient)"
     },
     {
       "sourceURL": "https://www.imomelides.com/pt/propriedade/84-terreno-para-proejecto-turistico-melide",
-      "checkedAt": "2026-10-04T13:13:52Z",
+      "checkedAt": "2026-10-05T16:04:24Z",
       "agency": "ImoMelides",
       "status": "rejected",
       "reason": "Municipality not established from title/address/URL"
     },
     {
       "sourceURL": "https://www.imomelides.com/pt/propriedade/89-terreno-urbano-melides",
-      "checkedAt": "2026-10-04T13:13:52Z",
+      "checkedAt": "2026-10-05T16:04:24Z",
       "agency": "ImoMelides",
       "status": "rejected",
       "reason": "No explicit sea-view evidence (beach proximity is insufficient)"
     },
     {
       "sourceURL": "https://www.imomelides.com/pt/propriedade/90-terrenos-na-praia",
-      "checkedAt": "2026-10-04T13:13:52Z",
+      "checkedAt": "2026-10-05T16:04:24Z",
       "agency": "ImoMelides",
       "status": "rejected",
       "reason": "Municipality not established from title/address/URL"
     },
     {
       "sourceURL": "https://www.imomelides.com/pt/propriedade/91-terreno-urbano-apto-para-construccao",
-      "checkedAt": "2026-10-04T13:13:52Z",
+      "checkedAt": "2026-10-05T16:04:24Z",
       "agency": "ImoMelides",
       "status": "rejected",
       "reason": "Municipality not established from title/address/URL"
     },
     {
-      "sourceURL": "https://www.mciimobiliaria.pt/imovel/apartamento-t2-9-andar-localizado-a-2-minutos-da-ic19-em-sao-marcos/23839181",
-      "checkedAt": "2026-10-04T13:13:52Z",
+      "sourceURL": "https://www.mciimobiliaria.pt/imovel/apartamento-t3-1-piso-localizado-em-zona-calma-e-tranquila-do-pinhal-novo/25808937",
+      "checkedAt": "2026-10-05T16:04:24Z",
       "agency": "MCI Imobiliária",
       "status": "rejected",
       "reason": "No renovation evidence in the listing description"
     },
     {
-      "sourceURL": "https://www.mciimobiliaria.pt/imovel/apartamento-t2-com-120m-1-andar-localizado-em-zona-central-de-belas/24741836",
-      "checkedAt": "2026-10-04T13:13:52Z",
+      "sourceURL": "https://www.mciimobiliaria.pt/imovel/apartamento-t3-2-piso-a-necessitar-de-obras-gerais-perto-do-metro-do-laranjeiro/24639485",
+      "checkedAt": "2026-10-05T16:04:24Z",
+      "agency": "MCI Imobiliária",
+      "status": "added",
+      "observation": {
+        "title": "Apartamento T3, 2º Piso a necessitar de obras gerais, perto do metro do Laranjeiro!",
+        "price": 225000.0,
+        "area": 70.0,
+        "kind": "house",
+        "municipality": "Almada",
+        "district": "Setúbal",
+        "view": null,
+        "planning": "Potential advertised",
+        "description": "Apartamento T3 situado no 2.º piso, com 70 m², a necessitar de obras gerais. O imóvel destaca-se pela excelente luminosidade natural em todas as divisões, proporcionando um ambiente confortável e acolhedor.\r\nLocalizado numa zona com abundante comércio local e apenas a 700 metros da estação de metro do Laranjeiro, bem como de várias paragens de autocarro, oferece grande conveniência no dia a dia e ótimas acessibilidades.\r\nUma excelente oportunidade tanto para investimento como para primeira habitação.\r\nMarque já a sua visita!\r\nEste imóvel está disponível para partilha de comissão (50%-50%) com qualquer mediadora imobiliária licenciada (AMI).",
+        "reference": null,
+        "sourceURL": "https://www.mciimobiliaria.pt/imovel/apartamento-t3-2-piso-a-necessitar-de-obras-gerais-perto-do-metro-do-laranjeiro/24639485",
+        "imageURL": "https://images.egorealestate.com/Z1280x960/OAYES/S5/C16629/P28808321/Tphoto/ID8194b701-0000-0500-0000-000017c66d55.jpg",
+        "method": "public-browser / schema",
+        "contentHash": "3a0827f8e27e24164f605f6968672ba52cb3f9827907849098f2eac67a003f82"
+      },
+      "id": "agency-493114487939b7"
+    },
+    {
+      "sourceURL": "https://www.mciimobiliaria.pt/imovel/apartamento-t3-3-piso-a-necessitar-de-obras-localizado-perto-da-estacao-comboios-da-amadora/24425675",
+      "checkedAt": "2026-10-05T16:04:24Z",
+      "agency": "MCI Imobiliária",
+      "status": "added",
+      "observation": {
+        "title": "Apartamento T3, 3º Piso, a necessitar de obras, localizado perto da estação comboios da Amadora!",
+        "price": 270000.0,
+        "area": 80.0,
+        "kind": "house",
+        "municipality": "Amadora",
+        "district": "Lisbon",
+        "view": null,
+        "planning": "Potential advertised",
+        "description": "Excelente oportunidade para adquirir este apartamento T3, com 77 m², a necessitar de melhoramentos, localizado numa zona central da Amadora, apenas a 3 minutos da estação de comboios.\r\nSituado no 3º andar, o imóvel é composto por:\r\nHall de entrada;\r\n\r\nSala comum com acesso a varanda;\r\n\r\nTrês quartos;\r\n\r\nDuas casas de banho;\r\n\r\nCozinha com boa área e potencial de renovação.\r\nCom ótimos acessos à IC19, CRIL e A5, garante fácil ligação a Lisboa e às principais vias rodoviárias.\r\nZona muito bem servida de transportes públicos, com autocarros e comércio local nas proximidades, além de escolas, serviços e supermercados.\r\nInserido num bairro calmo, oferece conforto, conveniência e excelente qualidade de vida.\r\nUma opção ideal tanto para habitação própria como para investimento.\r\nNota: Este imóvel está disponível para partilha de comissão de mediação (50%-50%) com QUALQUER mediadora imobiliária que possua licença AMI válida.",
+        "reference": null,
+        "sourceURL": "https://www.mciimobiliaria.pt/imovel/apartamento-t3-3-piso-a-necessitar-de-obras-localizado-perto-da-estacao-comboios-da-amadora/24425675",
+        "imageURL": "https://images.egorealestate.com/Z1280x960/OAYES/S5/C16629/P28553208/Tphoto/IDf8afb301-0000-0500-0000-0000177643b4.jpg",
+        "method": "public-browser / schema",
+        "contentHash": "cf79075add214a4343bb9f35db38e1ca695b54c7e13035451066a582089b8bd7"
+      },
+      "id": "agency-b56f3e87368cc2"
+    },
+    {
+      "sourceURL": "https://www.mciimobiliaria.pt/imovel/apartamento-t3-3-piso-com-182m-localizado-em-zona-central-do-montijo/24520704",
+      "checkedAt": "2026-10-05T16:04:24Z",
       "agency": "MCI Imobiliária",
       "status": "rejected",
       "reason": "No renovation evidence in the listing description"
     },
     {
-      "sourceURL": "https://www.mciimobiliaria.pt/imovel/apartamento-t2-com-126m-1-andar-localizado-perto-do-acesso-a-ponto-e-alegro-montijo/23644426",
-      "checkedAt": "2026-10-04T13:13:52Z",
+      "sourceURL": "https://www.mciimobiliaria.pt/imovel/apartamento-t3-3-piso-perto-do-centro-do-montijo/23733667",
+      "checkedAt": "2026-10-05T16:04:24Z",
       "agency": "MCI Imobiliária",
       "status": "rejected",
       "reason": "No renovation evidence in the listing description"
     },
     {
-      "sourceURL": "https://www.mciimobiliaria.pt/imovel/apartamento-t2-com-80-m-com-muita-luz-natural-perto-estacao-comboio-merces/24756661",
-      "checkedAt": "2026-10-04T13:13:52Z",
+      "sourceURL": "https://www.mciimobiliaria.pt/imovel/apartamento-t3-4-piso-c-parqueamento-acabamentos-de-luxo-no-montijo/25808813",
+      "checkedAt": "2026-10-05T16:04:24Z",
       "agency": "MCI Imobiliária",
       "status": "rejected",
       "reason": "No renovation evidence in the listing description"
     },
     {
-      "sourceURL": "https://www.mciimobiliaria.pt/imovel/apartamento-t2-com-parqueamento-localizado-em-zona-central-do-montijo/23219358",
-      "checkedAt": "2026-10-04T13:13:52Z",
+      "sourceURL": "https://www.mciimobiliaria.pt/imovel/apartamento-t3-9-andar-perto-da-entrada-da-a1-do-carregado/25293776",
+      "checkedAt": "2026-10-05T16:04:24Z",
       "agency": "MCI Imobiliária",
       "status": "rejected",
       "reason": "No renovation evidence in the listing description"
     },
     {
-      "sourceURL": "https://www.mciimobiliaria.pt/imovel/apartamento-t2-com-terraco-em-condominio-fechado-centro-setubal/21601344",
-      "checkedAt": "2026-10-04T13:13:52Z",
+      "sourceURL": "https://www.mciimobiliaria.pt/imovel/apartamento-t3-com-110-m-com-2-parqueamentos-na-brandoa-perto-do-metro/25102032",
+      "checkedAt": "2026-10-05T16:04:24Z",
       "agency": "MCI Imobiliária",
       "status": "rejected",
       "reason": "No renovation evidence in the listing description"
     },
     {
-      "sourceURL": "https://www.mciimobiliaria.pt/imovel/apartamento-t2-com-terraco-perto-do-estadio-do-vitoria-de-setubal/22165419",
-      "checkedAt": "2026-10-04T13:13:52Z",
+      "sourceURL": "https://www.mciimobiliaria.pt/imovel/apartamento-t3-com-126m-localizado-perto-da-entrada-ic19-em-algueirao-mem-martins/23904155",
+      "checkedAt": "2026-10-05T16:04:24Z",
       "agency": "MCI Imobiliária",
       "status": "rejected",
       "reason": "No renovation evidence in the listing description"
     },
     {
-      "sourceURL": "https://www.mciimobiliaria.pt/imovel/apartamento-t2-de-luxo-em-condominio-privado-na-quinta-da-beloura/23064224",
-      "checkedAt": "2026-10-04T13:13:52Z",
+      "sourceURL": "https://www.mciimobiliaria.pt/imovel/apartamento-t3-com-148m-localizado-perto-do-deposito-da-agua-do-montijo/23406259",
+      "checkedAt": "2026-10-05T16:04:24Z",
       "agency": "MCI Imobiliária",
       "status": "rejected",
       "reason": "No renovation evidence in the listing description"
     },
     {
-      "sourceURL": "https://www.mciimobiliaria.pt/imovel/apartamento-t2-localizado-no-alto-do-bicesse-em-alcabideche/23233156",
-      "checkedAt": "2026-10-04T13:13:52Z",
-      "agency": "MCI Imobiliária",
-      "status": "rejected",
-      "reason": "No renovation evidence in the listing description"
-    },
-    {
-      "sourceURL": "https://www.mciimobiliaria.pt/imovel/apartamento-t2-no-1-andar-com-122-m-e-parqueamento-em-zona-central-de-santarem/25293865",
-      "checkedAt": "2026-10-04T13:13:52Z",
+      "sourceURL": "https://www.mciimobiliaria.pt/imovel/apartamento-t3-no-rc-com-145-m-e-parqueamento-em-zona-central-de-santarem/23090801",
+      "checkedAt": "2026-10-05T16:04:24Z",
       "agency": "MCI Imobiliária",
       "status": "rejected",
       "reason": "Outside Lisbon/Setúbal districts"
     },
     {
-      "sourceURL": "https://www.mciimobiliaria.pt/imovel/apartamento-t2-rc-semi-novo-localizado-em-zona-de-construcao-nova-da-quinta-do-anjo/24245556",
-      "checkedAt": "2026-10-04T13:13:52Z",
+      "sourceURL": "https://www.mciimobiliaria.pt/imovel/apartamento-t3-rc-com-parqueamento-localizado-em-zona-de-construcao-recente-do-montijo/22977602",
+      "checkedAt": "2026-10-05T16:04:24Z",
       "agency": "MCI Imobiliária",
       "status": "rejected",
       "reason": "No renovation evidence in the listing description"
     },
     {
-      "sourceURL": "https://www.mciimobiliaria.pt/imovel/apartamento-t3-1-andar-com-155-m-com-parqueamento-localizado-perto-do-alegro-montijo-e-acesso-a-pont/25102209",
-      "checkedAt": "2026-10-04T13:13:52Z",
+      "sourceURL": "https://www.mciimobiliaria.pt/imovel/apartamento-t4-com-152m-1-andar-c-varanda-e-parqueamento-na-praia-de-alcochete/23229529",
+      "checkedAt": "2026-10-05T16:04:24Z",
       "agency": "MCI Imobiliária",
       "status": "rejected",
       "reason": "No renovation evidence in the listing description"
     },
     {
-      "sourceURL": "https://www.mciimobiliaria.pt/imovel/apartamento-t3-1-andar-com-lugar-estacionamento-perto-acesso-pvgama-e-centro-montijo/24608330",
-      "checkedAt": "2026-10-04T13:13:52Z",
+      "sourceURL": "https://www.mciimobiliaria.pt/imovel/apartamento-t4-com-213m-localizado-perto-da-estacao-de-comboios-de-setubal/24638958",
+      "checkedAt": "2026-10-05T16:04:24Z",
       "agency": "MCI Imobiliária",
       "status": "rejected",
       "reason": "No renovation evidence in the listing description"
     },
     {
-      "sourceURL": "https://www.mciimobiliaria.pt/imovel/apartamento-t3-1-andar-com-parqueamento-zona-premium-a-100-metros-da-praia-de-matosinhos/21708826",
-      "checkedAt": "2026-10-04T13:13:52Z",
-      "agency": "MCI Imobiliária",
-      "status": "rejected",
-      "reason": "Outside Lisbon/Setúbal districts"
-    },
-    {
-      "sourceURL": "https://www.mciimobiliaria.pt/imovel/apartamento-t3-1-andar-com-terraco-localizado-em-zona-central-de-setubal/23691425",
-      "checkedAt": "2026-10-04T13:13:52Z",
+      "sourceURL": "https://www.mciimobiliaria.pt/imovel/apartamento-t4-de-luxo-em-condominio-privado-na-quinta-da-beloura/24046047",
+      "checkedAt": "2026-10-05T16:04:24Z",
       "agency": "MCI Imobiliária",
       "status": "rejected",
       "reason": "No renovation evidence in the listing description"
     },
     {
-      "sourceURL": "https://www.mciimobiliaria.pt/imovel/apartamento-t3-1-andar-perto-da-entrada-da-a1-do-carregado/25293619",
-      "checkedAt": "2026-10-04T13:13:52Z",
-      "agency": "MCI Imobiliária",
-      "status": "rejected",
-      "reason": "No renovation evidence in the listing description"
-    },
-    {
-      "sourceURL": "https://www.medipred.pt/imovel/apartamento-t1-remodelado-baixa-da-banheira/24448183",
-      "checkedAt": "2026-10-04T13:13:52Z",
+      "sourceURL": "https://www.medipred.pt/imovel/apartamento-t2-em-construcao-com-2-varandas-parqueamento-e-arrecadacao-odivelas/25787262",
+      "checkedAt": "2026-10-05T16:04:24Z",
       "agency": "MediPred",
       "status": "rejected",
       "reason": "No renovation evidence in the listing description"
     },
     {
-      "sourceURL": "https://www.medipred.pt/imovel/apartamento-t1-vista-rio-almada/26309348",
-      "checkedAt": "2026-10-04T13:13:52Z",
+      "sourceURL": "https://www.medipred.pt/imovel/apartamento-t2-em-construcao-com-parqueamento-e-arrecadacao-odivelas/25786355",
+      "checkedAt": "2026-10-05T16:04:24Z",
       "agency": "MediPred",
       "status": "rejected",
       "reason": "No renovation evidence in the listing description"
     },
     {
-      "sourceURL": "https://www.medipred.pt/imovel/apartamento-t11-novo-em-condominio-privado-com-terraco-e-box-loures/23929364",
-      "checkedAt": "2026-10-04T13:13:52Z",
-      "agency": "MediPred",
-      "status": "rejected",
-      "reason": "Structured listing URL does not match requested advert"
-    },
-    {
-      "sourceURL": "https://www.medipred.pt/imovel/apartamento-t2-c-parqueamento-e-arrecadacao-casal-residence-pontinha/26711134",
-      "checkedAt": "2026-10-04T13:13:52Z",
+      "sourceURL": "https://www.medipred.pt/imovel/apartamento-t2-em-construcao-com-parqueamento-e-arrecadacao-odivelas/25786384",
+      "checkedAt": "2026-10-05T16:04:24Z",
       "agency": "MediPred",
       "status": "rejected",
       "reason": "No renovation evidence in the listing description"
     },
     {
-      "sourceURL": "https://www.medipred.pt/imovel/apartamento-t2-c-parqueamento-e-arrecadacao-jardim-da-amoreira-ramada/26544465",
-      "checkedAt": "2026-10-04T13:13:52Z",
+      "sourceURL": "https://www.medipred.pt/imovel/apartamento-t2-em-construcao-montijo/24532604",
+      "checkedAt": "2026-10-05T16:04:24Z",
       "agency": "MediPred",
       "status": "rejected",
       "reason": "No renovation evidence in the listing description"
     },
     {
-      "sourceURL": "https://www.medipred.pt/imovel/apartamento-t2-com-2-varandas-e-2-parqueamentos-famoes-odivelas/26445533",
-      "checkedAt": "2026-10-04T13:13:52Z",
+      "sourceURL": "https://www.medipred.pt/imovel/apartamento-t2-em-construcao-montijo/25463776",
+      "checkedAt": "2026-10-05T16:04:24Z",
       "agency": "MediPred",
       "status": "rejected",
       "reason": "No renovation evidence in the listing description"
     },
     {
-      "sourceURL": "https://www.medipred.pt/imovel/apartamento-t2-com-arrecadacao-bons-dias-ramada/26560825",
-      "checkedAt": "2026-10-04T13:13:52Z",
+      "sourceURL": "https://www.medipred.pt/imovel/apartamento-t2-em-construcao-montijo/25463777",
+      "checkedAt": "2026-10-05T16:04:24Z",
       "agency": "MediPred",
       "status": "rejected",
       "reason": "No renovation evidence in the listing description"
     },
     {
-      "sourceURL": "https://www.medipred.pt/imovel/apartamento-t2-com-varanda-e-box-50-m2-ramada-odivelas/26383350",
-      "checkedAt": "2026-10-04T13:13:52Z",
+      "sourceURL": "https://www.medipred.pt/imovel/apartamento-t2-em-construcao-montijo/25527484",
+      "checkedAt": "2026-10-05T16:04:24Z",
       "agency": "MediPred",
       "status": "rejected",
       "reason": "No renovation evidence in the listing description"
     },
     {
-      "sourceURL": "https://www.medipred.pt/imovel/apartamento-t2-com-varanda-e-box-ramada-odivelas/26383197",
-      "checkedAt": "2026-10-04T13:13:52Z",
+      "sourceURL": "https://www.medipred.pt/imovel/apartamento-t2-em-construcao-montijo/25919040",
+      "checkedAt": "2026-10-05T16:04:24Z",
+      "agency": "MediPred",
+      "status": "rejected",
+      "reason": "Unambiguous asking price missing"
+    },
+    {
+      "sourceURL": "https://www.medipred.pt/imovel/apartamento-t2-montijo/25241992",
+      "checkedAt": "2026-10-05T16:04:24Z",
       "agency": "MediPred",
       "status": "rejected",
       "reason": "No renovation evidence in the listing description"
     },
     {
-      "sourceURL": "https://www.medipred.pt/imovel/apartamento-t2-com-varanda-e-box/26382146",
-      "checkedAt": "2026-10-04T13:13:52Z",
+      "sourceURL": "https://www.medipred.pt/imovel/apartamento-t2-montijo/25242001",
+      "checkedAt": "2026-10-05T16:04:24Z",
       "agency": "MediPred",
       "status": "rejected",
       "reason": "No renovation evidence in the listing description"
     },
     {
-      "sourceURL": "https://www.medipred.pt/imovel/apartamento-t2-com-varanda-parqueamento-e-arrecadacao-alta-de-lisboa/26690428",
-      "checkedAt": "2026-10-04T13:13:52Z",
+      "sourceURL": "https://www.medipred.pt/imovel/apartamento-t2-montijo/25497994",
+      "checkedAt": "2026-10-05T16:04:24Z",
       "agency": "MediPred",
       "status": "rejected",
       "reason": "No renovation evidence in the listing description"
     },
     {
-      "sourceURL": "https://www.medipred.pt/imovel/apartamento-t2-duplex-em-construcao-com-2-varandas-e-box-odivelas/25976548",
-      "checkedAt": "2026-10-04T13:13:52Z",
+      "sourceURL": "https://www.medipred.pt/imovel/apartamento-t2-montijo/25498015",
+      "checkedAt": "2026-10-05T16:04:24Z",
       "agency": "MediPred",
       "status": "rejected",
       "reason": "No renovation evidence in the listing description"
     },
     {
-      "sourceURL": "https://www.medipred.pt/imovel/apartamento-t2-duplex-em-construcao-com-2-varandas-e-box-odivelas/25976549",
-      "checkedAt": "2026-10-04T13:13:52Z",
+      "sourceURL": "https://www.medipred.pt/imovel/apartamento-t2-montijo/25498016",
+      "checkedAt": "2026-10-05T16:04:24Z",
       "agency": "MediPred",
       "status": "rejected",
       "reason": "No renovation evidence in the listing description"
     },
     {
-      "sourceURL": "https://www.medipred.pt/imovel/apartamento-t2-em-condominio-privado-vale-grande-famoes/26137456",
-      "checkedAt": "2026-10-04T13:13:52Z",
+      "sourceURL": "https://www.medipred.pt/imovel/apartamento-t2-montijo/25498031",
+      "checkedAt": "2026-10-05T16:04:24Z",
       "agency": "MediPred",
       "status": "rejected",
       "reason": "No renovation evidence in the listing description"
     },
     {
-      "sourceURL": "https://www.medipred.pt/imovel/apartamento-t2-em-condominio-privado-vale-grande-famoes/26137462",
-      "checkedAt": "2026-10-04T13:13:52Z",
+      "sourceURL": "https://www.medipred.pt/imovel/apartamento-t2-montijo/25498075",
+      "checkedAt": "2026-10-05T16:04:24Z",
       "agency": "MediPred",
+      "status": "rejected",
+      "reason": "No renovation evidence in the listing description"
+    },
+    {
+      "sourceURL": "https://www.medipred.pt/imovel/apartamento-t2-montijo/25498076",
+      "checkedAt": "2026-10-05T16:04:24Z",
+      "agency": "MediPred",
+      "status": "rejected",
+      "reason": "No renovation evidence in the listing description"
+    },
+    {
+      "sourceURL": "https://www.oestesolucoes.com.pt/imovel/apartamento-t2-em-ribamar-lourinha/26301941",
+      "checkedAt": "2026-10-05T16:04:24Z",
+      "agency": "Oeste Soluções",
       "status": "unavailable",
       "error": "\u003curlopen error [Errno 111] Connection refused>"
     },
     {
-      "sourceURL": "https://www.medipred.pt/imovel/apartamento-t2-em-construcao-com-2-varandas-e-box-odivelas/25788608",
-      "checkedAt": "2026-10-04T13:13:52Z",
-      "agency": "MediPred",
+      "sourceURL": "https://www.oestesolucoes.com.pt/imovel/apartamento-t2-em-torres-vedras/25688202",
+      "checkedAt": "2026-10-05T16:04:24Z",
+      "agency": "Oeste Soluções",
       "status": "unavailable",
       "error": "\u003curlopen error [Errno 111] Connection refused>"
     },
     {
-      "sourceURL": "https://www.oestesolucoes.com.pt/imovel/casa-e-terreno-carea-total-de-400-m2/25650605",
-      "checkedAt": "2026-10-04T13:13:52Z",
+      "sourceURL": "https://www.oestesolucoes.com.pt/imovel/apartamento-t2-em-torres-vedras/25688594",
+      "checkedAt": "2026-10-05T16:04:24Z",
+      "agency": "Oeste Soluções",
+      "status": "unavailable",
+      "error": "\u003curlopen error [Errno 111] Connection refused>"
+    },
+    {
+      "sourceURL": "https://www.oestesolucoes.com.pt/imovel/apartamento-t21-lourinha/26461124",
+      "checkedAt": "2026-10-05T16:04:24Z",
+      "agency": "Oeste Soluções",
+      "status": "unavailable",
+      "error": "\u003curlopen error [Errno 111] Connection refused>"
+    },
+    {
+      "sourceURL": "https://www.oestesolucoes.com.pt/imovel/excelente-apartamento-t2-inserido-no-condominio-privado-casas-de-santana/26715698",
+      "checkedAt": "2026-10-05T16:04:24Z",
+      "agency": "Oeste Soluções",
+      "status": "unavailable",
+      "error": "\u003curlopen error [Errno 111] Connection refused>"
+    },
+    {
+      "sourceURL": "https://www.oestesolucoes.com.pt/imovel/lote-51-de-terreno-para-construcao-de-moradia-na-lourinha/22137279",
+      "checkedAt": "2026-10-05T16:04:24Z",
+      "agency": "Oeste Soluções",
+      "status": "unavailable",
+      "error": "\u003curlopen error [Errno 111] Connection refused>"
+    },
+    {
+      "sourceURL": "https://www.oestesolucoes.com.pt/imovel/lote-52-de-terreno-para-construcao-de-moradia-na-lourinha/22137280",
+      "checkedAt": "2026-10-05T16:04:24Z",
+      "agency": "Oeste Soluções",
+      "status": "unavailable",
+      "error": "\u003curlopen error [Errno 111] Connection refused>"
+    },
+    {
+      "sourceURL": "https://www.oestesolucoes.com.pt/imovel/lote-para-construcao-de-moradia-na-silveira-torres-vedras/23872585",
+      "checkedAt": "2026-10-05T16:04:24Z",
+      "agency": "Oeste Soluções",
+      "status": "unavailable",
+      "error": "\u003curlopen error [Errno 111] Connection refused>"
+    },
+    {
+      "sourceURL": "https://www.oestesolucoes.com.pt/imovel/lote-para-construcao-de-moradia-na-silveira-torres-vedras/24267083",
+      "checkedAt": "2026-10-05T16:04:24Z",
+      "agency": "Oeste Soluções",
+      "status": "unavailable",
+      "error": "\u003curlopen error [Errno 111] Connection refused>"
+    },
+    {
+      "sourceURL": "https://www.oestesolucoes.com.pt/imovel/moradia-bifamiliar-novo/25708099",
+      "checkedAt": "2026-10-05T16:04:24Z",
+      "agency": "Oeste Soluções",
+      "status": "unavailable",
+      "error": "\u003curlopen error [Errno 111] Connection refused>"
+    },
+    {
+      "sourceURL": "https://www.oestesolucoes.com.pt/imovel/predio-para-recuperar-no-centro-da-lourinha/20357673",
+      "checkedAt": "2026-10-05T16:04:24Z",
+      "agency": "Oeste Soluções",
+      "status": "rejected",
+      "reason": "Public browser render failed; Explicit floor/plot area missing"
+    },
+    {
+      "sourceURL": "https://www.oestesolucoes.com.pt/imovel/terreno-rustico-no-bombarral/7317300",
+      "checkedAt": "2026-10-05T16:04:24Z",
       "agency": "Oeste Soluções",
       "status": "rejected",
       "reason": "Outside Lisbon/Setúbal districts"
     },
     {
-      "sourceURL": "https://www.oestesolucoes.com.pt/imovel/moradia-t4-em-torres-vedras/25555145",
-      "checkedAt": "2026-10-04T13:13:52Z",
-      "agency": "Oeste Soluções",
-      "status": "rejected",
-      "reason": "No renovation evidence in the listing description"
-    },
-    {
-      "sourceURL": "https://www.oestesolucoes.com.pt/imovel/moradia-v4-em-construcao-bufarda-peniche/23779522",
-      "checkedAt": "2026-10-04T13:13:52Z",
-      "agency": "Oeste Soluções",
-      "status": "rejected",
-      "reason": "Outside Lisbon/Setúbal districts"
-    },
-    {
-      "sourceURL": "https://www.oestesolucoes.com.pt/imovel/terreno-316-ha-na-lourinha/23665341",
-      "checkedAt": "2026-10-04T13:13:52Z",
+      "sourceURL": "https://www.oestesolucoes.com.pt/imovel/terreno-rustico-ramalhal/20575671",
+      "checkedAt": "2026-10-05T16:04:24Z",
       "agency": "Oeste Soluções",
       "status": "rejected",
       "reason": "Explicit floor/plot area missing"
     },
     {
-      "sourceURL": "https://www.oestesolucoes.com.pt/imovel/terreno-agricola-c-area-1-360-m2/25650502",
-      "checkedAt": "2026-10-04T13:13:52Z",
+      "sourceURL": "https://www.oestesolucoes.com.pt/imovel/terrenos-em-campelos-torres-vedras/24896836",
+      "checkedAt": "2026-10-05T16:04:24Z",
       "agency": "Oeste Soluções",
       "status": "rejected",
-      "reason": "Explicit floor/plot area missing"
+      "reason": "No renovation evidence in the listing description"
     },
     {
-      "sourceURL": "https://www.oestesolucoes.com.pt/imovel/terreno-agricola-c-area-12320m2/25300228",
-      "checkedAt": "2026-10-04T13:13:52Z",
-      "agency": "Oeste Soluções",
-      "status": "unavailable",
-      "error": "\u003curlopen error [Errno 111] Connection refused>"
-    },
-    {
-      "sourceURL": "https://www.oestesolucoes.com.pt/imovel/terreno-agricola-c-area-total-3-terrenos-4-280-m2-lourinha/25650521",
-      "checkedAt": "2026-10-04T13:13:52Z",
-      "agency": "Oeste Soluções",
-      "status": "rejected",
-      "reason": "Explicit floor/plot area missing"
-    },
-    {
-      "sourceURL": "https://www.oestesolucoes.com.pt/imovel/terreno-em-santa-barbara-lourinha-oportunidade-unica/22980406",
-      "checkedAt": "2026-10-04T13:13:52Z",
-      "agency": "Oeste Soluções",
-      "status": "unavailable",
-      "error": "\u003curlopen error [Errno 111] Connection refused>"
-    },
-    {
-      "sourceURL": "https://www.oestesolucoes.com.pt/imovel/terreno-p-construcao-area-1-96322m2-restante-terreno-natureza-rustica-area-1-39678-m2/20661321",
-      "checkedAt": "2026-10-04T13:13:52Z",
-      "agency": "Oeste Soluções",
-      "status": "unavailable",
-      "error": "\u003curlopen error [Errno 111] Connection refused>"
-    },
-    {
-      "sourceURL": "https://www.oestesolucoes.com.pt/imovel/terreno-p-construcao-no-ramalhal/21499094",
-      "checkedAt": "2026-10-04T13:13:52Z",
-      "agency": "Oeste Soluções",
-      "status": "unavailable",
-      "error": "\u003curlopen error [Errno 111] Connection refused>"
-    },
-    {
-      "sourceURL": "https://www.oestesolucoes.com.pt/imovel/terreno-para-construcao-em-casais-larana/19844732",
-      "checkedAt": "2026-10-04T13:13:52Z",
-      "agency": "Oeste Soluções",
-      "status": "unavailable",
-      "error": "\u003curlopen error [Errno 111] Connection refused>"
-    },
-    {
-      "sourceURL": "https://www.oestesolucoes.com.pt/imovel/terreno-rustico-c-area-2920-m2/25641576",
-      "checkedAt": "2026-10-04T13:13:52Z",
-      "agency": "Oeste Soluções",
-      "status": "unavailable",
-      "error": "\u003curlopen error [Errno 111] Connection refused>"
-    },
-    {
-      "sourceURL": "https://www.oestesolucoes.com.pt/imovel/terreno-rustico-com-24955-m2-no-ramalhal/19371968",
-      "checkedAt": "2026-10-04T13:13:52Z",
-      "agency": "Oeste Soluções",
-      "status": "unavailable",
-      "error": "\u003curlopen error [Errno 111] Connection refused>"
-    },
-    {
-      "sourceURL": "https://www.oestesolucoes.com.pt/imovel/terreno-rustico-com-62440-m2-no-ramalhal/19373880",
-      "checkedAt": "2026-10-04T13:13:52Z",
-      "agency": "Oeste Soluções",
-      "status": "unavailable",
-      "error": "\u003curlopen error [Errno 111] Connection refused>"
-    },
-    {
-      "sourceURL": "https://www.oestesolucoes.com.pt/imovel/terreno-rustico-com-projeto-de-empreendimento-na-lourinha/19785155",
-      "checkedAt": "2026-10-04T13:13:52Z",
-      "agency": "Oeste Soluções",
-      "status": "unavailable",
-      "error": "\u003curlopen error [Errno 111] Connection refused>"
-    },
-    {
-      "sourceURL": "https://www.oestesolucoes.com.pt/imovel/terreno-rustico-na-fonte-grada-torres-vedras/24639155",
-      "checkedAt": "2026-10-04T13:13:52Z",
-      "agency": "Oeste Soluções",
-      "status": "unavailable",
-      "error": "\u003curlopen error [Errno 111] Connection refused>"
-    },
-    {
-      "sourceURL": "https://www.oraescolha.pt/imovel/apartamento-t3-recente-de-2023-com-166-m2-com-suite-e-varandas-na-amora/26159450",
-      "checkedAt": "2026-10-04T13:13:52Z",
+      "sourceURL": "https://www.oraescolha.pt/imovel/moradia-isolada-terrea-t4-com-2-suites-piscina-e-estacionamento-em-pergola-nos-redondos-fernao-ferro/22618765",
+      "checkedAt": "2026-10-05T16:04:24Z",
       "agency": "Ora Escolha",
       "status": "rejected",
       "reason": "No renovation evidence in the listing description"
     },
     {
-      "sourceURL": "https://www.oraescolha.pt/imovel/apartamento-t3-totalmente-remodelado-com-100-m2-no-cavadas-seixal/26247245",
-      "checkedAt": "2026-10-04T13:13:52Z",
+      "sourceURL": "https://www.oraescolha.pt/imovel/moradia-isolada-terrea-t4-nova-com-piscina-e-anexo-nos-redondos-fernao-ferro/26521483",
+      "checkedAt": "2026-10-05T16:04:24Z",
+      "agency": "Ora Escolha",
+      "status": "unavailable",
+      "error": "\u003curlopen error [Errno 111] Connection refused>"
+    },
+    {
+      "sourceURL": "https://www.oraescolha.pt/imovel/moradia-isolada-terrea-t4-nova-com-piscina-e-pergola-em-pinhal-do-general/23720918",
+      "checkedAt": "2026-10-05T16:04:24Z",
       "agency": "Ora Escolha",
       "status": "rejected",
       "reason": "No renovation evidence in the listing description"
     },
     {
-      "sourceURL": "https://www.oraescolha.pt/imovel/apartamento-t3-totalmente-remodelado-no-laranjeiro/25805792",
-      "checkedAt": "2026-10-04T13:13:52Z",
+      "sourceURL": "https://www.oraescolha.pt/imovel/moradia-nova-geminada-t3-1-com-2-suites-e-pergola-em-pinhal-do-general-fernao-ferro/24967229",
+      "checkedAt": "2026-10-05T16:04:24Z",
+      "agency": "Ora Escolha",
+      "status": "unavailable",
+      "error": "\u003curlopen error [Errno 111] Connection refused>"
+    },
+    {
+      "sourceURL": "https://www.oraescolha.pt/imovel/moradia-nova-geminada-t3-com-2-suites-com-closet-e-pergola-em-fernao-ferro/25356892",
+      "checkedAt": "2026-10-05T16:04:24Z",
+      "agency": "Ora Escolha",
+      "status": "unavailable",
+      "error": "\u003curlopen error [Errno 111] Connection refused>"
+    },
+    {
+      "sourceURL": "https://www.oraescolha.pt/imovel/moradia-nova-geminada-t3-com-2-suites-com-closet-e-pergola-em-fernao-ferro/26725444",
+      "checkedAt": "2026-10-05T16:04:24Z",
       "agency": "Ora Escolha",
       "status": "rejected",
       "reason": "No renovation evidence in the listing description"
     },
     {
-      "sourceURL": "https://www.oraescolha.pt/imovel/apartamento-t3-totalmente-remodelado-res-do-chao-alto-com-100-m2-na-cruz-de-pau/26464988",
-      "checkedAt": "2026-10-04T13:13:52Z",
+      "sourceURL": "https://www.oraescolha.pt/imovel/moradia-nova-geminada-t3-com-2-suites-e-pergola-em-pinhal-do-general-fernao-ferro/25389327",
+      "checkedAt": "2026-10-05T16:04:24Z",
+      "agency": "Ora Escolha",
+      "status": "unavailable",
+      "error": "\u003curlopen error [Errno 111] Connection refused>"
+    },
+    {
+      "sourceURL": "https://www.oraescolha.pt/imovel/moradia-nova-geminada-t3-com-2-suites-e-pergola-em-pinhal-do-general-fernao-ferro/25394937",
+      "checkedAt": "2026-10-05T16:04:24Z",
+      "agency": "Ora Escolha",
+      "status": "unavailable",
+      "error": "\u003curlopen error [Errno 111] Connection refused>"
+    },
+    {
+      "sourceURL": "https://www.oraescolha.pt/imovel/moradia-nova-geminada-t3-com-2-suites-e-pergola-em-pinhal-do-general-fernao-ferro/25557541",
+      "checkedAt": "2026-10-05T16:04:24Z",
       "agency": "Ora Escolha",
       "status": "rejected",
       "reason": "No renovation evidence in the listing description"
     },
     {
-      "sourceURL": "https://www.oraescolha.pt/imovel/apartamento-t4-totalmente-remodelado-121-m2-de-area-bruta-privativa-na-quinta-do-batateiro-amora/26684805",
-      "checkedAt": "2026-10-04T13:13:52Z",
+      "sourceURL": "https://www.oraescolha.pt/imovel/moradia-nova-geminada-t4-com-2-suites-e-pergola-no-pinhal-do-general-fernao-ferro/25035554",
+      "checkedAt": "2026-10-05T16:04:24Z",
       "agency": "Ora Escolha",
+      "status": "unavailable",
+      "error": "\u003curlopen error [Errno 111] Connection refused>"
+    },
+    {
+      "sourceURL": "https://www.oraescolha.pt/imovel/moradia-nova-geminada-t4-com-2-suites-e-pergola-no-pinhal-general-fernao-ferro/25058671",
+      "checkedAt": "2026-10-05T16:04:24Z",
+      "agency": "Ora Escolha",
+      "status": "unavailable",
+      "error": "\u003curlopen error [Errno 111] Connection refused>"
+    },
+    {
+      "sourceURL": "https://www.oraescolha.pt/imovel/moradia-nova-isolada-terrea-t4-com-pergola-nos-redondos-fernao-ferro/21351321",
+      "checkedAt": "2026-10-05T16:04:24Z",
+      "agency": "Ora Escolha",
+      "status": "unavailable",
+      "error": "\u003curlopen error [Errno 111] Connection refused>"
+    },
+    {
+      "sourceURL": "https://www.oraescolha.pt/imovel/moradia-t3-geminada-nova-com-pergula-fernao-ferro/25216139",
+      "checkedAt": "2026-10-05T16:04:24Z",
+      "agency": "Ora Escolha",
+      "status": "unavailable",
+      "error": "\u003curlopen error [Errno 111] Connection refused>"
+    },
+    {
+      "sourceURL": "https://www.oraescolha.pt/imovel/moradia-t3-geminada-nova-com-piscina-e-pergola-fernao-ferro/25219639",
+      "checkedAt": "2026-10-05T16:04:24Z",
+      "agency": "Ora Escolha",
+      "status": "unavailable",
+      "error": "\u003curlopen error [Errno 111] Connection refused>"
+    },
+    {
+      "sourceURL": "https://www.oraescolha.pt/imovel/moradia-t3-geminada-nova-com-piscina-e-pergola-fernao-ferro/25219677",
+      "checkedAt": "2026-10-05T16:04:24Z",
+      "agency": "Ora Escolha",
+      "status": "unavailable",
+      "error": "\u003curlopen error [Errno 111] Connection refused>"
+    },
+    {
+      "sourceURL": "https://www.oraescolha.pt/imovel/moradia-t3-geminada-nova-com-piscina-fernao-ferro/21603873",
+      "checkedAt": "2026-10-05T16:04:24Z",
+      "agency": "Ora Escolha",
+      "status": "unavailable",
+      "error": "\u003curlopen error [Errno 111] Connection refused>"
+    },
+    {
+      "sourceURL": "https://www.ptcasas.pt/imovel/apartamento-t0-para-remodelar-em-peniche/26471023",
+      "checkedAt": "2026-10-05T16:04:24Z",
+      "agency": "PT Casas",
+      "status": "unavailable",
+      "error": "\u003curlopen error [Errno 111] Connection refused>"
+    },
+    {
+      "sourceURL": "https://www.ptcasas.pt/imovel/apartamento-t1-baleal-sol-village-i/25946709",
+      "checkedAt": "2026-10-05T16:04:24Z",
+      "agency": "PT Casas",
+      "status": "rejected",
+      "reason": "Outside Lisbon/Setúbal districts"
+    },
+    {
+      "sourceURL": "https://www.ptcasas.pt/imovel/apartamento-t3-no-centro-da-lourinha/26062989",
+      "checkedAt": "2026-10-05T16:04:24Z",
+      "agency": "PT Casas",
+      "status": "unavailable",
+      "error": "\u003curlopen error [Errno 111] Connection refused>"
+    },
+    {
+      "sourceURL": "https://www.ptcasas.pt/imovel/apartamento-t3-novo-no-centro-da-lourinha-pronto-para-morar/26062837",
+      "checkedAt": "2026-10-05T16:04:24Z",
+      "agency": "PT Casas",
+      "status": "unavailable",
+      "error": "\u003curlopen error [Errno 111] Connection refused>"
+    },
+    {
+      "sourceURL": "https://www.ptcasas.pt/imovel/apartamento-t4-duplex-peniche/26018132",
+      "checkedAt": "2026-10-05T16:04:24Z",
+      "agency": "PT Casas",
+      "status": "unavailable",
+      "error": "\u003curlopen error [Errno 111] Connection refused>"
+    },
+    {
+      "sourceURL": "https://www.ptcasas.pt/imovel/casa-em-ruina/22716881",
+      "checkedAt": "2026-10-05T16:04:24Z",
+      "agency": "PT Casas",
+      "status": "rejected",
+      "reason": "Outside Lisbon/Setúbal districts"
+    },
+    {
+      "sourceURL": "https://www.ptcasas.pt/imovel/lote-de-terreno-para-construcao-de-2-moradias-com-projeto-aprovado-e-licenca-emitida/24148568",
+      "checkedAt": "2026-10-05T16:04:24Z",
+      "agency": "PT Casas",
+      "status": "unavailable",
+      "error": "\u003curlopen error [Errno 111] Connection refused>"
+    },
+    {
+      "sourceURL": "https://www.ptcasas.pt/imovel/moradia-para-recuperacao-com-adega-e-logradouro/24718587",
+      "checkedAt": "2026-10-05T16:04:24Z",
+      "agency": "PT Casas",
+      "status": "unavailable",
+      "error": "\u003curlopen error [Errno 111] Connection refused>"
+    },
+    {
+      "sourceURL": "https://www.ptcasas.pt/imovel/moradia-t3-com-terreno-e-vista-mar-em-abelheira-lourinha/26613954",
+      "checkedAt": "2026-10-05T16:04:24Z",
+      "agency": "PT Casas",
+      "status": "unavailable",
+      "error": "\u003curlopen error [Errno 111] Connection refused>"
+    },
+    {
+      "sourceURL": "https://www.ptcasas.pt/imovel/solar-centenario-totalmente-recuperado-na-marteleira-lourinha/20674560",
+      "checkedAt": "2026-10-05T16:04:24Z",
+      "agency": "PT Casas",
       "status": "rejected",
       "reason": "No renovation evidence in the listing description"
     },
     {
-      "sourceURL": "https://www.oraescolha.pt/imovel/excelente-apartamento-t3-em-1-andar-no-feijo/24760664",
-      "checkedAt": "2026-10-04T13:13:52Z",
-      "agency": "Ora Escolha",
-      "status": "rejected",
-      "reason": "No renovation evidence in the listing description"
-    },
-    {
-      "sourceURL": "https://www.oraescolha.pt/imovel/moradia-geminada-nova-t3-1-com-garagem-em-fernao-ferro/24083406",
-      "checkedAt": "2026-10-04T13:13:52Z",
-      "agency": "Ora Escolha",
-      "status": "rejected",
-      "reason": "No renovation evidence in the listing description"
-    },
-    {
-      "sourceURL": "https://www.oraescolha.pt/imovel/moradia-geminada-nova-t3-com-piscina-no-pinhal-general-fernao-ferro/23656536",
-      "checkedAt": "2026-10-04T13:13:52Z",
-      "agency": "Ora Escolha",
-      "status": "unavailable",
-      "error": "\u003curlopen error [Errno 111] Connection refused>"
-    },
-    {
-      "sourceURL": "https://www.oraescolha.pt/imovel/moradia-geminada-t4-nova-com-garagem-nos-redondos-fernao-ferro/26521479",
-      "checkedAt": "2026-10-04T13:13:52Z",
-      "agency": "Ora Escolha",
-      "status": "rejected",
-      "reason": "No renovation evidence in the listing description"
-    },
-    {
-      "sourceURL": "https://www.oraescolha.pt/imovel/moradia-geminada-t4-nova-com-piscina-e-pergola-nos-redondos-fernao-ferro/24461046",
-      "checkedAt": "2026-10-04T13:13:52Z",
-      "agency": "Ora Escolha",
-      "status": "unavailable",
-      "error": "\u003curlopen error [Errno 111] Connection refused>"
-    },
-    {
-      "sourceURL": "https://www.oraescolha.pt/imovel/moradia-isolada-nova-terrea-de-4-assoalhadas-em-fernao-ferro-com-garagem-e-lavandaria/24930136",
-      "checkedAt": "2026-10-04T13:13:52Z",
-      "agency": "Ora Escolha",
-      "status": "unavailable",
-      "error": "\u003curlopen error [Errno 111] Connection refused>"
-    },
-    {
-      "sourceURL": "https://www.oraescolha.pt/imovel/moradia-isolada-nova-terrea-de-4-assoalhadas-em-fernao-ferro-com-garagem-e-lavandaria/26494379",
-      "checkedAt": "2026-10-04T13:13:52Z",
-      "agency": "Ora Escolha",
-      "status": "rejected",
-      "reason": "No renovation evidence in the listing description"
-    },
-    {
-      "sourceURL": "https://www.oraescolha.pt/imovel/moradia-isolada-t4-com-piscina-e-garagem-na-charneca-da-caparica/26158891",
-      "checkedAt": "2026-10-04T13:13:52Z",
-      "agency": "Ora Escolha",
-      "status": "unavailable",
-      "error": "\u003curlopen error [Errno 111] Connection refused>"
-    },
-    {
-      "sourceURL": "https://www.oraescolha.pt/imovel/moradia-isolada-t4-de-2001-nos-foros-de-amora/21207478",
-      "checkedAt": "2026-10-04T13:13:52Z",
-      "agency": "Ora Escolha",
-      "status": "unavailable",
-      "error": "\u003curlopen error [Errno 111] Connection refused>"
-    },
-    {
-      "sourceURL": "https://www.oraescolha.pt/imovel/moradia-isolada-terrea-nova-de-4-assoalhadas-em-fernao-ferro-com-garagem-e-lavandaria/24071061",
-      "checkedAt": "2026-10-04T13:13:52Z",
-      "agency": "Ora Escolha",
-      "status": "unavailable",
-      "error": "\u003curlopen error [Errno 111] Connection refused>"
-    },
-    {
-      "sourceURL": "https://www.oraescolha.pt/imovel/moradia-isolada-terrea-t3-1-nova-com-piscina-e-anexo-nos-redondos-fernao-ferro/26521482",
-      "checkedAt": "2026-10-04T13:13:52Z",
-      "agency": "Ora Escolha",
-      "status": "unavailable",
-      "error": "\u003curlopen error [Errno 111] Connection refused>"
-    },
-    {
-      "sourceURL": "https://www.ptcasas.pt/imovel/lote-para-construcao-de-armazem-em-zona-industrial-com-exposicao-comercial-e-bons-acessos-em-torres-/25919075",
-      "checkedAt": "2026-10-04T13:13:52Z",
-      "agency": "PT Casas",
-      "status": "unavailable",
-      "error": "\u003curlopen error [Errno 111] Connection refused>"
-    },
-    {
-      "sourceURL": "https://www.ptcasas.pt/imovel/moradia-t2/25569457",
-      "checkedAt": "2026-10-04T13:13:52Z",
-      "agency": "PT Casas",
-      "status": "unavailable",
-      "error": "\u003curlopen error [Errno 111] Connection refused>"
-    },
-    {
-      "sourceURL": "https://www.ptcasas.pt/imovel/moradia-t3-com-piscina-e-garagem-pronta-para-morar-totalmente-equipada/25894168",
-      "checkedAt": "2026-10-04T13:13:52Z",
-      "agency": "PT Casas",
-      "status": "unavailable",
-      "error": "\u003curlopen error [Errno 111] Connection refused>"
-    },
-    {
-      "sourceURL": "https://www.ptcasas.pt/imovel/moradia-t3-nova-com-piscina-em-bombarral/26679888",
-      "checkedAt": "2026-10-04T13:13:52Z",
-      "agency": "PT Casas",
-      "status": "unavailable",
-      "error": "\u003curlopen error [Errno 111] Connection refused>"
-    },
-    {
-      "sourceURL": "https://www.ptcasas.pt/imovel/moradia-t4-com-piscina-em-torres-vedras/26249300",
-      "checkedAt": "2026-10-04T13:13:52Z",
-      "agency": "PT Casas",
-      "status": "unavailable",
-      "error": "\u003curlopen error [Errno 111] Connection refused>"
-    },
-    {
-      "sourceURL": "https://www.ptcasas.pt/imovel/moradia-t4-com-piscina-na-cidade-de-torres-vedras/25335133",
-      "checkedAt": "2026-10-04T13:13:52Z",
-      "agency": "PT Casas",
-      "status": "unavailable",
-      "error": "\u003curlopen error [Errno 111] Connection refused>"
-    },
-    {
-      "sourceURL": "https://www.ptcasas.pt/imovel/moradia-t4-nova-com-piscina-em-ramalhal-torres-vedras/21672929",
-      "checkedAt": "2026-10-04T13:13:52Z",
-      "agency": "PT Casas",
-      "status": "unavailable",
-      "error": "\u003curlopen error [Errno 111] Connection refused>"
-    },
-    {
-      "sourceURL": "https://www.ptcasas.pt/imovel/moradia-t4-nova-com-piscina-na-zona-oeste-proximo-de-torres-vedras/26326604",
-      "checkedAt": "2026-10-04T13:13:52Z",
-      "agency": "PT Casas",
-      "status": "unavailable",
-      "error": "\u003curlopen error [Errno 111] Connection refused>"
-    },
-    {
-      "sourceURL": "https://www.ptcasas.pt/imovel/moradia-t4-nova-na-cidade-de-torres-vedras/25335106",
-      "checkedAt": "2026-10-04T13:13:52Z",
-      "agency": "PT Casas",
-      "status": "unavailable",
-      "error": "\u003curlopen error [Errno 111] Connection refused>"
-    },
-    {
-      "sourceURL": "https://www.ptcasas.pt/imovel/moradia-t4-premium-com-piscina-em-torres-vedras/26466592",
-      "checkedAt": "2026-10-04T13:13:52Z",
-      "agency": "PT Casas",
-      "status": "unavailable",
-      "error": "\u003curlopen error [Errno 111] Connection refused>"
-    },
-    {
-      "sourceURL": "https://www.ptcasas.pt/imovel/moradia-t5-com-piscina-em-peniche/26318747",
-      "checkedAt": "2026-10-04T13:13:52Z",
-      "agency": "PT Casas",
-      "status": "unavailable",
-      "error": "\u003curlopen error [Errno 111] Connection refused>"
-    },
-    {
-      "sourceURL": "https://www.ptcasas.pt/imovel/moradia-v5-nova-com-piscina-em-santa-cruz-torres-vedras-pronta-para-morar/25881952",
-      "checkedAt": "2026-10-04T13:13:52Z",
-      "agency": "PT Casas",
-      "status": "unavailable",
-      "error": "\u003curlopen error [Errno 111] Connection refused>"
-    },
-    {
-      "sourceURL": "https://www.ptcasas.pt/imovel/terreno-a-venda-em-monte-real-leiria/26443968",
-      "checkedAt": "2026-10-04T13:13:52Z",
-      "agency": "PT Casas",
-      "status": "unavailable",
-      "error": "\u003curlopen error [Errno 111] Connection refused>"
-    },
-    {
-      "sourceURL": "https://www.ptcasas.pt/imovel/terreno-com-1300-m-sao-bartolomeu-dos-galegos/26185851",
-      "checkedAt": "2026-10-04T13:13:52Z",
-      "agency": "PT Casas",
-      "status": "unavailable",
-      "error": "\u003curlopen error [Errno 111] Connection refused>"
-    },
-    {
-      "sourceURL": "https://www.ptcasas.pt/imovel/terreno-com-possibilidade-de-construcao-em-carvalhal/24736306",
-      "checkedAt": "2026-10-04T13:13:52Z",
-      "agency": "PT Casas",
-      "status": "unavailable",
-      "error": "\u003curlopen error [Errno 111] Connection refused>"
-    },
-    {
-      "sourceURL": "https://www.ptcasas.pt/imovel/terreno-urbano-para-construcao-de-moradia-no-varatojo/26476257",
-      "checkedAt": "2026-10-04T13:13:52Z",
+      "sourceURL": "https://www.ptcasas.pt/imovel/terreno-para-construcao-em-a-dos-cunhados-torres-vedras/20734114",
+      "checkedAt": "2026-10-05T16:04:24Z",
       "agency": "PT Casas",
       "status": "rejected",
       "reason": "No explicit sea-view evidence (beach proximity is insufficient)"
+    },
+    {
+      "sourceURL": "https://www.ptcasas.pt/imovel/terreno-rustico-para-venda/21149710",
+      "checkedAt": "2026-10-05T16:04:24Z",
+      "agency": "PT Casas",
+      "status": "rejected",
+      "reason": "Explicit floor/plot area missing"
+    },
+    {
+      "sourceURL": "https://www.ptcasas.pt/imovel/terreno-rustico/26654681",
+      "checkedAt": "2026-10-05T16:04:24Z",
+      "agency": "PT Casas",
+      "status": "rejected",
+      "reason": "Outside Lisbon/Setúbal districts"
+    },
+    {
+      "sourceURL": "https://www.ptcasas.pt/imovel/terreno-urbano-com-2-armazens-prontos-a-usar-na-zona-torres-vedras/26476265",
+      "checkedAt": "2026-10-05T16:04:24Z",
+      "agency": "PT Casas",
+      "status": "unavailable",
+      "error": "\u003curlopen error [Errno 111] Connection refused>"
     }
   ],
   "sources": [
@@ -2165,13 +2192,17 @@ const RefreshStatus = {
       "name": "West Life ImobiliÃ¡ria",
       "host": "www.westlifeimobiliaria.com",
       "existing": 4,
-      "fetched": 1,
-      "errors": 3,
+      "fetched": 2,
+      "errors": 2,
       "discoveredURLs": 0,
       "detailCandidates": 0,
       "discoveryErrors": [
         {
           "url": "https://www.westlifeimobiliaria.com/sitemap-pt-pt.xml",
+          "error": "\u003curlopen error [Errno 111] Connection refused>"
+        },
+        {
+          "url": "https://www.westlifeimobiliaria.com/imoveis/terrenos",
           "error": "\u003curlopen error [Errno 111] Connection refused>"
         },
         {
@@ -2181,15 +2212,15 @@ const RefreshStatus = {
       ]
     }
   ],
-  "runURL": "https://github.com/Bomaguiar/tejo-scout/actions/runs/37204836679",
+  "runURL": "https://github.com/Bomaguiar/tejo-scout/actions/runs/37337860338",
   "availabilityChanges": [
     {
-      "id": "land-ff75689b147063",
+      "id": "land-70e6d327c364c7",
       "from": "unverified",
       "to": "advert-live"
     }
   ],
   "inactive": 2,
-  "catalogUpdatedAt": "2026-10-04T13:13:52Z"
+  "catalogUpdatedAt": "2026-10-05T16:04:24Z"
 };
 if(typeof module!=='undefined')module.exports=RefreshStatus;
