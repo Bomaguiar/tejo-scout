@@ -16,7 +16,7 @@ const LandCatalog = [
     "sourceCheck": {
       "id": "land-kw55379",
       "sourceURL": "https://www.kwportugal.pt/pt/Imovel/Venda/Terreno/Lisboa/Mafra/Santo-Isidoro/55379",
-      "checkedAt": "2026-10-11T14:05:38Z",
+      "checkedAt": "2026-10-12T16:46:20Z",
       "status": "observed"
     },
     "history": [
@@ -115,17 +115,23 @@ const LandCatalog = [
         "at": "2026-10-11T14:05:38Z",
         "method": "public-page / schema",
         "contentHash": "4c6a688aa3aa276a76d6c460e35f1d3c16314905d7527eef2963b5779c56951b"
+      },
+      {
+        "price": 135000.0,
+        "at": "2026-10-12T16:46:20Z",
+        "method": "public-page / schema",
+        "contentHash": "f442ef3e911935c60ef023a17dc17ae07da864c2a60462b38539496c5d7d3533"
       }
     ],
-    "lastObserved": "2026-10-11T14:05:38Z",
-    "publishedObservedAt": "2026-10-11T14:05:38Z",
+    "lastObserved": "2026-10-12T16:46:20Z",
+    "publishedObservedAt": "2026-10-12T16:46:20Z",
     "availability": {
       "status": "advert-live",
-      "checkedAt": "2026-10-11T14:05:38Z",
+      "checkedAt": "2026-10-12T16:46:20Z",
       "sourceURL": "https://www.kwportugal.pt/pt/Imovel/Venda/Terreno/Lisboa/Mafra/Santo-Isidoro/55379",
       "evidence": "Advert page fetched and parsed; seller confirmation still required"
     },
-    "availabilityCheckedAt": "2026-10-11T14:05:38Z"
+    "availabilityCheckedAt": "2026-10-12T16:46:20Z"
   },
   {
     "id": "land-cc1003083",
@@ -143,7 +149,7 @@ const LandCatalog = [
     "sourceCheck": {
       "id": "land-cc1003083",
       "sourceURL": "https://casacerta.pt/imovel/1003083/terreno-para-venda-em-mafra",
-      "checkedAt": "2026-10-11T14:05:38Z",
+      "checkedAt": "2026-10-12T16:46:20Z",
       "status": "observed"
     },
     "history": [
@@ -242,17 +248,23 @@ const LandCatalog = [
         "at": "2026-10-11T14:05:38Z",
         "method": "public-page / schema",
         "contentHash": "b9e667f0c479c04070734e72572111de6d22bd2302143685d5ae513bbdfb0771"
+      },
+      {
+        "price": 65000.0,
+        "at": "2026-10-12T16:46:20Z",
+        "method": "public-page / schema",
+        "contentHash": "ff13a9eaaebdec795ea736353542ef330fc1da5037eaa1d44af74abb6302a2b1"
       }
     ],
-    "lastObserved": "2026-10-11T14:05:38Z",
-    "publishedObservedAt": "2026-10-11T14:05:38Z",
+    "lastObserved": "2026-10-12T16:46:20Z",
+    "publishedObservedAt": "2026-10-12T16:46:20Z",
     "availability": {
       "status": "advert-live",
-      "checkedAt": "2026-10-11T14:05:38Z",
+      "checkedAt": "2026-10-12T16:46:20Z",
       "sourceURL": "https://casacerta.pt/imovel/1003083/terreno-para-venda-em-mafra",
       "evidence": "Advert page fetched and parsed; seller confirmation still required"
     },
-    "availabilityCheckedAt": "2026-10-11T14:05:38Z"
+    "availabilityCheckedAt": "2026-10-12T16:46:20Z"
   },
   {
     "id": "land-iv19182944",
@@ -270,18 +282,18 @@ const LandCatalog = [
     "sourceCheck": {
       "id": "land-iv19182944",
       "sourceURL": "https://www.imovirtual.com/pt/anuncio/terreno-rustico-com-4-625-m-vista-mar-baleia-carvoeira-mafra-ID1iumk",
-      "checkedAt": "2026-10-11T14:05:38Z",
+      "checkedAt": "2026-10-12T16:46:20Z",
       "status": "removed",
       "error": "Advert HTTP 410",
       "httpStatus": 410
     },
     "availability": {
       "status": "removed",
-      "checkedAt": "2026-10-11T14:05:38Z",
+      "checkedAt": "2026-10-12T16:46:20Z",
       "sourceURL": "https://www.imovirtual.com/pt/anuncio/terreno-rustico-com-4-625-m-vista-mar-baleia-carvoeira-mafra-ID1iumk",
       "evidence": "Advert HTTP 410"
     },
-    "availabilityCheckedAt": "2026-10-11T14:05:38Z"
+    "availabilityCheckedAt": "2026-10-12T16:46:20Z"
   },
   {
     "id": "land-iad136815",
@@ -299,7 +311,7 @@ const LandCatalog = [
     "sourceCheck": {
       "id": "land-iad136815",
       "sourceURL": "https://www.iadportugal.pt/anuncio/terreno-venda-ericeira-183m2/r136815",
-      "checkedAt": "2026-10-11T14:05:38Z",
+      "checkedAt": "2026-10-12T16:46:20Z",
       "status": "observed"
     },
     "history": [
@@ -398,17 +410,23 @@ const LandCatalog = [
         "at": "2026-10-11T14:05:38Z",
         "method": "public-page / schema",
         "contentHash": "3ac38a5f3c12c46fc2c3129b9dd2a12eca2c5f3625ecd1489992b21937ffc618"
+      },
+      {
+        "price": 299000.0,
+        "at": "2026-10-12T16:46:20Z",
+        "method": "public-page / schema",
+        "contentHash": "0ff4059e97b038b1bee49eb56dfc2282bb3a68bdcb709a50ab77db4a8eeda48f"
       }
     ],
-    "lastObserved": "2026-10-11T14:05:38Z",
-    "publishedObservedAt": "2026-10-11T14:05:38Z",
+    "lastObserved": "2026-10-12T16:46:20Z",
+    "publishedObservedAt": "2026-10-12T16:46:20Z",
     "availability": {
       "status": "advert-live",
-      "checkedAt": "2026-10-11T14:05:38Z",
+      "checkedAt": "2026-10-12T16:46:20Z",
       "sourceURL": "https://www.iadportugal.pt/anuncio/terreno-venda-ericeira-183m2/r136815",
       "evidence": "Advert page fetched and parsed; seller confirmation still required"
     },
-    "availabilityCheckedAt": "2026-10-11T14:05:38Z"
+    "availabilityCheckedAt": "2026-10-12T16:46:20Z"
   },
   {
     "id": "land-34571797",
@@ -426,18 +444,18 @@ const LandCatalog = [
     "sourceCheck": {
       "id": "land-34571797",
       "sourceURL": "https://www.idealista.pt/imovel/34571797/",
-      "checkedAt": "2026-10-11T14:05:38Z",
+      "checkedAt": "2026-10-12T16:46:20Z",
       "status": "unavailable",
       "error": "robots HTTP 403",
       "httpStatus": null
     },
     "availability": {
       "status": "unverified",
-      "checkedAt": "2026-10-11T14:05:38Z",
+      "checkedAt": "2026-10-12T16:46:20Z",
       "sourceURL": "https://www.idealista.pt/imovel/34571797/",
       "evidence": "robots HTTP 403"
     },
-    "availabilityCheckedAt": "2026-10-11T14:05:38Z"
+    "availabilityCheckedAt": "2026-10-12T16:46:20Z"
   },
   {
     "id": "land-35049927",
@@ -455,18 +473,18 @@ const LandCatalog = [
     "sourceCheck": {
       "id": "land-35049927",
       "sourceURL": "https://www.idealista.pt/imovel/35049927/",
-      "checkedAt": "2026-10-11T14:05:38Z",
+      "checkedAt": "2026-10-12T16:46:20Z",
       "status": "unavailable",
       "error": "robots HTTP 403",
       "httpStatus": null
     },
     "availability": {
       "status": "unverified",
-      "checkedAt": "2026-10-11T14:05:38Z",
+      "checkedAt": "2026-10-12T16:46:20Z",
       "sourceURL": "https://www.idealista.pt/imovel/35049927/",
       "evidence": "robots HTTP 403"
     },
-    "availabilityCheckedAt": "2026-10-11T14:05:38Z"
+    "availabilityCheckedAt": "2026-10-12T16:46:20Z"
   },
   {
     "id": "land-34851294",
@@ -484,18 +502,18 @@ const LandCatalog = [
     "sourceCheck": {
       "id": "land-34851294",
       "sourceURL": "https://www.idealista.pt/imovel/34851294/",
-      "checkedAt": "2026-10-11T14:05:38Z",
+      "checkedAt": "2026-10-12T16:46:20Z",
       "status": "unavailable",
       "error": "robots HTTP 403",
       "httpStatus": null
     },
     "availability": {
       "status": "unverified",
-      "checkedAt": "2026-10-11T14:05:38Z",
+      "checkedAt": "2026-10-12T16:46:20Z",
       "sourceURL": "https://www.idealista.pt/imovel/34851294/",
       "evidence": "robots HTTP 403"
     },
-    "availabilityCheckedAt": "2026-10-11T14:05:38Z"
+    "availabilityCheckedAt": "2026-10-12T16:46:20Z"
   },
   {
     "id": "land-rm121011438132",
@@ -513,7 +531,7 @@ const LandCatalog = [
     "sourceCheck": {
       "id": "land-rm121011438132",
       "sourceURL": "https://remax.pt/pt/imoveis/venda-terreno-tmafra-igreja-nova-e-cheleiros/121011438-132",
-      "checkedAt": "2026-10-11T14:05:38Z",
+      "checkedAt": "2026-10-12T16:46:20Z",
       "status": "observed"
     },
     "history": [
@@ -612,17 +630,23 @@ const LandCatalog = [
         "at": "2026-10-11T14:05:38Z",
         "method": "public-page / schema",
         "contentHash": "d4e6e02039ac9c270ce24bc6bfe451597ff6d03c3b42e3905a3975768a607e78"
+      },
+      {
+        "price": 482500.0,
+        "at": "2026-10-12T16:46:20Z",
+        "method": "public-page / schema",
+        "contentHash": "a0680f424b9b0240bf1b588a1d622dd38021115b9e945a03f16cc68a3414debb"
       }
     ],
-    "lastObserved": "2026-10-11T14:05:38Z",
-    "publishedObservedAt": "2026-10-11T14:05:38Z",
+    "lastObserved": "2026-10-12T16:46:20Z",
+    "publishedObservedAt": "2026-10-12T16:46:20Z",
     "availability": {
       "status": "advert-live",
-      "checkedAt": "2026-10-11T14:05:38Z",
+      "checkedAt": "2026-10-12T16:46:20Z",
       "sourceURL": "https://remax.pt/pt/imoveis/venda-terreno-tmafra-igreja-nova-e-cheleiros/121011438-132",
       "evidence": "Advert page fetched and parsed; seller confirmation still required"
     },
-    "availabilityCheckedAt": "2026-10-11T14:05:38Z"
+    "availabilityCheckedAt": "2026-10-12T16:46:20Z"
   },
   {
     "id": "land-35009406",
@@ -640,18 +664,18 @@ const LandCatalog = [
     "sourceCheck": {
       "id": "land-35009406",
       "sourceURL": "https://www.idealista.pt/imovel/35009406/",
-      "checkedAt": "2026-10-11T14:05:38Z",
+      "checkedAt": "2026-10-12T16:46:20Z",
       "status": "unavailable",
       "error": "robots HTTP 403",
       "httpStatus": null
     },
     "availability": {
       "status": "unverified",
-      "checkedAt": "2026-10-11T14:05:38Z",
+      "checkedAt": "2026-10-12T16:46:20Z",
       "sourceURL": "https://www.idealista.pt/imovel/35009406/",
       "evidence": "robots HTTP 403"
     },
-    "availabilityCheckedAt": "2026-10-11T14:05:38Z"
+    "availabilityCheckedAt": "2026-10-12T16:46:20Z"
   },
   {
     "id": "land-34647235",
@@ -669,18 +693,18 @@ const LandCatalog = [
     "sourceCheck": {
       "id": "land-34647235",
       "sourceURL": "https://www.idealista.pt/imovel/34647235/",
-      "checkedAt": "2026-10-11T14:05:38Z",
+      "checkedAt": "2026-10-12T16:46:20Z",
       "status": "unavailable",
       "error": "robots HTTP 403",
       "httpStatus": null
     },
     "availability": {
       "status": "unverified",
-      "checkedAt": "2026-10-11T14:05:38Z",
+      "checkedAt": "2026-10-12T16:46:20Z",
       "sourceURL": "https://www.idealista.pt/imovel/34647235/",
       "evidence": "robots HTTP 403"
     },
-    "availabilityCheckedAt": "2026-10-11T14:05:38Z",
+    "availabilityCheckedAt": "2026-10-12T16:46:20Z",
     "alternateSources": [
       "https://www.medipred.pt/imovel/terreno-urbano-700-m2-com-vista-de-mar-a-dos-cunhados-torres-vedras/24597751"
     ]
@@ -701,18 +725,18 @@ const LandCatalog = [
     "sourceCheck": {
       "id": "land-34647256",
       "sourceURL": "https://www.idealista.pt/imovel/34647256/",
-      "checkedAt": "2026-10-11T14:05:38Z",
+      "checkedAt": "2026-10-12T16:46:20Z",
       "status": "unavailable",
       "error": "robots HTTP 403",
       "httpStatus": null
     },
     "availability": {
       "status": "unverified",
-      "checkedAt": "2026-10-11T14:05:38Z",
+      "checkedAt": "2026-10-12T16:46:20Z",
       "sourceURL": "https://www.idealista.pt/imovel/34647256/",
       "evidence": "robots HTTP 403"
     },
-    "availabilityCheckedAt": "2026-10-11T14:05:38Z",
+    "availabilityCheckedAt": "2026-10-12T16:46:20Z",
     "alternateSources": [
       "https://www.medipred.pt/imovel/terreno-urbano-1400-m2-com-vista-de-mar-a-dos-cunhados-torres-vedras/24602704"
     ]
@@ -733,18 +757,18 @@ const LandCatalog = [
     "sourceCheck": {
       "id": "land-35125364",
       "sourceURL": "https://www.idealista.pt/imovel/35125364/",
-      "checkedAt": "2026-10-11T14:05:38Z",
+      "checkedAt": "2026-10-12T16:46:20Z",
       "status": "unavailable",
       "error": "robots HTTP 403",
       "httpStatus": null
     },
     "availability": {
       "status": "unverified",
-      "checkedAt": "2026-10-11T14:05:38Z",
+      "checkedAt": "2026-10-12T16:46:20Z",
       "sourceURL": "https://www.idealista.pt/imovel/35125364/",
       "evidence": "robots HTTP 403"
     },
-    "availabilityCheckedAt": "2026-10-11T14:05:38Z"
+    "availabilityCheckedAt": "2026-10-12T16:46:20Z"
   },
   {
     "id": "land-34977116",
@@ -762,18 +786,18 @@ const LandCatalog = [
     "sourceCheck": {
       "id": "land-34977116",
       "sourceURL": "https://www.idealista.pt/imovel/34977116/",
-      "checkedAt": "2026-10-11T14:05:38Z",
+      "checkedAt": "2026-10-12T16:46:20Z",
       "status": "unavailable",
       "error": "robots HTTP 403",
       "httpStatus": null
     },
     "availability": {
       "status": "unverified",
-      "checkedAt": "2026-10-11T14:05:38Z",
+      "checkedAt": "2026-10-12T16:46:20Z",
       "sourceURL": "https://www.idealista.pt/imovel/34977116/",
       "evidence": "robots HTTP 403"
     },
-    "availabilityCheckedAt": "2026-10-11T14:05:38Z"
+    "availabilityCheckedAt": "2026-10-12T16:46:20Z"
   },
   {
     "id": "land-rm12587111524",
@@ -791,7 +815,7 @@ const LandCatalog = [
     "sourceCheck": {
       "id": "land-rm12587111524",
       "sourceURL": "https://remax.pt/pt/imoveis/venda-terreno-ttorres-vedras-sao-pedro-da-cadeira/125871115-24",
-      "checkedAt": "2026-10-11T14:05:38Z",
+      "checkedAt": "2026-10-12T16:46:20Z",
       "status": "observed"
     },
     "history": [
@@ -890,17 +914,23 @@ const LandCatalog = [
         "at": "2026-10-11T14:05:38Z",
         "method": "public-page / schema",
         "contentHash": "f965663febb2d442e473964374c5289650e8d149cf649c8adf9d9e745bcc2e2b"
+      },
+      {
+        "price": 430000.0,
+        "at": "2026-10-12T16:46:20Z",
+        "method": "public-page / schema",
+        "contentHash": "63175f926eabc816d708e04f1da45040d7b385380b9645a4b686f0656e2b2f79"
       }
     ],
-    "lastObserved": "2026-10-11T14:05:38Z",
-    "publishedObservedAt": "2026-10-11T14:05:38Z",
+    "lastObserved": "2026-10-12T16:46:20Z",
+    "publishedObservedAt": "2026-10-12T16:46:20Z",
     "availability": {
       "status": "advert-live",
-      "checkedAt": "2026-10-11T14:05:38Z",
+      "checkedAt": "2026-10-12T16:46:20Z",
       "sourceURL": "https://remax.pt/pt/imoveis/venda-terreno-ttorres-vedras-sao-pedro-da-cadeira/125871115-24",
       "evidence": "Advert page fetched and parsed; seller confirmation still required"
     },
-    "availabilityCheckedAt": "2026-10-11T14:05:38Z"
+    "availabilityCheckedAt": "2026-10-12T16:46:20Z"
   },
   {
     "id": "land-35138277",
@@ -918,18 +948,18 @@ const LandCatalog = [
     "sourceCheck": {
       "id": "land-35138277",
       "sourceURL": "https://www.idealista.pt/imovel/35138277/",
-      "checkedAt": "2026-10-11T14:05:38Z",
+      "checkedAt": "2026-10-12T16:46:20Z",
       "status": "unavailable",
       "error": "robots HTTP 403",
       "httpStatus": null
     },
     "availability": {
       "status": "unverified",
-      "checkedAt": "2026-10-11T14:05:38Z",
+      "checkedAt": "2026-10-12T16:46:20Z",
       "sourceURL": "https://www.idealista.pt/imovel/35138277/",
       "evidence": "robots HTTP 403"
     },
-    "availabilityCheckedAt": "2026-10-11T14:05:38Z"
+    "availabilityCheckedAt": "2026-10-12T16:46:20Z"
   },
   {
     "id": "land-34204824",
@@ -947,18 +977,18 @@ const LandCatalog = [
     "sourceCheck": {
       "id": "land-34204824",
       "sourceURL": "https://www.idealista.pt/pro/mypropertygere-imobiliaria/imovel/34204824/",
-      "checkedAt": "2026-10-11T14:05:38Z",
+      "checkedAt": "2026-10-12T16:46:20Z",
       "status": "unavailable",
       "error": "robots HTTP 403",
       "httpStatus": null
     },
     "availability": {
       "status": "unverified",
-      "checkedAt": "2026-10-11T14:05:38Z",
+      "checkedAt": "2026-10-12T16:46:20Z",
       "sourceURL": "https://www.idealista.pt/pro/mypropertygere-imobiliaria/imovel/34204824/",
       "evidence": "robots HTTP 403"
     },
-    "availabilityCheckedAt": "2026-10-11T14:05:38Z"
+    "availabilityCheckedAt": "2026-10-12T16:46:20Z"
   },
   {
     "id": "land-33164220",
@@ -976,18 +1006,18 @@ const LandCatalog = [
     "sourceCheck": {
       "id": "land-33164220",
       "sourceURL": "https://www.idealista.pt/imovel/33164220/",
-      "checkedAt": "2026-10-11T14:05:38Z",
+      "checkedAt": "2026-10-12T16:46:20Z",
       "status": "unavailable",
       "error": "robots HTTP 403",
       "httpStatus": null
     },
     "availability": {
       "status": "unverified",
-      "checkedAt": "2026-10-11T14:05:38Z",
+      "checkedAt": "2026-10-12T16:46:20Z",
       "sourceURL": "https://www.idealista.pt/imovel/33164220/",
       "evidence": "robots HTTP 403"
     },
-    "availabilityCheckedAt": "2026-10-11T14:05:38Z"
+    "availabilityCheckedAt": "2026-10-12T16:46:20Z"
   },
   {
     "id": "land-29411935",
@@ -1005,18 +1035,18 @@ const LandCatalog = [
     "sourceCheck": {
       "id": "land-29411935",
       "sourceURL": "https://www.idealista.pt/imovel/29411935/",
-      "checkedAt": "2026-10-11T14:05:38Z",
+      "checkedAt": "2026-10-12T16:46:20Z",
       "status": "unavailable",
       "error": "robots HTTP 403",
       "httpStatus": null
     },
     "availability": {
       "status": "unverified",
-      "checkedAt": "2026-10-11T14:05:38Z",
+      "checkedAt": "2026-10-12T16:46:20Z",
       "sourceURL": "https://www.idealista.pt/imovel/29411935/",
       "evidence": "robots HTTP 403"
     },
-    "availabilityCheckedAt": "2026-10-11T14:05:38Z"
+    "availabilityCheckedAt": "2026-10-12T16:46:20Z"
   },
   {
     "id": "land-34885485",
@@ -1034,18 +1064,18 @@ const LandCatalog = [
     "sourceCheck": {
       "id": "land-34885485",
       "sourceURL": "https://www.idealista.pt/imovel/34885485/",
-      "checkedAt": "2026-10-11T14:05:38Z",
+      "checkedAt": "2026-10-12T16:46:20Z",
       "status": "unavailable",
       "error": "robots HTTP 403",
       "httpStatus": null
     },
     "availability": {
       "status": "unverified",
-      "checkedAt": "2026-10-11T14:05:38Z",
+      "checkedAt": "2026-10-12T16:46:20Z",
       "sourceURL": "https://www.idealista.pt/imovel/34885485/",
       "evidence": "robots HTTP 403"
     },
-    "availabilityCheckedAt": "2026-10-11T14:05:38Z"
+    "availabilityCheckedAt": "2026-10-12T16:46:20Z"
   },
   {
     "id": "land-32077224",
@@ -1063,18 +1093,18 @@ const LandCatalog = [
     "sourceCheck": {
       "id": "land-32077224",
       "sourceURL": "https://www.idealista.pt/imovel/32077224/",
-      "checkedAt": "2026-10-11T14:05:38Z",
+      "checkedAt": "2026-10-12T16:46:20Z",
       "status": "unavailable",
       "error": "robots HTTP 403",
       "httpStatus": null
     },
     "availability": {
       "status": "unverified",
-      "checkedAt": "2026-10-11T14:05:38Z",
+      "checkedAt": "2026-10-12T16:46:20Z",
       "sourceURL": "https://www.idealista.pt/imovel/32077224/",
       "evidence": "robots HTTP 403"
     },
-    "availabilityCheckedAt": "2026-10-11T14:05:38Z"
+    "availabilityCheckedAt": "2026-10-12T16:46:20Z"
   },
   {
     "id": "land-34891179",
@@ -1092,18 +1122,18 @@ const LandCatalog = [
     "sourceCheck": {
       "id": "land-34891179",
       "sourceURL": "https://www.idealista.pt/imovel/34891179/",
-      "checkedAt": "2026-10-11T14:05:38Z",
+      "checkedAt": "2026-10-12T16:46:20Z",
       "status": "unavailable",
       "error": "robots HTTP 403",
       "httpStatus": null
     },
     "availability": {
       "status": "unverified",
-      "checkedAt": "2026-10-11T14:05:38Z",
+      "checkedAt": "2026-10-12T16:46:20Z",
       "sourceURL": "https://www.idealista.pt/imovel/34891179/",
       "evidence": "robots HTTP 403"
     },
-    "availabilityCheckedAt": "2026-10-11T14:05:38Z"
+    "availabilityCheckedAt": "2026-10-12T16:46:20Z"
   },
   {
     "id": "land-33859005",
@@ -1121,18 +1151,18 @@ const LandCatalog = [
     "sourceCheck": {
       "id": "land-33859005",
       "sourceURL": "https://www.idealista.pt/imovel/33859005/",
-      "checkedAt": "2026-10-11T14:05:38Z",
+      "checkedAt": "2026-10-12T16:46:20Z",
       "status": "unavailable",
       "error": "robots HTTP 403",
       "httpStatus": null
     },
     "availability": {
       "status": "unverified",
-      "checkedAt": "2026-10-11T14:05:38Z",
+      "checkedAt": "2026-10-12T16:46:20Z",
       "sourceURL": "https://www.idealista.pt/imovel/33859005/",
       "evidence": "robots HTTP 403"
     },
-    "availabilityCheckedAt": "2026-10-11T14:05:38Z"
+    "availabilityCheckedAt": "2026-10-12T16:46:20Z"
   },
   {
     "id": "land-34098930",
@@ -1150,18 +1180,18 @@ const LandCatalog = [
     "sourceCheck": {
       "id": "land-34098930",
       "sourceURL": "https://www.idealista.pt/imovel/34098930/",
-      "checkedAt": "2026-10-11T14:05:38Z",
+      "checkedAt": "2026-10-12T16:46:20Z",
       "status": "unavailable",
       "error": "robots HTTP 403",
       "httpStatus": null
     },
     "availability": {
       "status": "unverified",
-      "checkedAt": "2026-10-11T14:05:38Z",
+      "checkedAt": "2026-10-12T16:46:20Z",
       "sourceURL": "https://www.idealista.pt/imovel/34098930/",
       "evidence": "robots HTTP 403"
     },
-    "availabilityCheckedAt": "2026-10-11T14:05:38Z"
+    "availabilityCheckedAt": "2026-10-12T16:46:20Z"
   },
   {
     "id": "land-veigas642137",
@@ -1179,18 +1209,18 @@ const LandCatalog = [
     "sourceCheck": {
       "id": "land-veigas642137",
       "sourceURL": "https://www.veigas.eu/pt/detalhe-propriedade/terreno-vista-mar-lourinha-ribamar-agricultura/642137",
-      "checkedAt": "2026-10-11T14:05:38Z",
+      "checkedAt": "2026-10-12T16:46:20Z",
       "status": "unavailable",
       "error": "robots HTTP 406",
       "httpStatus": null
     },
     "availability": {
       "status": "unverified",
-      "checkedAt": "2026-10-11T14:05:38Z",
+      "checkedAt": "2026-10-12T16:46:20Z",
       "sourceURL": "https://www.veigas.eu/pt/detalhe-propriedade/terreno-vista-mar-lourinha-ribamar-agricultura/642137",
       "evidence": "robots HTTP 406"
     },
-    "availabilityCheckedAt": "2026-10-11T14:05:38Z"
+    "availabilityCheckedAt": "2026-10-12T16:46:20Z"
   },
   {
     "id": "land-era130250026",
@@ -1208,18 +1238,18 @@ const LandCatalog = [
     "sourceCheck": {
       "id": "land-era130250026",
       "sourceURL": "https://www.netanuncio.pt/Terreno/Lisboa%2CLourinha/tem-Vista-para-Campo%2CVista-para-Mar%2CEscola%2CTransportes-Publicos/?UID=5cbd58bb-dfcd-11ef-a463-060000000052",
-      "checkedAt": "2026-10-11T14:05:38Z",
+      "checkedAt": "2026-10-12T16:46:20Z",
       "status": "unavailable",
-      "error": "Advert HTTP 429",
-      "httpStatus": 429
+      "error": "robots HTTP 429",
+      "httpStatus": null
     },
     "availability": {
       "status": "unverified",
-      "checkedAt": "2026-10-11T14:05:38Z",
+      "checkedAt": "2026-10-12T16:46:20Z",
       "sourceURL": "https://www.netanuncio.pt/Terreno/Lisboa%2CLourinha/tem-Vista-para-Campo%2CVista-para-Mar%2CEscola%2CTransportes-Publicos/?UID=5cbd58bb-dfcd-11ef-a463-060000000052",
-      "evidence": "Advert HTTP 429"
+      "evidence": "robots HTTP 429"
     },
-    "availabilityCheckedAt": "2026-10-11T14:05:38Z"
+    "availabilityCheckedAt": "2026-10-12T16:46:20Z"
   },
   {
     "id": "land-35099207",
@@ -1237,18 +1267,18 @@ const LandCatalog = [
     "sourceCheck": {
       "id": "land-35099207",
       "sourceURL": "https://www.idealista.pt/imovel/35099207/",
-      "checkedAt": "2026-10-11T14:05:38Z",
+      "checkedAt": "2026-10-12T16:46:20Z",
       "status": "unavailable",
       "error": "robots HTTP 403",
       "httpStatus": null
     },
     "availability": {
       "status": "unverified",
-      "checkedAt": "2026-10-11T14:05:38Z",
+      "checkedAt": "2026-10-12T16:46:20Z",
       "sourceURL": "https://www.idealista.pt/imovel/35099207/",
       "evidence": "robots HTTP 403"
     },
-    "availabilityCheckedAt": "2026-10-11T14:05:38Z"
+    "availabilityCheckedAt": "2026-10-12T16:46:20Z"
   },
   {
     "id": "land-34737892",
@@ -1266,18 +1296,18 @@ const LandCatalog = [
     "sourceCheck": {
       "id": "land-34737892",
       "sourceURL": "https://www.idealista.pt/imovel/34737892/",
-      "checkedAt": "2026-10-11T14:05:38Z",
+      "checkedAt": "2026-10-12T16:46:20Z",
       "status": "unavailable",
       "error": "robots HTTP 403",
       "httpStatus": null
     },
     "availability": {
       "status": "unverified",
-      "checkedAt": "2026-10-11T14:05:38Z",
+      "checkedAt": "2026-10-12T16:46:20Z",
       "sourceURL": "https://www.idealista.pt/imovel/34737892/",
       "evidence": "robots HTTP 403"
     },
-    "availabilityCheckedAt": "2026-10-11T14:05:38Z"
+    "availabilityCheckedAt": "2026-10-12T16:46:20Z"
   },
   {
     "id": "land-34053072",
@@ -1295,18 +1325,18 @@ const LandCatalog = [
     "sourceCheck": {
       "id": "land-34053072",
       "sourceURL": "https://www.idealista.pt/imovel/34053072/",
-      "checkedAt": "2026-10-11T14:05:38Z",
+      "checkedAt": "2026-10-12T16:46:20Z",
       "status": "unavailable",
       "error": "robots HTTP 403",
       "httpStatus": null
     },
     "availability": {
       "status": "unverified",
-      "checkedAt": "2026-10-11T14:05:38Z",
+      "checkedAt": "2026-10-12T16:46:20Z",
       "sourceURL": "https://www.idealista.pt/imovel/34053072/",
       "evidence": "robots HTTP 403"
     },
-    "availabilityCheckedAt": "2026-10-11T14:05:38Z"
+    "availabilityCheckedAt": "2026-10-12T16:46:20Z"
   },
   {
     "id": "land-35335403",
@@ -1324,18 +1354,18 @@ const LandCatalog = [
     "sourceCheck": {
       "id": "land-35335403",
       "sourceURL": "https://www.idealista.pt/imovel/35335403/",
-      "checkedAt": "2026-10-11T14:05:38Z",
+      "checkedAt": "2026-10-12T16:46:20Z",
       "status": "unavailable",
       "error": "robots HTTP 403",
       "httpStatus": null
     },
     "availability": {
       "status": "unverified",
-      "checkedAt": "2026-10-11T14:05:38Z",
+      "checkedAt": "2026-10-12T16:46:20Z",
       "sourceURL": "https://www.idealista.pt/imovel/35335403/",
       "evidence": "robots HTTP 403"
     },
-    "availabilityCheckedAt": "2026-10-11T14:05:38Z"
+    "availabilityCheckedAt": "2026-10-12T16:46:20Z"
   },
   {
     "id": "land-35342696",
@@ -1353,18 +1383,18 @@ const LandCatalog = [
     "sourceCheck": {
       "id": "land-35342696",
       "sourceURL": "https://www.idealista.pt/imovel/35342696/",
-      "checkedAt": "2026-10-11T14:05:38Z",
+      "checkedAt": "2026-10-12T16:46:20Z",
       "status": "unavailable",
       "error": "robots HTTP 403",
       "httpStatus": null
     },
     "availability": {
       "status": "unverified",
-      "checkedAt": "2026-10-11T14:05:38Z",
+      "checkedAt": "2026-10-12T16:46:20Z",
       "sourceURL": "https://www.idealista.pt/imovel/35342696/",
       "evidence": "robots HTTP 403"
     },
-    "availabilityCheckedAt": "2026-10-11T14:05:38Z"
+    "availabilityCheckedAt": "2026-10-12T16:46:20Z"
   },
   {
     "id": "land-31424804",
@@ -1382,18 +1412,18 @@ const LandCatalog = [
     "sourceCheck": {
       "id": "land-31424804",
       "sourceURL": "https://www.idealista.pt/imovel/31424804/",
-      "checkedAt": "2026-10-11T14:05:38Z",
+      "checkedAt": "2026-10-12T16:46:20Z",
       "status": "unavailable",
       "error": "robots HTTP 403",
       "httpStatus": null
     },
     "availability": {
       "status": "unverified",
-      "checkedAt": "2026-10-11T14:05:38Z",
+      "checkedAt": "2026-10-12T16:46:20Z",
       "sourceURL": "https://www.idealista.pt/imovel/31424804/",
       "evidence": "robots HTTP 403"
     },
-    "availabilityCheckedAt": "2026-10-11T14:05:38Z"
+    "availabilityCheckedAt": "2026-10-12T16:46:20Z"
   },
   {
     "id": "land-iv19046900",
@@ -1411,7 +1441,7 @@ const LandCatalog = [
     "sourceCheck": {
       "id": "land-iv19046900",
       "sourceURL": "https://www.imovirtual.com/pt/anuncio/lote-de-998m2-com-projeto-de-autor-e-vista-mar-oeiras-ID1hUY4",
-      "checkedAt": "2026-10-11T14:05:38Z",
+      "checkedAt": "2026-10-12T16:46:20Z",
       "status": "observed"
     },
     "history": [
@@ -1510,17 +1540,23 @@ const LandCatalog = [
         "at": "2026-10-11T14:05:38Z",
         "method": "public-page / schema",
         "contentHash": "419c5440e3cc96a4c445322396bf882f1767ba12944d11af036b52c63df409c2"
+      },
+      {
+        "price": 2000000.0,
+        "at": "2026-10-12T16:46:20Z",
+        "method": "public-page / schema",
+        "contentHash": "509db63fa18bb2e68d5d8773958c09435c586cfe7f504108703be38bed8cbcb8"
       }
     ],
-    "lastObserved": "2026-10-11T14:05:38Z",
-    "publishedObservedAt": "2026-10-11T14:05:38Z",
+    "lastObserved": "2026-10-12T16:46:20Z",
+    "publishedObservedAt": "2026-10-12T16:46:20Z",
     "availability": {
       "status": "advert-live",
-      "checkedAt": "2026-10-11T14:05:38Z",
+      "checkedAt": "2026-10-12T16:46:20Z",
       "sourceURL": "https://www.imovirtual.com/pt/anuncio/lote-de-998m2-com-projeto-de-autor-e-vista-mar-oeiras-ID1hUY4",
       "evidence": "Advert page fetched and parsed; seller confirmation still required"
     },
-    "availabilityCheckedAt": "2026-10-11T14:05:38Z"
+    "availabilityCheckedAt": "2026-10-12T16:46:20Z"
   },
   {
     "id": "land-rm1206119456",
@@ -1538,18 +1574,18 @@ const LandCatalog = [
     "sourceCheck": {
       "id": "land-rm1206119456",
       "sourceURL": "https://remax.pt/pt/imoveis/venda-terreno-toeiras-porto-salvo/120611945-6",
-      "checkedAt": "2026-10-11T14:05:38Z",
+      "checkedAt": "2026-10-12T16:46:20Z",
       "status": "removed",
       "error": "Advert HTTP 404",
       "httpStatus": 404
     },
     "availability": {
       "status": "removed",
-      "checkedAt": "2026-10-11T14:05:38Z",
+      "checkedAt": "2026-10-12T16:46:20Z",
       "sourceURL": "https://remax.pt/pt/imoveis/venda-terreno-toeiras-porto-salvo/120611945-6",
       "evidence": "Advert HTTP 404"
     },
-    "availabilityCheckedAt": "2026-10-11T14:05:38Z"
+    "availabilityCheckedAt": "2026-10-12T16:46:20Z"
   },
   {
     "id": "land-34194709",
@@ -1567,18 +1603,18 @@ const LandCatalog = [
     "sourceCheck": {
       "id": "land-34194709",
       "sourceURL": "https://www.idealista.pt/imovel/34194709/",
-      "checkedAt": "2026-10-11T14:05:38Z",
+      "checkedAt": "2026-10-12T16:46:20Z",
       "status": "unavailable",
       "error": "robots HTTP 403",
       "httpStatus": null
     },
     "availability": {
       "status": "unverified",
-      "checkedAt": "2026-10-11T14:05:38Z",
+      "checkedAt": "2026-10-12T16:46:20Z",
       "sourceURL": "https://www.idealista.pt/imovel/34194709/",
       "evidence": "robots HTTP 403"
     },
-    "availabilityCheckedAt": "2026-10-11T14:05:38Z"
+    "availabilityCheckedAt": "2026-10-12T16:46:20Z"
   },
   {
     "id": "land-34200758",
@@ -1596,18 +1632,18 @@ const LandCatalog = [
     "sourceCheck": {
       "id": "land-34200758",
       "sourceURL": "https://www.idealista.pt/imovel/34200758/",
-      "checkedAt": "2026-10-11T14:05:38Z",
+      "checkedAt": "2026-10-12T16:46:20Z",
       "status": "unavailable",
       "error": "robots HTTP 403",
       "httpStatus": null
     },
     "availability": {
       "status": "unverified",
-      "checkedAt": "2026-10-11T14:05:38Z",
+      "checkedAt": "2026-10-12T16:46:20Z",
       "sourceURL": "https://www.idealista.pt/imovel/34200758/",
       "evidence": "robots HTTP 403"
     },
-    "availabilityCheckedAt": "2026-10-11T14:05:38Z"
+    "availabilityCheckedAt": "2026-10-12T16:46:20Z"
   },
   {
     "id": "land-32465277",
@@ -1625,18 +1661,18 @@ const LandCatalog = [
     "sourceCheck": {
       "id": "land-32465277",
       "sourceURL": "https://www.idealista.pt/imovel/32465277/",
-      "checkedAt": "2026-10-11T14:05:38Z",
+      "checkedAt": "2026-10-12T16:46:20Z",
       "status": "unavailable",
       "error": "robots HTTP 403",
       "httpStatus": null
     },
     "availability": {
       "status": "unverified",
-      "checkedAt": "2026-10-11T14:05:38Z",
+      "checkedAt": "2026-10-12T16:46:20Z",
       "sourceURL": "https://www.idealista.pt/imovel/32465277/",
       "evidence": "robots HTTP 403"
     },
-    "availabilityCheckedAt": "2026-10-11T14:05:38Z"
+    "availabilityCheckedAt": "2026-10-12T16:46:20Z"
   },
   {
     "id": "land-34766539",
@@ -1654,18 +1690,18 @@ const LandCatalog = [
     "sourceCheck": {
       "id": "land-34766539",
       "sourceURL": "https://www.idealista.pt/imovel/34766539/",
-      "checkedAt": "2026-10-11T14:05:38Z",
+      "checkedAt": "2026-10-12T16:46:20Z",
       "status": "unavailable",
       "error": "robots HTTP 403",
       "httpStatus": null
     },
     "availability": {
       "status": "unverified",
-      "checkedAt": "2026-10-11T14:05:38Z",
+      "checkedAt": "2026-10-12T16:46:20Z",
       "sourceURL": "https://www.idealista.pt/imovel/34766539/",
       "evidence": "robots HTTP 403"
     },
-    "availabilityCheckedAt": "2026-10-11T14:05:38Z"
+    "availabilityCheckedAt": "2026-10-12T16:46:20Z"
   },
   {
     "id": "land-35317279",
@@ -1683,18 +1719,18 @@ const LandCatalog = [
     "sourceCheck": {
       "id": "land-35317279",
       "sourceURL": "https://www.idealista.pt/imovel/35317279/",
-      "checkedAt": "2026-10-11T14:05:38Z",
+      "checkedAt": "2026-10-12T16:46:20Z",
       "status": "unavailable",
       "error": "robots HTTP 403",
       "httpStatus": null
     },
     "availability": {
       "status": "unverified",
-      "checkedAt": "2026-10-11T14:05:38Z",
+      "checkedAt": "2026-10-12T16:46:20Z",
       "sourceURL": "https://www.idealista.pt/imovel/35317279/",
       "evidence": "robots HTTP 403"
     },
-    "availabilityCheckedAt": "2026-10-11T14:05:38Z"
+    "availabilityCheckedAt": "2026-10-12T16:46:20Z"
   },
   {
     "id": "land-34955330",
@@ -1712,18 +1748,18 @@ const LandCatalog = [
     "sourceCheck": {
       "id": "land-34955330",
       "sourceURL": "https://www.idealista.pt/imovel/34955330/",
-      "checkedAt": "2026-10-11T14:05:38Z",
+      "checkedAt": "2026-10-12T16:46:20Z",
       "status": "unavailable",
       "error": "robots HTTP 403",
       "httpStatus": null
     },
     "availability": {
       "status": "unverified",
-      "checkedAt": "2026-10-11T14:05:38Z",
+      "checkedAt": "2026-10-12T16:46:20Z",
       "sourceURL": "https://www.idealista.pt/imovel/34955330/",
       "evidence": "robots HTTP 403"
     },
-    "availabilityCheckedAt": "2026-10-11T14:05:38Z"
+    "availabilityCheckedAt": "2026-10-12T16:46:20Z"
   },
   {
     "id": "land-32068022",
@@ -1741,18 +1777,18 @@ const LandCatalog = [
     "sourceCheck": {
       "id": "land-32068022",
       "sourceURL": "https://www.idealista.pt/imovel/32068022/",
-      "checkedAt": "2026-10-11T14:05:38Z",
+      "checkedAt": "2026-10-12T16:46:20Z",
       "status": "unavailable",
       "error": "robots HTTP 403",
       "httpStatus": null
     },
     "availability": {
       "status": "unverified",
-      "checkedAt": "2026-10-11T14:05:38Z",
+      "checkedAt": "2026-10-12T16:46:20Z",
       "sourceURL": "https://www.idealista.pt/imovel/32068022/",
       "evidence": "robots HTTP 403"
     },
-    "availabilityCheckedAt": "2026-10-11T14:05:38Z"
+    "availabilityCheckedAt": "2026-10-12T16:46:20Z"
   },
   {
     "id": "land-34729807",
@@ -1770,18 +1806,18 @@ const LandCatalog = [
     "sourceCheck": {
       "id": "land-34729807",
       "sourceURL": "https://www.idealista.pt/imovel/34729807/",
-      "checkedAt": "2026-10-11T14:05:38Z",
+      "checkedAt": "2026-10-12T16:46:20Z",
       "status": "unavailable",
       "error": "robots HTTP 403",
       "httpStatus": null
     },
     "availability": {
       "status": "unverified",
-      "checkedAt": "2026-10-11T14:05:38Z",
+      "checkedAt": "2026-10-12T16:46:20Z",
       "sourceURL": "https://www.idealista.pt/imovel/34729807/",
       "evidence": "robots HTTP 403"
     },
-    "availabilityCheckedAt": "2026-10-11T14:05:38Z"
+    "availabilityCheckedAt": "2026-10-12T16:46:20Z"
   },
   {
     "id": "land-rm12344130537",
@@ -1799,7 +1835,7 @@ const LandCatalog = [
     "sourceCheck": {
       "id": "land-rm12344130537",
       "sourceURL": "https://www.remax.pt/pt/imoveis/venda-terreno-tgrandola-carvalhal/123441305-37",
-      "checkedAt": "2026-10-11T14:05:38Z",
+      "checkedAt": "2026-10-12T16:46:20Z",
       "status": "observed"
     },
     "history": [
@@ -1898,17 +1934,23 @@ const LandCatalog = [
         "at": "2026-10-11T14:05:38Z",
         "method": "public-page / schema",
         "contentHash": "c6738811acea61d0ab9cdaafc8385b20da9ebafecb89078a7eec7c8c2c097f76"
+      },
+      {
+        "price": 5500000.0,
+        "at": "2026-10-12T16:46:20Z",
+        "method": "public-page / schema",
+        "contentHash": "187d63c81cbc396451c11439bbd67be1d888962d1f70f73e887ebd66fab972e6"
       }
     ],
-    "lastObserved": "2026-10-11T14:05:38Z",
-    "publishedObservedAt": "2026-10-11T14:05:38Z",
+    "lastObserved": "2026-10-12T16:46:20Z",
+    "publishedObservedAt": "2026-10-12T16:46:20Z",
     "availability": {
       "status": "advert-live",
-      "checkedAt": "2026-10-11T14:05:38Z",
+      "checkedAt": "2026-10-12T16:46:20Z",
       "sourceURL": "https://www.remax.pt/pt/imoveis/venda-terreno-tgrandola-carvalhal/123441305-37",
       "evidence": "Advert page fetched and parsed; seller confirmation still required"
     },
-    "availabilityCheckedAt": "2026-10-11T14:05:38Z"
+    "availabilityCheckedAt": "2026-10-12T16:46:20Z"
   },
   {
     "id": "land-34566546",
@@ -1926,18 +1968,18 @@ const LandCatalog = [
     "sourceCheck": {
       "id": "land-34566546",
       "sourceURL": "https://www.idealista.pt/imovel/34566546/",
-      "checkedAt": "2026-10-11T14:05:38Z",
+      "checkedAt": "2026-10-12T16:46:20Z",
       "status": "unavailable",
       "error": "robots HTTP 403",
       "httpStatus": null
     },
     "availability": {
       "status": "unverified",
-      "checkedAt": "2026-10-11T14:05:38Z",
+      "checkedAt": "2026-10-12T16:46:20Z",
       "sourceURL": "https://www.idealista.pt/imovel/34566546/",
       "evidence": "robots HTTP 403"
     },
-    "availabilityCheckedAt": "2026-10-11T14:05:38Z"
+    "availabilityCheckedAt": "2026-10-12T16:46:20Z"
   },
   {
     "id": "land-34902700",
@@ -1955,18 +1997,18 @@ const LandCatalog = [
     "sourceCheck": {
       "id": "land-34902700",
       "sourceURL": "https://www.idealista.pt/pro/imomelides/imovel/34902700/",
-      "checkedAt": "2026-10-11T14:05:38Z",
+      "checkedAt": "2026-10-12T16:46:20Z",
       "status": "unavailable",
       "error": "robots HTTP 403",
       "httpStatus": null
     },
     "availability": {
       "status": "unverified",
-      "checkedAt": "2026-10-11T14:05:38Z",
+      "checkedAt": "2026-10-12T16:46:20Z",
       "sourceURL": "https://www.idealista.pt/pro/imomelides/imovel/34902700/",
       "evidence": "robots HTTP 403"
     },
-    "availabilityCheckedAt": "2026-10-11T14:05:38Z"
+    "availabilityCheckedAt": "2026-10-12T16:46:20Z"
   },
   {
     "id": "land-33206361",
@@ -1984,18 +2026,18 @@ const LandCatalog = [
     "sourceCheck": {
       "id": "land-33206361",
       "sourceURL": "https://www.idealista.pt/imovel/33206361/",
-      "checkedAt": "2026-10-11T14:05:38Z",
+      "checkedAt": "2026-10-12T16:46:20Z",
       "status": "unavailable",
       "error": "robots HTTP 403",
       "httpStatus": null
     },
     "availability": {
       "status": "unverified",
-      "checkedAt": "2026-10-11T14:05:38Z",
+      "checkedAt": "2026-10-12T16:46:20Z",
       "sourceURL": "https://www.idealista.pt/imovel/33206361/",
       "evidence": "robots HTTP 403"
     },
-    "availabilityCheckedAt": "2026-10-11T14:05:38Z"
+    "availabilityCheckedAt": "2026-10-12T16:46:20Z"
   },
   {
     "id": "land-32267492",
@@ -2013,18 +2055,18 @@ const LandCatalog = [
     "sourceCheck": {
       "id": "land-32267492",
       "sourceURL": "https://www.idealista.pt/imovel/32267492/",
-      "checkedAt": "2026-10-11T14:05:38Z",
+      "checkedAt": "2026-10-12T16:46:20Z",
       "status": "unavailable",
       "error": "robots HTTP 403",
       "httpStatus": null
     },
     "availability": {
       "status": "unverified",
-      "checkedAt": "2026-10-11T14:05:38Z",
+      "checkedAt": "2026-10-12T16:46:20Z",
       "sourceURL": "https://www.idealista.pt/imovel/32267492/",
       "evidence": "robots HTTP 403"
     },
-    "availabilityCheckedAt": "2026-10-11T14:05:38Z"
+    "availabilityCheckedAt": "2026-10-12T16:46:20Z"
   },
   {
     "id": "land-33243646",
@@ -2042,18 +2084,18 @@ const LandCatalog = [
     "sourceCheck": {
       "id": "land-33243646",
       "sourceURL": "https://www.idealista.pt/imovel/33243646/",
-      "checkedAt": "2026-10-11T14:05:38Z",
+      "checkedAt": "2026-10-12T16:46:20Z",
       "status": "unavailable",
       "error": "robots HTTP 403",
       "httpStatus": null
     },
     "availability": {
       "status": "unverified",
-      "checkedAt": "2026-10-11T14:05:38Z",
+      "checkedAt": "2026-10-12T16:46:20Z",
       "sourceURL": "https://www.idealista.pt/imovel/33243646/",
       "evidence": "robots HTTP 403"
     },
-    "availabilityCheckedAt": "2026-10-11T14:05:38Z"
+    "availabilityCheckedAt": "2026-10-12T16:46:20Z"
   },
   {
     "id": "land-35061215",
@@ -2071,18 +2113,18 @@ const LandCatalog = [
     "sourceCheck": {
       "id": "land-35061215",
       "sourceURL": "https://www.idealista.pt/imovel/35061215/",
-      "checkedAt": "2026-10-11T14:05:38Z",
+      "checkedAt": "2026-10-12T16:46:20Z",
       "status": "unavailable",
       "error": "robots HTTP 403",
       "httpStatus": null
     },
     "availability": {
       "status": "unverified",
-      "checkedAt": "2026-10-11T14:05:38Z",
+      "checkedAt": "2026-10-12T16:46:20Z",
       "sourceURL": "https://www.idealista.pt/imovel/35061215/",
       "evidence": "robots HTTP 403"
     },
-    "availabilityCheckedAt": "2026-10-11T14:05:38Z"
+    "availabilityCheckedAt": "2026-10-12T16:46:20Z"
   },
   {
     "id": "land-32565217",
@@ -2100,18 +2142,18 @@ const LandCatalog = [
     "sourceCheck": {
       "id": "land-32565217",
       "sourceURL": "https://www.idealista.pt/imovel/32565217/",
-      "checkedAt": "2026-10-11T14:05:38Z",
+      "checkedAt": "2026-10-12T16:46:20Z",
       "status": "unavailable",
       "error": "robots HTTP 403",
       "httpStatus": null
     },
     "availability": {
       "status": "unverified",
-      "checkedAt": "2026-10-11T14:05:38Z",
+      "checkedAt": "2026-10-12T16:46:20Z",
       "sourceURL": "https://www.idealista.pt/imovel/32565217/",
       "evidence": "robots HTTP 403"
     },
-    "availabilityCheckedAt": "2026-10-11T14:05:38Z"
+    "availabilityCheckedAt": "2026-10-12T16:46:20Z"
   },
   {
     "id": "land-33545362",
@@ -2129,18 +2171,18 @@ const LandCatalog = [
     "sourceCheck": {
       "id": "land-33545362",
       "sourceURL": "https://www.idealista.pt/imovel/33545362/",
-      "checkedAt": "2026-10-11T14:05:38Z",
+      "checkedAt": "2026-10-12T16:46:20Z",
       "status": "unavailable",
       "error": "robots HTTP 403",
       "httpStatus": null
     },
     "availability": {
       "status": "unverified",
-      "checkedAt": "2026-10-11T14:05:38Z",
+      "checkedAt": "2026-10-12T16:46:20Z",
       "sourceURL": "https://www.idealista.pt/imovel/33545362/",
       "evidence": "robots HTTP 403"
     },
-    "availabilityCheckedAt": "2026-10-11T14:05:38Z"
+    "availabilityCheckedAt": "2026-10-12T16:46:20Z"
   },
   {
     "id": "land-34631140",
@@ -2158,18 +2200,18 @@ const LandCatalog = [
     "sourceCheck": {
       "id": "land-34631140",
       "sourceURL": "https://www.idealista.pt/imovel/34631140/",
-      "checkedAt": "2026-10-11T14:05:38Z",
+      "checkedAt": "2026-10-12T16:46:20Z",
       "status": "unavailable",
       "error": "robots HTTP 403",
       "httpStatus": null
     },
     "availability": {
       "status": "unverified",
-      "checkedAt": "2026-10-11T14:05:38Z",
+      "checkedAt": "2026-10-12T16:46:20Z",
       "sourceURL": "https://www.idealista.pt/imovel/34631140/",
       "evidence": "robots HTTP 403"
     },
-    "availabilityCheckedAt": "2026-10-11T14:05:38Z"
+    "availabilityCheckedAt": "2026-10-12T16:46:20Z"
   },
   {
     "id": "land-35281476",
@@ -2187,18 +2229,18 @@ const LandCatalog = [
     "sourceCheck": {
       "id": "land-35281476",
       "sourceURL": "https://www.idealista.pt/imovel/35281476/",
-      "checkedAt": "2026-10-11T14:05:38Z",
+      "checkedAt": "2026-10-12T16:46:20Z",
       "status": "unavailable",
       "error": "robots HTTP 403",
       "httpStatus": null
     },
     "availability": {
       "status": "unverified",
-      "checkedAt": "2026-10-11T14:05:38Z",
+      "checkedAt": "2026-10-12T16:46:20Z",
       "sourceURL": "https://www.idealista.pt/imovel/35281476/",
       "evidence": "robots HTTP 403"
     },
-    "availabilityCheckedAt": "2026-10-11T14:05:38Z"
+    "availabilityCheckedAt": "2026-10-12T16:46:20Z"
   },
   {
     "id": "land-35185798",
@@ -2216,18 +2258,18 @@ const LandCatalog = [
     "sourceCheck": {
       "id": "land-35185798",
       "sourceURL": "https://www.idealista.pt/imovel/35185798/",
-      "checkedAt": "2026-10-11T14:05:38Z",
+      "checkedAt": "2026-10-12T16:46:20Z",
       "status": "unavailable",
       "error": "robots HTTP 403",
       "httpStatus": null
     },
     "availability": {
       "status": "unverified",
-      "checkedAt": "2026-10-11T14:05:38Z",
+      "checkedAt": "2026-10-12T16:46:20Z",
       "sourceURL": "https://www.idealista.pt/imovel/35185798/",
       "evidence": "robots HTTP 403"
     },
-    "availabilityCheckedAt": "2026-10-11T14:05:38Z"
+    "availabilityCheckedAt": "2026-10-12T16:46:20Z"
   },
   {
     "id": "land-35183313",
@@ -2245,18 +2287,18 @@ const LandCatalog = [
     "sourceCheck": {
       "id": "land-35183313",
       "sourceURL": "https://www.idealista.pt/imovel/35183313/",
-      "checkedAt": "2026-10-11T14:05:38Z",
+      "checkedAt": "2026-10-12T16:46:20Z",
       "status": "unavailable",
       "error": "robots HTTP 403",
       "httpStatus": null
     },
     "availability": {
       "status": "unverified",
-      "checkedAt": "2026-10-11T14:05:38Z",
+      "checkedAt": "2026-10-12T16:46:20Z",
       "sourceURL": "https://www.idealista.pt/imovel/35183313/",
       "evidence": "robots HTTP 403"
     },
-    "availabilityCheckedAt": "2026-10-11T14:05:38Z"
+    "availabilityCheckedAt": "2026-10-12T16:46:20Z"
   },
   {
     "id": "land-iv19258147",
@@ -2274,7 +2316,7 @@ const LandCatalog = [
     "sourceCheck": {
       "id": "land-iv19258147",
       "sourceURL": "https://www.imovirtual.com/pt/anuncio/terreno-com-vista-mar-em-sao-francisco-da-serra-ID1iNWh",
-      "checkedAt": "2026-10-11T14:05:38Z",
+      "checkedAt": "2026-10-12T16:46:20Z",
       "status": "observed"
     },
     "history": [
@@ -2373,17 +2415,23 @@ const LandCatalog = [
         "at": "2026-10-11T14:05:38Z",
         "method": "public-page / schema",
         "contentHash": "b93d5715e90f08da20854ff669270216d2a7ad3ee19417f70391a3ddb362d89f"
+      },
+      {
+        "price": 400000.0,
+        "at": "2026-10-12T16:46:20Z",
+        "method": "public-page / schema",
+        "contentHash": "46c1fe63f2d56ba6c4f571423de845a6ad734d4fd709ed0de165486ec0434011"
       }
     ],
-    "lastObserved": "2026-10-11T14:05:38Z",
-    "publishedObservedAt": "2026-10-11T14:05:38Z",
+    "lastObserved": "2026-10-12T16:46:20Z",
+    "publishedObservedAt": "2026-10-12T16:46:20Z",
     "availability": {
       "status": "advert-live",
-      "checkedAt": "2026-10-11T14:05:38Z",
+      "checkedAt": "2026-10-12T16:46:20Z",
       "sourceURL": "https://www.imovirtual.com/pt/anuncio/terreno-com-vista-mar-em-sao-francisco-da-serra-ID1iNWh",
       "evidence": "Advert page fetched and parsed; seller confirmation still required"
     },
-    "availabilityCheckedAt": "2026-10-11T14:05:38Z"
+    "availabilityCheckedAt": "2026-10-12T16:46:20Z"
   },
   {
     "id": "land-32127944",
@@ -2401,18 +2449,18 @@ const LandCatalog = [
     "sourceCheck": {
       "id": "land-32127944",
       "sourceURL": "https://www.idealista.pt/imovel/32127944/",
-      "checkedAt": "2026-10-11T14:05:38Z",
+      "checkedAt": "2026-10-12T16:46:20Z",
       "status": "unavailable",
       "error": "robots HTTP 403",
       "httpStatus": null
     },
     "availability": {
       "status": "unverified",
-      "checkedAt": "2026-10-11T14:05:38Z",
+      "checkedAt": "2026-10-12T16:46:20Z",
       "sourceURL": "https://www.idealista.pt/imovel/32127944/",
       "evidence": "robots HTTP 403"
     },
-    "availabilityCheckedAt": "2026-10-11T14:05:38Z"
+    "availabilityCheckedAt": "2026-10-12T16:46:20Z"
   },
   {
     "id": "land-35242132",
@@ -2430,18 +2478,18 @@ const LandCatalog = [
     "sourceCheck": {
       "id": "land-35242132",
       "sourceURL": "https://www.idealista.pt/imovel/35242132/",
-      "checkedAt": "2026-10-11T14:05:38Z",
+      "checkedAt": "2026-10-12T16:46:20Z",
       "status": "unavailable",
       "error": "robots HTTP 403",
       "httpStatus": null
     },
     "availability": {
       "status": "unverified",
-      "checkedAt": "2026-10-11T14:05:38Z",
+      "checkedAt": "2026-10-12T16:46:20Z",
       "sourceURL": "https://www.idealista.pt/imovel/35242132/",
       "evidence": "robots HTTP 403"
     },
-    "availabilityCheckedAt": "2026-10-11T14:05:38Z"
+    "availabilityCheckedAt": "2026-10-12T16:46:20Z"
   },
   {
     "id": "land-31415263",
@@ -2459,18 +2507,18 @@ const LandCatalog = [
     "sourceCheck": {
       "id": "land-31415263",
       "sourceURL": "https://www.idealista.pt/imovel/31415263/",
-      "checkedAt": "2026-10-11T14:05:38Z",
+      "checkedAt": "2026-10-12T16:46:20Z",
       "status": "unavailable",
       "error": "robots HTTP 403",
       "httpStatus": null
     },
     "availability": {
       "status": "unverified",
-      "checkedAt": "2026-10-11T14:05:38Z",
+      "checkedAt": "2026-10-12T16:46:20Z",
       "sourceURL": "https://www.idealista.pt/imovel/31415263/",
       "evidence": "robots HTTP 403"
     },
-    "availabilityCheckedAt": "2026-10-11T14:05:38Z"
+    "availabilityCheckedAt": "2026-10-12T16:46:20Z"
   },
   {
     "id": "land-iv19073309",
@@ -2488,7 +2536,7 @@ const LandCatalog = [
     "sourceCheck": {
       "id": "land-iv19073309",
       "sourceURL": "https://www.imovirtual.com/pt/anuncio/excelente-lote-de-terreno-urbano-com-vista-para-o-mar-ID1i1Q1",
-      "checkedAt": "2026-10-11T14:05:38Z",
+      "checkedAt": "2026-10-12T16:46:20Z",
       "status": "observed"
     },
     "history": [
@@ -2587,17 +2635,23 @@ const LandCatalog = [
         "at": "2026-10-11T14:05:38Z",
         "method": "public-page / schema",
         "contentHash": "10ac0a7470268fe25233949cce3a823ec38ff33da6f1a987c2369b5c0d870ec1"
+      },
+      {
+        "price": 490000.0,
+        "at": "2026-10-12T16:46:20Z",
+        "method": "public-page / schema",
+        "contentHash": "a7a4e19a62e0d0e8fd2058b37ff98765ee1fd70676550e246af13840ad509395"
       }
     ],
-    "lastObserved": "2026-10-11T14:05:38Z",
-    "publishedObservedAt": "2026-10-11T14:05:38Z",
+    "lastObserved": "2026-10-12T16:46:20Z",
+    "publishedObservedAt": "2026-10-12T16:46:20Z",
     "availability": {
       "status": "advert-live",
-      "checkedAt": "2026-10-11T14:05:38Z",
+      "checkedAt": "2026-10-12T16:46:20Z",
       "sourceURL": "https://www.imovirtual.com/pt/anuncio/excelente-lote-de-terreno-urbano-com-vista-para-o-mar-ID1i1Q1",
       "evidence": "Advert page fetched and parsed; seller confirmation still required"
     },
-    "availabilityCheckedAt": "2026-10-11T14:05:38Z"
+    "availabilityCheckedAt": "2026-10-12T16:46:20Z"
   },
   {
     "id": "land-237b0167116954",
@@ -2606,7 +2660,7 @@ const LandCatalog = [
     "area": 2643000,
     "sourceURL": "https://www.imomelides.com/pt/propriedade/66-melides-terreno-com-vista-ao-mar",
     "firstSeen": "2026-10-02T08:17:47Z",
-    "lastObserved": "2026-10-11T14:05:38Z",
+    "lastObserved": "2026-10-12T16:46:20Z",
     "researchedAt": "2026-10-02",
     "reference": "1750",
     "history": [
@@ -2692,6 +2746,12 @@ const LandCatalog = [
         "at": "2026-10-11T14:05:38Z",
         "method": "public-page / imomelides",
         "contentHash": "5fe5378305e5f74cdba5875c3db20ba52ae8dd6b0bb78f6b0215971c37e365f5"
+      },
+      {
+        "price": 3820000.0,
+        "at": "2026-10-12T16:46:20Z",
+        "method": "public-page / imomelides",
+        "contentHash": "5fe5378305e5f74cdba5875c3db20ba52ae8dd6b0bb78f6b0215971c37e365f5"
       }
     ],
     "notes": "",
@@ -2706,17 +2766,17 @@ const LandCatalog = [
     "sourceCheck": {
       "id": "land-237b0167116954",
       "sourceURL": "https://www.imomelides.com/pt/propriedade/66-melides-terreno-com-vista-ao-mar",
-      "checkedAt": "2026-10-11T14:05:38Z",
+      "checkedAt": "2026-10-12T16:46:20Z",
       "status": "observed"
     },
-    "publishedObservedAt": "2026-10-11T14:05:38Z",
+    "publishedObservedAt": "2026-10-12T16:46:20Z",
     "availability": {
       "status": "advert-live",
-      "checkedAt": "2026-10-11T14:05:38Z",
+      "checkedAt": "2026-10-12T16:46:20Z",
       "sourceURL": "https://www.imomelides.com/pt/propriedade/66-melides-terreno-com-vista-ao-mar",
       "evidence": "Advert page fetched and parsed; seller confirmation still required"
     },
-    "availabilityCheckedAt": "2026-10-11T14:05:38Z"
+    "availabilityCheckedAt": "2026-10-12T16:46:20Z"
   },
   {
     "id": "land-be0aa23194da36",
@@ -2725,7 +2785,7 @@ const LandCatalog = [
     "area": 125000,
     "sourceURL": "https://www.imomelides.com/pt/propriedade/73-melides-terreno-com-vista-ao-mar",
     "firstSeen": "2026-10-02T08:17:47Z",
-    "lastObserved": "2026-10-11T14:05:38Z",
+    "lastObserved": "2026-10-12T16:46:20Z",
     "researchedAt": "2026-10-02",
     "reference": "1500",
     "history": [
@@ -2811,6 +2871,12 @@ const LandCatalog = [
         "at": "2026-10-11T14:05:38Z",
         "method": "public-page / imomelides",
         "contentHash": "28564009dc0146a3d2933330ab61cc49eeeca78911bf127bf1582d6c23ca4508"
+      },
+      {
+        "price": 6000000.0,
+        "at": "2026-10-12T16:46:20Z",
+        "method": "public-page / imomelides",
+        "contentHash": "28564009dc0146a3d2933330ab61cc49eeeca78911bf127bf1582d6c23ca4508"
       }
     ],
     "notes": "",
@@ -2825,17 +2891,17 @@ const LandCatalog = [
     "sourceCheck": {
       "id": "land-be0aa23194da36",
       "sourceURL": "https://www.imomelides.com/pt/propriedade/73-melides-terreno-com-vista-ao-mar",
-      "checkedAt": "2026-10-11T14:05:38Z",
+      "checkedAt": "2026-10-12T16:46:20Z",
       "status": "observed"
     },
-    "publishedObservedAt": "2026-10-11T14:05:38Z",
+    "publishedObservedAt": "2026-10-12T16:46:20Z",
     "availability": {
       "status": "advert-live",
-      "checkedAt": "2026-10-11T14:05:38Z",
+      "checkedAt": "2026-10-12T16:46:20Z",
       "sourceURL": "https://www.imomelides.com/pt/propriedade/73-melides-terreno-com-vista-ao-mar",
       "evidence": "Advert page fetched and parsed; seller confirmation still required"
     },
-    "availabilityCheckedAt": "2026-10-11T14:05:38Z"
+    "availabilityCheckedAt": "2026-10-12T16:46:20Z"
   },
   {
     "id": "land-70e6d327c364c7",
@@ -2902,19 +2968,19 @@ const LandCatalog = [
     "sourceCheck": {
       "id": "land-70e6d327c364c7",
       "sourceURL": "https://www.westlifeimobiliaria.com/imovel/exclusivo-west-life-terreno-rustico-de-4810m2-com-poco-e-fantastica-vista-mar-mafra/26380685",
-      "checkedAt": "2026-10-11T14:05:38Z",
+      "checkedAt": "2026-10-12T16:46:20Z",
       "status": "unavailable",
-      "error": "\u003curlopen error [Errno 111] Connection refused>",
-      "httpStatus": null
+      "error": "Advert HTTP 429",
+      "httpStatus": 429
     },
     "publishedObservedAt": "2026-10-08T14:37:22Z",
     "availability": {
       "status": "unverified",
-      "checkedAt": "2026-10-11T14:05:38Z",
+      "checkedAt": "2026-10-12T16:46:20Z",
       "sourceURL": "https://www.westlifeimobiliaria.com/imovel/exclusivo-west-life-terreno-rustico-de-4810m2-com-poco-e-fantastica-vista-mar-mafra/26380685",
-      "evidence": "\u003curlopen error [Errno 111] Connection refused>"
+      "evidence": "Advert HTTP 429"
     },
-    "availabilityCheckedAt": "2026-10-11T14:05:38Z"
+    "availabilityCheckedAt": "2026-10-12T16:46:20Z"
   },
   {
     "id": "land-ff75689b147063",
@@ -2999,17 +3065,19 @@ const LandCatalog = [
     "sourceCheck": {
       "id": "land-ff75689b147063",
       "sourceURL": "https://www.westlifeimobiliaria.com/imovel/moradia-t4-num-lote-de-8400m2-vista-mar-e-amplo-terreno-rustico-com-otima-exposicao-solar-lourinha/23310946",
-      "checkedAt": "2026-10-11T14:05:38Z",
-      "status": "observed"
+      "checkedAt": "2026-10-12T16:46:20Z",
+      "status": "unavailable",
+      "error": "Advert HTTP 429",
+      "httpStatus": 429
     },
     "publishedObservedAt": "2026-10-11T14:05:38Z",
     "availability": {
-      "status": "advert-live",
-      "checkedAt": "2026-10-11T14:05:38Z",
+      "status": "unverified",
+      "checkedAt": "2026-10-12T16:46:20Z",
       "sourceURL": "https://www.westlifeimobiliaria.com/imovel/moradia-t4-num-lote-de-8400m2-vista-mar-e-amplo-terreno-rustico-com-otima-exposicao-solar-lourinha/23310946",
-      "evidence": "Advert page fetched and parsed; seller confirmation still required"
+      "evidence": "Advert HTTP 429"
     },
-    "availabilityCheckedAt": "2026-10-11T14:05:38Z"
+    "availabilityCheckedAt": "2026-10-12T16:46:20Z"
   },
   {
     "id": "land-dad215d8bbbca1",
@@ -3070,19 +3138,19 @@ const LandCatalog = [
     "sourceCheck": {
       "id": "land-dad215d8bbbca1",
       "sourceURL": "https://www.westlifeimobiliaria.com/imovel/terreno-de-11398m2-com-projeto-aprovado-para-hotel-de-charmeboutique-hotel-vista-mar-soberba-ericeir/23006890",
-      "checkedAt": "2026-10-11T14:05:38Z",
+      "checkedAt": "2026-10-12T16:46:20Z",
       "status": "unavailable",
-      "error": "\u003curlopen error [Errno 111] Connection refused>",
-      "httpStatus": null
+      "error": "Advert HTTP 429",
+      "httpStatus": 429
     },
     "publishedObservedAt": "2026-10-07T14:37:51Z",
     "availability": {
       "status": "unverified",
-      "checkedAt": "2026-10-11T14:05:38Z",
+      "checkedAt": "2026-10-12T16:46:20Z",
       "sourceURL": "https://www.westlifeimobiliaria.com/imovel/terreno-de-11398m2-com-projeto-aprovado-para-hotel-de-charmeboutique-hotel-vista-mar-soberba-ericeir/23006890",
-      "evidence": "\u003curlopen error [Errno 111] Connection refused>"
+      "evidence": "Advert HTTP 429"
     },
-    "availabilityCheckedAt": "2026-10-11T14:05:38Z"
+    "availabilityCheckedAt": "2026-10-12T16:46:20Z"
   },
   {
     "id": "land-a9e8a24c00e931",
@@ -3143,19 +3211,19 @@ const LandCatalog = [
     "sourceCheck": {
       "id": "land-a9e8a24c00e931",
       "sourceURL": "https://www.westlifeimobiliaria.com/imovel/terreno-urbano-com-vista-mar-exclusivo-west-life-marvao/26609425",
-      "checkedAt": "2026-10-11T14:05:38Z",
+      "checkedAt": "2026-10-12T16:46:20Z",
       "status": "unavailable",
-      "error": "\u003curlopen error [Errno 111] Connection refused>",
-      "httpStatus": null
+      "error": "Advert HTTP 429",
+      "httpStatus": 429
     },
     "publishedObservedAt": "2026-10-07T14:37:51Z",
     "availability": {
       "status": "unverified",
-      "checkedAt": "2026-10-11T14:05:38Z",
+      "checkedAt": "2026-10-12T16:46:20Z",
       "sourceURL": "https://www.westlifeimobiliaria.com/imovel/terreno-urbano-com-vista-mar-exclusivo-west-life-marvao/26609425",
-      "evidence": "\u003curlopen error [Errno 111] Connection refused>"
+      "evidence": "Advert HTTP 429"
     },
-    "availabilityCheckedAt": "2026-10-11T14:05:38Z"
+    "availabilityCheckedAt": "2026-10-12T16:46:20Z"
   }
 ];
 if(typeof module!=='undefined')module.exports=LandCatalog;
