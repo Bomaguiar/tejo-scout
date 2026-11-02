@@ -32,18 +32,18 @@ const HouseCatalog = [
     "sourceCheck": {
       "id": "34893545",
       "sourceURL": "https://www.idealista.pt/imovel/34893545/",
-      "checkedAt": "2026-11-01T15:13:58Z",
+      "checkedAt": "2026-11-02T18:25:54Z",
       "status": "unavailable",
       "error": "robots HTTP 403",
       "httpStatus": null
     },
     "availability": {
       "status": "unverified",
-      "checkedAt": "2026-11-01T15:13:58Z",
+      "checkedAt": "2026-11-02T18:25:54Z",
       "sourceURL": "https://www.idealista.pt/imovel/34893545/",
       "evidence": "robots HTTP 403"
     },
-    "availabilityCheckedAt": "2026-11-01T15:13:58Z"
+    "availabilityCheckedAt": "2026-11-02T18:25:54Z"
   },
   {
     "id": "35315415",
@@ -75,18 +75,18 @@ const HouseCatalog = [
     "sourceCheck": {
       "id": "35315415",
       "sourceURL": "https://www.idealista.pt/imovel/35315415/",
-      "checkedAt": "2026-11-01T15:13:58Z",
+      "checkedAt": "2026-11-02T18:25:54Z",
       "status": "unavailable",
       "error": "robots HTTP 403",
       "httpStatus": null
     },
     "availability": {
       "status": "unverified",
-      "checkedAt": "2026-11-01T15:13:58Z",
+      "checkedAt": "2026-11-02T18:25:54Z",
       "sourceURL": "https://www.idealista.pt/imovel/35315415/",
       "evidence": "robots HTTP 403"
     },
-    "availabilityCheckedAt": "2026-11-01T15:13:58Z"
+    "availabilityCheckedAt": "2026-11-02T18:25:54Z"
   },
   {
     "id": "34997193",
@@ -119,18 +119,18 @@ const HouseCatalog = [
     "sourceCheck": {
       "id": "34997193",
       "sourceURL": "https://www.idealista.pt/imovel/34997193/",
-      "checkedAt": "2026-11-01T15:13:58Z",
+      "checkedAt": "2026-11-02T18:25:54Z",
       "status": "unavailable",
       "error": "robots HTTP 403",
       "httpStatus": null
     },
     "availability": {
       "status": "unverified",
-      "checkedAt": "2026-11-01T15:13:58Z",
+      "checkedAt": "2026-11-02T18:25:54Z",
       "sourceURL": "https://www.idealista.pt/imovel/34997193/",
       "evidence": "robots HTTP 403"
     },
-    "availabilityCheckedAt": "2026-11-01T15:13:58Z"
+    "availabilityCheckedAt": "2026-11-02T18:25:54Z"
   },
   {
     "id": "35075003",
@@ -162,18 +162,18 @@ const HouseCatalog = [
     "sourceCheck": {
       "id": "35075003",
       "sourceURL": "https://www.idealista.pt/imovel/35075003/",
-      "checkedAt": "2026-11-01T15:13:58Z",
+      "checkedAt": "2026-11-02T18:25:54Z",
       "status": "unavailable",
       "error": "robots HTTP 403",
       "httpStatus": null
     },
     "availability": {
       "status": "unverified",
-      "checkedAt": "2026-11-01T15:13:58Z",
+      "checkedAt": "2026-11-02T18:25:54Z",
       "sourceURL": "https://www.idealista.pt/imovel/35075003/",
       "evidence": "robots HTTP 403"
     },
-    "availabilityCheckedAt": "2026-11-01T15:13:58Z"
+    "availabilityCheckedAt": "2026-11-02T18:25:54Z"
   },
   {
     "id": "35098754",
@@ -205,18 +205,18 @@ const HouseCatalog = [
     "sourceCheck": {
       "id": "35098754",
       "sourceURL": "https://www.idealista.pt/imovel/35098754/",
-      "checkedAt": "2026-11-01T15:13:58Z",
+      "checkedAt": "2026-11-02T18:25:54Z",
       "status": "unavailable",
       "error": "robots HTTP 403",
       "httpStatus": null
     },
     "availability": {
       "status": "unverified",
-      "checkedAt": "2026-11-01T15:13:58Z",
+      "checkedAt": "2026-11-02T18:25:54Z",
       "sourceURL": "https://www.idealista.pt/imovel/35098754/",
       "evidence": "robots HTTP 403"
     },
-    "availabilityCheckedAt": "2026-11-01T15:13:58Z"
+    "availabilityCheckedAt": "2026-11-02T18:25:54Z"
   },
   {
     "id": "35001171",
@@ -249,18 +249,18 @@ const HouseCatalog = [
     "sourceCheck": {
       "id": "35001171",
       "sourceURL": "https://www.idealista.pt/imovel/35001171/",
-      "checkedAt": "2026-11-01T15:13:58Z",
+      "checkedAt": "2026-11-02T18:25:54Z",
       "status": "unavailable",
       "error": "robots HTTP 403",
       "httpStatus": null
     },
     "availability": {
       "status": "unverified",
-      "checkedAt": "2026-11-01T15:13:58Z",
+      "checkedAt": "2026-11-02T18:25:54Z",
       "sourceURL": "https://www.idealista.pt/imovel/35001171/",
       "evidence": "robots HTTP 403"
     },
-    "availabilityCheckedAt": "2026-11-01T15:13:58Z"
+    "availabilityCheckedAt": "2026-11-02T18:25:54Z"
   },
   {
     "id": "35297875",
@@ -293,18 +293,18 @@ const HouseCatalog = [
     "sourceCheck": {
       "id": "35297875",
       "sourceURL": "https://www.idealista.pt/imovel/35297875/",
-      "checkedAt": "2026-11-01T15:13:58Z",
+      "checkedAt": "2026-11-02T18:25:54Z",
       "status": "unavailable",
       "error": "robots HTTP 403",
       "httpStatus": null
     },
     "availability": {
       "status": "unverified",
-      "checkedAt": "2026-11-01T15:13:58Z",
+      "checkedAt": "2026-11-02T18:25:54Z",
       "sourceURL": "https://www.idealista.pt/imovel/35297875/",
       "evidence": "robots HTTP 403"
     },
-    "availabilityCheckedAt": "2026-11-01T15:13:58Z"
+    "availabilityCheckedAt": "2026-11-02T18:25:54Z"
   },
   {
     "id": "34417056",
@@ -337,18 +337,18 @@ const HouseCatalog = [
     "sourceCheck": {
       "id": "34417056",
       "sourceURL": "https://www.idealista.pt/imovel/34417056/",
-      "checkedAt": "2026-11-01T15:13:58Z",
+      "checkedAt": "2026-11-02T18:25:54Z",
       "status": "unavailable",
       "error": "robots HTTP 403",
       "httpStatus": null
     },
     "availability": {
       "status": "unverified",
-      "checkedAt": "2026-11-01T15:13:58Z",
+      "checkedAt": "2026-11-02T18:25:54Z",
       "sourceURL": "https://www.idealista.pt/imovel/34417056/",
       "evidence": "robots HTTP 403"
     },
-    "availabilityCheckedAt": "2026-11-01T15:13:58Z"
+    "availabilityCheckedAt": "2026-11-02T18:25:54Z"
   },
   {
     "id": "33408663",
@@ -381,18 +381,18 @@ const HouseCatalog = [
     "sourceCheck": {
       "id": "33408663",
       "sourceURL": "https://www.idealista.pt/imovel/33408663/",
-      "checkedAt": "2026-11-01T15:13:58Z",
+      "checkedAt": "2026-11-02T18:25:54Z",
       "status": "unavailable",
       "error": "robots HTTP 403",
       "httpStatus": null
     },
     "availability": {
       "status": "unverified",
-      "checkedAt": "2026-11-01T15:13:58Z",
+      "checkedAt": "2026-11-02T18:25:54Z",
       "sourceURL": "https://www.idealista.pt/imovel/33408663/",
       "evidence": "robots HTTP 403"
     },
-    "availabilityCheckedAt": "2026-11-01T15:13:58Z"
+    "availabilityCheckedAt": "2026-11-02T18:25:54Z"
   },
   {
     "id": "agency-8740d5893e2062",
@@ -401,7 +401,7 @@ const HouseCatalog = [
     "area": 270.89,
     "sourceURL": "https://nestenn.pt/moradia-por-recuperar-em-papagovas-ref-1860",
     "firstSeen": "2026-10-02T08:17:47Z",
-    "lastObserved": "2026-11-01T15:13:58Z",
+    "lastObserved": "2026-11-02T18:25:54Z",
     "researchedAt": "2026-10-02",
     "reference": "N115LNH816",
     "history": [
@@ -619,6 +619,12 @@ const HouseCatalog = [
         "at": "2026-11-01T15:13:58Z",
         "method": "public-page / nestenn",
         "contentHash": "e01fd41d246eb083499759977e95d011f423d8b22b27a79e8110e82702c95613"
+      },
+      {
+        "price": 275000.0,
+        "at": "2026-11-02T18:25:54Z",
+        "method": "public-page / nestenn",
+        "contentHash": "835d387ad0c6a5f6d315a01b18c2918d72ce0c1ef8ef0baf7354810a851f00d9"
       }
     ],
     "notes": "",
@@ -642,17 +648,17 @@ const HouseCatalog = [
     "sourceCheck": {
       "id": "agency-8740d5893e2062",
       "sourceURL": "https://nestenn.pt/moradia-por-recuperar-em-papagovas-ref-1860",
-      "checkedAt": "2026-11-01T15:13:58Z",
+      "checkedAt": "2026-11-02T18:25:54Z",
       "status": "observed"
     },
-    "publishedObservedAt": "2026-11-01T15:13:58Z",
+    "publishedObservedAt": "2026-11-02T18:25:54Z",
     "availability": {
       "status": "advert-live",
-      "checkedAt": "2026-11-01T15:13:58Z",
+      "checkedAt": "2026-11-02T18:25:54Z",
       "sourceURL": "https://nestenn.pt/moradia-por-recuperar-em-papagovas-ref-1860",
       "evidence": "Advert page fetched and parsed; seller confirmation still required"
     },
-    "availabilityCheckedAt": "2026-11-01T15:13:58Z"
+    "availabilityCheckedAt": "2026-11-02T18:25:54Z"
   },
   {
     "id": "agency-b69d38ead3ce45",
@@ -661,7 +667,7 @@ const HouseCatalog = [
     "area": 90.0,
     "sourceURL": "https://www.mciimobiliaria.pt/imovel/apartamento-t2-3-piso-para-remodelar-localizado-perto-do-centro-de-setubal/23644467",
     "firstSeen": "2026-10-02T20:32:01Z",
-    "lastObserved": "2026-11-01T15:13:58Z",
+    "lastObserved": "2026-11-02T18:25:54Z",
     "researchedAt": "2026-10-02",
     "reference": null,
     "history": [
@@ -837,6 +843,12 @@ const HouseCatalog = [
         "at": "2026-11-01T15:13:58Z",
         "method": "public-page / schema",
         "contentHash": "524895d6406833f8e6226d46166fd576da3884686972aca490cb687313c7473f"
+      },
+      {
+        "price": 187000.0,
+        "at": "2026-11-02T18:25:54Z",
+        "method": "public-page / schema",
+        "contentHash": "8b2648c0815fb29b5733b1e3ab05e3309e80a3b746303383ade34f2aaecff972"
       }
     ],
     "notes": "",
@@ -862,17 +874,17 @@ const HouseCatalog = [
     "sourceCheck": {
       "id": "agency-b69d38ead3ce45",
       "sourceURL": "https://www.mciimobiliaria.pt/imovel/apartamento-t2-3-piso-para-remodelar-localizado-perto-do-centro-de-setubal/23644467",
-      "checkedAt": "2026-11-01T15:13:58Z",
+      "checkedAt": "2026-11-02T18:25:54Z",
       "status": "observed"
     },
-    "publishedObservedAt": "2026-11-01T15:13:58Z",
+    "publishedObservedAt": "2026-11-02T18:25:54Z",
     "availability": {
       "status": "advert-live",
-      "checkedAt": "2026-11-01T15:13:58Z",
+      "checkedAt": "2026-11-02T18:25:54Z",
       "sourceURL": "https://www.mciimobiliaria.pt/imovel/apartamento-t2-3-piso-para-remodelar-localizado-perto-do-centro-de-setubal/23644467",
       "evidence": "Advert page fetched and parsed; seller confirmation still required"
     },
-    "availabilityCheckedAt": "2026-11-01T15:13:58Z"
+    "availabilityCheckedAt": "2026-11-02T18:25:54Z"
   },
   {
     "id": "agency-ef0fa5902642d0",
@@ -881,7 +893,7 @@ const HouseCatalog = [
     "area": 360.0,
     "sourceURL": "https://www.oestesolucoes.com.pt/imovel/casa-antiga-para-recuperar-centro-historico-da-lourinha/21479661",
     "firstSeen": "2026-10-02T20:32:01Z",
-    "lastObserved": "2026-11-01T15:13:58Z",
+    "lastObserved": "2026-11-02T18:25:54Z",
     "researchedAt": "2026-10-02",
     "reference": null,
     "history": [
@@ -1057,6 +1069,12 @@ const HouseCatalog = [
         "at": "2026-11-01T15:13:58Z",
         "method": "public-page / schema",
         "contentHash": "d8e03d8218302a3708679366b5451f51da586b4811bbb89f0012ad852e7bcfa1"
+      },
+      {
+        "price": 185000.0,
+        "at": "2026-11-02T18:25:54Z",
+        "method": "public-page / schema",
+        "contentHash": "1e15731fbf7a4e30f9ec39af2fb624e7c0f2a53faaed060fed0ba10440d58014"
       }
     ],
     "notes": "",
@@ -1081,17 +1099,17 @@ const HouseCatalog = [
     "sourceCheck": {
       "id": "agency-ef0fa5902642d0",
       "sourceURL": "https://www.oestesolucoes.com.pt/imovel/casa-antiga-para-recuperar-centro-historico-da-lourinha/21479661",
-      "checkedAt": "2026-11-01T15:13:58Z",
+      "checkedAt": "2026-11-02T18:25:54Z",
       "status": "observed"
     },
-    "publishedObservedAt": "2026-11-01T15:13:58Z",
+    "publishedObservedAt": "2026-11-02T18:25:54Z",
     "availability": {
       "status": "advert-live",
-      "checkedAt": "2026-11-01T15:13:58Z",
+      "checkedAt": "2026-11-02T18:25:54Z",
       "sourceURL": "https://www.oestesolucoes.com.pt/imovel/casa-antiga-para-recuperar-centro-historico-da-lourinha/21479661",
       "evidence": "Advert page fetched and parsed; seller confirmation still required"
     },
-    "availabilityCheckedAt": "2026-11-01T15:13:58Z"
+    "availabilityCheckedAt": "2026-11-02T18:25:54Z"
   },
   {
     "id": "agency-ffb2a0d439593f",
@@ -1100,7 +1118,7 @@ const HouseCatalog = [
     "area": 483.0,
     "sourceURL": "https://www.oestesolucoes.com.pt/imovel/casa-para-reabilitar-na-zona-historica-da-lourinha/22126165",
     "firstSeen": "2026-10-02T20:32:01Z",
-    "lastObserved": "2026-11-01T15:13:58Z",
+    "lastObserved": "2026-11-02T18:25:54Z",
     "researchedAt": "2026-10-02",
     "reference": null,
     "history": [
@@ -1270,6 +1288,12 @@ const HouseCatalog = [
         "at": "2026-11-01T15:13:58Z",
         "method": "public-page / schema",
         "contentHash": "847d06292d088ae1255d96cbdcd2a4e233d69e0f5523cf2bc30f1edbb10ae483"
+      },
+      {
+        "price": 650000.0,
+        "at": "2026-11-02T18:25:54Z",
+        "method": "public-page / schema",
+        "contentHash": "5a566cd097047272be81702b0d9127b76fc3928c9e7081899b9db61a92f448f3"
       }
     ],
     "notes": "",
@@ -1294,17 +1318,17 @@ const HouseCatalog = [
     "sourceCheck": {
       "id": "agency-ffb2a0d439593f",
       "sourceURL": "https://www.oestesolucoes.com.pt/imovel/casa-para-reabilitar-na-zona-historica-da-lourinha/22126165",
-      "checkedAt": "2026-11-01T15:13:58Z",
+      "checkedAt": "2026-11-02T18:25:54Z",
       "status": "observed"
     },
-    "publishedObservedAt": "2026-11-01T15:13:58Z",
+    "publishedObservedAt": "2026-11-02T18:25:54Z",
     "availability": {
       "status": "advert-live",
-      "checkedAt": "2026-11-01T15:13:58Z",
+      "checkedAt": "2026-11-02T18:25:54Z",
       "sourceURL": "https://www.oestesolucoes.com.pt/imovel/casa-para-reabilitar-na-zona-historica-da-lourinha/22126165",
       "evidence": "Advert page fetched and parsed; seller confirmation still required"
     },
-    "availabilityCheckedAt": "2026-11-01T15:13:58Z"
+    "availabilityCheckedAt": "2026-11-02T18:25:54Z"
   },
   {
     "id": "agency-9af91680c31c20",
@@ -1313,7 +1337,7 @@ const HouseCatalog = [
     "area": 61.0,
     "sourceURL": "https://www.medipred.pt/imovel/apartamento-t1-baixa-da-banheira/24448450",
     "firstSeen": "2026-10-02T20:32:01Z",
-    "lastObserved": "2026-11-01T15:13:58Z",
+    "lastObserved": "2026-11-02T18:25:54Z",
     "researchedAt": "2026-10-02",
     "reference": "MTJU7171",
     "history": [
@@ -1489,6 +1513,12 @@ const HouseCatalog = [
         "at": "2026-11-01T15:13:58Z",
         "method": "public-page / schema",
         "contentHash": "78c5b990da09f45167d2374d61b5b71fcdfb225646f57a0bff3e34d381f22456"
+      },
+      {
+        "price": 172500.0,
+        "at": "2026-11-02T18:25:54Z",
+        "method": "public-page / schema",
+        "contentHash": "dc2066471a58316fb305dddacd97286728cce64592ecc0b0c051b85df444dc77"
       }
     ],
     "notes": "",
@@ -1513,17 +1543,17 @@ const HouseCatalog = [
     "sourceCheck": {
       "id": "agency-9af91680c31c20",
       "sourceURL": "https://www.medipred.pt/imovel/apartamento-t1-baixa-da-banheira/24448450",
-      "checkedAt": "2026-11-01T15:13:58Z",
+      "checkedAt": "2026-11-02T18:25:54Z",
       "status": "observed"
     },
-    "publishedObservedAt": "2026-11-01T15:13:58Z",
+    "publishedObservedAt": "2026-11-02T18:25:54Z",
     "availability": {
       "status": "advert-live",
-      "checkedAt": "2026-11-01T15:13:58Z",
+      "checkedAt": "2026-11-02T18:25:54Z",
       "sourceURL": "https://www.medipred.pt/imovel/apartamento-t1-baixa-da-banheira/24448450",
       "evidence": "Advert page fetched and parsed; seller confirmation still required"
     },
-    "availabilityCheckedAt": "2026-11-01T15:13:58Z"
+    "availabilityCheckedAt": "2026-11-02T18:25:54Z"
   },
   {
     "id": "agency-4955fb7adfc811",
@@ -1532,7 +1562,7 @@ const HouseCatalog = [
     "area": 160.0,
     "sourceURL": "https://www.ptcasas.pt/imovel/moradia-t2-para-recuperar-em-dagorda-cadaval/25787966",
     "firstSeen": "2026-10-02T20:32:01Z",
-    "lastObserved": "2026-11-01T15:13:58Z",
+    "lastObserved": "2026-11-02T18:25:54Z",
     "researchedAt": "2026-10-02",
     "reference": null,
     "history": [
@@ -1666,6 +1696,12 @@ const HouseCatalog = [
         "at": "2026-11-01T15:13:58Z",
         "method": "public-page / schema",
         "contentHash": "b5fc623352dffb44dbf4855f44938ed664ad68220affa623618d1811c89f7031"
+      },
+      {
+        "price": 160000.0,
+        "at": "2026-11-02T18:25:54Z",
+        "method": "public-page / schema",
+        "contentHash": "63618e8d81b9108d706f8052f24f6173bb32c9ef6cf1842de94f731971a2fc08"
       }
     ],
     "notes": "",
@@ -1691,17 +1727,17 @@ const HouseCatalog = [
     "sourceCheck": {
       "id": "agency-4955fb7adfc811",
       "sourceURL": "https://www.ptcasas.pt/imovel/moradia-t2-para-recuperar-em-dagorda-cadaval/25787966",
-      "checkedAt": "2026-11-01T15:13:58Z",
+      "checkedAt": "2026-11-02T18:25:54Z",
       "status": "observed"
     },
-    "publishedObservedAt": "2026-11-01T15:13:58Z",
+    "publishedObservedAt": "2026-11-02T18:25:54Z",
     "availability": {
       "status": "advert-live",
-      "checkedAt": "2026-11-01T15:13:58Z",
+      "checkedAt": "2026-11-02T18:25:54Z",
       "sourceURL": "https://www.ptcasas.pt/imovel/moradia-t2-para-recuperar-em-dagorda-cadaval/25787966",
       "evidence": "Advert page fetched and parsed; seller confirmation still required"
     },
-    "availabilityCheckedAt": "2026-11-01T15:13:58Z"
+    "availabilityCheckedAt": "2026-11-02T18:25:54Z"
   },
   {
     "id": "agency-f53b139753f70a",
@@ -1710,7 +1746,7 @@ const HouseCatalog = [
     "area": 170.0,
     "sourceURL": "https://www.medipred.pt/imovel/ruina-com-170-m2-em-terreno-com-460-m2-arneiros-ventosa-tvd/25381290",
     "firstSeen": "2026-10-02T20:36:20Z",
-    "lastObserved": "2026-11-01T15:13:58Z",
+    "lastObserved": "2026-11-02T18:25:54Z",
     "researchedAt": "2026-10-02",
     "reference": "MTM6880C",
     "history": [
@@ -1886,6 +1922,12 @@ const HouseCatalog = [
         "at": "2026-11-01T15:13:58Z",
         "method": "public-page / schema",
         "contentHash": "832cc711e40198772733cc77a012211c2216f4fc72c0b21ab97abec33df1aa60"
+      },
+      {
+        "price": 63000.0,
+        "at": "2026-11-02T18:25:54Z",
+        "method": "public-page / schema",
+        "contentHash": "e16d62c962085719a35a03263ff17eec9185697fe08c4cb950d1c3875a8a6088"
       }
     ],
     "notes": "",
@@ -1912,17 +1954,17 @@ const HouseCatalog = [
     "sourceCheck": {
       "id": "agency-f53b139753f70a",
       "sourceURL": "https://www.medipred.pt/imovel/ruina-com-170-m2-em-terreno-com-460-m2-arneiros-ventosa-tvd/25381290",
-      "checkedAt": "2026-11-01T15:13:58Z",
+      "checkedAt": "2026-11-02T18:25:54Z",
       "status": "observed"
     },
     "availability": {
       "status": "advert-live",
-      "checkedAt": "2026-11-01T15:13:58Z",
+      "checkedAt": "2026-11-02T18:25:54Z",
       "sourceURL": "https://www.medipred.pt/imovel/ruina-com-170-m2-em-terreno-com-460-m2-arneiros-ventosa-tvd/25381290",
       "evidence": "Advert page fetched and parsed; seller confirmation still required"
     },
-    "availabilityCheckedAt": "2026-11-01T15:13:58Z",
-    "publishedObservedAt": "2026-11-01T15:13:58Z",
+    "availabilityCheckedAt": "2026-11-02T18:25:54Z",
+    "publishedObservedAt": "2026-11-02T18:25:54Z",
     "alternateSources": [
       "https://www.medipred.pt/imovel/ruina-com-170-m2-em-terreno-com-940-m2-arneiros-ventosa-tvd/24803498"
     ]
@@ -1934,7 +1976,7 @@ const HouseCatalog = [
     "area": 160.0,
     "sourceURL": "https://www.mciimobiliaria.pt/imovel/apartamento-t3-com-3-parqueamentos-necessita-algumas-remodelacoes-perto-estacao-fertagus/23499159",
     "firstSeen": "2026-10-02T20:40:29Z",
-    "lastObserved": "2026-11-01T15:13:58Z",
+    "lastObserved": "2026-11-02T18:25:54Z",
     "researchedAt": "2026-10-02",
     "reference": null,
     "history": [
@@ -2104,6 +2146,12 @@ const HouseCatalog = [
         "at": "2026-11-01T15:13:58Z",
         "method": "public-page / schema",
         "contentHash": "58d9e540131b02ee9391becbce5d9ab67c7a6179c0d4c96e1bb386f9caffc825"
+      },
+      {
+        "price": 319000.0,
+        "at": "2026-11-02T18:25:54Z",
+        "method": "public-page / schema",
+        "contentHash": "103fbb4ce52a2609334985d3c33553657d679e221df1000fc9ab11e38f3c6a75"
       }
     ],
     "notes": "",
@@ -2128,17 +2176,17 @@ const HouseCatalog = [
     "sourceCheck": {
       "id": "agency-ff59b536e95a24",
       "sourceURL": "https://www.mciimobiliaria.pt/imovel/apartamento-t3-com-3-parqueamentos-necessita-algumas-remodelacoes-perto-estacao-fertagus/23499159",
-      "checkedAt": "2026-11-01T15:13:58Z",
+      "checkedAt": "2026-11-02T18:25:54Z",
       "status": "observed"
     },
-    "publishedObservedAt": "2026-11-01T15:13:58Z",
+    "publishedObservedAt": "2026-11-02T18:25:54Z",
     "availability": {
       "status": "advert-live",
-      "checkedAt": "2026-11-01T15:13:58Z",
+      "checkedAt": "2026-11-02T18:25:54Z",
       "sourceURL": "https://www.mciimobiliaria.pt/imovel/apartamento-t3-com-3-parqueamentos-necessita-algumas-remodelacoes-perto-estacao-fertagus/23499159",
       "evidence": "Advert page fetched and parsed; seller confirmation still required"
     },
-    "availabilityCheckedAt": "2026-11-01T15:13:58Z"
+    "availabilityCheckedAt": "2026-11-02T18:25:54Z"
   },
   {
     "id": "agency-3236bb99cb0817",
@@ -2147,7 +2195,7 @@ const HouseCatalog = [
     "area": 50.0,
     "sourceURL": "https://www.ptcasas.pt/imovel/moradia-com-anexo-e-logradouro/26412145",
     "firstSeen": "2026-10-02T20:40:46Z",
-    "lastObserved": "2026-10-31T14:33:47Z",
+    "lastObserved": "2026-11-02T18:25:54Z",
     "researchedAt": "2026-10-02",
     "reference": null,
     "history": [
@@ -2263,6 +2311,12 @@ const HouseCatalog = [
         "at": "2026-10-31T14:33:47Z",
         "method": "public-page / schema",
         "contentHash": "e06576ff9c133006dc91e87c7f5609a4708f0066c85254554b6ad92bcf178276"
+      },
+      {
+        "price": 99000.0,
+        "at": "2026-11-02T18:25:54Z",
+        "method": "public-page / schema",
+        "contentHash": "06e64c9a65e18e3a878a52208eaf5a597cdfc897700c0b7e5124fc718f16bbfb"
       }
     ],
     "notes": "",
@@ -2288,19 +2342,17 @@ const HouseCatalog = [
     "sourceCheck": {
       "id": "agency-3236bb99cb0817",
       "sourceURL": "https://www.ptcasas.pt/imovel/moradia-com-anexo-e-logradouro/26412145",
-      "checkedAt": "2026-11-01T15:13:58Z",
-      "status": "unavailable",
-      "error": "\u003curlopen error [Errno 111] Connection refused>",
-      "httpStatus": null
+      "checkedAt": "2026-11-02T18:25:54Z",
+      "status": "observed"
     },
     "availability": {
-      "status": "unverified",
-      "checkedAt": "2026-11-01T15:13:58Z",
+      "status": "advert-live",
+      "checkedAt": "2026-11-02T18:25:54Z",
       "sourceURL": "https://www.ptcasas.pt/imovel/moradia-com-anexo-e-logradouro/26412145",
-      "evidence": "\u003curlopen error [Errno 111] Connection refused>"
+      "evidence": "Advert page fetched and parsed; seller confirmation still required"
     },
-    "availabilityCheckedAt": "2026-11-01T15:13:58Z",
-    "publishedObservedAt": "2026-10-31T14:33:47Z"
+    "availabilityCheckedAt": "2026-11-02T18:25:54Z",
+    "publishedObservedAt": "2026-11-02T18:25:54Z"
   },
   {
     "id": "agency-e280d888355ce7",
@@ -2309,7 +2361,7 @@ const HouseCatalog = [
     "area": 80.0,
     "sourceURL": "https://www.mciimobiliaria.pt/imovel/apartamento-t2-2-piso-a-necessitar-de-algumas-obras-no-centro-do-carregado/24521303",
     "firstSeen": "2026-10-03T12:36:10Z",
-    "lastObserved": "2026-11-01T15:13:58Z",
+    "lastObserved": "2026-11-02T18:25:54Z",
     "researchedAt": "2026-10-03",
     "reference": null,
     "history": [
@@ -2473,6 +2525,12 @@ const HouseCatalog = [
         "at": "2026-11-01T15:13:58Z",
         "method": "public-page / schema",
         "contentHash": "96bc60848e36fa10dedbb36f8dc6162f25e379b8b550cc7eaeb2c841f2910767"
+      },
+      {
+        "price": 225000.0,
+        "at": "2026-11-02T18:25:54Z",
+        "method": "public-page / schema",
+        "contentHash": "52a6239d84a26ea1210c3b9731fdf82d2e3488feafc45bbd263f55497a288858"
       }
     ],
     "notes": "",
@@ -2497,17 +2555,17 @@ const HouseCatalog = [
     "sourceCheck": {
       "id": "agency-e280d888355ce7",
       "sourceURL": "https://www.mciimobiliaria.pt/imovel/apartamento-t2-2-piso-a-necessitar-de-algumas-obras-no-centro-do-carregado/24521303",
-      "checkedAt": "2026-11-01T15:13:58Z",
+      "checkedAt": "2026-11-02T18:25:54Z",
       "status": "observed"
     },
-    "publishedObservedAt": "2026-11-01T15:13:58Z",
+    "publishedObservedAt": "2026-11-02T18:25:54Z",
     "availability": {
       "status": "advert-live",
-      "checkedAt": "2026-11-01T15:13:58Z",
+      "checkedAt": "2026-11-02T18:25:54Z",
       "sourceURL": "https://www.mciimobiliaria.pt/imovel/apartamento-t2-2-piso-a-necessitar-de-algumas-obras-no-centro-do-carregado/24521303",
       "evidence": "Advert page fetched and parsed; seller confirmation still required"
     },
-    "availabilityCheckedAt": "2026-11-01T15:13:58Z"
+    "availabilityCheckedAt": "2026-11-02T18:25:54Z"
   },
   {
     "id": "agency-c6bc4d69f61226",
@@ -2516,7 +2574,7 @@ const HouseCatalog = [
     "area": 185.0,
     "sourceURL": "https://www.medipred.pt/imovel/lote-de-329-m-com-moradia-para-recuperar-sao-sebastiao-de-guerreiros-loures/25813712",
     "firstSeen": "2026-10-03T12:36:10Z",
-    "lastObserved": "2026-11-01T15:13:58Z",
+    "lastObserved": "2026-11-02T18:25:54Z",
     "researchedAt": "2026-10-03",
     "reference": "MJM6991",
     "history": [
@@ -2680,6 +2738,12 @@ const HouseCatalog = [
         "at": "2026-11-01T15:13:58Z",
         "method": "public-page / schema",
         "contentHash": "fcfe8d5eb8a0feeb5927ebeb905e68c99471739564f537cba07098bacf7197f6"
+      },
+      {
+        "price": 350000.0,
+        "at": "2026-11-02T18:25:54Z",
+        "method": "public-page / schema",
+        "contentHash": "1375da1a8761c896b4b526e7ecfe53a6e6b0c05dc0453114a9e81d313fc2d4e0"
       }
     ],
     "notes": "",
@@ -2704,17 +2768,17 @@ const HouseCatalog = [
     "sourceCheck": {
       "id": "agency-c6bc4d69f61226",
       "sourceURL": "https://www.medipred.pt/imovel/lote-de-329-m-com-moradia-para-recuperar-sao-sebastiao-de-guerreiros-loures/25813712",
-      "checkedAt": "2026-11-01T15:13:58Z",
+      "checkedAt": "2026-11-02T18:25:54Z",
       "status": "observed"
     },
-    "publishedObservedAt": "2026-11-01T15:13:58Z",
+    "publishedObservedAt": "2026-11-02T18:25:54Z",
     "availability": {
       "status": "advert-live",
-      "checkedAt": "2026-11-01T15:13:58Z",
+      "checkedAt": "2026-11-02T18:25:54Z",
       "sourceURL": "https://www.medipred.pt/imovel/lote-de-329-m-com-moradia-para-recuperar-sao-sebastiao-de-guerreiros-loures/25813712",
       "evidence": "Advert page fetched and parsed; seller confirmation still required"
     },
-    "availabilityCheckedAt": "2026-11-01T15:13:58Z"
+    "availabilityCheckedAt": "2026-11-02T18:25:54Z"
   },
   {
     "id": "agency-8a641948b7f57d",
@@ -2723,7 +2787,7 @@ const HouseCatalog = [
     "area": 243.2,
     "sourceURL": "https://www.acertosemedidas.pt/imovel/moradia-t4-lourinha/26303232",
     "firstSeen": "2026-10-05T16:04:24Z",
-    "lastObserved": "2026-11-01T15:13:58Z",
+    "lastObserved": "2026-11-02T18:25:54Z",
     "researchedAt": "2026-10-05",
     "reference": null,
     "history": [
@@ -2875,6 +2939,12 @@ const HouseCatalog = [
         "at": "2026-11-01T15:13:58Z",
         "method": "public-page / schema",
         "contentHash": "3b5ca174f20d58133e0f7bd287bb9b72ff3f96c90db431f86f4700aef28319d9"
+      },
+      {
+        "price": 330000.0,
+        "at": "2026-11-02T18:25:54Z",
+        "method": "public-page / schema",
+        "contentHash": "071b9fcd90ec63f8887c52daca90b47c00cfd3b01193eb98893caf05fcb27520"
       }
     ],
     "notes": "",
@@ -2899,17 +2969,17 @@ const HouseCatalog = [
     "sourceCheck": {
       "id": "agency-8a641948b7f57d",
       "sourceURL": "https://www.acertosemedidas.pt/imovel/moradia-t4-lourinha/26303232",
-      "checkedAt": "2026-11-01T15:13:58Z",
+      "checkedAt": "2026-11-02T18:25:54Z",
       "status": "observed"
     },
-    "publishedObservedAt": "2026-11-01T15:13:58Z",
+    "publishedObservedAt": "2026-11-02T18:25:54Z",
     "availability": {
       "status": "advert-live",
-      "checkedAt": "2026-11-01T15:13:58Z",
+      "checkedAt": "2026-11-02T18:25:54Z",
       "sourceURL": "https://www.acertosemedidas.pt/imovel/moradia-t4-lourinha/26303232",
       "evidence": "Advert page fetched and parsed; seller confirmation still required"
     },
-    "availabilityCheckedAt": "2026-11-01T15:13:58Z"
+    "availabilityCheckedAt": "2026-11-02T18:25:54Z"
   },
   {
     "id": "agency-493114487939b7",
@@ -2918,7 +2988,7 @@ const HouseCatalog = [
     "area": 70.0,
     "sourceURL": "https://www.mciimobiliaria.pt/imovel/apartamento-t3-2-piso-a-necessitar-de-obras-gerais-perto-do-metro-do-laranjeiro/24639485",
     "firstSeen": "2026-10-05T16:04:24Z",
-    "lastObserved": "2026-11-01T15:13:58Z",
+    "lastObserved": "2026-11-02T18:25:54Z",
     "researchedAt": "2026-10-05",
     "reference": null,
     "history": [
@@ -3070,6 +3140,12 @@ const HouseCatalog = [
         "at": "2026-11-01T15:13:58Z",
         "method": "public-page / schema",
         "contentHash": "7a09ca9963ce35f53b3beef7167c75b5a55041ee7e9500bf848b7cedc8bc0a43"
+      },
+      {
+        "price": 225000.0,
+        "at": "2026-11-02T18:25:54Z",
+        "method": "public-page / schema",
+        "contentHash": "d364d2c82bf482048a2ccf1b184415ea5afe3e623c6ac3ff766e5620f03e310b"
       }
     ],
     "notes": "",
@@ -3094,17 +3170,17 @@ const HouseCatalog = [
     "sourceCheck": {
       "id": "agency-493114487939b7",
       "sourceURL": "https://www.mciimobiliaria.pt/imovel/apartamento-t3-2-piso-a-necessitar-de-obras-gerais-perto-do-metro-do-laranjeiro/24639485",
-      "checkedAt": "2026-11-01T15:13:58Z",
+      "checkedAt": "2026-11-02T18:25:54Z",
       "status": "observed"
     },
-    "publishedObservedAt": "2026-11-01T15:13:58Z",
+    "publishedObservedAt": "2026-11-02T18:25:54Z",
     "availability": {
       "status": "advert-live",
-      "checkedAt": "2026-11-01T15:13:58Z",
+      "checkedAt": "2026-11-02T18:25:54Z",
       "sourceURL": "https://www.mciimobiliaria.pt/imovel/apartamento-t3-2-piso-a-necessitar-de-obras-gerais-perto-do-metro-do-laranjeiro/24639485",
       "evidence": "Advert page fetched and parsed; seller confirmation still required"
     },
-    "availabilityCheckedAt": "2026-11-01T15:13:58Z"
+    "availabilityCheckedAt": "2026-11-02T18:25:54Z"
   },
   {
     "id": "agency-b56f3e87368cc2",
@@ -3113,7 +3189,7 @@ const HouseCatalog = [
     "area": 80.0,
     "sourceURL": "https://www.mciimobiliaria.pt/imovel/apartamento-t3-3-piso-a-necessitar-de-obras-localizado-perto-da-estacao-comboios-da-amadora/24425675",
     "firstSeen": "2026-10-05T16:04:24Z",
-    "lastObserved": "2026-11-01T15:13:58Z",
+    "lastObserved": "2026-11-02T18:25:54Z",
     "researchedAt": "2026-10-05",
     "reference": null,
     "history": [
@@ -3265,6 +3341,12 @@ const HouseCatalog = [
         "at": "2026-11-01T15:13:58Z",
         "method": "public-page / schema",
         "contentHash": "3dae7e7f00e91de500e209b0c513dcf6aeaf3cba3201792301f9056eb0f33c49"
+      },
+      {
+        "price": 270000.0,
+        "at": "2026-11-02T18:25:54Z",
+        "method": "public-page / schema",
+        "contentHash": "eebc3cd883e430f9d03c68606a26de63cefef7fdf1836d514babe9baabd48fe5"
       }
     ],
     "notes": "",
@@ -3289,17 +3371,17 @@ const HouseCatalog = [
     "sourceCheck": {
       "id": "agency-b56f3e87368cc2",
       "sourceURL": "https://www.mciimobiliaria.pt/imovel/apartamento-t3-3-piso-a-necessitar-de-obras-localizado-perto-da-estacao-comboios-da-amadora/24425675",
-      "checkedAt": "2026-11-01T15:13:58Z",
+      "checkedAt": "2026-11-02T18:25:54Z",
       "status": "observed"
     },
-    "publishedObservedAt": "2026-11-01T15:13:58Z",
+    "publishedObservedAt": "2026-11-02T18:25:54Z",
     "availability": {
       "status": "advert-live",
-      "checkedAt": "2026-11-01T15:13:58Z",
+      "checkedAt": "2026-11-02T18:25:54Z",
       "sourceURL": "https://www.mciimobiliaria.pt/imovel/apartamento-t3-3-piso-a-necessitar-de-obras-localizado-perto-da-estacao-comboios-da-amadora/24425675",
       "evidence": "Advert page fetched and parsed; seller confirmation still required"
     },
-    "availabilityCheckedAt": "2026-11-01T15:13:58Z"
+    "availabilityCheckedAt": "2026-11-02T18:25:54Z"
   },
   {
     "id": "agency-c18a272379c393",
@@ -3308,7 +3390,7 @@ const HouseCatalog = [
     "area": 260.9,
     "sourceURL": "https://www.oestesolucoes.com.pt/imovel/moradia-t3-no-concelho-de-torres-vedras/24909183",
     "firstSeen": "2026-10-06T14:15:42Z",
-    "lastObserved": "2026-11-01T15:13:58Z",
+    "lastObserved": "2026-11-02T18:25:54Z",
     "researchedAt": "2026-10-06",
     "reference": null,
     "history": [
@@ -3454,6 +3536,12 @@ const HouseCatalog = [
         "at": "2026-11-01T15:13:58Z",
         "method": "public-page / schema",
         "contentHash": "dd757c06f97cbbbdd90dcb8802eb881f2f1e635d964e207b245de9d7845deb43"
+      },
+      {
+        "price": 350000.0,
+        "at": "2026-11-02T18:25:54Z",
+        "method": "public-page / schema",
+        "contentHash": "791ae3fab1b88f9d4a81ef08fa180c354f392a6e0e67980c813caa496786a398"
       }
     ],
     "notes": "",
@@ -3478,17 +3566,17 @@ const HouseCatalog = [
     "sourceCheck": {
       "id": "agency-c18a272379c393",
       "sourceURL": "https://www.oestesolucoes.com.pt/imovel/moradia-t3-no-concelho-de-torres-vedras/24909183",
-      "checkedAt": "2026-11-01T15:13:58Z",
+      "checkedAt": "2026-11-02T18:25:54Z",
       "status": "observed"
     },
-    "publishedObservedAt": "2026-11-01T15:13:58Z",
+    "publishedObservedAt": "2026-11-02T18:25:54Z",
     "availability": {
       "status": "advert-live",
-      "checkedAt": "2026-11-01T15:13:58Z",
+      "checkedAt": "2026-11-02T18:25:54Z",
       "sourceURL": "https://www.oestesolucoes.com.pt/imovel/moradia-t3-no-concelho-de-torres-vedras/24909183",
       "evidence": "Advert page fetched and parsed; seller confirmation still required"
     },
-    "availabilityCheckedAt": "2026-11-01T15:13:58Z"
+    "availabilityCheckedAt": "2026-11-02T18:25:54Z"
   },
   {
     "id": "agency-4d7d2e2da9cb5d",
@@ -3589,19 +3677,19 @@ const HouseCatalog = [
     "sourceCheck": {
       "id": "agency-4d7d2e2da9cb5d",
       "sourceURL": "https://www.westlifeimobiliaria.com/imovel/moradia-t2-2-para-reabilitar-com-excelente-exposicao-solar-e-localizacao-privilegiada-exclusivo-west/24804378",
-      "checkedAt": "2026-11-01T15:13:58Z",
+      "checkedAt": "2026-11-02T18:25:54Z",
       "status": "unavailable",
-      "error": "robots unavailable: \u003curlopen error [Errno 111] Connection refused>",
+      "error": "\u003curlopen error timed out>",
       "httpStatus": null
     },
     "publishedObservedAt": "2026-10-31T14:33:47Z",
     "availability": {
       "status": "unverified",
-      "checkedAt": "2026-11-01T15:13:58Z",
+      "checkedAt": "2026-11-02T18:25:54Z",
       "sourceURL": "https://www.westlifeimobiliaria.com/imovel/moradia-t2-2-para-reabilitar-com-excelente-exposicao-solar-e-localizacao-privilegiada-exclusivo-west/24804378",
-      "evidence": "robots unavailable: \u003curlopen error [Errno 111] Connection refused>"
+      "evidence": "\u003curlopen error timed out>"
     },
-    "availabilityCheckedAt": "2026-11-01T15:13:58Z"
+    "availabilityCheckedAt": "2026-11-02T18:25:54Z"
   },
   {
     "id": "agency-46ccc2bc2a8170",
@@ -3708,18 +3796,18 @@ const HouseCatalog = [
     "sourceCheck": {
       "id": "agency-46ccc2bc2a8170",
       "sourceURL": "https://www.medipred.pt/imovel/apartamento-t3-em-remodelacao-barreiro/26674016",
-      "checkedAt": "2026-11-01T15:13:58Z",
+      "checkedAt": "2026-11-02T18:25:54Z",
       "status": "needs-review",
       "error": "Structured listing URL does not match requested advert"
     },
     "publishedObservedAt": "2026-10-21T12:58:06Z",
     "availability": {
       "status": "unverified",
-      "checkedAt": "2026-11-01T15:13:58Z",
+      "checkedAt": "2026-11-02T18:25:54Z",
       "sourceURL": "https://www.medipred.pt/imovel/apartamento-t3-em-remodelacao-barreiro/26674016",
       "evidence": "Structured listing URL does not match requested advert"
     },
-    "availabilityCheckedAt": "2026-11-01T15:13:58Z"
+    "availabilityCheckedAt": "2026-11-02T18:25:54Z"
   },
   {
     "id": "agency-500ffe769d43d9",
@@ -3728,7 +3816,7 @@ const HouseCatalog = [
     "area": 160.0,
     "sourceURL": "https://www.westlifeimobiliaria.com/imovel/moradia-t3-terrea-na-encarnacao-vista-campo-desafogada-terreno-1117m/25960536",
     "firstSeen": "2026-10-11T14:05:38Z",
-    "lastObserved": "2026-10-31T14:33:47Z",
+    "lastObserved": "2026-11-02T18:25:54Z",
     "researchedAt": "2026-10-11",
     "reference": "5706WE",
     "history": [
@@ -3778,6 +3866,12 @@ const HouseCatalog = [
         "at": "2026-10-31T14:33:47Z",
         "method": "public-page / schema",
         "contentHash": "27f27b048b1bbc519b8eb1f2f2cd1f6105ca708a40b1412d8dffcfe25a91e0fe"
+      },
+      {
+        "price": 570000.0,
+        "at": "2026-11-02T18:25:54Z",
+        "method": "public-page / schema",
+        "contentHash": "fd0d897ff57cbe5d961bd385d5c92bc7ce0bba3169eb9d5d7ed66ec99c25703b"
       }
     ],
     "notes": "",
@@ -3802,19 +3896,17 @@ const HouseCatalog = [
     "sourceCheck": {
       "id": "agency-500ffe769d43d9",
       "sourceURL": "https://www.westlifeimobiliaria.com/imovel/moradia-t3-terrea-na-encarnacao-vista-campo-desafogada-terreno-1117m/25960536",
-      "checkedAt": "2026-11-01T15:13:58Z",
-      "status": "unavailable",
-      "error": "robots unavailable: \u003curlopen error [Errno 111] Connection refused>",
-      "httpStatus": null
+      "checkedAt": "2026-11-02T18:25:54Z",
+      "status": "observed"
     },
-    "publishedObservedAt": "2026-10-31T14:33:47Z",
+    "publishedObservedAt": "2026-11-02T18:25:54Z",
     "availability": {
-      "status": "unverified",
-      "checkedAt": "2026-11-01T15:13:58Z",
+      "status": "advert-live",
+      "checkedAt": "2026-11-02T18:25:54Z",
       "sourceURL": "https://www.westlifeimobiliaria.com/imovel/moradia-t3-terrea-na-encarnacao-vista-campo-desafogada-terreno-1117m/25960536",
-      "evidence": "robots unavailable: \u003curlopen error [Errno 111] Connection refused>"
+      "evidence": "Advert page fetched and parsed; seller confirmation still required"
     },
-    "availabilityCheckedAt": "2026-11-01T15:13:58Z"
+    "availabilityCheckedAt": "2026-11-02T18:25:54Z"
   },
   {
     "id": "agency-1e997b94b3b2d5",
@@ -3823,7 +3915,7 @@ const HouseCatalog = [
     "area": 84.0,
     "sourceURL": "https://www.medipred.pt/imovel/apartamento-t3-totalmente-remodelado-centro-de-odivelas/26804814",
     "firstSeen": "2026-10-21T12:58:06Z",
-    "lastObserved": "2026-11-01T15:13:58Z",
+    "lastObserved": "2026-11-02T18:25:54Z",
     "researchedAt": "2026-10-21",
     "reference": "MJU10046",
     "history": [
@@ -3885,6 +3977,12 @@ const HouseCatalog = [
         "at": "2026-11-01T15:13:58Z",
         "method": "public-page / schema",
         "contentHash": "cd74271c619c60e175b3b1257b7b68ceb7e93cad4a9b43bc2da78a162cb8777d"
+      },
+      {
+        "price": 335000.0,
+        "at": "2026-11-02T18:25:54Z",
+        "method": "public-page / schema",
+        "contentHash": "714fc214afd372d83230d05375ca18bbdeca2a78daaa374c2f17fd971a29edbd"
       }
     ],
     "notes": "",
@@ -3909,17 +4007,17 @@ const HouseCatalog = [
     "sourceCheck": {
       "id": "agency-1e997b94b3b2d5",
       "sourceURL": "https://www.medipred.pt/imovel/apartamento-t3-totalmente-remodelado-centro-de-odivelas/26804814",
-      "checkedAt": "2026-11-01T15:13:58Z",
+      "checkedAt": "2026-11-02T18:25:54Z",
       "status": "observed"
     },
-    "publishedObservedAt": "2026-11-01T15:13:58Z",
+    "publishedObservedAt": "2026-11-02T18:25:54Z",
     "availability": {
       "status": "advert-live",
-      "checkedAt": "2026-11-01T15:13:58Z",
+      "checkedAt": "2026-11-02T18:25:54Z",
       "sourceURL": "https://www.medipred.pt/imovel/apartamento-t3-totalmente-remodelado-centro-de-odivelas/26804814",
       "evidence": "Advert page fetched and parsed; seller confirmation still required"
     },
-    "availabilityCheckedAt": "2026-11-01T15:13:58Z"
+    "availabilityCheckedAt": "2026-11-02T18:25:54Z"
   },
   {
     "id": "agency-e1d673c826ac6e",
@@ -3928,7 +4026,7 @@ const HouseCatalog = [
     "area": 52.0,
     "sourceURL": "https://www.medipred.pt/imovel/apartamento-t1-com-quintal-totalmente-remodelado-barreiro/26840990",
     "firstSeen": "2026-10-25T13:12:46Z",
-    "lastObserved": "2026-11-01T15:13:58Z",
+    "lastObserved": "2026-11-02T18:25:54Z",
     "researchedAt": "2026-10-25",
     "reference": "MTJU7189",
     "history": [
@@ -3972,6 +4070,12 @@ const HouseCatalog = [
         "at": "2026-11-01T15:13:58Z",
         "method": "public-page / schema",
         "contentHash": "97bf5014c473d84c8d66621753fe9ab107da976e953521e1333ea67a9b28de58"
+      },
+      {
+        "price": 265000.0,
+        "at": "2026-11-02T18:25:54Z",
+        "method": "public-page / schema",
+        "contentHash": "844420f7156e0343fd2abcd1c709a5370f3b48618dede62a830cca8f73728924"
       }
     ],
     "notes": "",
@@ -3996,17 +4100,17 @@ const HouseCatalog = [
     "sourceCheck": {
       "id": "agency-e1d673c826ac6e",
       "sourceURL": "https://www.medipred.pt/imovel/apartamento-t1-com-quintal-totalmente-remodelado-barreiro/26840990",
-      "checkedAt": "2026-11-01T15:13:58Z",
+      "checkedAt": "2026-11-02T18:25:54Z",
       "status": "observed"
     },
-    "publishedObservedAt": "2026-11-01T15:13:58Z",
+    "publishedObservedAt": "2026-11-02T18:25:54Z",
     "availability": {
       "status": "advert-live",
-      "checkedAt": "2026-11-01T15:13:58Z",
+      "checkedAt": "2026-11-02T18:25:54Z",
       "sourceURL": "https://www.medipred.pt/imovel/apartamento-t1-com-quintal-totalmente-remodelado-barreiro/26840990",
       "evidence": "Advert page fetched and parsed; seller confirmation still required"
     },
-    "availabilityCheckedAt": "2026-11-01T15:13:58Z"
+    "availabilityCheckedAt": "2026-11-02T18:25:54Z"
   }
 ];
 if(typeof module!=='undefined')module.exports=HouseCatalog;
